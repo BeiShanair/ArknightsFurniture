@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arknights-furniture",
+	"version": "${version}",
+	"name": "Arknights Furniture",
+	"description": "This mod adds furniture from the game Arknights to Minecraft.It's not just a companion mod to the Rhode Island Land Ship Project. It will be a general decorative mod.",
+	"authors": [
+		"北山_Besson"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/arknights-furniture/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.besson.arknights.ArknightsFurniture"
+		],
+		"fabric-datagen": [
+			"com.besson.arknights.ArknightsFurnitureDataGenerator"
+		],
+		"client": [
+			"com.besson.arknights.ArknightsFurnitureClient"
+		]
+	},
+	"mixins": [
+		"arknights-furniture.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
