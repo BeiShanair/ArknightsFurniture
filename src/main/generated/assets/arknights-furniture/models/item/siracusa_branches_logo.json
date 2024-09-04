@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arknights-furniture:item/siracusa_branches_logo"
+  }
+}

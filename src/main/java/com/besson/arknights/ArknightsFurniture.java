@@ -1,5 +1,8 @@
 package com.besson.arknights;
 
+import com.besson.arknights.block.ModBlocks;
+import com.besson.arknights.item.ModItemGroups;
+import com.besson.arknights.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,7 +21,9 @@ public class ArknightsFurniture implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
+		ModItemGroups.registerItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

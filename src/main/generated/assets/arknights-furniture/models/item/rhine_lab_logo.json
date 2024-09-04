@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arknights-furniture:item/rhine_lab_logo"
+  }
+}
