@@ -1,10 +1,12 @@
 package com.besson.arknights.datagen;
 
 import com.besson.arknights.item.ModItems;
+import com.besson.arknights.painting.ModPaintingVariants;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 
 public class ModEnUsLangProvider extends FabricLanguageProvider {
+    public static final String painting = "painting.arknights-furniture.";
     public ModEnUsLangProvider(FabricDataOutput dataOutput) {
         super(dataOutput, "en_us");
     }
@@ -54,6 +56,93 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.URSUS_STUDENT_SELF_GOVERNING_GROUP_LOGO, "Ursus Student Self-Governing Group Logo");
         translationBuilder.add(ModItems.VICTORIA_LOGO, "Victoria Logo");
         translationBuilder.add(ModItems.YAN_LOGO, "Yan Logo");
+
+        translationBuilder.add(painting + "abyssal_hunters.title", "Abyssal Hunters");
+        translationBuilder.add(painting + "abyssal_hunters.author", "Hypergryph");
+        translationBuilder.add(painting + "aegir.title", "Aegir");
+        translationBuilder.add(painting + "aegir.author", "Hypergryph");
+        translationBuilder.add(painting + "babel.title", "Babel");
+        translationBuilder.add(painting + "babel.author", "Hypergryph");
+        translationBuilder.add(painting + "black_steel.title", "Black Steel");
+        translationBuilder.add(painting + "black_steel.author", "Hypergryph");
+        translationBuilder.add(painting + "bolivar.title", "Bolivar");
+        translationBuilder.add(painting + "bolivar.author", "Hypergryph");
+        translationBuilder.add(painting + "columbia.title", "Columbia");
+        translationBuilder.add(painting + "columbia.author", "Hypergryph");
+        translationBuilder.add(painting + "dong.title", "Dong");
+        translationBuilder.add(painting + "dong.author", "Hypergryph");
+        translationBuilder.add(painting + "dublinn.title", "Dublinn");
+        translationBuilder.add(painting + "dublinn.author", "Hypergryph");
+        translationBuilder.add(painting + "elite_op.title", "Elite Op");
+        translationBuilder.add(painting + "elite_op.author", "Hypergryph");
+        translationBuilder.add(painting + "followers.title", "Followers");
+        translationBuilder.add(painting + "followers.author", "Hypergryph");
+        translationBuilder.add(painting + "glasgow.title", "Glasgow");
+        translationBuilder.add(painting + "glasgow.author", "Hypergryph");
+        translationBuilder.add(painting + "iberia.title", "Iberia");
+        translationBuilder.add(painting + "iberia.author", "Hypergryph");
+        translationBuilder.add(painting + "karlan_trade.title", "Karlan Trade");
+        translationBuilder.add(painting + "karlan_trade.author", "Hypergryph");
+        translationBuilder.add(painting + "kazimierz.title", "Kazimierz");
+        translationBuilder.add(painting + "kazimierz.author", "Hypergryph");
+        translationBuilder.add(painting + "kjerag.title", "Kjerag");
+        translationBuilder.add(painting + "kjerag.author", "Hypergryph");
+        translationBuilder.add(painting + "laterano.title", "Laterano");
+        translationBuilder.add(painting + "laterano.author", "Hypergryph");
+        translationBuilder.add(painting + "lee-s_detective_agency.title", "Lee's Detective Agency");
+        translationBuilder.add(painting + "lee-s_detective_agency.author", "Hypergryph");
+        translationBuilder.add(painting + "leithanien.title", "Leithanien");
+        translationBuilder.add(painting + "leithanien.author", "Hypergryph");
+        translationBuilder.add(painting + "lungmen_guard_department.title", "Lungmen Guard Department");
+        translationBuilder.add(painting + "lungmen_guard_department.author", "Hypergryph");
+        translationBuilder.add(painting + "lungmen.title", "Lungmen");
+        translationBuilder.add(painting + "lungmen.author", "Hypergryph");
+        translationBuilder.add(painting + "minos.title", "Minos");
+        translationBuilder.add(painting + "minos.author", "Hypergryph");
+        translationBuilder.add(painting + "op_a4.title", "Op A4");
+        translationBuilder.add(painting + "op_a4.author", "Hypergryph");
+        translationBuilder.add(painting + "op_reserve_a1.title", "Op Reserve A1");
+        translationBuilder.add(painting + "op_reserve_a1.author", "Hypergryph");
+        translationBuilder.add(painting + "op_reserve_a4.title", "Op Reserve A4");
+        translationBuilder.add(painting + "op_reserve_a4.author", "Hypergryph");
+        translationBuilder.add(painting + "op_reserve_a6.title", "Op Reserve A6");
+        translationBuilder.add(painting + "op_reserve_a6.author", "Hypergryph");
+        translationBuilder.add(painting + "penguin_logistics.title", "Penguin Logistics");
+        translationBuilder.add(painting + "penguin_logistics.author", "Hypergryph");
+        translationBuilder.add(painting + "pinus_sylvestris.title", "Pinus Sylvestris");
+        translationBuilder.add(painting + "pinus_sylvestris.author", "Hypergryph");
+        translationBuilder.add(painting + "rhine_lab.title", "Rhine Lab");
+        translationBuilder.add(painting + "rhine_lab.author", "Hypergryph");
+        translationBuilder.add(painting + "rhodes_island.title", "Rhodes Island");
+        translationBuilder.add(painting + "rhodes_island.author", "Hypergryph");
+        translationBuilder.add(painting + "rhodes_island_override.title", "Rhodes Island Override");
+        translationBuilder.add(painting + "rhodes_island_override.author", "Hypergryph");
+        translationBuilder.add(painting + "rim_billiton.title", "Rim Billiton");
+        translationBuilder.add(painting + "rim_billiton.author", "Hypergryph");
+        translationBuilder.add(painting + "sami.title", "Sami");
+        translationBuilder.add(painting + "sami.author", "Hypergryph");
+        translationBuilder.add(painting + "sargon.title", "Sargon");
+        translationBuilder.add(painting + "sargon.author", "Hypergryph");
+        translationBuilder.add(painting + "siesta.title", "Siesta");
+        translationBuilder.add(painting + "siesta.author", "Hypergryph");
+        translationBuilder.add(painting + "siracusa_branches.title", "Siracusa Branches");
+        translationBuilder.add(painting + "siracusa_branches.author", "Hypergryph");
+        translationBuilder.add(painting + "siracusa.title", "Siracusa");
+        translationBuilder.add(painting + "siracusa.author", "Hypergryph");
+        translationBuilder.add(painting + "sui.title", "Sui");
+        translationBuilder.add(painting + "sui.author", "Hypergryph");
+        translationBuilder.add(painting + "sweep.title", "Sweep");
+        translationBuilder.add(painting + "sweep.author", "Hypergryph");
+        translationBuilder.add(painting + "team_rainbow.title", "Team Rainbow");
+        translationBuilder.add(painting + "team_rainbow.author", "Hypergryph");
+        translationBuilder.add(painting + "ursus.title", "Ursus");
+        translationBuilder.add(painting + "ursus.author", "Hypergryph");
+        translationBuilder.add(painting + "ursus_student_self-governing_group.title", "Ursus Student Self-Governing Group");
+        translationBuilder.add(painting + "ursus_student_self-governing_group.author", "Hypergryph");
+        translationBuilder.add(painting + "victoria.title", "Victoria");
+        translationBuilder.add(painting + "victoria.author", "Hypergryph");
+        translationBuilder.add(painting + "yan.title", "Yan");
+        translationBuilder.add(painting + "yan.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
 
