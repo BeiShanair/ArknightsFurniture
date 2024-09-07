@@ -1,5 +1,6 @@
 package com.besson.arknights.datagen;
 
+import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.ModItems;
 import com.besson.arknights.painting.ModPaintingVariants;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -145,6 +146,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "yan.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
+
+        translationBuilder.add(ModBlocks.MANY_CARDBOARD_BOXES, "Many Cardboard Boxes");
 
     }
 }

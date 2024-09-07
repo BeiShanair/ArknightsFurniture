@@ -1,11 +1,12 @@
-// 1.20.1	2024-09-05T19:31:04.6781518	Arknights Furniture/Model Definitions
+// 1.20.1	2024-09-05T22:19:31.6941761	Arknights Furniture/Model Definitions
+2f9390a350573449998bb1541c77ef1b8a76c280 assets\arknights-furniture\blockstates\many_cardboard_boxes.json
 04ced374cda63717afa47546b74496ca7ab5a74f assets\arknights-furniture\models\item\sui_logo.json
 910d2d4994678d9709276f5000b4e5623ff6b1e8 assets\arknights-furniture\models\item\minos_logo.json
 84a0e2aae77ca4e9ffa2c95abecd9016c001da9d assets\arknights-furniture\models\item\furn_parts.json
 ad5c6477bd0bab6bb888a71b14181a01b368b100 assets\arknights-furniture\models\item\ursus_logo.json
 6aef67566f80645781c410b1e480bfe1c6bb21e1 assets\arknights-furniture\models\item\op_a4_logo.json
-0c6663299f95e51add387bb33e7fa90fe5e9fab7 assets\arknights-furniture\models\item\bolivar_logo.json
 3c9020a088f6300bfa246a657dffa25cfa879158 assets\arknights-furniture\models\item\dublinn_logo.json
+0c6663299f95e51add387bb33e7fa90fe5e9fab7 assets\arknights-furniture\models\item\bolivar_logo.json
 faa0fe6e9bb9b63cf116da12efce5b0eb7f53ccc assets\arknights-furniture\models\item\karlan_trade_logo.json
 9df1152207aef8a435e52d3341345c908c53f624 assets\arknights-furniture\models\item\laterano_logo.json
 47cde25afcfeb250dd217ba149ff11f1ae5372a3 assets\arknights-furniture\models\item\black_steel_logo.json
@@ -38,8 +39,9 @@ c48fb6ea9ba82a7e8f4ffae8cfc7d06167de6068 assets\arknights-furniture\models\item\
 85bdc4042574fae30a2c7cd69b06a1e9a8e7db91 assets\arknights-furniture\models\item\siracusa_branches_logo.json
 16216ab00d594f8c396020825b041c5d310d1a35 assets\arknights-furniture\models\item\penguin_logistics_logo.json
 32f39db8eaff12c813f52add3020907fff844ac6 assets\arknights-furniture\models\item\dong_logo.json
-44afd36f11dda7904d5a3a0b5ee39bdbba607047 assets\arknights-furniture\models\item\elite_op_logo.json
 7e3720f5a18981166a698f4977c05f5ddb83d677 assets\arknights-furniture\models\item\iberia_logo.json
+44afd36f11dda7904d5a3a0b5ee39bdbba607047 assets\arknights-furniture\models\item\elite_op_logo.json
 a6e7a26d8871ae369769c194ec3be9675d5935bc assets\arknights-furniture\models\item\team_rainbow_logo.json
+834e4a71287c98af2f229d4223829e137e11b694 assets\arknights-furniture\models\item\many_cardboard_boxes.json
 d07cb549c75561eb142fd6511f1a7b1004f2c5a6 assets\arknights-furniture\models\item\op_reserve_a6_logo.json
 6e6e14253ae9191b22a2144a2640779869b70cb3 assets\arknights-furniture\models\item\op_reserve_a1_logo.json

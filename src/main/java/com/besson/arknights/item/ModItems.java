@@ -1,7 +1,6 @@
 package com.besson.arknights.item;
 
 import com.besson.arknights.ArknightsFurniture;
-import com.besson.arknights.item.custom.FurnParts;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -52,7 +51,7 @@ public class ModItems {
     public static final Item VICTORIA_LOGO = registerItem("victoria_logo", new Item(new Item.Settings()));
     public static final Item YAN_LOGO = registerItem("yan_logo", new Item(new Item.Settings()));
 
-    public static final Item FURN_PARTS = registerItem("furn_parts", new FurnParts(new Item.Settings()));
+    public static final Item FURN_PARTS = registerItem("furn_parts", new Item(new Item.Settings()));
     private static Item registerItem(String id, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ArknightsFurniture.MOD_ID, id),item);
     }

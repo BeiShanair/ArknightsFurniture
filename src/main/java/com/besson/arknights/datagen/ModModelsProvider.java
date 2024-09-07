@@ -1,5 +1,6 @@
 package com.besson.arknights.datagen;
 
+import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -15,7 +16,7 @@ public class ModModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MANY_CARDBOARD_BOXES);
     }
 
     @Override
