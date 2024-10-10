@@ -21,6 +21,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.Objects;
 
+// 原计划是拿它来修碰撞箱，但是修不好qwq，此类暂时废弃
 @Deprecated
 public class BaseBlock extends FurnitureHorizontalFacingBlock {
     // 这是一个大方块的基类，用于继承，重点在于修复碰撞箱
