@@ -1,5 +1,6 @@
 package com.besson.arknights.datagen;
 
+import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -144,5 +145,24 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "yan.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
+
+        translationBuilder.add(ModBlocks.AIR_MATTRESS, "实用气垫");
+        translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "轮班考勤板");
+        translationBuilder.add(ModBlocks.CARGO_TROLLEY, "货运手推车");
+        translationBuilder.add(ModBlocks.CARTON, "纸箱");
+        translationBuilder.add(ModBlocks.CARTON_STOOL, "纸箱凳");
+        translationBuilder.add(ModBlocks.GRAFFITI, "涂鸦");
+        translationBuilder.add(ModBlocks.LARGE_SHELF1, "大号货架1");
+        translationBuilder.add(ModBlocks.LARGE_SHELF2, "大号货架2");
+        translationBuilder.add(ModBlocks.LARGE_SHELF3, "大号货架3");
+        translationBuilder.add(ModBlocks.LARGE_SHELF4, "大号货架4");
+        translationBuilder.add(ModBlocks.PALLET, "货物垫板");
+        translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "很多纸箱");
+        translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "便携计算器");
+        translationBuilder.add(ModBlocks.POST_IT_NOTE, "快捷便利贴");
+
+        translationBuilder.add("itemGroup.logo", "Logo");
+        translationBuilder.add("itemGroup.material", "基建材料");
+        translationBuilder.add("itemGroup.warehouse", "货运仓库");
     }
 }

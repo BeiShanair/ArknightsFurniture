@@ -16,7 +16,20 @@ public class ModModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MANY_CARDBOARD_BOXES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AIR_MATTRESS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ATTENDANCE_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CARGO_TROLLEY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CARTON);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CARTON_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAFFITI);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_SHELF1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_SHELF2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_SHELF3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_SHELF4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PALLET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PILE_OF_CARTONS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_CALCULATOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POST_IT_NOTE);
     }
 
     @Override
@@ -66,5 +79,6 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.YAN_LOGO, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.FURN_PARTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARDBOARD, Models.GENERATED);
     }
 }

@@ -52,6 +52,7 @@ public class ModItems {
     public static final Item YAN_LOGO = registerItem("yan_logo", new Item(new Item.Settings()));
 
     public static final Item FURN_PARTS = registerItem("furn_parts", new Item(new Item.Settings()));
+    public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
     private static Item registerItem(String id, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ArknightsFurniture.MOD_ID, id),item);
     }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "arknights-furniture:coin_furn_5"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "item": "arknights-furniture:furn_parts"
+  }
+}

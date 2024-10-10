@@ -147,7 +147,24 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
 
-        translationBuilder.add(ModBlocks.MANY_CARDBOARD_BOXES, "Many Cardboard Boxes");
+        translationBuilder.add(ModBlocks.AIR_MATTRESS, "Air Mattress");
+        translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "Attendance Board");
+        translationBuilder.add(ModBlocks.CARGO_TROLLEY, "Cargo Trolley");
+        translationBuilder.add(ModBlocks.CARTON, "Carton");
+        translationBuilder.add(ModBlocks.CARTON_STOOL, "Carton Stool");
+        translationBuilder.add(ModBlocks.GRAFFITI, "Graffiti");
+        translationBuilder.add(ModBlocks.LARGE_SHELF1, "Large Shelf 1");
+        translationBuilder.add(ModBlocks.LARGE_SHELF2, "Large Shelf 2");
+        translationBuilder.add(ModBlocks.LARGE_SHELF3, "Large Shelf 3");
+        translationBuilder.add(ModBlocks.LARGE_SHELF4, "Large Shelf 4");
+        translationBuilder.add(ModBlocks.PALLET, "Pallet");
+        translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "Pile Of Cartons");
+        translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "Portable Calculator");
+        translationBuilder.add(ModBlocks.POST_IT_NOTE, "Post It Note");
+
+        translationBuilder.add("itemGroup.logo", "Logo");
+        translationBuilder.add("itemGroup.material", "Material");
+        translationBuilder.add("itemGroup.warehouse", "Warehouse");
 
     }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:command_block"
+    },
+    "A": {
+      "item": "arknights-furniture:cardboard"
+    }
+  },
+  "pattern": [
+    " # ",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:portable_calculator"
+  },
+  "show_notification": true
+}

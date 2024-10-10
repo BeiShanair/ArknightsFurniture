@@ -1,6 +1,7 @@
 package com.besson.arknights.item;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -64,6 +65,27 @@ public class ModItemGroups {
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.material"))
                     .icon(() -> new ItemStack(ModItems.FURN_PARTS)).entries((displayContext, entries) -> {
                         entries.add(ModItems.FURN_PARTS);
+                        entries.add(ModItems.CARDBOARD);
+                    }).build());
+
+    // WareHouse
+    public static final ItemGroup WAREHOUSE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "warehouse"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.warehouse"))
+                    .icon(() -> new ItemStack(ModBlocks.CARTON)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AIR_MATTRESS);
+                        entries.add(ModBlocks.ATTENDANCE_BOARD);
+                        entries.add(ModBlocks.CARGO_TROLLEY);
+                        entries.add(ModBlocks.CARTON);
+                        entries.add(ModBlocks.CARTON_STOOL);
+                        entries.add(ModBlocks.GRAFFITI);
+                        entries.add(ModBlocks.LARGE_SHELF1);
+                        entries.add(ModBlocks.LARGE_SHELF2);
+                        entries.add(ModBlocks.LARGE_SHELF3);
+                        entries.add(ModBlocks.LARGE_SHELF4);
+                        entries.add(ModBlocks.PALLET);
+                        entries.add(ModBlocks.PILE_OF_CARTONS);
+                        entries.add(ModBlocks.PORTABLE_CALCULATOR);
+                        entries.add(ModBlocks.POST_IT_NOTE);
                     }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
