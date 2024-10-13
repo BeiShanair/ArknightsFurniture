@@ -11,7 +11,7 @@ import net.minecraft.world.WorldAccess;
 
 public class ConnectableBlock extends FurnitureHorizontalFacingBlock{
     public static final EnumProperty<Type> TYPE = EnumProperty.of("type", Type.class);
-    protected ConnectableBlock(Settings settings) {
+    public ConnectableBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.getStateManager().getDefaultState().with(TYPE, Type.SINGLE));
     }

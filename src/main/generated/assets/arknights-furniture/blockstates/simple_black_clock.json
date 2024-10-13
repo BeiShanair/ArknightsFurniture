@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/simple_black_clock",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/simple_black_clock"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/simple_black_clock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/simple_black_clock",
+      "y": 270
+    }
+  }
+}

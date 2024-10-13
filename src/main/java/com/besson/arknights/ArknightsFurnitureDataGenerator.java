@@ -15,6 +15,7 @@ public class ArknightsFurnitureDataGenerator implements DataGeneratorEntrypoint 
 		pack.addProvider(ModRecipesProvider::new);
 		pack.addProvider(ModEnUsLangProvider::new);
 		pack.addProvider(ModZhCnLangProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
 
 	}
 }

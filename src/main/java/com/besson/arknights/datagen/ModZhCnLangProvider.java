@@ -161,8 +161,25 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "便携计算器");
         translationBuilder.add(ModBlocks.POST_IT_NOTE, "快捷便利贴");
 
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "瓷色壁灯");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "黑色简约时钟");
+        translationBuilder.add(ModBlocks.BLACK_HD_TV, "清晰™黑色电视");
+        translationBuilder.add(ModBlocks.BLACK_NIGHTSTAND, "瓷色床头柜");
+        translationBuilder.add(ModBlocks.BLACK_BED, "瓷色大床");
+        translationBuilder.add(ModBlocks.SMALL_CALLBOARD, "小型公告板");
+        translationBuilder.add(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE, "纯色直角茶几");
+        translationBuilder.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, "纯色矮沙发");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE1, "纯色棋盘式书柜 1");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE2, "纯色棋盘式书柜 2");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE3, "纯色棋盘式书柜 3");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_CABINET, "黑色简拼桌柜");
+        translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "黑色滚轮靠背椅");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "黑色简拼办公桌 Left");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "黑色简拼办公桌 Right");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
+        translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
     }
 }

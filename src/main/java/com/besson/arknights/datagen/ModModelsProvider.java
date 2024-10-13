@@ -4,10 +4,7 @@ import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Model;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 
 public class ModModelsProvider extends FabricModelProvider {
     public ModModelsProvider(FabricDataOutput output) {
@@ -30,6 +27,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PILE_OF_CARTONS);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_CALCULATOR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POST_IT_NOTE);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CLOCK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_HD_TV);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_NIGHTSTAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_CALLBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, ModelIds.getBlockModelId(ModBlocks.LOW_BLACK_AND_WHITE_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_OFFICE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
     }
 
     @Override

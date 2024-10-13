@@ -162,9 +162,26 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "Portable Calculator");
         translationBuilder.add(ModBlocks.POST_IT_NOTE, "Post It Note");
 
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "Grayish Wall Light");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "Simple Black Clock");
+        translationBuilder.add(ModBlocks.BLACK_HD_TV, "Black HD TV");
+        translationBuilder.add(ModBlocks.BLACK_NIGHTSTAND, "Black Nightstand");
+        translationBuilder.add(ModBlocks.BLACK_BED, "Black Bed");
+        translationBuilder.add(ModBlocks.SMALL_CALLBOARD, "Small Callboard");
+        translationBuilder.add(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE, "Black And White Square Table");
+        translationBuilder.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, "Low Black And White Sofa");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE1, "Checkerboard Bookcase 1");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE2, "Checkerboard Bookcase 2");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE3, "Checkerboard Bookcase 3");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_CABINET, "Simple Black Cabinet");
+        translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "Black Office Chair");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "Simple Black Desk Left");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "Simple Black Desk Right");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
+        translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
 
     }
 }

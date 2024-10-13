@@ -6,8 +6,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -86,6 +84,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PILE_OF_CARTONS);
                         entries.add(ModBlocks.PORTABLE_CALCULATOR);
                         entries.add(ModBlocks.POST_IT_NOTE);
+                    }).build());
+
+    // Side-line/Simple Black-and-white/Orange Furniture
+    public static final ItemGroup SIDE_LINE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "side_line"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.side_line"))
+                    .icon(() -> new ItemStack(ModBlocks.SIMPLE_BLACK_CLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.GRAYISH_WALL_LIGHT);
+                        entries.add(ModBlocks.SIMPLE_BLACK_CLOCK);
+                        entries.add(ModBlocks.BLACK_HD_TV);
+                        entries.add(ModBlocks.BLACK_NIGHTSTAND);
+                        entries.add(ModBlocks.BLACK_BED);
+                        entries.add(ModBlocks.SMALL_CALLBOARD);
+                        entries.add(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE);
+                        entries.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA);
+                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE1);
+                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE2);
+                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE3);
+                        entries.add(ModBlocks.BLACK_OFFICE_CHAIR);
+                        entries.add(ModBlocks.SIMPLE_BLACK_CABINET);
+                        entries.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
+                        entries.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
                     }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
