@@ -183,5 +183,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
         translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
 
+        translationBuilder.add("container.carton", "Carton");
+
     }
 }

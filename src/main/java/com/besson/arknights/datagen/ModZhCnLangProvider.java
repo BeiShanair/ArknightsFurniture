@@ -181,5 +181,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
         translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
+
+        translationBuilder.add("container.carton", "纸箱");
     }
 }
