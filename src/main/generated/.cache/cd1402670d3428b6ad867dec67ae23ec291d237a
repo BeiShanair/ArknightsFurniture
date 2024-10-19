@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-15T22:20:53.0580489	Arknights Furniture/Block Loot Tables
+// 1.20.1	2024-10-17T18:49:38.2468187	Arknights Furniture/Block Loot Tables
 6fb1bcf6717f35087a5d22ed0982f68fc1aaac39 data\arknights-furniture\loot_tables\blocks\large_shelf4.json
 8fb39a60f5fd8fc03eea5d60bdcda06901faaeb9 data\arknights-furniture\loot_tables\blocks\carton.json
 9882d7e83b7391b051f6592566595879a28510b2 data\arknights-furniture\loot_tables\blocks\large_shelf1.json
@@ -16,8 +16,8 @@ c992a064b3d481d535b45833867544667699219a data\arknights-furniture\loot_tables\bl
 8a2987c6e56d7722222742a82e3c5f336aaa988b data\arknights-furniture\loot_tables\blocks\small_callboard.json
 f0ec68d8a703a1d7677b6b85c6710ff3025300dd data\arknights-furniture\loot_tables\blocks\checkerboard_bookcase3.json
 67bee553b853288b3c34c6517af294e171ca8f87 data\arknights-furniture\loot_tables\blocks\grayish_wall_light.json
-d4fa18800687f76ac4a9c992b0504783f7c72f58 data\arknights-furniture\loot_tables\blocks\simple_black_desk_right.json
 cd3c4792480e6a94e492ec22b2c114db76585234 data\arknights-furniture\loot_tables\blocks\post_it_note.json
+d4fa18800687f76ac4a9c992b0504783f7c72f58 data\arknights-furniture\loot_tables\blocks\simple_black_desk_right.json
 d7c13df1271a325ccd5847fbf0ea26b67724bcf6 data\arknights-furniture\loot_tables\blocks\portable_calculator.json
 f2c7f258ecccadacb0f677357a596c0c43c0892a data\arknights-furniture\loot_tables\blocks\black_hd_tv.json
 74b5636c9405680eda8f4a085b21e2ad0c890e8b data\arknights-furniture\loot_tables\blocks\graffiti.json

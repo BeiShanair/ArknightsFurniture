@@ -1,9 +1,6 @@
 package com.besson.arknights.block;
 
-import net.minecraft.entity.Dismounting;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.listener.ClientPlayPacketListener;
@@ -12,7 +9,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.*;
 import net.minecraft.world.World;
 
-import javax.print.DocFlavor;
 import java.util.List;
 
 public class SeatBlockEntity extends Entity {

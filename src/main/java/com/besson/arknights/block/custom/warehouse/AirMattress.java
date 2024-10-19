@@ -1,29 +1,22 @@
 package com.besson.arknights.block.custom.warehouse;
 
-import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ShapeContext;
+import com.besson.arknights.block.ModBedBlock;
+import net.minecraft.block.*;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class AirMattress extends FurnitureHorizontalFacingBlock {
-    public AirMattress(Settings settings) {
-        super(settings.nonOpaque());
+public class AirMattress extends ModBedBlock {
+
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 8, 16);
+
+    public AirMattress(DyeColor color, Settings settings) {
+        super(color, settings);
     }
-    private static final VoxelShape SHAPE_N = Block.createCuboidShape(0, 0, 0, 16, 8, 32);
-    private static final VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, -16, 16, 8, 16);
-    private static final VoxelShape SHAPE_W = Block.createCuboidShape(0, 0, 0, 32, 8, 16);
-    private static final VoxelShape SHAPE_E = Block.createCuboidShape(-16, 0, 0, 16, 8, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return switch (state.get(FACING)) {
-            case SOUTH -> SHAPE_S;
-            case WEST -> SHAPE_W;
-            case EAST -> SHAPE_E;
-            default -> SHAPE_N;
-        };
+        return SHAPE;
     }
 }

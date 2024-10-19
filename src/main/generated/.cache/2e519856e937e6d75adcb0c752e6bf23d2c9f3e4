@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-15T22:20:53.0540486	Arknights Furniture/Model Definitions
+// 1.20.1	2024-10-17T18:49:38.2433	Arknights Furniture/Model Definitions
 7e07913e20c5a9cffc2cccbe5a77a7e6c752e223 assets\arknights-furniture\models\item\black_bed.json
 75c208d921abb0f4ba392e62fbed3677404949ac assets\arknights-furniture\models\item\pallet.json
 6aef67566f80645781c410b1e480bfe1c6bb21e1 assets\arknights-furniture\models\item\op_a4_logo.json
@@ -28,8 +28,8 @@ d46df202db9e4de533d6070128fc96754fe2f27b assets\arknights-furniture\blockstates\
 84a0e2aae77ca4e9ffa2c95abecd9016c001da9d assets\arknights-furniture\models\item\furn_parts.json
 405058a7cc5b9fe998d10270333d8726f968ce01 assets\arknights-furniture\models\item\grayish_wall_light.json
 ca9464db68d0d42187bda7ed889be2df30d18468 assets\arknights-furniture\blockstates\black_office_chair.json
-bc55543e86016aa3b2b5bf6bba550362312d66c2 assets\arknights-furniture\models\item\glasgow_logo.json
 39959a29b08f976e01bba94cac46e9fd82b958fc assets\arknights-furniture\models\item\rim_billiton_logo.json
+bc55543e86016aa3b2b5bf6bba550362312d66c2 assets\arknights-furniture\models\item\glasgow_logo.json
 29974d737a20f0df0f2468e3e6b9eb15ed4fd22a assets\arknights-furniture\blockstates\graffiti.json
 d720a9e55025cecf922467084b53822f6439d9d0 assets\arknights-furniture\blockstates\large_shelf3.json
 a63633bfa099cc22ca3517f317518f5bff6982e7 assets\arknights-furniture\models\item\columbia_logo.json
@@ -75,8 +75,8 @@ a2e10c5443a5a0e7e1683e84724f7a11d09ae4a8 assets\arknights-furniture\models\item\
 16216ab00d594f8c396020825b041c5d310d1a35 assets\arknights-furniture\models\item\penguin_logistics_logo.json
 d07cb549c75561eb142fd6511f1a7b1004f2c5a6 assets\arknights-furniture\models\item\op_reserve_a6_logo.json
 ad5c6477bd0bab6bb888a71b14181a01b368b100 assets\arknights-furniture\models\item\ursus_logo.json
-0a80a7937309a7d157f4e9500e0a9898140d52bb assets\arknights-furniture\models\item\large_shelf4.json
 0c6663299f95e51add387bb33e7fa90fe5e9fab7 assets\arknights-furniture\models\item\bolivar_logo.json
+0a80a7937309a7d157f4e9500e0a9898140d52bb assets\arknights-furniture\models\item\large_shelf4.json
 eb70f430136b9515bfca31038b087522c4340541 assets\arknights-furniture\blockstates\large_shelf4.json
 d4b011b440a5f196a918cf4a45241496d19b09f7 assets\arknights-furniture\models\item\low_black_and_white_sofa.json
 9df1152207aef8a435e52d3341345c908c53f624 assets\arknights-furniture\models\item\laterano_logo.json
@@ -96,8 +96,8 @@ ebfae78cccb2ebedda589efd694b89f41f3af88d assets\arknights-furniture\blockstates\
 1360e5a9be66b758fe0b81d24149282b0885f923 assets\arknights-furniture\models\item\portable_calculator.json
 6a7eff3cffa809e75c706f855413543d4210dfbd assets\arknights-furniture\blockstates\attendance_board.json
 269111017b1529f771f63ba9b9c2dcff301f073f assets\arknights-furniture\blockstates\air_mattress.json
-44afd36f11dda7904d5a3a0b5ee39bdbba607047 assets\arknights-furniture\models\item\elite_op_logo.json
 7e3720f5a18981166a698f4977c05f5ddb83d677 assets\arknights-furniture\models\item\iberia_logo.json
+44afd36f11dda7904d5a3a0b5ee39bdbba607047 assets\arknights-furniture\models\item\elite_op_logo.json
 6800795cb10b43bccd0d18015ef9a528bb2c9e04 assets\arknights-furniture\models\item\pile_of_cartons.json
 317ef6030c6696c599421c8014bbb787ec510ec3 assets\arknights-furniture\models\item\black_and_white_square_table.json
 6e6e14253ae9191b22a2144a2640779869b70cb3 assets\arknights-furniture\models\item\op_reserve_a1_logo.json
