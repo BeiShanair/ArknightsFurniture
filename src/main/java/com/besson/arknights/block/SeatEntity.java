@@ -11,12 +11,12 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class SeatBlockEntity extends Entity {
-    public SeatBlockEntity(EntityType<? extends SeatBlockEntity> type, World world) {
+public class SeatEntity extends Entity {
+    public SeatEntity(EntityType<? extends SeatEntity> type, World world) {
         super(type, world);
         this.intersectionChecked = true;
     }
-    private SeatBlockEntity(World world, BlockPos blockPos, double yOffset, Direction direction) {
+    private SeatEntity(World world, BlockPos blockPos, double yOffset, Direction direction) {
         this(ModBlockEntities.SEAT, world);
         this.setPosition(blockPos.getX() + 0.5, blockPos.getY() + yOffset, blockPos.getZ() + 0.5);
         this.setRotation(direction.asRotation(), 0F);
@@ -63,11 +63,11 @@ public class SeatBlockEntity extends Entity {
     }
     public static ActionResult create(World world, BlockPos pos, double yOffset, PlayerEntity player, Direction direction) {
         if(!world.isClient()) {
-            List<SeatBlockEntity> seats = world.getNonSpectatingEntities(
-                    SeatBlockEntity.class, new Box(pos.getX(), pos.getY(), pos.getZ(), pos.getX() + 1.0, pos.getY() + 1.0, pos.getZ() + 1.0));
+            List<SeatEntity> seats = world.getNonSpectatingEntities(
+                    SeatEntity.class, new Box(pos.getX(), pos.getY(), pos.getZ(), pos.getX() + 1.0, pos.getY() + 1.0, pos.getZ() + 1.0));
 
             if(seats.isEmpty()) {
-                SeatBlockEntity seat = new SeatBlockEntity(world, pos, yOffset, direction);
+                SeatEntity seat = new SeatEntity(world, pos, yOffset, direction);
                 world.spawnEntity(seat);
                 player.startRiding(seat, false);
             }

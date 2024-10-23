@@ -15,7 +15,7 @@ public class SofaBlock extends ConnectableBlock{
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient){
-            return SeatBlockEntity.create(world,pos,0.25,player,state.get(FACING));
+            return SeatEntity.create(world,pos,0.25,player,state.get(FACING));
         }
         return ActionResult.SUCCESS;
     }

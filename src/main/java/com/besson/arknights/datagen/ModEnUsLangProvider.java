@@ -184,6 +184,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
 
         translationBuilder.add("container.carton", "Carton");
+        translationBuilder.add("container.large_shelf", "Large Shelf");
+        translationBuilder.add("container.nightstand", "Nightstand");
+        translationBuilder.add("container.simple_cabinet", "Simple Cabinet");
 
     }
 }

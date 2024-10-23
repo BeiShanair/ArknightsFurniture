@@ -1,7 +1,7 @@
 package com.besson.arknights.block.custom.sideline;
 
 import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
-import com.besson.arknights.block.SeatBlockEntity;
+import com.besson.arknights.block.SeatEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -28,7 +28,7 @@ public class OfficeChair extends FurnitureHorizontalFacingBlock {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient){
-            return SeatBlockEntity.create(world,pos,0.5,player,state.get(FACING));
+            return SeatEntity.create(world,pos,0.5,player,state.get(FACING));
         }
         return ActionResult.SUCCESS;
     }

@@ -1,11 +1,11 @@
-// 1.20.1	2024-10-17T18:49:38.2468187	Arknights Furniture/Recipes
+// 1.20.1	2024-10-23T20:38:23.9473958	Arknights Furniture/Recipes
 34100ec5a092afd88e86c51e95b80b47e5b167d1 data\arknights-furniture\recipes\carton.json
 a316ff23de8238a526cb5e74e69d152d6eda91eb data\arknights-furniture\recipes\attendance_board.json
 6155060ad3396abd96d7ecbde330ae6cc066bc60 data\arknights-furniture\recipes\coin_furn_5.json
 9347c55cc84faade71d0acac33c4d2942c5fe364 data\arknights-furniture\advancements\recipes\building_blocks\attendance_board.json
 1bd81036a38228ea16f9ec53211e5dc728f0ddb2 data\arknights-furniture\recipes\pallet.json
-e8bd72d51563f932e8cd1901d1b15b73f08cd7da data\arknights-furniture\recipes\air_mattress.json
 cec353fa6e514a20671f37f474b9f7a996ccf6a7 data\arknights-furniture\advancements\recipes\building_blocks\large_shelf4.json
+e8bd72d51563f932e8cd1901d1b15b73f08cd7da data\arknights-furniture\recipes\air_mattress.json
 f63a5b4ca44eb11e5424ca97f8dcc17de116e947 data\arknights-furniture\advancements\recipes\building_blocks\graffiti.json
 30334fd2bf68468c66a2a9eb516800b305fd6c85 data\arknights-furniture\recipes\portable_calculator.json
 5429392b9771a58d16be28a840d332cb492bdb62 data\arknights-furniture\recipes\large_shelf2.json
@@ -13,8 +13,8 @@ f63a5b4ca44eb11e5424ca97f8dcc17de116e947 data\arknights-furniture\advancements\r
 973035186136031f46753d05bfdf4be4b3db271c data\arknights-furniture\recipes\cargo_trolley.json
 0fae0b840ce3aed265173ec1f47811c2c9af8061 data\arknights-furniture\advancements\recipes\misc\coin_furn_5.json
 5cb3de038b1930a5a1ba9c53459d4ab393f4acb3 data\arknights-furniture\advancements\recipes\building_blocks\carton_stool.json
-7efb261a00a1c765c6739e384e6192f3debc27a1 data\arknights-furniture\advancements\recipes\building_blocks\post_it_note.json
 0e81cbd4fba747c3f4820b5028fcdbb44405d814 data\arknights-furniture\advancements\recipes\building_blocks\air_mattress.json
+7efb261a00a1c765c6739e384e6192f3debc27a1 data\arknights-furniture\advancements\recipes\building_blocks\post_it_note.json
 72e9ef232f96b439558d1fa9850400915c6d33bc data\arknights-furniture\recipes\large_shelf4.json
 def34e73d54e43d2806fa19c7f880cc16c38b19f data\arknights-furniture\advancements\recipes\building_blocks\pallet.json
 a232b0b00e48b4df5d92cb4454b9e67167ca4458 data\arknights-furniture\recipes\large_shelf1.json
