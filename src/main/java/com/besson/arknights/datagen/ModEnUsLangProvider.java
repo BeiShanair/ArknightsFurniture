@@ -2,7 +2,6 @@ package com.besson.arknights.datagen;
 
 import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.ModItems;
-import com.besson.arknights.painting.ModPaintingVariants;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 

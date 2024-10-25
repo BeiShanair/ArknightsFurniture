@@ -13,20 +13,20 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block AIR_MATTRESS = registerBlock("air_mattress", new AirMattress(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block AIR_MATTRESS = registerBlock("air_mattress", new AirMattress(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block ATTENDANCE_BOARD = registerBlock("attendance_board", new AttendanceBoard(AbstractBlock.Settings.create().strength(0.3f, 0.3f)));
-    public static final Block CARGO_TROLLEY = registerBlock("cargo_trolley", new CargoTrolley(AbstractBlock.Settings.create().strength(0.3f, 0.5f)));
+    public static final Block CARGO_TROLLEY = registerBlock("cargo_trolley", new CargoTrolley(AbstractBlock.Settings.create().strength(0.3f, 0.5f).nonOpaque()));
     public static final Block CARTON = registerBlock("carton", new Carton(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CARTON));
-    public static final Block CARTON_STOOL = registerBlock("carton_stool", new CartonStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block GRAFFITI = registerBlock("graffiti", new Graffiti(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CARTON_STOOL = registerBlock("carton_stool", new CartonStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block GRAFFITI = registerBlock("graffiti", new Graffiti(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block LARGE_SHELF1 = registerBlock("large_shelf1", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block LARGE_SHELF2 = registerBlock("large_shelf2", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block LARGE_SHELF3 = registerBlock("large_shelf3", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block LARGE_SHELF4 = registerBlock("large_shelf4", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block PALLET = registerBlock("pallet", new Pallet(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
-    public static final Block PILE_OF_CARTONS = registerBlock("pile_of_cartons", new PileOfCartons(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PILE_OF_CARTONS = registerBlock("pile_of_cartons", new PileOfCartons(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block PORTABLE_CALCULATOR = registerBlock("portable_calculator", new PortableCalculator(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block POST_IT_NOTE = registerBlock("post_it_note", new PostItNote(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block POST_IT_NOTE = registerBlock("post_it_note", new PostItNote(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
 
     public static final Block GRAYISH_WALL_LIGHT = registerBlock("grayish_wall_light", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_BLACK_CLOCK = registerBlock("simple_black_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));

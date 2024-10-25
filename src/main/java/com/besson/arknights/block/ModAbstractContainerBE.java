@@ -4,7 +4,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.Inventories;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.screen.GenericContainerScreenHandler;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.util.collection.DefaultedList;
@@ -37,5 +39,21 @@ public abstract class ModAbstractContainerBE extends LootableContainerBlockEntit
     @Override
     public int size() {
         return 27;
+    }
+    @Override
+    public void readNbt(NbtCompound nbt) {
+        super.readNbt(nbt);
+        this.inv = DefaultedList.ofSize(this.size(), ItemStack.EMPTY);
+        if (!this.deserializeLootTable(nbt)) {
+            Inventories.readNbt(nbt, this.inv);
+        }
+    }
+
+    @Override
+    protected void writeNbt(NbtCompound nbt) {
+        super.writeNbt(nbt);
+        if (!this.serializeLootTable(nbt)) {
+            Inventories.writeNbt(nbt, this.inv);
+        }
     }
 }

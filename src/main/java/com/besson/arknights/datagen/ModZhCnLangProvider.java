@@ -183,5 +183,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
 
         translationBuilder.add("container.carton", "纸箱");
+        translationBuilder.add("container.large_shelf", "大号货架");
+        translationBuilder.add("container.nightstand", "床头柜");
+        translationBuilder.add("container.simple_cabinet", "简拼桌柜");
     }
 }
