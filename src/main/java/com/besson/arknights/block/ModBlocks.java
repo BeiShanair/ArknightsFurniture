@@ -36,9 +36,9 @@ public class ModBlocks {
     public static final Block SMALL_CALLBOARD = registerBlock("small_callboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BLACK_AND_WHITE_SQUARE_TABLE = registerBlock("black_and_white_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_BLACK_AND_WHITE_SOFA = registerBlock("low_black_and_white_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block CHECKERBOARD_BOOKCASE1 = registerBlock("checkerboard_bookcase1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block CHECKERBOARD_BOOKCASE2 = registerBlock("checkerboard_bookcase2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block CHECKERBOARD_BOOKCASE3 = registerBlock("checkerboard_bookcase3", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CHECKERBOARD_BOOKCASE1 = registerBlock("checkerboard_bookcase1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block CHECKERBOARD_BOOKCASE2 = registerBlock("checkerboard_bookcase2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block CHECKERBOARD_BOOKCASE3 = registerBlock("checkerboard_bookcase3", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
     public static final Block SIMPLE_BLACK_CABINET = registerBlock("simple_black_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
     public static final Block BLACK_OFFICE_CHAIR = registerBlock("black_office_chair", new OfficeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block SIMPLE_BLACK_DESK_LEFT = registerBlock("simple_black_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));

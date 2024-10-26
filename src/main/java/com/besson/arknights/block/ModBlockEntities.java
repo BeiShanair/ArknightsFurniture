@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
 import com.besson.arknights.block.custom.sideline.NightstandBE;
 import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;
 import com.besson.arknights.block.custom.warehouse.CartonBE;
@@ -29,6 +30,8 @@ public class ModBlockEntities {
             BlockEntityType.Builder.create(NightstandBE::new, ModBlocks.BLACK_NIGHTSTAND));
     public static final BlockEntityType<SimpleCabinetBE> SIMPLE_CABINET = create("simple_black_cabinet",
             BlockEntityType.Builder.create(SimpleCabinetBE::new, ModBlocks.SIMPLE_BLACK_CABINET));
+    public static final BlockEntityType<CheckerboardBookcaseBE> CHECKERBOARD_BOOKCASE = create("checkerboard_bookcase",
+            BlockEntityType.Builder.create(CheckerboardBookcaseBE::new, ModBlocks.CHECKERBOARD_BOOKCASE1, ModBlocks.CHECKERBOARD_BOOKCASE2, ModBlocks.CHECKERBOARD_BOOKCASE3));
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(ArknightsFurniture.MOD_ID, id), builder.build(type));

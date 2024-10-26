@@ -145,6 +145,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "yan.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
+        translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
 
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "Air Mattress");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "Attendance Board");
@@ -186,6 +187,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.large_shelf", "Large Shelf");
         translationBuilder.add("container.nightstand", "Nightstand");
         translationBuilder.add("container.simple_cabinet", "Simple Cabinet");
+        translationBuilder.add("container.checkerboard_bookcase", "Checkerboard Bookcase");
 
     }
 }

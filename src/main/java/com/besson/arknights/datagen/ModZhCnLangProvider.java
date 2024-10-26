@@ -145,6 +145,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "yan.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
+        translationBuilder.add(ModItems.CARDBOARD, "纸板");
 
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "实用气垫");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "轮班考勤板");
@@ -186,5 +187,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.large_shelf", "大号货架");
         translationBuilder.add("container.nightstand", "床头柜");
         translationBuilder.add("container.simple_cabinet", "简拼桌柜");
+        translationBuilder.add("container.checkerboard_bookcase", "棋盘式书柜");
     }
 }
