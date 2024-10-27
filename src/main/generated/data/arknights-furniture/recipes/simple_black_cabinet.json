@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "A A",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:simple_black_cabinet"
+  },
+  "show_notification": true
+}

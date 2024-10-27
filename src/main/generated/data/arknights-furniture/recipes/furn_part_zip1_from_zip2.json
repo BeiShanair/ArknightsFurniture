@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:furn_parts_zip2"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "arknights-furniture:furn_parts_zip1"
+  }
+}

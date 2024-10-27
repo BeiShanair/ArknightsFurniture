@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:simple_black_desk_left"
+    }
+  ],
+  "result": {
+    "count": 41,
+    "item": "arknights-furniture:furn_parts"
+  }
+}

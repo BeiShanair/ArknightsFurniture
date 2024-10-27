@@ -64,6 +64,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.FURN_PARTS)).entries((displayContext, entries) -> {
                         entries.add(ModItems.FURN_PARTS);
                         entries.add(ModItems.CARDBOARD);
+                        entries.add(ModItems.FURN_PARTS_ZIP1);
+                        entries.add(ModItems.FURN_PARTS_ZIP2);
                     }).build());
 
     // WareHouse

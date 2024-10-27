@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:black_wool"
+    },
+    "B": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "A A",
+    "BBB"
+  ],
+  "result": {
+    "item": "arknights-furniture:low_black_and_white_sofa"
+  },
+  "show_notification": true
+}

@@ -146,6 +146,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
+        translationBuilder.add(ModItems.FURN_PARTS_ZIP1, "Furn Parts Zip 1");
+        translationBuilder.add(ModItems.FURN_PARTS_ZIP2, "Furn Parts Zip 2");
 
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "Air Mattress");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "Attendance Board");

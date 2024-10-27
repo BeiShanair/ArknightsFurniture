@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:black_hd_tv"
+    }
+  ],
+  "result": {
+    "count": 75,
+    "item": "arknights-furniture:furn_parts"
+  }
+}

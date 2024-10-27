@@ -146,6 +146,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
+        translationBuilder.add(ModItems.FURN_PARTS_ZIP1, "家具零件 Zip1");
+        translationBuilder.add(ModItems.FURN_PARTS_ZIP2, "家具零件 Zip2");
 
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "实用气垫");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "轮班考勤板");
