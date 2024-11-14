@@ -180,6 +180,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "黑色简拼办公桌 Left");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "黑色简拼办公桌 Right");
 
+        translationBuilder.add(ModBlocks.ORANGE_WALL_LAMP, "橘色壁灯");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CLOCK, "橘色简约时钟");
+        translationBuilder.add(ModBlocks.ORANGE_HD_TV, "清晰™橘色电视");
+        translationBuilder.add(ModBlocks.ORANGE_NIGHTSTAND, "橘色床头柜");
+        translationBuilder.add(ModBlocks.ORANGE_BED, "橘色大床");
+        translationBuilder.add(ModBlocks.SMALL_NOTICEBOARD, "小型贴示板");
+        translationBuilder.add(ModBlocks.ORANGE_SQUARE_TABLE, "橘色直角茶几");
+        translationBuilder.add(ModBlocks.LOW_ORANGE_SOFA, "橘色矮沙发");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1, "橘色棋盘式书柜 1");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2, "橘色棋盘式书柜 2");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3, "橘色棋盘式书柜 3");
+        translationBuilder.add(ModBlocks.ORANGE_SWIVEL_CHAIR, "橘色滚轮靠背椅");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CABINET, "橘色简拼桌柜");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "橘色简拼办公桌 Left");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "橘色简拼办公桌 Right");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");

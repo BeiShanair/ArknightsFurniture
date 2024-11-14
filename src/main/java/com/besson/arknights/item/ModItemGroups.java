@@ -107,6 +107,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_BLACK_CABINET);
                         entries.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
                         entries.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
+
+                        entries.add(ModBlocks.ORANGE_WALL_LAMP);
+                        entries.add(ModBlocks.SIMPLE_ORANGE_CLOCK);
+                        entries.add(ModBlocks.ORANGE_HD_TV);
+                        entries.add(ModBlocks.ORANGE_NIGHTSTAND);
+                        entries.add(ModBlocks.ORANGE_BED);
+                        entries.add(ModBlocks.SMALL_NOTICEBOARD);
+                        entries.add(ModBlocks.ORANGE_SQUARE_TABLE);
+                        entries.add(ModBlocks.LOW_ORANGE_SOFA);
+                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1);
+                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2);
+                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3);
+                        entries.add(ModBlocks.ORANGE_SWIVEL_CHAIR);
+                        entries.add(ModBlocks.SIMPLE_ORANGE_CABINET);
+                        entries.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
+                        entries.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
                     }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_dye"
+    },
+    "A": {
+      "item": "minecraft:clock"
+    }
+  },
+  "pattern": [
+    "#A"
+  ],
+  "result": {
+    "item": "arknights-furniture:simple_orange_clock"
+  },
+  "show_notification": true
+}

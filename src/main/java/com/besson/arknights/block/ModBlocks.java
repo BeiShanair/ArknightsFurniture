@@ -43,6 +43,22 @@ public class ModBlocks {
     public static final Block BLACK_OFFICE_CHAIR = registerBlock("black_office_chair", new OfficeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block SIMPLE_BLACK_DESK_LEFT = registerBlock("simple_black_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block SIMPLE_BLACK_DESK_RIGHT = registerBlock("simple_black_desk_right", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+
+    public static final Block ORANGE_WALL_LAMP = registerBlock("orange_wall_lamp", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SIMPLE_ORANGE_CLOCK = registerBlock("simple_orange_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block ORANGE_HD_TV = registerBlock("orange_hd_tv", new HDTV(AbstractBlock.Settings.create().strength(0.2f, 0.1f)));
+    public static final Block ORANGE_NIGHTSTAND = registerBlock("orange_nightstand", new Nightstand(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f), () -> ModBlockEntities.NIGHTSTAND));
+    public static final Block ORANGE_BED = registerBlock("orange_bed", new SimpleBed(DyeColor.ORANGE, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SMALL_NOTICEBOARD = registerBlock("small_noticeboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block ORANGE_SQUARE_TABLE = registerBlock("orange_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOW_ORANGE_SOFA = registerBlock("low_orange_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE1 = registerBlock("orange_checkerboard_bookcase1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE2 = registerBlock("orange_checkerboard_bookcase2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE3 = registerBlock("orange_checkerboard_bookcase3", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_SWIVEL_CHAIR = registerBlock("orange_swivel_chair", new OfficeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_CABINET = registerBlock("simple_orange_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
+    public static final Block SIMPLE_ORANGE_DESK_LEFT = registerBlock("simple_orange_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_RIGHT = registerBlock("simple_orange_desk_right", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);
         return Registry.register(Registries.BLOCK, new Identifier(ArknightsFurniture.MOD_ID, id), block);

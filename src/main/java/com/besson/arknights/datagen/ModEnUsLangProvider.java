@@ -180,6 +180,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "Simple Black Desk Left");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "Simple Black Desk Right");
 
+        translationBuilder.add(ModBlocks.ORANGE_WALL_LAMP, "Orange Wall Lamp");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CLOCK, "Simple Orange Clock");
+        translationBuilder.add(ModBlocks.ORANGE_HD_TV, "Orange HD TV");
+        translationBuilder.add(ModBlocks.ORANGE_NIGHTSTAND, "Orange Nightstand");
+        translationBuilder.add(ModBlocks.ORANGE_BED, "Orange Bed");
+        translationBuilder.add(ModBlocks.SMALL_NOTICEBOARD, "Small Noticeboard");
+        translationBuilder.add(ModBlocks.ORANGE_SQUARE_TABLE, "Orange Square Table");
+        translationBuilder.add(ModBlocks.LOW_ORANGE_SOFA, "Low Orange Sofa");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1, "Orange Checkerboard Bookcase 1");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2, "Orange Checkerboard Bookcase 2");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3, "Orange Checkerboard Bookcase 3");
+        translationBuilder.add(ModBlocks.ORANGE_SWIVEL_CHAIR, "Orange Swivel Chair");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CABINET, "Simple Orange Cabinet");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "Simple Orange Desk Left");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "Simple Orange Desk Right");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");

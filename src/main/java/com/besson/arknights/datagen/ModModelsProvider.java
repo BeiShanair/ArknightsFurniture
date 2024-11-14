@@ -43,6 +43,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_OFFICE_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_WALL_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CLOCK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_HD_TV);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_NIGHTSTAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_NOTICEBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_SQUARE_TABLE);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.LOW_ORANGE_SOFA, ModelIds.getBlockModelId(ModBlocks.LOW_ORANGE_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_SWIVEL_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
     }
 
     @Override

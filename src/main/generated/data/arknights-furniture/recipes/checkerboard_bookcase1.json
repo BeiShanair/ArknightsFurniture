@@ -7,15 +7,11 @@
     },
     "A": {
       "item": "minecraft:black_dye"
-    },
-    "B": {
-      "item": "minecraft:white_dye"
     }
   },
   "pattern": [
     "###",
-    "ABA",
-    "###"
+    "AAA"
   ],
   "result": {
     "item": "arknights-furniture:checkerboard_bookcase1"

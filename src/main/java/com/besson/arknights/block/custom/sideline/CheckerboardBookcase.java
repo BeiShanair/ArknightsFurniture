@@ -38,6 +38,6 @@ public class CheckerboardBookcase extends ModAbstractChestBlock<CheckerboardBook
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return null;
+        return new CheckerboardBookcaseBE(pos, state);
     }
 }

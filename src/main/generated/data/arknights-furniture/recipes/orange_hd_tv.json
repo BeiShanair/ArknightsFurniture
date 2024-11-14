@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:orange_dye"
+    },
+    "B": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "#BA",
+    " # "
+  ],
+  "result": {
+    "item": "arknights-furniture:orange_hd_tv"
+  },
+  "show_notification": true
+}

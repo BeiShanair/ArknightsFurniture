@@ -27,11 +27,13 @@ public class ModBlockEntities {
     public static final BlockEntityType<LargeShelfBE> LARGE_SHELF = create("large_shelf",
             BlockEntityType.Builder.create(LargeShelfBE::new, ModBlocks.LARGE_SHELF1, ModBlocks.LARGE_SHELF2, ModBlocks.LARGE_SHELF3, ModBlocks.LARGE_SHELF4));
     public static final BlockEntityType<NightstandBE> NIGHTSTAND = create("nightstand",
-            BlockEntityType.Builder.create(NightstandBE::new, ModBlocks.BLACK_NIGHTSTAND));
+            BlockEntityType.Builder.create(NightstandBE::new, ModBlocks.BLACK_NIGHTSTAND, ModBlocks.ORANGE_NIGHTSTAND));
     public static final BlockEntityType<SimpleCabinetBE> SIMPLE_CABINET = create("simple_black_cabinet",
-            BlockEntityType.Builder.create(SimpleCabinetBE::new, ModBlocks.SIMPLE_BLACK_CABINET));
+            BlockEntityType.Builder.create(SimpleCabinetBE::new, ModBlocks.SIMPLE_BLACK_CABINET, ModBlocks.SIMPLE_ORANGE_CABINET));
     public static final BlockEntityType<CheckerboardBookcaseBE> CHECKERBOARD_BOOKCASE = create("checkerboard_bookcase",
-            BlockEntityType.Builder.create(CheckerboardBookcaseBE::new, ModBlocks.CHECKERBOARD_BOOKCASE1, ModBlocks.CHECKERBOARD_BOOKCASE2, ModBlocks.CHECKERBOARD_BOOKCASE3));
+            BlockEntityType.Builder.create(CheckerboardBookcaseBE::new,
+                    ModBlocks.CHECKERBOARD_BOOKCASE1, ModBlocks.CHECKERBOARD_BOOKCASE2, ModBlocks.CHECKERBOARD_BOOKCASE3,
+                    ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3));
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(ArknightsFurniture.MOD_ID, id), builder.build(type));
