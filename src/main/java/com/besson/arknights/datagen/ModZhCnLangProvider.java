@@ -143,6 +143,14 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "victoria.author", "鹰角网络");
         translationBuilder.add(painting + "yan.title", "炎");
         translationBuilder.add(painting + "yan.author", "鹰角网络");
+        translationBuilder.add(painting + "unknown_bones.title", "未确认生物骨骼");
+        translationBuilder.add(painting + "unknown_bones.author", "鹰角网络");
+        translationBuilder.add(painting + "unknown_specimen1.title", "未知生物标本集1");
+        translationBuilder.add(painting + "unknown_specimen1.author", "鹰角网络");
+        translationBuilder.add(painting + "unknown_specimen2.title", "未知生物标本集2");
+        translationBuilder.add(painting + "unknown_specimen2.author", "鹰角网络");
+        translationBuilder.add(painting + "unknown_specimen3.title", "未知生物标本集3");
+        translationBuilder.add(painting + "unknown_specimen3.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -196,15 +204,30 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "橘色简拼办公桌 Left");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "橘色简拼办公桌 Right");
 
+        translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "褐色懒人沙发");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET, "生态展览柜");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "生态展览柜 Base");
+        translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "内嵌宽顶灯");
+        translationBuilder.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT, "内嵌方顶灯");
+        translationBuilder.add(ModBlocks.METALLIC_BED, "金属大床");
+        translationBuilder.add(ModBlocks.POTTED_BROADLEAF_PLANT, "阔叶盆栽");
+        translationBuilder.add(ModBlocks.POTTED_CONIFER_PLANT, "针叶盆栽");
+        translationBuilder.add(ModBlocks.POTTED_SUCCULENT_PLANT, "厚叶盆栽");
+        translationBuilder.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND, "方形床头矮柜");
+        translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "展出标本资料板");
+        translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "筐形矮茶几");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
         translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
+        translationBuilder.add("itemGroup.fantastic_bio-documentary", "幻想生物纪实");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
         translationBuilder.add("container.nightstand", "床头柜");
         translationBuilder.add("container.simple_cabinet", "简拼桌柜");
         translationBuilder.add("container.checkerboard_bookcase", "棋盘式书柜");
+        translationBuilder.add("container.small_square_nightstand", "方形床头矮柜");
     }
 }

@@ -59,6 +59,19 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BEAN_BAG_SOFA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.METALLIC_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_BROADLEAF_PLANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_CONIFER_PLANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_SUCCULENT_PLANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPECIMEN_DATA_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WIRE_SIDE_TABLE);
     }
 
     @Override

@@ -143,6 +143,14 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "victoria.author", "Hypergryph");
         translationBuilder.add(painting + "yan.title", "Yan");
         translationBuilder.add(painting + "yan.author", "Hypergryph");
+        translationBuilder.add(painting + "unknown_bones.title", "Unknown Bones");
+        translationBuilder.add(painting + "unknown_bones.author", "Hypergryph");
+        translationBuilder.add(painting + "unknown_specimen1.title", "Unknown Specimen 1");
+        translationBuilder.add(painting + "unknown_specimen1.author", "Hypergryph");
+        translationBuilder.add(painting + "unknown_specimen2.title", "Unknown Specimen 2");
+        translationBuilder.add(painting + "unknown_specimen2.author", "Hypergryph");
+        translationBuilder.add(painting + "unknown_specimen3.title", "Unknown Specimen 3");
+        translationBuilder.add(painting + "unknown_specimen3.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -196,16 +204,31 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "Simple Orange Desk Left");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "Simple Orange Desk Right");
 
+        translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "Brown Bean Bag Sofa");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET, "Eco Exhibition Cabinet");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "Eco Exhibition Cabinet Base");
+        translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "Flush Mount Rectangle Ceiling Light");
+        translationBuilder.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT, "Flush Mount Square Ceiling Light");
+        translationBuilder.add(ModBlocks.METALLIC_BED, "Metallic Bed");
+        translationBuilder.add(ModBlocks.POTTED_BROADLEAF_PLANT, "Potted Broadleaf Plant");
+        translationBuilder.add(ModBlocks.POTTED_CONIFER_PLANT, "Potted Conifer Plant");
+        translationBuilder.add(ModBlocks.POTTED_SUCCULENT_PLANT, "Potted Succulent Plant");
+        translationBuilder.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND, "Small Square Nightstand");
+        translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "Specimen Data Board");
+        translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "Wire Side Table");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
         translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
+        translationBuilder.add("itemGroup.fantastic_bio-documentary", "Fantastic Bio-Documentary");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
         translationBuilder.add("container.nightstand", "Nightstand");
         translationBuilder.add("container.simple_cabinet", "Simple Cabinet");
         translationBuilder.add("container.checkerboard_bookcase", "Checkerboard Bookcase");
+        translationBuilder.add("container.small_square_nightstand", "Small Square Nightstand");
 
     }
 }

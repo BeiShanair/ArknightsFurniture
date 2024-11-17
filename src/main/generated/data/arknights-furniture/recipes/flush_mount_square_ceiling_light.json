@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "#A "
+  ],
+  "result": {
+    "item": "arknights-furniture:flush_mount_square_ceiling_light"
+  },
+  "show_notification": true
+}

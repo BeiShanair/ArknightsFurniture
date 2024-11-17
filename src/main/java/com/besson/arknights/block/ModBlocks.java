@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.custom.fantasticbiod.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import net.minecraft.block.AbstractBlock;
@@ -59,6 +60,19 @@ public class ModBlocks {
     public static final Block SIMPLE_ORANGE_CABINET = registerBlock("simple_orange_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
     public static final Block SIMPLE_ORANGE_DESK_LEFT = registerBlock("simple_orange_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block SIMPLE_ORANGE_DESK_RIGHT = registerBlock("simple_orange_desk_right", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+
+    public static final Block BROWN_BEAN_BAG_SOFA = registerBlock("brown_bean_bag_sofa", new BrownBeanBagSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ECO_EXHIBITION_CABINET = registerBlock("eco_exhibition_cabinet", new EcoExhibitionCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ECO_EXHIBITION_CABINET_BASE = registerBlock("eco_exhibition_cabinet_base", new EcoExhibitionCabinetBase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT = registerBlock("flush_mount_rectangle_ceiling_light", new FlushMountRectangleCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block FLUSH_MOUNT_SQUARE_CEILING_LIGHT = registerBlock("flush_mount_square_ceiling_light", new FlushMountSquareCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block METALLIC_BED = registerBlock("metallic_bed", new MetallicBed(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block POTTED_BROADLEAF_PLANT = registerBlock("potted_broadleaf_plant", new PottedBroadleafPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block POTTED_CONIFER_PLANT = registerBlock("potted_conifer_plant", new PottedConiferPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block POTTED_SUCCULENT_PLANT = registerBlock("potted_succulent_plant", new PottedSucculentPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SMALL_SQUARE_NIGHTSTAND = registerBlock("small_square_nightstand", new SmallSquareNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SQUARE_NIGHTSTAND));
+    public static final Block SPECIMEN_DATA_BOARD = registerBlock("specimen_data_board", new SpecimenDataBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block WIRE_SIDE_TABLE = registerBlock("wire_side_table", new WireSideTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);
         return Registry.register(Registries.BLOCK, new Identifier(ArknightsFurniture.MOD_ID, id), block);

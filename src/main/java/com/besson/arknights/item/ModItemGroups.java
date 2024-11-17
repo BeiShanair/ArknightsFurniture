@@ -124,6 +124,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
                         entries.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
                     }).build());
+
+    public static final ItemGroup FANTASTIC_BIO_DOCUMENTARY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "fantastic_bio-documentary"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.fantastic_bio-documentary"))
+                    .icon(() -> new ItemStack(ModBlocks.WIRE_SIDE_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BROWN_BEAN_BAG_SOFA);
+                        entries.add(ModBlocks.ECO_EXHIBITION_CABINET);
+                        entries.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
+                        entries.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
+                        entries.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
+                        entries.add(ModBlocks.METALLIC_BED);
+                        entries.add(ModBlocks.POTTED_BROADLEAF_PLANT);
+                        entries.add(ModBlocks.POTTED_CONIFER_PLANT);
+                        entries.add(ModBlocks.POTTED_SUCCULENT_PLANT);
+                        entries.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
+                        entries.add(ModBlocks.SPECIMEN_DATA_BOARD);
+                        entries.add(ModBlocks.WIRE_SIDE_TABLE);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }
