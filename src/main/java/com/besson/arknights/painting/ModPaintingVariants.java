@@ -50,6 +50,10 @@ public class ModPaintingVariants {
     public static final PaintingVariant URSUS_STUDENT_SELF_GOVERNING_GROUP = registerPaintingVariant("ursus_student_self-governing_group", new PaintingVariant(64, 64));
     public static final PaintingVariant VICTORIA = registerPaintingVariant("victoria", new PaintingVariant(64, 64));
     public static final PaintingVariant YAN = registerPaintingVariant("yan", new PaintingVariant(64, 64));
+    public static final PaintingVariant UNKNOWN_BONES = registerPaintingVariant("unknown_bones", new PaintingVariant(16, 32));
+    public static final PaintingVariant UNKNOWN_SPECIMEN1 = registerPaintingVariant("unknown_specimen1", new PaintingVariant(32, 16));
+    public static final PaintingVariant UNKNOWN_SPECIMEN2 = registerPaintingVariant("unknown_specimen2", new PaintingVariant(16, 16));
+    public static final PaintingVariant UNKNOWN_SPECIMEN3 = registerPaintingVariant("unknown_specimen3", new PaintingVariant(16, 16));
 
     private static PaintingVariant registerPaintingVariant(String id, PaintingVariant variant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(ArknightsFurniture.MOD_ID, id), variant);
