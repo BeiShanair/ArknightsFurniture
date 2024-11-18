@@ -72,6 +72,19 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPECIMEN_DATA_BOARD);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WIRE_SIDE_TABLE);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BUILT_IN_FILE_CABINET1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BUILT_IN_FILE_CABINET2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BUNK_BED_IN_CABIN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FLUSH_MOUNT_PIPE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONTROL_DISPLAY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_SWIVEL_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_RIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GENERAL_CONSOLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTE_BOARD_IN_CABIN);
     }
 
     @Override

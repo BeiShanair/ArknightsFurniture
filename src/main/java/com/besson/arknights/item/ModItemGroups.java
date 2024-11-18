@@ -141,6 +141,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPECIMEN_DATA_BOARD);
                         entries.add(ModBlocks.WIRE_SIDE_TABLE);
                     }).build());
+
+    public static final ItemGroup NO_12_LIFE_CYCLE_CABIN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "no_12_life_cycle_cabin"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.no_12_life_cycle_cabin"))
+                    .icon(() -> new ItemStack(ModBlocks.GENERAL_CONSOLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
+                        entries.add(ModBlocks.BUILT_IN_FILE_CABINET1);
+                        entries.add(ModBlocks.BUILT_IN_FILE_CABINET2);
+                        entries.add(ModBlocks.BUNK_BED_IN_CABIN);
+                        entries.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
+                        entries.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE);
+                        entries.add(ModBlocks.CONTROL_DISPLAY);
+                        entries.add(ModBlocks.DIY_SWIVEL_CHAIR);
+                        entries.add(ModBlocks.DIY_WORKBENCH_LEFT);
+                        entries.add(ModBlocks.DIY_WORKBENCH_RIGHT);
+                        entries.add(ModBlocks.GENERAL_CONSOLE);
+                        entries.add(ModBlocks.NOTE_BOARD_IN_CABIN);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:black_dye"
+    },
+    "B": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "pattern": [
+    "###",
+    "ABA",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:control_display"
+  },
+  "show_notification": true
+}

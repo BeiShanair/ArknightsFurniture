@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "#B#",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:bunk_bed_in_cabin"
+  },
+  "show_notification": true
+}

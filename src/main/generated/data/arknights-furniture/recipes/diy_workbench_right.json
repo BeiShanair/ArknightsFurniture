@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "  A",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:diy_workbench_right"
+  },
+  "show_notification": true
+}

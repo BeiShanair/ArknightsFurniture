@@ -483,6 +483,113 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "wire_side_table"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANTI_EXPLOSION_TRASH_CAN, 1)
+                .pattern("# #")
+                .pattern("# #")
+                .pattern("AAA")
+                .input('#', Items.IRON_INGOT)
+                .input('A', Items.BLACK_DYE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "anti_explosion_trash_can"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUILT_IN_FILE_CABINET1, 1)
+                .pattern("###")
+                .pattern("A A")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.GRAY_DYE)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "built_in_file_cabinet1"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUILT_IN_FILE_CABINET2, 1)
+                .pattern("###")
+                .pattern("A A")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.BLACK_DYE)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "built_in_file_cabinet2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BUNK_BED_IN_CABIN, 1)
+                .pattern("#B#")
+                .pattern("AAA")
+                .input('#', Items.IRON_INGOT)
+                .input('A', ItemTags.PLANKS)
+                .input('B', ItemTags.WOOL)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "bunk_bed_in_cabin"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.WATER_BUCKET)
+                .criterion("has_item", conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cabin_fire_extinguisher_kit"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CABIN_FLUSH_MOUNT_PIPE, 1)
+                .pattern("A")
+                .pattern("A")
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cabin_flush_mount_pipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CONTROL_DISPLAY, 1)
+                .pattern("###")
+                .pattern("ABA")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.BLACK_DYE)
+                .input('B', Items.REDSTONE_TORCH)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE_TORCH))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "control_display"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIY_SWIVEL_CHAIR, 1)
+                .pattern("A A")
+                .pattern("ABA")
+                .pattern(" A ")
+                .input('A', Items.BLACK_WOOL)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "diy_swivel_chair"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIY_WORKBENCH_LEFT, 1)
+                .pattern("###")
+                .pattern("A  ")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.GRAY_DYE)
+                .criterion("has_item", conditionsFromItem(Items.GRAY_DYE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "diy_workbench_left"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIY_WORKBENCH_RIGHT, 1)
+                .pattern("###")
+                .pattern("  A")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.GRAY_DYE)
+                .criterion("has_item", conditionsFromItem(Items.GRAY_DYE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "diy_workbench_right"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GENERAL_CONSOLE, 1)
+                .pattern(" ##")
+                .pattern("ABA")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.GRAY_DYE)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "general_console"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NOTE_BOARD_IN_CABIN, 1)
+                .pattern("###")
+                .pattern("A A")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.PAPER)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "note_board_in_cabin"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

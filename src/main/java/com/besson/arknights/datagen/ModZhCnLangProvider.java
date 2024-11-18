@@ -217,11 +217,25 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "展出标本资料板");
         translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "筐形矮茶几");
 
+        translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "防爆垃圾桶");
+        translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "嵌壁资料柜 1");
+        translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET2, "嵌壁资料柜 2");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN, "舱室组合双层床（单）");
+        translationBuilder.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT, "舱室灭火套组");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE, "舱室嵌顶构件");
+        translationBuilder.add(ModBlocks.CONTROL_DISPLAY, "控制显示器");
+        translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "组合滚轮靠背椅");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "组合工作台 Left");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "组合工作台 Right");
+        translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "生命循环舱总控台");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "舱用记事板");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
         translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "幻想生物纪实");
+        translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "12号生命循环舱");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

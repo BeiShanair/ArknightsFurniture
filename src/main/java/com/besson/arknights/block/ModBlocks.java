@@ -1,7 +1,8 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
-import com.besson.arknights.block.custom.fantasticbiod.*;
+import com.besson.arknights.block.custom.fantastic.*;
+import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import net.minecraft.block.AbstractBlock;
@@ -73,6 +74,20 @@ public class ModBlocks {
     public static final Block SMALL_SQUARE_NIGHTSTAND = registerBlock("small_square_nightstand", new SmallSquareNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SQUARE_NIGHTSTAND));
     public static final Block SPECIMEN_DATA_BOARD = registerBlock("specimen_data_board", new SpecimenDataBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block WIRE_SIDE_TABLE = registerBlock("wire_side_table", new WireSideTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BUILT_IN_FILE_CABINET2 = registerBlock("built_in_file_cabinet2", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BUNK_BED_IN_CABIN = registerBlock("bunk_bed_in_cabin", new BunkBedInCabin(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CABIN_FIRE_EXTINGUISHER_KIT = registerBlock("cabin_fire_extinguisher_kit", new CabinFireExtinguisherKit(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CABIN_FLUSH_MOUNT_PIPE = registerBlock("cabin_flush_mount_pipe", new CabinFlushMountPipe(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CONTROL_DISPLAY = registerBlock("control_display", new ControlDisplay(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block DIY_SWIVEL_CHAIR = registerBlock("diy_swivel_chair", new DiySwivelChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block DIY_WORKBENCH_LEFT = registerBlock("diy_workbench_left", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    public static final Block DIY_WORKBENCH_RIGHT = registerBlock("diy_workbench_right", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    public static final Block GENERAL_CONSOLE = registerBlock("general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block NOTE_BOARD_IN_CABIN = registerBlock("note_board_in_cabin", new NoteBoardInCabin(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);
         return Registry.register(Registries.BLOCK, new Identifier(ArknightsFurniture.MOD_ID, id), block);

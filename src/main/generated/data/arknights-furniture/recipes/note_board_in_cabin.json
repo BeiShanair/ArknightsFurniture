@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "###",
+    "A A",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:note_board_in_cabin"
+  },
+  "show_notification": true
+}

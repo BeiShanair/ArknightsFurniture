@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:anti_explosion_trash_can"
+  },
+  "show_notification": true
+}

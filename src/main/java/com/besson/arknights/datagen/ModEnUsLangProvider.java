@@ -217,11 +217,25 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "Specimen Data Board");
         translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "Wire Side Table");
 
+        translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "Anti-Explosion Trash Can");
+        translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "Built-In File Cabinet 1");
+        translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET2, "Built-In File Cabinet 2");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN, "Bunk Bed In Cabin");
+        translationBuilder.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT, "Cabin Fire Extinguisher Kit");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE, "Cabin Flush Mount Pipe");
+        translationBuilder.add(ModBlocks.CONTROL_DISPLAY, "Control Display");
+        translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "DIY Swivel Chair");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "DIY Workbench Left");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "DIY Workbench Right");
+        translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "General Console");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "Note Board In Cabin");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
         translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "Fantastic Bio-Documentary");
+        translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "No.12 Life Cycle Cabin");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

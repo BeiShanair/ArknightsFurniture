@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/diy_workbench_left",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/diy_workbench_left"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/diy_workbench_left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/diy_workbench_left",
+      "y": 270
+    }
+  }
+}

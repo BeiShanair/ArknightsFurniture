@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:black_wool"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "A A",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "arknights-furniture:diy_swivel_chair"
+  },
+  "show_notification": true
+}

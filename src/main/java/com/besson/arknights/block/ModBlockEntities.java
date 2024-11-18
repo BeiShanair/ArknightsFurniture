@@ -1,7 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
-import com.besson.arknights.block.custom.fantasticbiod.SmallSquareNightstandBE;
+import com.besson.arknights.block.custom.fantastic.SmallSquareNightstandBE;
 import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
 import com.besson.arknights.block.custom.sideline.NightstandBE;
 import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;

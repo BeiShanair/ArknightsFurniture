@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "A A",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:built_in_file_cabinet1"
+  },
+  "show_notification": true
+}
