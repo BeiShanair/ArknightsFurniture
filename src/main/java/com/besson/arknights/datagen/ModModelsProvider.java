@@ -85,6 +85,27 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_RIGHT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GENERAL_CONSOLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTE_BOARD_IN_CABIN);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAR_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_CABINET_COFFEE1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_CABINET_COFFEE2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_CABINET_DC);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_CABINET_DRINK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_CABINET_EMPTY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEVERAGE_MENU);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOLIVARIAN_COFFEE_BEAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BOOKCASE1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BOOKCASE2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BOOKCASE3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DINING_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PEDESTAL_COFFEE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PENDANT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_LONG_LEAF_PLANT);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.RED_BRICK_CAFE_BAR, ModelIds.getBlockModelId(ModBlocks.RED_BRICK_CAFE_BAR));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_BROWN_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFT_CEILING_LIGHT);
     }
 
     @Override

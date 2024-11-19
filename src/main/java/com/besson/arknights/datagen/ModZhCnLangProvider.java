@@ -230,12 +230,34 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "生命循环舱总控台");
         translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "舱用记事板");
 
+        translationBuilder.add(ModBlocks.BAR_CEILING, "吧台吊顶");
+        translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "曲底高脚咖啡椅");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE1, "饮料陈列架 Coffee 1");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE2, "饮料陈列架 Coffee 2");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DC, "饮料陈列架 DC");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DRINK, "饮料陈列架 Drink");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_EMPTY, "饮料陈列架 Empty");
+        translationBuilder.add(ModBlocks.BEVERAGE_MENU, "饮料价目表");
+        translationBuilder.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN, "玻利瓦尔咖啡豆");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE1, "褐色跃格书架 1");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE2, "褐色跃格书架 2");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE3, "褐色跃格书架 3");
+        translationBuilder.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO, "哥伦比亚街景照");
+        translationBuilder.add(ModBlocks.DINING_CHAIR, "成对咖啡椅");
+        translationBuilder.add(ModBlocks.PEDESTAL_COFFEE_TABLE, "独脚咖啡桌");
+        translationBuilder.add(ModBlocks.PENDANT_LIGHT, "垂吊式顶灯");
+        translationBuilder.add(ModBlocks.POTTED_LONG_LEAF_PLANT, "长叶盆栽");
+        translationBuilder.add(ModBlocks.RED_BRICK_CAFE_BAR, "红砖咖啡馆吧台");
+        translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "红砖色储物柜");
+        translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "柔和顶灯");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
         translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "幻想生物纪实");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "12号生命循环舱");
+        translationBuilder.add("itemGroup.columbian_cafe", "哥伦比亚咖啡馆");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -243,5 +265,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.simple_cabinet", "简拼桌柜");
         translationBuilder.add("container.checkerboard_bookcase", "棋盘式书柜");
         translationBuilder.add("container.small_square_nightstand", "方形床头矮柜");
+        translationBuilder.add("container.red_brown_cabinet", "红砖色储物柜");
     }
 }

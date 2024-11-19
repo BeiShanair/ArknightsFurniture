@@ -158,6 +158,30 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GENERAL_CONSOLE);
                         entries.add(ModBlocks.NOTE_BOARD_IN_CABIN);
                     }).build());
+    public static final ItemGroup COLUMBIAN_CAFE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "columbian_cafe"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.columbian_cafe"))
+                    .icon(() -> new ItemStack(ModBlocks.BOLIVARIAN_COFFEE_BEAN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BAR_CEILING);
+                        entries.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_COFFEE1);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_COFFEE2);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_DC);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_DRINK);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_EMPTY);
+                        entries.add(ModBlocks.BEVERAGE_MENU);
+                        entries.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN);
+                        entries.add(ModBlocks.BROWN_BOOKCASE1);
+                        entries.add(ModBlocks.BROWN_BOOKCASE2);
+                        entries.add(ModBlocks.BROWN_BOOKCASE3);
+                        entries.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO);
+                        entries.add(ModBlocks.DINING_CHAIR);
+                        entries.add(ModBlocks.PEDESTAL_COFFEE_TABLE);
+                        entries.add(ModBlocks.PENDANT_LIGHT);
+                        entries.add(ModBlocks.POTTED_LONG_LEAF_PLANT);
+                        entries.add(ModBlocks.RED_BRICK_CAFE_BAR);
+                        entries.add(ModBlocks.RED_BROWN_CABINET);
+                        entries.add(ModBlocks.SOFT_CEILING_LIGHT);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

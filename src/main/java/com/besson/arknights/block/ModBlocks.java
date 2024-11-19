@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.sideline.*;
@@ -87,6 +88,27 @@ public class ModBlocks {
     public static final Block DIY_WORKBENCH_RIGHT = registerBlock("diy_workbench_right", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block GENERAL_CONSOLE = registerBlock("general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block NOTE_BOARD_IN_CABIN = registerBlock("note_board_in_cabin", new NoteBoardInCabin(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+
+    public static final Block BAR_CEILING = registerBlock("bar_ceiling", new BarCeiling(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block BARSTOOL_WITH_CURVED_LEGS = registerBlock("barstool_with_curved_legs", new BarstoolWithCurvedLegs(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BEVERAGE_CABINET_COFFEE1 = registerBlock("beverage_cabinet_coffee1", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_COFFEE2 = registerBlock("beverage_cabinet_coffee2", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_DC = registerBlock("beverage_cabinet_dc", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_DRINK = registerBlock("beverage_cabinet_drink", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_EMPTY = registerBlock("beverage_cabinet_empty", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_MENU = registerBlock("beverage_menu", new BeverageMenu(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block BOLIVARIAN_COFFEE_BEAN = registerBlock("bolivarian_coffee_bean", new BolivarianCoffeeBean(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block BROWN_BOOKCASE1 = registerBlock("brown_bookcase1", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE2 = registerBlock("brown_bookcase2", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE3 = registerBlock("brown_bookcase3", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block COLUMBIAN_STREET_VIEW_PHOTO = registerBlock("columbian_street_view_photo", new ColumbianStreetViewPhoto(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block DINING_CHAIR = registerBlock("dining_chair", new DiningChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block PEDESTAL_COFFEE_TABLE = registerBlock("pedestal_coffee_table", new PedestalCoffeeTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PENDANT_LIGHT = registerBlock("pendant_light", new PendantLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block POTTED_LONG_LEAF_PLANT = registerBlock("potted_long_leaf_plant", new PottedLongLeafPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
+    public static final Block RED_BRICK_CAFE_BAR = registerBlock("red_brick_cafe_bar", new RedBrickCafeBar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RED_BROWN_CABINET = registerBlock("red_brown_cabinet", new RedBrownCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.RED_BROWN_CABINET));
+    public static final Block SOFT_CEILING_LIGHT = registerBlock("soft_ceiling_light", new SoftCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

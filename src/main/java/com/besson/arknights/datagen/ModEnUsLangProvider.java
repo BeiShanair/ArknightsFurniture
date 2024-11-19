@@ -230,12 +230,34 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "General Console");
         translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "Note Board In Cabin");
 
+        translationBuilder.add(ModBlocks.BAR_CEILING, "Bar Ceiling");
+        translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "Barstool With Curved Legs");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE1, "Beverage Cabinet Coffee 1");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE2, "Beverage Cabinet Coffee 2");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DC, "Beverage Cabinet DC");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DRINK, "Beverage Cabinet Drink");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_EMPTY, "Beverage Cabinet Empty");
+        translationBuilder.add(ModBlocks.BEVERAGE_MENU, "Beverage Menu");
+        translationBuilder.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN, "Bolivarian Coffee Bean");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE1, "Brown Bookcase 1");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE2, "Brown Bookcase 2");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE3, "Brown Bookcase 3");
+        translationBuilder.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO, "Columbian Street View Photo");
+        translationBuilder.add(ModBlocks.DINING_CHAIR, "Dining Chair");
+        translationBuilder.add(ModBlocks.PEDESTAL_COFFEE_TABLE, "Pedestal Coffee Table");
+        translationBuilder.add(ModBlocks.PENDANT_LIGHT, "Pendant Light");
+        translationBuilder.add(ModBlocks.POTTED_LONG_LEAF_PLANT, "Potted Long Leaf Plant");
+        translationBuilder.add(ModBlocks.RED_BRICK_CAFE_BAR, "Red Brick Cafe Bar");
+        translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "Red Brown Cabinet");
+        translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "Soft Ceiling Light");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
         translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "Fantastic Bio-Documentary");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "No.12 Life Cycle Cabin");
+        translationBuilder.add("itemGroup.columbian_cafe", "Columbian Cafe");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -243,6 +265,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.simple_cabinet", "Simple Cabinet");
         translationBuilder.add("container.checkerboard_bookcase", "Checkerboard Bookcase");
         translationBuilder.add("container.small_square_nightstand", "Small Square Nightstand");
+        translationBuilder.add("container.red_brown_cabinet", "Red Brown Cabinet");
 
     }
 }

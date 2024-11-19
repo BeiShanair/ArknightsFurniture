@@ -84,5 +84,25 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GENERAL_CONSOLE);
         addDrop(ModBlocks.NOTE_BOARD_IN_CABIN);
 
+        addDrop(ModBlocks.BAR_CEILING);
+        addDrop(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
+        addDrop(ModBlocks.BEVERAGE_CABINET_COFFEE1);
+        addDrop(ModBlocks.BEVERAGE_CABINET_COFFEE2);
+        addDrop(ModBlocks.BEVERAGE_CABINET_DC);
+        addDrop(ModBlocks.BEVERAGE_CABINET_DRINK);
+        addDrop(ModBlocks.BEVERAGE_CABINET_EMPTY);
+        addDrop(ModBlocks.BEVERAGE_MENU);
+        addDrop(ModBlocks.BOLIVARIAN_COFFEE_BEAN);
+        addDrop(ModBlocks.BROWN_BOOKCASE1);
+        addDrop(ModBlocks.BROWN_BOOKCASE2);
+        addDrop(ModBlocks.BROWN_BOOKCASE3);
+        addDrop(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO);
+        addDrop(ModBlocks.DINING_CHAIR);
+        addDrop(ModBlocks.PEDESTAL_COFFEE_TABLE);
+        addDrop(ModBlocks.PENDANT_LIGHT);
+        addDrop(ModBlocks.POTTED_LONG_LEAF_PLANT);
+        addDrop(ModBlocks.RED_BRICK_CAFE_BAR);
+        addDrop(ModBlocks.RED_BROWN_CABINET);
+        addDrop(ModBlocks.SOFT_CEILING_LIGHT);
     }
 }

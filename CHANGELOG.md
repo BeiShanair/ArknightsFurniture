@@ -1,5 +1,13 @@
 # 更新日志 / Changelog
 
+## 2024-11-19
+- 更新`哥伦比亚咖啡馆`家具套组
+- Upgrade of `Columbian Cafe` furniture set
+
+## 2024-11-18
+- 更新`12号生命循环舱`家具套组
+- Upgrade of `No.12 Life Cycle Cabin` furniture set
+
 ## 2024-11-17
 - 更新`幻想生物纪实`家具套组
 - Upgrade of `Fantastic Bio-Documentary` furniture set

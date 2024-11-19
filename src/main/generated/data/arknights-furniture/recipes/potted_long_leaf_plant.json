@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:flower_pot"
+    },
+    "B": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "item": "arknights-furniture:potted_long_leaf_plant"
+  },
+  "show_notification": true
+}

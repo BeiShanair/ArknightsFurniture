@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "## ",
+    " ##"
+  ],
+  "result": {
+    "item": "arknights-furniture:beverage_menu"
+  },
+  "show_notification": true
+}
