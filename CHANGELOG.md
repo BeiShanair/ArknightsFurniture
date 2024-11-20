@@ -1,5 +1,12 @@
 # 更新日志 / Changelog
 
+## 2024-11-20
+- 更新`近卫局休息室`家具套组
+- Upgrade of `L.D.G. Lounge` furniture set
+
+- 重新整合床类方块，改`ModBedBlock`为`FurnitureBedBlock`，所有床类方块均直接实例化此类
+- Reorganise the bed blocks, change `ModBedBlock` to `FurnitureBedBlock`, and instantiate all bed blocks directly into this class.
+
 ## 2024-11-19
 - 更新`哥伦比亚咖啡馆`家具套组
 - Upgrade of `Columbian Cafe` furniture set

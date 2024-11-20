@@ -251,6 +251,17 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "红砖色储物柜");
         translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "柔和顶灯");
 
+        translationBuilder.add(ModBlocks.BLACK_PEDESTAL_TABLE, "黑色独脚桌");
+        translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "黑色复古椅");
+        translationBuilder.add(ModBlocks.BLACK_VINTAGE_STOOL, "黑色复古凳");
+        translationBuilder.add(ModBlocks.BRIGHT_WALL_LIGHT, "明亮挂灯");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE, "复式木制墙栏");
+        translationBuilder.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE, "檀木低脚会议桌");
+        translationBuilder.add(ModBlocks.SANDALWOOD_BED, "檀木大床");
+        translationBuilder.add(ModBlocks.SANDALWOOD_MEETING_BOARD, "檀木会议板");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "黑色简装矮沙发");
+        translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "檀木床头矮柜");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -258,6 +269,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "幻想生物纪实");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "12号生命循环舱");
         translationBuilder.add("itemGroup.columbian_cafe", "哥伦比亚咖啡馆");
+        translationBuilder.add("itemGroup.ldg_lounge", "近卫局休息室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -266,5 +278,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.checkerboard_bookcase", "棋盘式书柜");
         translationBuilder.add("container.small_square_nightstand", "方形床头矮柜");
         translationBuilder.add("container.red_brown_cabinet", "红砖色储物柜");
+        translationBuilder.add("container.small_sandalwood_nightstand", "檀木床头矮柜");
     }
 }

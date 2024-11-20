@@ -1,6 +1,6 @@
 package com.besson.arknights.block.custom.fantastic;
 
-import com.besson.arknights.block.ModBedBlock;
+import com.besson.arknights.block.FurnitureBedBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
@@ -9,7 +9,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class MetallicBed extends ModBedBlock {
+public class MetallicBed extends FurnitureBedBlock {
     public MetallicBed(DyeColor color, Settings settings) {
         super(color, settings);
     }

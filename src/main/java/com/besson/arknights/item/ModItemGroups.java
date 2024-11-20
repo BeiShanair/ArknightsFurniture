@@ -182,6 +182,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_BROWN_CABINET);
                         entries.add(ModBlocks.SOFT_CEILING_LIGHT);
                     }).build());
+
+    public static final ItemGroup LDG_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ldg_lounge"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ldg_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.BLACK_PEDESTAL_TABLE)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BLACK_PEDESTAL_TABLE);
+                        entries.add(ModBlocks.BLACK_VINTAGE_CHAIR);
+                        entries.add(ModBlocks.BLACK_VINTAGE_STOOL);
+                        entries.add(ModBlocks.BRIGHT_WALL_LIGHT);
+                        entries.add(ModBlocks.DUPLEX_WOODEN_FENCE);
+                        entries.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE);
+                        entries.add(ModBlocks.SANDALWOOD_BED);
+                        entries.add(ModBlocks.SANDALWOOD_MEETING_BOARD);
+                        entries.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
+                        entries.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

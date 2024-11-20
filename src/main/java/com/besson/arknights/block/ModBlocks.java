@@ -3,6 +3,7 @@ package com.besson.arknights.block;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.fantastic.*;
+import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.warehouse.*;
@@ -16,7 +17,7 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block AIR_MATTRESS = registerBlock("air_mattress", new AirMattress(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
+    public static final Block AIR_MATTRESS = registerBlock("air_mattress", new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block ATTENDANCE_BOARD = registerBlock("attendance_board", new AttendanceBoard(AbstractBlock.Settings.create().strength(0.3f, 0.3f)));
     public static final Block CARGO_TROLLEY = registerBlock("cargo_trolley", new CargoTrolley(AbstractBlock.Settings.create().strength(0.3f, 0.5f).nonOpaque()));
     public static final Block CARTON = registerBlock("carton", new Carton(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CARTON));
@@ -35,7 +36,7 @@ public class ModBlocks {
     public static final Block SIMPLE_BLACK_CLOCK = registerBlock("simple_black_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BLACK_HD_TV = registerBlock("black_hd_tv", new HDTV(AbstractBlock.Settings.create().strength(0.2f, 0.1f)));
     public static final Block BLACK_NIGHTSTAND = registerBlock("black_nightstand", new Nightstand(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f), () -> ModBlockEntities.NIGHTSTAND));
-    public static final Block BLACK_BED = registerBlock("black_bed", new SimpleBed(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BLACK_BED = registerBlock("black_bed", new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SMALL_CALLBOARD = registerBlock("small_callboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BLACK_AND_WHITE_SQUARE_TABLE = registerBlock("black_and_white_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_BLACK_AND_WHITE_SOFA = registerBlock("low_black_and_white_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -51,7 +52,7 @@ public class ModBlocks {
     public static final Block SIMPLE_ORANGE_CLOCK = registerBlock("simple_orange_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block ORANGE_HD_TV = registerBlock("orange_hd_tv", new HDTV(AbstractBlock.Settings.create().strength(0.2f, 0.1f)));
     public static final Block ORANGE_NIGHTSTAND = registerBlock("orange_nightstand", new Nightstand(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f), () -> ModBlockEntities.NIGHTSTAND));
-    public static final Block ORANGE_BED = registerBlock("orange_bed", new SimpleBed(DyeColor.ORANGE, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ORANGE_BED = registerBlock("orange_bed", new FurnitureBedBlock(DyeColor.ORANGE, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SMALL_NOTICEBOARD = registerBlock("small_noticeboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block ORANGE_SQUARE_TABLE = registerBlock("orange_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_ORANGE_SOFA = registerBlock("low_orange_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -79,7 +80,7 @@ public class ModBlocks {
     public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET2 = registerBlock("built_in_file_cabinet2", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BUNK_BED_IN_CABIN = registerBlock("bunk_bed_in_cabin", new BunkBedInCabin(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BUNK_BED_IN_CABIN = registerBlock("bunk_bed_in_cabin", new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block CABIN_FIRE_EXTINGUISHER_KIT = registerBlock("cabin_fire_extinguisher_kit", new CabinFireExtinguisherKit(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block CABIN_FLUSH_MOUNT_PIPE = registerBlock("cabin_flush_mount_pipe", new CabinFlushMountPipe(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block CONTROL_DISPLAY = registerBlock("control_display", new ControlDisplay(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
@@ -109,6 +110,17 @@ public class ModBlocks {
     public static final Block RED_BRICK_CAFE_BAR = registerBlock("red_brick_cafe_bar", new RedBrickCafeBar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block RED_BROWN_CABINET = registerBlock("red_brown_cabinet", new RedBrownCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.RED_BROWN_CABINET));
     public static final Block SOFT_CEILING_LIGHT = registerBlock("soft_ceiling_light", new SoftCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+
+    public static final Block BLACK_PEDESTAL_TABLE = registerBlock("black_pedestal_table", new BlackPedestalTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLACK_VINTAGE_CHAIR = registerBlock("black_vintage_chair", new BlackVintageChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block BLACK_VINTAGE_STOOL = registerBlock("black_vintage_stool", new BlackVintageStool(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block BRIGHT_WALL_LIGHT = registerBlock("bright_wall_light", new BrightWallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block DUPLEX_WOODEN_FENCE = registerBlock("duplex_wooden_fence", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOW_SANDALWOOD_MEETING_TABLE = registerBlock("low_sandalwood_meeting_table", new LowSandalwoodMeetingTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SANDALWOOD_BED = registerBlock("sandalwood_bed", new FurnitureBedBlock(DyeColor.BROWN, AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SANDALWOOD_MEETING_BOARD = registerBlock("sandalwood_meeting_board", new SandalwoodMeetingBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SIMPLE_BLACK_LOUNGE_CHAIR = registerBlock("simple_black_lounge_chair", new SimpleBlackLoungeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SMALL_SANDALWOOD_NIGHTSTAND = registerBlock("small_sandalwood_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

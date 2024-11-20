@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " # ",
+    " B "
+  ],
+  "result": {
+    "item": "arknights-furniture:black_pedestal_table"
+  },
+  "show_notification": true
+}

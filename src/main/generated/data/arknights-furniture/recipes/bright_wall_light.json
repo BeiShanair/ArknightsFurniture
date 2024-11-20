@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "A",
+    "B",
+    "#"
+  ],
+  "result": {
+    "item": "arknights-furniture:bright_wall_light"
+  },
+  "show_notification": true
+}

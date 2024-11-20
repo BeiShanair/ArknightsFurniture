@@ -3,6 +3,7 @@ package com.besson.arknights.block;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.custom.columbian.RedBrownCabinetBE;
 import com.besson.arknights.block.custom.fantastic.SmallSquareNightstandBE;
+import com.besson.arknights.block.custom.lgd.SmallSandalwoodNightstandBE;
 import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
 import com.besson.arknights.block.custom.sideline.NightstandBE;
 import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;
@@ -40,6 +41,8 @@ public class ModBlockEntities {
             BlockEntityType.Builder.create(SmallSquareNightstandBE::new, ModBlocks.SMALL_SQUARE_NIGHTSTAND));
     public static final BlockEntityType<RedBrownCabinetBE> RED_BROWN_CABINET = create("red_brown_cabinet",
             BlockEntityType.Builder.create(RedBrownCabinetBE::new, ModBlocks.RED_BROWN_CABINET));
+    public static final BlockEntityType<SmallSandalwoodNightstandBE> SMALL_SANDALWOOD_NIGHTSTAND = create("small_sandalwood_nightstand",
+            BlockEntityType.Builder.create(SmallSandalwoodNightstandBE::new, ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

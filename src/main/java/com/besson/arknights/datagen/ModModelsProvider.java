@@ -106,6 +106,17 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.RED_BRICK_CAFE_BAR, ModelIds.getBlockModelId(ModBlocks.RED_BRICK_CAFE_BAR));
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_BROWN_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOFT_CEILING_LIGHT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_PEDESTAL_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_VINTAGE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_VINTAGE_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BRIGHT_WALL_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_WOODEN_FENCE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SANDALWOOD_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SANDALWOOD_MEETING_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
     }
 
     @Override

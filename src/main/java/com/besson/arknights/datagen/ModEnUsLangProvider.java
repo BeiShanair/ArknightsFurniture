@@ -251,6 +251,17 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "Red Brown Cabinet");
         translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "Soft Ceiling Light");
 
+        translationBuilder.add(ModBlocks.BLACK_PEDESTAL_TABLE, "Black Pedestal Table");
+        translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "Black Vintage Chair");
+        translationBuilder.add(ModBlocks.BLACK_VINTAGE_STOOL, "Black Vintage Stool");
+        translationBuilder.add(ModBlocks.BRIGHT_WALL_LIGHT, "Bright Wall Light");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE, "Duplex Wooden Fence");
+        translationBuilder.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE, "Low Sandalwood Meeting Table");
+        translationBuilder.add(ModBlocks.SANDALWOOD_BED, "Sandalwood Bed");
+        translationBuilder.add(ModBlocks.SANDALWOOD_MEETING_BOARD, "Sandalwood Meeting Board");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "Simple Black Lounge Chair");
+        translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "Small Sandalwood Nightstand");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -258,6 +269,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "Fantastic Bio-Documentary");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "No.12 Life Cycle Cabin");
         translationBuilder.add("itemGroup.columbian_cafe", "Columbian Cafe");
+        translationBuilder.add("itemGroup.ldg_lounge", "L.D.G. Lounge");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -266,6 +278,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.checkerboard_bookcase", "Checkerboard Bookcase");
         translationBuilder.add("container.small_square_nightstand", "Small Square Nightstand");
         translationBuilder.add("container.red_brown_cabinet", "Red Brown Cabinet");
+        translationBuilder.add("container.small_sandalwood_nightstand", "Small Sandalwood Nightstand");
 
     }
 }
