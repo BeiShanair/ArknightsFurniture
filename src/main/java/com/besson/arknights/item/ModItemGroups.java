@@ -183,8 +183,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOFT_CEILING_LIGHT);
                     }).build());
 
-    public static final ItemGroup LDG_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ldg_lounge"),
-            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ldg_lounge"))
+    public static final ItemGroup LDG_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ldg_faux_lungmen_lounge"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ldg_faux_lungmen_lounge"))
                     .icon(() -> new ItemStack(ModBlocks.BLACK_PEDESTAL_TABLE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BLACK_PEDESTAL_TABLE);
                         entries.add(ModBlocks.BLACK_VINTAGE_CHAIR);
@@ -196,6 +196,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SANDALWOOD_MEETING_BOARD);
                         entries.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
                         entries.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
+
+                        entries.add(ModBlocks.DUPLEX_BRONZE_FENCE);
+                        entries.add(ModBlocks.LOW_TEAK_MEETING_TABLE);
+                        entries.add(ModBlocks.PIANO_BLACK_VINTAGE_CHAIR);
+                        entries.add(ModBlocks.PIANO_BLACK_VINTAGE_STOOL);
+                        entries.add(ModBlocks.SIMPLE_GRAY_LOUNGE_CHAIR);
+                        entries.add(ModBlocks.SMALL_TEAK_NIGHTSTAND);
+                        entries.add(ModBlocks.TEAK_BED);
+                        entries.add(ModBlocks.TEAK_ATTENDANCE_BOARD);
+                        entries.add(ModBlocks.WHITE_PEDESTAL_TABLE);
                     }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");

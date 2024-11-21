@@ -42,7 +42,7 @@ public class ModBlockEntities {
     public static final BlockEntityType<RedBrownCabinetBE> RED_BROWN_CABINET = create("red_brown_cabinet",
             BlockEntityType.Builder.create(RedBrownCabinetBE::new, ModBlocks.RED_BROWN_CABINET));
     public static final BlockEntityType<SmallSandalwoodNightstandBE> SMALL_SANDALWOOD_NIGHTSTAND = create("small_sandalwood_nightstand",
-            BlockEntityType.Builder.create(SmallSandalwoodNightstandBE::new, ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND));
+            BlockEntityType.Builder.create(SmallSandalwoodNightstandBE::new, ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, ModBlocks.SMALL_TEAK_NIGHTSTAND));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

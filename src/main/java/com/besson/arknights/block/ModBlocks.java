@@ -122,6 +122,16 @@ public class ModBlocks {
     public static final Block SIMPLE_BLACK_LOUNGE_CHAIR = registerBlock("simple_black_lounge_chair", new SimpleBlackLoungeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block SMALL_SANDALWOOD_NIGHTSTAND = registerBlock("small_sandalwood_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
 
+    public static final Block DUPLEX_BRONZE_FENCE = registerBlock("duplex_bronze_fence", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOW_TEAK_MEETING_TABLE = registerBlock("low_teak_meeting_table", new LowSandalwoodMeetingTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIANO_BLACK_VINTAGE_CHAIR = registerBlock("piano_black_vintage_chair", new BlackVintageChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block PIANO_BLACK_VINTAGE_STOOL = registerBlock("piano_black_vintage_stool", new BlackVintageStool(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_GRAY_LOUNGE_CHAIR = registerBlock("simple_gray_lounge_chair", new SimpleBlackLoungeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SMALL_TEAK_NIGHTSTAND = registerBlock("small_teak_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
+    public static final Block TEAK_BED = registerBlock("teak_bed", new FurnitureBedBlock(DyeColor.BROWN, AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block TEAK_ATTENDANCE_BOARD = registerBlock("teak_attendance_board", new SandalwoodMeetingBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block WHITE_PEDESTAL_TABLE = registerBlock("white_pedestal_table", new BlackPedestalTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);
         return Registry.register(Registries.BLOCK, new Identifier(ArknightsFurniture.MOD_ID, id), block);

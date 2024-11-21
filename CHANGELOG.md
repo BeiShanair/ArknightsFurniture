@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-11-21
+- 更新`仿龙门式休息室`家具套组
+- Upgrade of `Faux Lungmen Lounge` furniture set
+
 ## 2024-11-20
 - 更新`近卫局休息室`家具套组
 - Upgrade of `L.D.G. Lounge` furniture set

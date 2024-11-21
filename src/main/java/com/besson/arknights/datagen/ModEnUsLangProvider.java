@@ -151,6 +151,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "unknown_specimen2.author", "Hypergryph");
         translationBuilder.add(painting + "unknown_specimen3.title", "Unknown Specimen 3");
         translationBuilder.add(painting + "unknown_specimen3.author", "Hypergryph");
+        translationBuilder.add(painting + "painting_with_sandalwood_frame.title", "Painting With Sandalwood Frame");
+        translationBuilder.add(painting + "painting_with_sandalwood_frame.author", "Hypergryph");
+        translationBuilder.add(painting + "painting_with_teak_frame.title", "Painting With Teak Frame");
+        translationBuilder.add(painting + "painting_with_teak_frame.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -262,14 +266,24 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "Simple Black Lounge Chair");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "Small Sandalwood Nightstand");
 
+        translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "Duplex Bronze Fence");
+        translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "Low Teak Meeting Table");
+        translationBuilder.add(ModBlocks.PIANO_BLACK_VINTAGE_CHAIR, "Piano Black Vintage Chair");
+        translationBuilder.add(ModBlocks.PIANO_BLACK_VINTAGE_STOOL, "Piano Black Vintage Stool");
+        translationBuilder.add(ModBlocks.SIMPLE_GRAY_LOUNGE_CHAIR, "Simple Gray Lounge Chair");
+        translationBuilder.add(ModBlocks.SMALL_TEAK_NIGHTSTAND, "Small Teak Nightstand");
+        translationBuilder.add(ModBlocks.TEAK_BED, "Teak Bed");
+        translationBuilder.add(ModBlocks.TEAK_ATTENDANCE_BOARD, "Teak Attendance Board");
+        translationBuilder.add(ModBlocks.WHITE_PEDESTAL_TABLE, "White Pedestal Table");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
-        translationBuilder.add("itemGroup.side_line", "Side Line/Simple Black-and-white/Orange Furniture");
+        translationBuilder.add("itemGroup.side_line", "Side Line/ Simple Black-and-white/Orange Furniture");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "Fantastic Bio-Documentary");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "No.12 Life Cycle Cabin");
         translationBuilder.add("itemGroup.columbian_cafe", "Columbian Cafe");
-        translationBuilder.add("itemGroup.ldg_lounge", "L.D.G. Lounge");
+        translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "L.D.G./Faux Lungmen Lounge");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -278,7 +292,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.checkerboard_bookcase", "Checkerboard Bookcase");
         translationBuilder.add("container.small_square_nightstand", "Small Square Nightstand");
         translationBuilder.add("container.red_brown_cabinet", "Red Brown Cabinet");
-        translationBuilder.add("container.small_sandalwood_nightstand", "Small Sandalwood Nightstand");
+        translationBuilder.add("container.small_sandalwood_nightstand", "Small Nightstand");
 
     }
 }

@@ -151,6 +151,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "unknown_specimen2.author", "鹰角网络");
         translationBuilder.add(painting + "unknown_specimen3.title", "未知生物标本集3");
         translationBuilder.add(painting + "unknown_specimen3.author", "鹰角网络");
+        translationBuilder.add(painting + "painting_with_sandalwood_frame.title", "檀木相框挂画");
+        translationBuilder.add(painting + "painting_with_sandalwood_frame.author", "鹰角网络");
+        translationBuilder.add(painting + "painting_with_teak_frame.title", "柚木相框挂画");
+        translationBuilder.add(painting + "painting_with_teak_frame.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -262,14 +266,24 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "黑色简装矮沙发");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "檀木床头矮柜");
 
+        translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "复式铜制墙栏");
+        translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "柚木低脚会议桌");
+        translationBuilder.add(ModBlocks.PIANO_BLACK_VINTAGE_CHAIR, "钢琴黑复古椅");
+        translationBuilder.add(ModBlocks.PIANO_BLACK_VINTAGE_STOOL, "钢琴黑复古凳");
+        translationBuilder.add(ModBlocks.SIMPLE_GRAY_LOUNGE_CHAIR, "灰色简装矮沙发");
+        translationBuilder.add(ModBlocks.SMALL_TEAK_NIGHTSTAND, "柚木床头矮柜");
+        translationBuilder.add(ModBlocks.TEAK_BED, "柚木大床");
+        translationBuilder.add(ModBlocks.TEAK_ATTENDANCE_BOARD, "柚木轮班考勤板");
+        translationBuilder.add(ModBlocks.WHITE_PEDESTAL_TABLE, "白色独脚桌");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
-        translationBuilder.add("itemGroup.side_line", "边线/纯色/橘色简约家居");
+        translationBuilder.add("itemGroup.side_line", "边线/ 纯色/橘色 简约家居");
         translationBuilder.add("itemGroup.fantastic_bio-documentary", "幻想生物纪实");
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "12号生命循环舱");
         translationBuilder.add("itemGroup.columbian_cafe", "哥伦比亚咖啡馆");
-        translationBuilder.add("itemGroup.ldg_lounge", "近卫局休息室");
+        translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "近卫局/仿龙门式 休息室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -278,6 +292,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.checkerboard_bookcase", "棋盘式书柜");
         translationBuilder.add("container.small_square_nightstand", "方形床头矮柜");
         translationBuilder.add("container.red_brown_cabinet", "红砖色储物柜");
-        translationBuilder.add("container.small_sandalwood_nightstand", "檀木床头矮柜");
+        translationBuilder.add("container.small_sandalwood_nightstand", "床头矮柜");
     }
 }

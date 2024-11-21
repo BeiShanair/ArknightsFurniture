@@ -6,6 +6,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 
+@Deprecated
 public final class PlayerLieDownEvents {
     public static final Event<PlayerLieDown> PLAYER_LIE_DOWN =
             EventFactory.createArrayBacked(PlayerLieDown.class, callbacks -> (player, pos) -> {

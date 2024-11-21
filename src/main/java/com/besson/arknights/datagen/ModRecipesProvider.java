@@ -843,6 +843,81 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "small_sandalwood_nightstand"));
 
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUPLEX_BRONZE_FENCE, 1)
+                .pattern("AA")
+                .pattern("AA")
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "duplex_bronze_fence"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LOW_TEAK_MEETING_TABLE, 1)
+                .pattern("AAA")
+                .pattern("B B")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "low_teak_meeting_table"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIANO_BLACK_VINTAGE_CHAIR, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', Items.BLACK_WOOL)
+                .input('B', Items.STICK)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "piano_black_vintage_chair"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIANO_BLACK_VINTAGE_STOOL, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', Items.BLACK_WOOL)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "piano_black_vintage_stool"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIMPLE_GRAY_LOUNGE_CHAIR, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', Items.GRAY_WOOL)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.GRAY_WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "simple_gray_lounge_chair"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_TEAK_NIGHTSTAND, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "small_teak_nightstand"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TEAK_BED, 1)
+                .pattern("###")
+                .pattern("AAA")
+                .input('#', ItemTags.WOOL)
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "teak_bed"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TEAK_ATTENDANCE_BOARD, 1)
+                .pattern("###")
+                .pattern("ABA")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.PAPER)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "teak_attendance_board"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_PEDESTAL_TABLE, 1)
+                .pattern("AAA")
+                .pattern(" # ")
+                .pattern(" B ")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.IRON_INGOT)
+                .input('#', Items.WHITE_DYE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "white_pedestal_table"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);
