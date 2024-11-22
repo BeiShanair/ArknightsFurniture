@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/warehouse/portable_calculator",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/warehouse/portable_calculator"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/warehouse/portable_calculator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/warehouse/portable_calculator",
+      "y": 270
+    }
+  }
+}

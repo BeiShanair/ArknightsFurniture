@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/columbian/bolivarian_coffee_bean",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/columbian/bolivarian_coffee_bean"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/columbian/bolivarian_coffee_bean",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/columbian/bolivarian_coffee_bean",
+      "y": 270
+    }
+  }
+}

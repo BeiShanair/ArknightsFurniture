@@ -207,6 +207,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEAK_ATTENDANCE_BOARD);
                         entries.add(ModBlocks.WHITE_PEDESTAL_TABLE);
                     }).build());
+
+    public static final ItemGroup SAMI_COUNTRYSIDE_VILLA = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "sami_countryside_villa"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.sami_countryside_villa"))
+                    .icon(() -> new ItemStack(ModBlocks.CREATURES_REMAINS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CREATURES_REMAINS);
+                        entries.add(ModBlocks.FUTON_BUNK_BED_BOTTOM);
+                        entries.add(ModBlocks.FUTON_BUNK_BED_TOP);
+                        entries.add(ModBlocks.HANDMADE_WOOD_BASKET);
+                        entries.add(ModBlocks.LOG_BEAM);
+                        entries.add(ModBlocks.LOG_CABINET_BOTTOM);
+                        entries.add(ModBlocks.LOG_CABINET_TOP1);
+                        entries.add(ModBlocks.LOG_CABINET_TOP2);
+                        entries.add(ModBlocks.LOG_DINING_CHAIR);
+                        entries.add(ModBlocks.LOG_DINING_TABLE);
+                        entries.add(ModBlocks.ROCKING_CHAIR_WITH_CUSHION);
+                        entries.add(ModBlocks.SPRUCE_WOOD_VIOLIN);
+                        entries.add(ModBlocks.VINTAGE_CEILING_FAN);
+                        entries.add(ModBlocks.VINTAGE_CEILING_LIGHT);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

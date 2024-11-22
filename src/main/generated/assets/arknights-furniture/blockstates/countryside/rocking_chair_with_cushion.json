@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/countryside/rocking_chair_with_cushion",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/countryside/rocking_chair_with_cushion"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/countryside/rocking_chair_with_cushion",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/countryside/rocking_chair_with_cushion",
+      "y": 270
+    }
+  }
+}

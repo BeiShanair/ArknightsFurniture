@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:sideline/black_and_white_square_table"
+    }
+  ],
+  "result": {
+    "count": 70,
+    "item": "arknights-furniture:furn_parts"
+  }
+}

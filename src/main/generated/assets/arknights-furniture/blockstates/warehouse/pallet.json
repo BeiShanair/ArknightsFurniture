@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/warehouse/pallet",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/warehouse/pallet"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/warehouse/pallet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/warehouse/pallet",
+      "y": 270
+    }
+  }
+}

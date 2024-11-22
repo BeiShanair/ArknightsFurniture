@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "arknights-furniture:air_mattress",
-    "arknights-furniture:attendance_board",
-    "arknights-furniture:cargo_trolley",
-    "arknights-furniture:carton",
-    "arknights-furniture:carton_stool",
-    "arknights-furniture:graffiti",
-    "arknights-furniture:large_shelf1",
-    "arknights-furniture:large_shelf2",
-    "arknights-furniture:large_shelf3",
-    "arknights-furniture:large_shelf4",
-    "arknights-furniture:pallet",
-    "arknights-furniture:pile_of_cartons",
-    "arknights-furniture:portable_calculator",
-    "arknights-furniture:post_it_note"
+    "arknights-furniture:warehouse/air_mattress",
+    "arknights-furniture:warehouse/attendance_board",
+    "arknights-furniture:warehouse/cargo_trolley",
+    "arknights-furniture:warehouse/carton",
+    "arknights-furniture:warehouse/carton_stool",
+    "arknights-furniture:warehouse/graffiti",
+    "arknights-furniture:warehouse/large_shelf1",
+    "arknights-furniture:warehouse/large_shelf2",
+    "arknights-furniture:warehouse/large_shelf3",
+    "arknights-furniture:warehouse/large_shelf4",
+    "arknights-furniture:warehouse/pallet",
+    "arknights-furniture:warehouse/pile_of_cartons",
+    "arknights-furniture:warehouse/portable_calculator",
+    "arknights-furniture:warehouse/post_it_note"
   ]
 }

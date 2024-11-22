@@ -18,7 +18,7 @@
     "###"
   ],
   "result": {
-    "item": "arknights-furniture:control_display"
+    "item": "arknights-furniture:lifecycle/control_display"
   },
   "show_notification": true
 }

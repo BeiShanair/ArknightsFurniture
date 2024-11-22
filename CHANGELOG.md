@@ -1,5 +1,12 @@
 # 更新日志 / Changelog
 
+## 2024-11-22
+- 更新`萨米乡野别墅`家具套组
+- Upgrade of `Sami Countryside Villa` furniture set
+
+- 重新对模型、材质等文件进行分类
+- Re-classify model, texture, and other files
+
 ## 2024-11-21
 - 更新`仿龙门式休息室`家具套组
 - Upgrade of `Faux Lungmen Lounge` furniture set

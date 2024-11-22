@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:wool"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:countryside/futon_bunk_bed_top"
+  },
+  "show_notification": true
+}

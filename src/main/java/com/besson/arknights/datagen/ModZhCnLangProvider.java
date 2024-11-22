@@ -276,6 +276,21 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TEAK_ATTENDANCE_BOARD, "柚木轮班考勤板");
         translationBuilder.add(ModBlocks.WHITE_PEDESTAL_TABLE, "白色独脚桌");
 
+        translationBuilder.add(ModBlocks.CREATURES_REMAINS, "“生灵的躯骸”");
+        translationBuilder.add(ModBlocks.FUTON_BUNK_BED_BOTTOM, "原木沙发高架床 Bottom");
+        translationBuilder.add(ModBlocks.FUTON_BUNK_BED_TOP, "原木沙发高架床 Top");
+        translationBuilder.add(ModBlocks.HANDMADE_WOOD_BASKET, "手编木柴篓");
+        translationBuilder.add(ModBlocks.LOG_BEAM, "原木房梁");
+        translationBuilder.add(ModBlocks.LOG_CABINET_BOTTOM, "原木置物柜 Bottom");
+        translationBuilder.add(ModBlocks.LOG_CABINET_TOP1, "原木置物柜 Top 1");
+        translationBuilder.add(ModBlocks.LOG_CABINET_TOP2, "原木置物柜 Top 2");
+        translationBuilder.add(ModBlocks.LOG_DINING_CHAIR, "原木靠背椅");
+        translationBuilder.add(ModBlocks.LOG_DINING_TABLE, "原木餐桌");
+        translationBuilder.add(ModBlocks.ROCKING_CHAIR_WITH_CUSHION, "靠垫摇椅");
+        translationBuilder.add(ModBlocks.SPRUCE_WOOD_VIOLIN, "云杉小提琴");
+        translationBuilder.add(ModBlocks.VINTAGE_CEILING_FAN, "复古吊扇");
+        translationBuilder.add(ModBlocks.VINTAGE_CEILING_LIGHT, "复古吊灯");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -284,6 +299,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "12号生命循环舱");
         translationBuilder.add("itemGroup.columbian_cafe", "哥伦比亚咖啡馆");
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "近卫局/仿龙门式 休息室");
+        translationBuilder.add("itemGroup.sami_countryside_villa", "萨米乡野别墅");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -293,5 +309,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.small_square_nightstand", "方形床头矮柜");
         translationBuilder.add("container.red_brown_cabinet", "红砖色储物柜");
         translationBuilder.add("container.small_sandalwood_nightstand", "床头矮柜");
+        translationBuilder.add("container.log_cabinet_bottom", "原木置物柜 Bottom");
+        translationBuilder.add("container.log_cabinet_top", "原木置物柜 Top");
     }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/columbian/beverage_cabinet_drink",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/columbian/beverage_cabinet_drink"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/columbian/beverage_cabinet_drink",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/columbian/beverage_cabinet_drink",
+      "y": 270
+    }
+  }
+}

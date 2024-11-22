@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:sideline/black_nightstand"
+    }
+  ],
+  "result": {
+    "count": 48,
+    "item": "arknights-furniture:furn_parts"
+  }
+}

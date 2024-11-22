@@ -276,6 +276,21 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TEAK_ATTENDANCE_BOARD, "Teak Attendance Board");
         translationBuilder.add(ModBlocks.WHITE_PEDESTAL_TABLE, "White Pedestal Table");
 
+        translationBuilder.add(ModBlocks.CREATURES_REMAINS, "Creature's Remains");
+        translationBuilder.add(ModBlocks.FUTON_BUNK_BED_BOTTOM, "Futon Bunk Bed Bottom");
+        translationBuilder.add(ModBlocks.FUTON_BUNK_BED_TOP, "Futon Bunk Bed Top");
+        translationBuilder.add(ModBlocks.HANDMADE_WOOD_BASKET, "Handmade Wood Basket");
+        translationBuilder.add(ModBlocks.LOG_BEAM, "Log Beam");
+        translationBuilder.add(ModBlocks.LOG_CABINET_BOTTOM, "Log Cabinet Bottom");
+        translationBuilder.add(ModBlocks.LOG_CABINET_TOP1, "Log Cabinet Top 1");
+        translationBuilder.add(ModBlocks.LOG_CABINET_TOP2, "Log Cabinet Top 2");
+        translationBuilder.add(ModBlocks.LOG_DINING_CHAIR, "Log Dining Chair");
+        translationBuilder.add(ModBlocks.LOG_DINING_TABLE, "Log Dining Table");
+        translationBuilder.add(ModBlocks.ROCKING_CHAIR_WITH_CUSHION, "Rocking Chair With Cushion");
+        translationBuilder.add(ModBlocks.SPRUCE_WOOD_VIOLIN, "Spruce Wood Violin");
+        translationBuilder.add(ModBlocks.VINTAGE_CEILING_FAN, "Vintage Ceiling Fan");
+        translationBuilder.add(ModBlocks.VINTAGE_CEILING_LIGHT, "Vintage Ceiling Light");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -284,6 +299,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.no_12_life_cycle_cabin", "No.12 Life Cycle Cabin");
         translationBuilder.add("itemGroup.columbian_cafe", "Columbian Cafe");
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "L.D.G./Faux Lungmen Lounge");
+        translationBuilder.add("itemGroup.sami_countryside_villa", "Sami Countryside Villa");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -293,6 +309,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.small_square_nightstand", "Small Square Nightstand");
         translationBuilder.add("container.red_brown_cabinet", "Red Brown Cabinet");
         translationBuilder.add("container.small_sandalwood_nightstand", "Small Nightstand");
+        translationBuilder.add("container.log_cabinet_bottom", "Log Cabinet Bottom");
+        translationBuilder.add("container.log_cabinet_top", "Log Cabinet Top");
 
     }
 }

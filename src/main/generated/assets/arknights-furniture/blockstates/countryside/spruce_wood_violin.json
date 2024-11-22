@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/countryside/spruce_wood_violin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/countryside/spruce_wood_violin"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/countryside/spruce_wood_violin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/countryside/spruce_wood_violin",
+      "y": 270
+    }
+  }
+}

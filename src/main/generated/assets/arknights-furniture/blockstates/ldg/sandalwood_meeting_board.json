@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/ldg/sandalwood_meeting_board",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/ldg/sandalwood_meeting_board"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/ldg/sandalwood_meeting_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/ldg/sandalwood_meeting_board",
+      "y": 270
+    }
+  }
+}
