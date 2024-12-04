@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-04
+- 更新`快捷连锁披萨店`家具套组
+- Upgrade of `Express Chain Pizzeria` furniture set
+
 ## 2024-11-22
 - 更新`萨米乡野别墅`家具套组
 - Upgrade of `Sami Countryside Villa` furniture set

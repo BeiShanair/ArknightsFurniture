@@ -155,6 +155,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "painting_with_sandalwood_frame.author", "Hypergryph");
         translationBuilder.add(painting + "painting_with_teak_frame.title", "Painting With Teak Frame");
         translationBuilder.add(painting + "painting_with_teak_frame.author", "Hypergryph");
+        translationBuilder.add(painting + "pizzeria_decorative_painting.title", "Pizzeria Decorative Painting");
+        translationBuilder.add(painting + "pizzeria_decorative_painting.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -291,6 +293,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VINTAGE_CEILING_FAN, "Vintage Ceiling Fan");
         translationBuilder.add(ModBlocks.VINTAGE_CEILING_LIGHT, "Vintage Ceiling Light");
 
+        translationBuilder.add(ModBlocks.DINING_PLATE, "Dining Plate");
+        translationBuilder.add(ModBlocks.PIZZA_BOWL, "Pizza Bowl");
+        translationBuilder.add(ModBlocks.PIZZA_BOX, "Pizza Box");
+        translationBuilder.add(ModBlocks.PIZZA_MENU1, "Pizza Menu 1");
+        translationBuilder.add(ModBlocks.PIZZA_MENU2, "Pizza Menu 2");
+        translationBuilder.add(ModBlocks.PIZZERIA_BLACK_COUNTER, "Pizzeria Black Counter");
+        translationBuilder.add(ModBlocks.PIZZERIA_CUPBOARD, "Pizzeria Cupboard");
+        translationBuilder.add(ModBlocks.PIZZERIA_EXIT_SIGN, "Pizzeria Exit Sign");
+        translationBuilder.add(ModBlocks.PIZZERIA_DINING_CHAIR, "Pizzeria Dining Chair");
+        translationBuilder.add(ModBlocks.PIZZERIA_HIGH_STOOL, "Pizzeria High Stool");
+        translationBuilder.add(ModBlocks.PIZZERIA_MOVEABLE_TABLE, "Pizzeria Moveable Table");
+        translationBuilder.add(ModBlocks.PIZZERIA_PLATE_RACK, "Pizzeria Plate Rack");
+        translationBuilder.add(ModBlocks.PIZZERIA_POSTER_COLUMN, "Pizzeria Poster Column");
+        translationBuilder.add(ModBlocks.PIZZERIA_POSTER_STAND, "Pizzeria Poster Stand");
+        translationBuilder.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT, "Pizzeria Soft Ceiling Light");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -300,6 +318,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.columbian_cafe", "Columbian Cafe");
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "L.D.G./Faux Lungmen Lounge");
         translationBuilder.add("itemGroup.sami_countryside_villa", "Sami Countryside Villa");
+        translationBuilder.add("itemGroup.express_chain_pizzeria", "Express Chain Pizzeria");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -311,6 +330,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.small_sandalwood_nightstand", "Small Nightstand");
         translationBuilder.add("container.log_cabinet_bottom", "Log Cabinet Bottom");
         translationBuilder.add("container.log_cabinet_top", "Log Cabinet Top");
+        translationBuilder.add("container.pizzeria_cupboard", "Pizzeria Cupboard");
 
     }
 }

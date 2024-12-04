@@ -6,6 +6,7 @@ import com.besson.arknights.block.custom.countryside.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
+import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import net.minecraft.block.AbstractBlock;
@@ -74,7 +75,7 @@ public class ModBlocks {
     public static final Block POTTED_BROADLEAF_PLANT = registerBlock("fantastic/potted_broadleaf_plant", new PottedBroadleafPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block POTTED_CONIFER_PLANT = registerBlock("fantastic/potted_conifer_plant", new PottedConiferPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block POTTED_SUCCULENT_PLANT = registerBlock("fantastic/potted_succulent_plant", new PottedSucculentPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
-    public static final Block SMALL_SQUARE_NIGHTSTAND = registerBlock("fantastic/small_square_nightstand", new SmallSquareNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SQUARE_NIGHTSTAND));
+    public static final Block SMALL_SQUARE_NIGHTSTAND = registerBlock("fantastic/small_square_nightstand", new SmallSquareNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SMALL_SQUARE_NIGHTSTAND));
     public static final Block SPECIMEN_DATA_BOARD = registerBlock("fantastic/specimen_data_board", new SpecimenDataBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block WIRE_SIDE_TABLE = registerBlock("fantastic/wire_side_table", new WireSideTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
@@ -147,6 +148,22 @@ public class ModBlocks {
     public static final Block SPRUCE_WOOD_VIOLIN = registerBlock("countryside/spruce_wood_violin", new SpruceWoodViolin(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block VINTAGE_CEILING_FAN = registerBlock("countryside/vintage_ceiling_fan", new VintageCeilingFan(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block VINTAGE_CEILING_LIGHT = registerBlock("countryside/vintage_ceiling_light", new VintageCeilingLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block DINING_PLATE = registerBlock("pizzeria/dining_plate",new DiningPlate(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZA_BOWL = registerBlock("pizzeria/pizza_bowl",new PizzaBowl(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZA_BOX = registerBlock("pizzeria/pizza_box",new PizzaBox(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZA_MENU1 = registerBlock("pizzeria/pizza_menu1",new PizzaMenu(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PIZZA_MENU2 = registerBlock("pizzeria/pizza_menu2",new PizzaMenu(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PIZZERIA_BLACK_COUNTER = registerBlock("pizzeria/pizzeria_black_counter",new PizzeriaBlackCounter(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZERIA_CUPBOARD = registerBlock("pizzeria/pizzeria_cupboard",new PizzeriaCupboard(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.PIZZERIA_CUPBOARD));
+    public static final Block PIZZERIA_DINING_CHAIR = registerBlock("pizzeria/pizzeria_dining_chair",new PizzeriaDiningChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZERIA_EXIT_SIGN = registerBlock("pizzeria/pizzeria_exit_sign",new PizzeriaExitSign(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PIZZERIA_HIGH_STOOL = registerBlock("pizzeria/pizzeria_high_stool",new PizzeriaHighStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZERIA_MOVEABLE_TABLE = registerBlock("pizzeria/pizzeria_moveable_table",new PizzeriaMoveableTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PIZZERIA_PLATE_RACK = registerBlock("pizzeria/pizzeria_plate_rack",new PizzeriaPlateRack(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZERIA_POSTER_COLUMN = registerBlock("pizzeria/pizzeria_poster_column",new PizzeriaPosterColumn(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PIZZERIA_POSTER_STAND = registerBlock("pizzeria/pizzeria_poster_stand",new PizzeriaPosterStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PIZZERIA_SOFT_CEILING_LIGHT = registerBlock("pizzeria/pizzeria_soft_ceiling_light",new PizzeriaSoftCeilingLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

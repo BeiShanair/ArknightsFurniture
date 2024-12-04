@@ -140,5 +140,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SPRUCE_WOOD_VIOLIN);
         addDrop(ModBlocks.VINTAGE_CEILING_FAN);
         addDrop(ModBlocks.VINTAGE_CEILING_LIGHT);
+
+        addDrop(ModBlocks.DINING_PLATE);
+        addDrop(ModBlocks.PIZZA_BOWL);
+        addDrop(ModBlocks.PIZZA_BOX);
+        addDrop(ModBlocks.PIZZA_MENU1);
+        addDrop(ModBlocks.PIZZA_MENU2);
+        addDrop(ModBlocks.PIZZERIA_BLACK_COUNTER);
+        addDrop(ModBlocks.PIZZERIA_CUPBOARD);
+        addDrop(ModBlocks.PIZZERIA_DINING_CHAIR);
+        addDrop(ModBlocks.PIZZERIA_EXIT_SIGN);
+        addDrop(ModBlocks.PIZZERIA_HIGH_STOOL);
+        addDrop(ModBlocks.PIZZERIA_MOVEABLE_TABLE);
+        addDrop(ModBlocks.PIZZERIA_PLATE_RACK);
+        addDrop(ModBlocks.PIZZERIA_POSTER_COLUMN);
+        addDrop(ModBlocks.PIZZERIA_POSTER_STAND);
+        addDrop(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
     }
 }

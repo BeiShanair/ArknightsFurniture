@@ -6,6 +6,7 @@ import com.besson.arknights.block.custom.countryside.LogCabinetBottomBE;
 import com.besson.arknights.block.custom.countryside.LogCabinetTopBE;
 import com.besson.arknights.block.custom.fantastic.SmallSquareNightstandBE;
 import com.besson.arknights.block.custom.lgd.SmallSandalwoodNightstandBE;
+import com.besson.arknights.block.custom.pizzeria.PizzeriaCupboardBE;
 import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
 import com.besson.arknights.block.custom.sideline.NightstandBE;
 import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;
@@ -59,6 +60,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<LogCabinetTopBE> LOG_CABINET_TOP = create("log_cabinet_top",
             BlockEntityType.Builder.create(LogCabinetTopBE::new, ModBlocks.LOG_CABINET_TOP1, ModBlocks.LOG_CABINET_TOP2));
+
+    public static final BlockEntityType<PizzeriaCupboardBE> PIZZERIA_CUPBOARD = create("pizzeria_cupboard",
+            BlockEntityType.Builder.create(PizzeriaCupboardBE::new, ModBlocks.PIZZERIA_CUPBOARD));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

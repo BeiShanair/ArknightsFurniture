@@ -155,6 +155,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "painting_with_sandalwood_frame.author", "鹰角网络");
         translationBuilder.add(painting + "painting_with_teak_frame.title", "柚木相框挂画");
         translationBuilder.add(painting + "painting_with_teak_frame.author", "鹰角网络");
+        translationBuilder.add(painting + "pizzeria_decorative_painting.title", "披萨店用装饰画");
+        translationBuilder.add(painting + "pizzeria_decorative_painting.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -291,6 +293,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VINTAGE_CEILING_FAN, "复古吊扇");
         translationBuilder.add(ModBlocks.VINTAGE_CEILING_LIGHT, "复古吊灯");
 
+        translationBuilder.add(ModBlocks.DINING_PLATE, "餐盘");
+        translationBuilder.add(ModBlocks.PIZZA_BOWL, "碗");
+        translationBuilder.add(ModBlocks.PIZZA_BOX, "披萨盒");
+        translationBuilder.add(ModBlocks.PIZZA_MENU1, "披萨价目表 1");
+        translationBuilder.add(ModBlocks.PIZZA_MENU2, "披萨价目表 2");
+        translationBuilder.add(ModBlocks.PIZZERIA_BLACK_COUNTER, "披萨店用黑色收银台");
+        translationBuilder.add(ModBlocks.PIZZERIA_CUPBOARD, "披萨店用餐盘柜");
+        translationBuilder.add(ModBlocks.PIZZERIA_EXIT_SIGN, "披萨店用出口指示灯");
+        translationBuilder.add(ModBlocks.PIZZERIA_DINING_CHAIR, "披萨店靠背单椅");
+        translationBuilder.add(ModBlocks.PIZZERIA_HIGH_STOOL, "披萨店用高脚凳");
+        translationBuilder.add(ModBlocks.PIZZERIA_MOVEABLE_TABLE, "披萨店用活动餐桌");
+        translationBuilder.add(ModBlocks.PIZZERIA_PLATE_RACK, "披萨店用餐盘架");
+        translationBuilder.add(ModBlocks.PIZZERIA_POSTER_COLUMN, "披萨店用海报柱");
+        translationBuilder.add(ModBlocks.PIZZERIA_POSTER_STAND, "披萨店用落地海报架");
+        translationBuilder.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT, "披萨店用柔光吊灯");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -300,6 +318,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.columbian_cafe", "哥伦比亚咖啡馆");
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "近卫局/仿龙门式 休息室");
         translationBuilder.add("itemGroup.sami_countryside_villa", "萨米乡野别墅");
+        translationBuilder.add("itemGroup.express_chain_pizzeria", "快餐连锁披萨店");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -311,5 +330,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.small_sandalwood_nightstand", "床头矮柜");
         translationBuilder.add("container.log_cabinet_bottom", "原木置物柜 Bottom");
         translationBuilder.add("container.log_cabinet_top", "原木置物柜 Top");
+        translationBuilder.add("container.pizzeria_cupboard", "披萨店用餐盘柜");
     }
 }

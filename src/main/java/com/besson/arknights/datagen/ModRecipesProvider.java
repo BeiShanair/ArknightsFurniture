@@ -1033,6 +1033,115 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "vintage_ceiling_light"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DINING_PLATE, 1)
+                .pattern("AA")
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "dining_plate"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZA_BOWL, 1)
+                .pattern("AA")
+                .input('A', Items.BRICK)
+                .criterion("has_item", conditionsFromItem(Items.BRICK))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizza_bowl"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZA_BOX, 1)
+                .pattern("A  ")
+                .pattern(" AA")
+                .input('A', ModItems.CARDBOARD)
+                .criterion("has_item", conditionsFromItem(ModItems.CARDBOARD))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizza_box"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZA_MENU1, 1)
+                .pattern("#AB")
+                .input('A', Items.PAPER)
+                .input('#', Items.BLACK_WOOL)
+                .input('B', Items.IRON_BLOCK)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizza_menu1"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZA_MENU2, 1)
+                .pattern("#AB")
+                .input('A', Items.PAPER)
+                .input('#', Items.BLACK_WOOL)
+                .input('B', Items.IRON_BLOCK)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizza_menu2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_BLACK_COUNTER, 1)
+                .pattern("#A#")
+                .input('#', Items.BLACK_DYE)
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_black_counter"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_CUPBOARD, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_cupboard"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_DINING_CHAIR, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.STICK)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_dining_chair"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_EXIT_SIGN, 1)
+                .pattern("#A#")
+                .input('#', Items.IRON_INGOT)
+                .input('A', Items.GREEN_DYE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_exit_sign"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_HIGH_STOOL, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_high_stool"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_MOVEABLE_TABLE, 1)
+                .pattern("AAA")
+                .pattern("B B")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_moveable_table"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_PLATE_RACK, 1)
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_plate_rack"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_POSTER_COLUMN, 1)
+                .pattern("###")
+                .pattern("#A#")
+                .input('#', Items.PAPER)
+                .input('A', Items.BLACK_DYE)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_poster_column"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_POSTER_STAND, 1)
+                .pattern("#A#")
+                .pattern("# #")
+                .input('A', Items.PAPER)
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_poster_stand"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pizzeria_soft_ceiling_light"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

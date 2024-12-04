@@ -142,6 +142,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPRUCE_WOOD_VIOLIN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VINTAGE_CEILING_FAN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VINTAGE_CEILING_LIGHT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DINING_PLATE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZA_BOWL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZA_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZA_MENU1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZA_MENU2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_BLACK_COUNTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_CUPBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_DINING_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_EXIT_SIGN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_HIGH_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_MOVEABLE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_PLATE_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_POSTER_COLUMN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_POSTER_STAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
     }
 
     @Override

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/pizzeria/pizza_bowl",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/pizzeria/pizza_bowl"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/pizzeria/pizza_bowl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/pizzeria/pizza_bowl",
+      "y": 270
+    }
+  }
+}

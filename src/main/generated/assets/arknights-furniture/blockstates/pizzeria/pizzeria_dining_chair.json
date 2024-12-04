@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/pizzeria/pizzeria_dining_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/pizzeria/pizzeria_dining_chair"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/pizzeria/pizzeria_dining_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/pizzeria/pizzeria_dining_chair",
+      "y": 270
+    }
+  }
+}

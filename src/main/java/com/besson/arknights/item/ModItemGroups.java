@@ -227,6 +227,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VINTAGE_CEILING_LIGHT);
                     }).build());
 
+    public static final ItemGroup EXPRESS_CHAIN_PIZZERIA = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "express_chain_pizzeria"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.express_chain_pizzeria"))
+                    .icon(() -> new ItemStack(ModBlocks.PIZZERIA_POSTER_STAND)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DINING_PLATE);
+                        entries.add(ModBlocks.PIZZA_BOWL);
+                        entries.add(ModBlocks.PIZZA_BOX);
+                        entries.add(ModBlocks.PIZZA_MENU1);
+                        entries.add(ModBlocks.PIZZA_MENU2);
+                        entries.add(ModBlocks.PIZZERIA_BLACK_COUNTER);
+                        entries.add(ModBlocks.PIZZERIA_CUPBOARD);
+                        entries.add(ModBlocks.PIZZERIA_DINING_CHAIR);
+                        entries.add(ModBlocks.PIZZERIA_EXIT_SIGN);
+                        entries.add(ModBlocks.PIZZERIA_HIGH_STOOL);
+                        entries.add(ModBlocks.PIZZERIA_MOVEABLE_TABLE);
+                        entries.add(ModBlocks.PIZZERIA_POSTER_COLUMN);
+                        entries.add(ModBlocks.PIZZERIA_PLATE_RACK);
+                        entries.add(ModBlocks.PIZZERIA_POSTER_STAND);
+                        entries.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }
