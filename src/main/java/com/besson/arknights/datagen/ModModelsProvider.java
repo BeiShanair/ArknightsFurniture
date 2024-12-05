@@ -158,6 +158,21 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_POSTER_COLUMN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_POSTER_STAND);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BARSTOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BILLBOARD_JUKEBOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_AND_GOLDEN_FREEZER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_HOTEL_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_HOTEL_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_HOTEL_FLOOR_LAMP);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.MODERN_HOTEL_SOFA, ModelIds.getBlockModelId(ModBlocks.MODERN_HOTEL_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_HOTEL_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_HOTEL_WALL_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MODERN_WALL_DECORATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOUNTED_BAR_CEILING1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOUNTED_BAR_CEILING2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERSATILE_BAR_STAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILLIAMS_GRAND_PIANO_SET);
     }
 
     @Override

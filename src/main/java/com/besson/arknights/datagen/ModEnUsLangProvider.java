@@ -157,6 +157,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "painting_with_teak_frame.author", "Hypergryph");
         translationBuilder.add(painting + "pizzeria_decorative_painting.title", "Pizzeria Decorative Painting");
         translationBuilder.add(painting + "pizzeria_decorative_painting.author", "Hypergryph");
+        translationBuilder.add(painting + "stream_of_consciousness_painting.title", "Stream Of Consciousness Painting");
+        translationBuilder.add(painting + "stream_of_consciousness_painting.author", "Hypergryph");
+        translationBuilder.add(painting + "the_golden_era.title", "The Golden Era");
+        translationBuilder.add(painting + "the_golden_era.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -309,6 +313,21 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PIZZERIA_POSTER_STAND, "Pizzeria Poster Stand");
         translationBuilder.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT, "Pizzeria Soft Ceiling Light");
 
+        translationBuilder.add(ModBlocks.BARSTOOL, "Barstool");
+        translationBuilder.add(ModBlocks.BILLBOARD_JUKEBOX, "Billboard Jukebox");
+        translationBuilder.add(ModBlocks.BLACK_AND_GOLDEN_FREEZER, "Black And Golden Freezer");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_CEILING_LIGHT, "Modern Hotel Ceiling Light");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_CHANDELIER, "Modern Hotel Chandelier");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_FLOOR_LAMP, "Modern Hotel Floor Lamp");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_SOFA, "Modern Hotel Sofa");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_TABLE, "Modern Hotel Table");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_WALL_LAMP, "Modern Hotel Wall Lamp");
+        translationBuilder.add(ModBlocks.MODERN_WALL_DECORATION, "Modern Wall Decoration");
+        translationBuilder.add(ModBlocks.MOUNTED_BAR_CEILING1, "Mounted Bar Ceiling 1");
+        translationBuilder.add(ModBlocks.MOUNTED_BAR_CEILING2, "Mounted Bar Ceiling 2");
+        translationBuilder.add(ModBlocks.VERSATILE_BAR_STAND, "Versatile Bar Stand");
+        translationBuilder.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET, "Williams Grand Piano Set");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -319,6 +338,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "L.D.G./Faux Lungmen Lounge");
         translationBuilder.add("itemGroup.sami_countryside_villa", "Sami Countryside Villa");
         translationBuilder.add("itemGroup.express_chain_pizzeria", "Express Chain Pizzeria");
+        translationBuilder.add("itemGroup.modern_columbian_hotel", "Modern Columbian Hotel");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

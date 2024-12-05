@@ -246,6 +246,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PIZZERIA_POSTER_STAND);
                         entries.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
                     }).build());
+
+    public static final ItemGroup MODERN_COLUMBIAN_HOTEL = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "modern_columbian_hotel"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.modern_columbian_hotel"))
+                    .icon(() -> new ItemStack(ModBlocks.WILLIAMS_GRAND_PIANO_SET)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BARSTOOL);
+                        entries.add(ModBlocks.BILLBOARD_JUKEBOX);
+                        entries.add(ModBlocks.BLACK_AND_GOLDEN_FREEZER);
+                        entries.add(ModBlocks.MODERN_HOTEL_CEILING_LIGHT);
+                        entries.add(ModBlocks.MODERN_HOTEL_CHANDELIER);
+                        entries.add(ModBlocks.MODERN_HOTEL_FLOOR_LAMP);
+                        entries.add(ModBlocks.MODERN_HOTEL_SOFA);
+                        entries.add(ModBlocks.MODERN_HOTEL_TABLE);
+                        entries.add(ModBlocks.MODERN_HOTEL_WALL_LAMP);
+                        entries.add(ModBlocks.MODERN_WALL_DECORATION);
+                        entries.add(ModBlocks.MOUNTED_BAR_CEILING1);
+                        entries.add(ModBlocks.MOUNTED_BAR_CEILING2);
+                        entries.add(ModBlocks.VERSATILE_BAR_STAND);
+                        entries.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

@@ -57,6 +57,8 @@ public class ModPaintingVariants {
     public static final PaintingVariant PAINTING_WITH_SANDALWOOD_FRAME = registerPaintingVariant("painting_with_sandalwood_frame", new PaintingVariant(16, 32));
     public static final PaintingVariant PAINTING_WITH_TEAK_FRAME = registerPaintingVariant("painting_with_teak_frame", new PaintingVariant(16, 32));
     public static final PaintingVariant PIZZERIA_DECORATIVE_PAINTING = registerPaintingVariant("pizzeria_decorative_painting", new PaintingVariant(32, 16));
+    public static final PaintingVariant STREAM_OF_CONSCIOUSNESS_PAINTING = registerPaintingVariant("stream_of_consciousness_painting", new PaintingVariant(16, 16));
+    public static final PaintingVariant THE_GOLDEN_ERA = registerPaintingVariant("the_golden_era", new PaintingVariant(16, 16));
 
     private static PaintingVariant registerPaintingVariant(String id, PaintingVariant variant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(ArknightsFurniture.MOD_ID, id), variant);

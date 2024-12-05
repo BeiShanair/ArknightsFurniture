@@ -4,6 +4,7 @@ import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.countryside.*;
 import com.besson.arknights.block.custom.fantastic.*;
+import com.besson.arknights.block.custom.hotel.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.pizzeria.*;
@@ -164,6 +165,22 @@ public class ModBlocks {
     public static final Block PIZZERIA_POSTER_COLUMN = registerBlock("pizzeria/pizzeria_poster_column",new PizzeriaPosterColumn(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block PIZZERIA_POSTER_STAND = registerBlock("pizzeria/pizzeria_poster_stand",new PizzeriaPosterStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block PIZZERIA_SOFT_CEILING_LIGHT = registerBlock("pizzeria/pizzeria_soft_ceiling_light",new PizzeriaSoftCeilingLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block BARSTOOL = registerBlock("hotel/barstool",new Barstool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BILLBOARD_JUKEBOX = registerBlock("hotel/billboard_jukebox",new BillboardJukebox(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLACK_AND_GOLDEN_FREEZER = registerBlock("hotel/black_and_golden_freezer",new BlackAndGoldenFreezer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MODERN_HOTEL_CEILING_LIGHT = registerBlock("hotel/modern_hotel_ceiling_light",new ModernHotelCeilingLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MODERN_HOTEL_CHANDELIER = registerBlock("hotel/modern_hotel_chandelier",new ModernHotelChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MODERN_HOTEL_FLOOR_LAMP = registerBlock("hotel/modern_hotel_floor_lamp",new ModernHotelFloorLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MODERN_HOTEL_SOFA = registerBlock("hotel/modern_hotel_sofa",new ModernHotelSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MODERN_HOTEL_TABLE = registerBlock("hotel/modern_hotel_table",new ModernHotelTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MODERN_HOTEL_WALL_LAMP = registerBlock("hotel/modern_hotel_wall_lamp",new ModernHotelWallLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MODERN_WALL_DECORATION = registerBlock("hotel/modern_wall_decoration",new ModernWallDecoration(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MOUNTED_BAR_CEILING1 = registerBlock("hotel/mounted_bar_ceiling1",new MountedBarCeiling1(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MOUNTED_BAR_CEILING2 = registerBlock("hotel/mounted_bar_ceiling2",new MountedBarCeiling2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block VERSATILE_BAR_STAND = registerBlock("hotel/versatile_bar_stand",new VersatileBarStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WILLIAMS_GRAND_PIANO_SET = registerBlock("hotel/williams_grand_piano_set",new WilliamsGrandPianoSet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

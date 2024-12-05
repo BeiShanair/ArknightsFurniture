@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/hotel/williams_grand_piano_set",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/hotel/williams_grand_piano_set"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/hotel/williams_grand_piano_set",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/hotel/williams_grand_piano_set",
+      "y": 270
+    }
+  }
+}

@@ -157,6 +157,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "painting_with_teak_frame.author", "鹰角网络");
         translationBuilder.add(painting + "pizzeria_decorative_painting.title", "披萨店用装饰画");
         translationBuilder.add(painting + "pizzeria_decorative_painting.author", "鹰角网络");
+        translationBuilder.add(painting + "stream_of_consciousness_painting.title", "意识流挂画");
+        translationBuilder.add(painting + "stream_of_consciousness_painting.author", "鹰角网络");
+        translationBuilder.add(painting + "the_golden_era.title", "“光辉的时代”");
+        translationBuilder.add(painting + "the_golden_era.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -309,6 +313,21 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PIZZERIA_POSTER_STAND, "披萨店用落地海报架");
         translationBuilder.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT, "披萨店用柔光吊灯");
 
+        translationBuilder.add(ModBlocks.BARSTOOL, "酒水台高脚凳");
+        translationBuilder.add(ModBlocks.BILLBOARD_JUKEBOX, "公告牌™点唱机");
+        translationBuilder.add(ModBlocks.BLACK_AND_GOLDEN_FREEZER, "黑金冰柜");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_CEILING_LIGHT, "摩登酒店吊顶");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_CHANDELIER, "摩登酒店吊灯");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_FLOOR_LAMP, "摩登酒店落地灯");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_SOFA, "摩登酒店沙发");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_TABLE, "摩登酒店茶几");
+        translationBuilder.add(ModBlocks.MODERN_HOTEL_WALL_LAMP, "摩登酒店壁灯");
+        translationBuilder.add(ModBlocks.MODERN_WALL_DECORATION, "摩登壁挂装饰");
+        translationBuilder.add(ModBlocks.MOUNTED_BAR_CEILING1, "塔状吧台吊顶 1");
+        translationBuilder.add(ModBlocks.MOUNTED_BAR_CEILING2, "塔状吧台吊顶 2");
+        translationBuilder.add(ModBlocks.VERSATILE_BAR_STAND, "酒店万用吧台");
+        translationBuilder.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET, "威廉姆™钢琴组合");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -319,6 +338,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.ldg_faux_lungmen_lounge", "近卫局/仿龙门式 休息室");
         translationBuilder.add("itemGroup.sami_countryside_villa", "萨米乡野别墅");
         translationBuilder.add("itemGroup.express_chain_pizzeria", "快餐连锁披萨店");
+        translationBuilder.add("itemGroup.modern_columbian_hotel", "哥伦比亚摩登酒店");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

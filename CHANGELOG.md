@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-05
+- 更新`哥伦比亚摩登酒店`家具套组
+- Upgrade of `Modern Columbian Hotel` furniture set
+
 ## 2024-12-04
 - 更新`快捷连锁披萨店`家具套组
 - Upgrade of `Express Chain Pizzeria` furniture set
