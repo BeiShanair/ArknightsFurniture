@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/chen/lgd_trash_can",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/chen/lgd_trash_can"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/chen/lgd_trash_can",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/chen/lgd_trash_can",
+      "y": 270
+    }
+  }
+}

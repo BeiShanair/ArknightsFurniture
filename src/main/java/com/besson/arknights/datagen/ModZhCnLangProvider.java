@@ -328,6 +328,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VERSATILE_BAR_STAND, "酒店万用吧台");
         translationBuilder.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET, "威廉姆™钢琴组合");
 
+        translationBuilder.add(ModBlocks.CHENS_CERTIFICATE_OF_HONOR, "陈的荣誉状");
+        translationBuilder.add(ModBlocks.CHENS_CHAIR, "陈的办公椅");
+        translationBuilder.add(ModBlocks.CHENS_DESK, "陈的办公桌");
+        translationBuilder.add(ModBlocks.CHENS_WEAPON_RACK, "陈的武器架");
+        translationBuilder.add(ModBlocks.FILE1, "文件 1");
+        translationBuilder.add(ModBlocks.FILE2, "文件 2");
+        translationBuilder.add(ModBlocks.LGD_BOOKCASE, "近卫局通配书柜");
+        translationBuilder.add(ModBlocks.LGD_DAYLIGHT_LIGHT, "近卫局日光灯");
+        translationBuilder.add(ModBlocks.LGD_FLUORESCENT_LIGHT, "近卫局荧光灯");
+        translationBuilder.add(ModBlocks.LGD_SPECIAL_DUMMY, "近卫局特制正桩");
+        translationBuilder.add(ModBlocks.LGD_SPOTLIGHT, "近卫局用聚焦灯");
+        translationBuilder.add(ModBlocks.LGD_SUPINE_PLATE, "近卫局健腹板");
+        translationBuilder.add(ModBlocks.LGD_TRASH_CAN, "近卫局通用垃圾桶");
+        translationBuilder.add(ModBlocks.OFFICE_CLUE_BOARD, "办公室线索板");
+        translationBuilder.add(ModBlocks.POTTED_CACTUS_PLANT, "仙人掌盆栽");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -339,6 +355,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.sami_countryside_villa", "萨米乡野别墅");
         translationBuilder.add("itemGroup.express_chain_pizzeria", "快餐连锁披萨店");
         translationBuilder.add("itemGroup.modern_columbian_hotel", "哥伦比亚摩登酒店");
+        translationBuilder.add("itemGroup.chens_office", "陈的办公室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -351,5 +368,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.log_cabinet_bottom", "原木置物柜 Bottom");
         translationBuilder.add("container.log_cabinet_top", "原木置物柜 Top");
         translationBuilder.add("container.pizzeria_cupboard", "披萨店用餐盘柜");
+        translationBuilder.add("container.lgd_bookcase", "近卫局通配书柜");
     }
 }

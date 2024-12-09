@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/chen/chens_certificate_of_honor",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/chen/chens_certificate_of_honor"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/chen/chens_certificate_of_honor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/chen/chens_certificate_of_honor",
+      "y": 270
+    }
+  }
+}

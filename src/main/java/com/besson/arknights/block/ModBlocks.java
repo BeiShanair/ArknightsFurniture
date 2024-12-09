@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.custom.chen.*;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.countryside.*;
 import com.besson.arknights.block.custom.fantastic.*;
@@ -180,6 +181,23 @@ public class ModBlocks {
     public static final Block MOUNTED_BAR_CEILING2 = registerBlock("hotel/mounted_bar_ceiling2",new MountedBarCeiling2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block VERSATILE_BAR_STAND = registerBlock("hotel/versatile_bar_stand",new VersatileBarStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block WILLIAMS_GRAND_PIANO_SET = registerBlock("hotel/williams_grand_piano_set",new WilliamsGrandPianoSet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block CHENS_CERTIFICATE_OF_HONOR = registerBlock("chen/chens_certificate_of_honor",new ChensCertificateOfHonor(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CHENS_CHAIR = registerBlock("chen/chens_chair",new ChensChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CHENS_DESK = registerBlock("chen/chens_desk",new ChensDesk(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CHENS_WEAPON_RACK = registerBlock("chen/chens_weapon_rack",new ChensWeaponRack(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block FILE1 = registerBlock("chen/file1",new File(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block FILE2 = registerBlock("chen/file2",new File(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_BOOKCASE = registerBlock("chen/lgd_bookcase",new LgdBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.LGD_BOOKCASE));
+    public static final Block LGD_DAYLIGHT_LIGHT = registerBlock("chen/lgd_daylight_light",new LgdDaylightLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_FLUORESCENT_LIGHT = registerBlock("chen/lgd_fluorescent_light",new LgdFluorescentLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_SPECIAL_DUMMY = registerBlock("chen/lgd_special_dummy",new LgdSpecialDummy(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_SPOTLIGHT = registerBlock("chen/lgd_spotlight",new LgdSpotlight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_SUPINE_PLATE = registerBlock("chen/lgd_supine_plate",new LgdSupinePlate(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LGD_TRASH_CAN = registerBlock("chen/lgd_trash_can",new LgdTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block OFFICE_CLUE_BOARD = registerBlock("chen/office_clue_board",new OfficeClueBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block POTTED_CACTUS_PLANT = registerBlock("chen/potted_cactus_plant",new PottedCactusPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
 
 
     private static Block registerBlock(String id, Block block) {

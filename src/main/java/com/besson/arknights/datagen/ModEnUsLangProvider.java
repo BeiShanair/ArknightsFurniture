@@ -328,6 +328,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VERSATILE_BAR_STAND, "Versatile Bar Stand");
         translationBuilder.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET, "Williams Grand Piano Set");
 
+        translationBuilder.add(ModBlocks.CHENS_CERTIFICATE_OF_HONOR, "Ch'en's Certificate Of Honor");
+        translationBuilder.add(ModBlocks.CHENS_CHAIR, "Ch'en's Chair");
+        translationBuilder.add(ModBlocks.CHENS_DESK, "Ch'en's Desk");
+        translationBuilder.add(ModBlocks.CHENS_WEAPON_RACK, "Ch'en's Weapon Rack");
+        translationBuilder.add(ModBlocks.FILE1, "File 1");
+        translationBuilder.add(ModBlocks.FILE2, "File 2");
+        translationBuilder.add(ModBlocks.LGD_BOOKCASE, "L.D.G. Bookcase");
+        translationBuilder.add(ModBlocks.LGD_DAYLIGHT_LIGHT, "L.D.G. Daylight Light");
+        translationBuilder.add(ModBlocks.LGD_FLUORESCENT_LIGHT, "L.D.G. Fluorescent Light");
+        translationBuilder.add(ModBlocks.LGD_SPECIAL_DUMMY, "L.D.G. Special Dummy");
+        translationBuilder.add(ModBlocks.LGD_SPOTLIGHT, "L.D.G. Spotlight");
+        translationBuilder.add(ModBlocks.LGD_SUPINE_PLATE, "L.D.G. Supine Plate");
+        translationBuilder.add(ModBlocks.LGD_TRASH_CAN, "L.D.G. Trash Can");
+        translationBuilder.add(ModBlocks.OFFICE_CLUE_BOARD, "Office Clue Board");
+        translationBuilder.add(ModBlocks.POTTED_CACTUS_PLANT, "Potted Cactus Plant");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -339,6 +355,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.sami_countryside_villa", "Sami Countryside Villa");
         translationBuilder.add("itemGroup.express_chain_pizzeria", "Express Chain Pizzeria");
         translationBuilder.add("itemGroup.modern_columbian_hotel", "Modern Columbian Hotel");
+        translationBuilder.add("itemGroup.chens_office", "Ch'en's Office");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -351,6 +368,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.log_cabinet_bottom", "Log Cabinet Bottom");
         translationBuilder.add("container.log_cabinet_top", "Log Cabinet Top");
         translationBuilder.add("container.pizzeria_cupboard", "Pizzeria Cupboard");
+        translationBuilder.add("container.lgd_bookcase", "L.D.G. Bookcase");
 
     }
 }

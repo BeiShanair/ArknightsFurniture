@@ -266,6 +266,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET);
                     }).build());
 
+    public static final ItemGroup CHENS_OFFICE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "chens_office"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.chens_office"))
+                    .icon(() -> new ItemStack(ModBlocks.CHENS_CERTIFICATE_OF_HONOR)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CHENS_CERTIFICATE_OF_HONOR);
+                        entries.add(ModBlocks.CHENS_CHAIR);
+                        entries.add(ModBlocks.CHENS_DESK);
+                        entries.add(ModBlocks.CHENS_WEAPON_RACK);
+                        entries.add(ModBlocks.FILE1);
+                        entries.add(ModBlocks.FILE2);
+                        entries.add(ModBlocks.LGD_BOOKCASE);
+                        entries.add(ModBlocks.LGD_DAYLIGHT_LIGHT);
+                        entries.add(ModBlocks.LGD_FLUORESCENT_LIGHT);
+                        entries.add(ModBlocks.LGD_SPECIAL_DUMMY);
+                        entries.add(ModBlocks.LGD_SPOTLIGHT);
+                        entries.add(ModBlocks.LGD_SUPINE_PLATE);
+                        entries.add(ModBlocks.LGD_TRASH_CAN);
+                        entries.add(ModBlocks.OFFICE_CLUE_BOARD);
+                        entries.add(ModBlocks.POTTED_CACTUS_PLANT);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

@@ -173,6 +173,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOUNTED_BAR_CEILING2);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VERSATILE_BAR_STAND);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WILLIAMS_GRAND_PIANO_SET);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHENS_CERTIFICATE_OF_HONOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHENS_CHAIR);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.CHENS_DESK, ModelIds.getBlockModelId(ModBlocks.CHENS_DESK));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHENS_WEAPON_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FILE1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FILE2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_BOOKCASE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_DAYLIGHT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_FLUORESCENT_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_SPECIAL_DUMMY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_SPOTLIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_SUPINE_PLATE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_TRASH_CAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OFFICE_CLUE_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_CACTUS_PLANT);
     }
 
     @Override

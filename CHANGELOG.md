@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-09
+- 更新`陈的办公室`家具套组
+- Upgrade of `Ch'en's Office` furniture set
+
 ## 2024-12-05
 - 更新`哥伦比亚摩登酒店`家具套组
 - Upgrade of `Modern Columbian Hotel` furniture set

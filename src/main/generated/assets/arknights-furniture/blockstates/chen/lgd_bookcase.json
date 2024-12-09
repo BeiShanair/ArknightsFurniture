@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/chen/lgd_bookcase",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/chen/lgd_bookcase"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/chen/lgd_bookcase",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/chen/lgd_bookcase",
+      "y": 270
+    }
+  }
+}
