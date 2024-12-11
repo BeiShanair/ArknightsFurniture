@@ -10,6 +10,7 @@ import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.sideline.*;
+import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -197,6 +198,22 @@ public class ModBlocks {
     public static final Block LGD_TRASH_CAN = registerBlock("chen/lgd_trash_can",new LgdTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block OFFICE_CLUE_BOARD = registerBlock("chen/office_clue_board",new OfficeClueBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block POTTED_CACTUS_PLANT = registerBlock("chen/potted_cactus_plant",new PottedCactusPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block BEACH_HOUSE_FLOOR_LAMP = registerBlock("siesta/beach_house_floor_lamp",new BeachHouseFloorLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT = registerBlock("siesta/blue_and_white_canvas_curtains_left",new BlueAndWhiteCanvasCurtains(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT = registerBlock("siesta/blue_and_white_canvas_curtains_right",new BlueAndWhiteCanvasCurtains(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LAZY_BENCH = registerBlock("siesta/lazy_bench",new LazyBench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LAZY_COFFEE_TABLE = registerBlock("siesta/lazy_coffee_table",new LazyCoffeeTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LAZY_HIGH_TEA_TABLE = registerBlock("siesta/lazy_high_tea_table",new LazyHighTeaTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LAZY_LOUNGE_CHAIR = registerBlock("siesta/lazy_lounge_chair",new LazyLoungeChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RHODES_ISLAND_SUMMER_CALENDAR = registerBlock("siesta/rhodes_island_summer_calendar",new RhodesIslandSummerCalendar(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SIESTA_COAT_OF_ARMS_SOUVENIR = registerBlock("siesta/siesta_coat_of_arms_souvenir",new SiestaCoatOfArmsSouvenir(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SUMMER_BOAT_CABINET_BOTTOM = registerBlock("siesta/summer_boat_cabinet_bottom",new SummerBoatCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SUMMER_BOAT_CABINET));
+    public static final Block SUMMER_BOAT_CABINET_TOP = registerBlock("siesta/summer_boat_cabinet_top",new SummerBoatCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SUMMER_BOAT_CABINET));
+    public static final Block SUMMER_COLLECTION_SHELF = registerBlock("siesta/summer_collection_shelf",new SummerCollectionShelf(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SUMMER_COLLECTION_SHELF_CHAIR = registerBlock("siesta/summer_collection_shelf_chair",new SummerCollectionShelfChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SURFBOARD_STAND = registerBlock("siesta/surfboard_stand",new SurfboardStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WOODEN_BEAM = registerBlock("siesta/wooden_beam",new WoodenBeam(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
 
 

@@ -11,6 +11,7 @@ import com.besson.arknights.block.custom.pizzeria.PizzeriaCupboardBE;
 import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
 import com.besson.arknights.block.custom.sideline.NightstandBE;
 import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;
+import com.besson.arknights.block.custom.siesta.SummerBoatCabinetBE;
 import com.besson.arknights.block.custom.warehouse.CartonBE;
 import com.besson.arknights.block.custom.warehouse.LargeShelfBE;
 import com.mojang.datafixers.types.Type;
@@ -67,6 +68,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<LgdBookcaseBE> LGD_BOOKCASE = create("lgd_bookcase",
             BlockEntityType.Builder.create(LgdBookcaseBE::new, ModBlocks.LGD_BOOKCASE));
+
+    public static final BlockEntityType<SummerBoatCabinetBE> SUMMER_BOAT_CABINET = create("summer_boat_cabinet",
+            BlockEntityType.Builder.create(SummerBoatCabinetBE::new, ModBlocks.SUMMER_BOAT_CABINET_BOTTOM, ModBlocks.SUMMER_BOAT_CABINET_TOP));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

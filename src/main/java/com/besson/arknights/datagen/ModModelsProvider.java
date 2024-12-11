@@ -189,6 +189,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LGD_TRASH_CAN);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OFFICE_CLUE_BOARD);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POTTED_CACTUS_PLANT);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BEACH_HOUSE_FLOOR_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.LAZY_BENCH, ModelIds.getBlockModelId(ModBlocks.LAZY_BENCH));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LAZY_COFFEE_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LAZY_HIGH_TEA_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LAZY_LOUNGE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIESTA_COAT_OF_ARMS_SOUVENIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_BOAT_CABINET_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_BOAT_CABINET_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_COLLECTION_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SURFBOARD_STAND);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BEAM);
     }
 
     @Override

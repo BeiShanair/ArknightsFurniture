@@ -161,6 +161,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "stream_of_consciousness_painting.author", "Hypergryph");
         translationBuilder.add(painting + "the_golden_era.title", "The Golden Era");
         translationBuilder.add(painting + "the_golden_era.author", "Hypergryph");
+        translationBuilder.add(painting + "voyage_impression_kids_painting", "Voyage Impression Kids Painting");
+        translationBuilder.add(painting + "voyage_impression_kids_painting.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -344,6 +346,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.OFFICE_CLUE_BOARD, "Office Clue Board");
         translationBuilder.add(ModBlocks.POTTED_CACTUS_PLANT, "Potted Cactus Plant");
 
+        translationBuilder.add(ModBlocks.BEACH_HOUSE_FLOOR_LAMP, "Beach House Floor Lamp");
+        translationBuilder.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT, "Blue And White Canvas Curtains Left");
+        translationBuilder.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT, "Blue And White Canvas Curtains Right");
+        translationBuilder.add(ModBlocks.LAZY_BENCH, "Lazy Bench");
+        translationBuilder.add(ModBlocks.LAZY_COFFEE_TABLE, "Lazy Coffee Table");
+        translationBuilder.add(ModBlocks.LAZY_HIGH_TEA_TABLE, "Lazy High Tea Table");
+        translationBuilder.add(ModBlocks.LAZY_LOUNGE_CHAIR, "Lazy Lounge Chair");
+        translationBuilder.add(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR, "Rhodes Island Summer Calendar");
+        translationBuilder.add(ModBlocks.SIESTA_COAT_OF_ARMS_SOUVENIR, "Siesta Coat Of Arms Souvenir");
+        translationBuilder.add(ModBlocks.SUMMER_BOAT_CABINET_BOTTOM, "Summer Boat Cabinet Bottom");
+        translationBuilder.add(ModBlocks.SUMMER_BOAT_CABINET_TOP, "Summer Boat Cabinet Top");
+        translationBuilder.add(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR, "Summer Collection Shelf Chair");
+        translationBuilder.add(ModBlocks.SUMMER_COLLECTION_SHELF, "Summer Collection Shelf");
+        translationBuilder.add(ModBlocks.SURFBOARD_STAND, "Surfboard Stand");
+        translationBuilder.add(ModBlocks.WOODEN_BEAM, "Wooden Beam");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -356,6 +374,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.express_chain_pizzeria", "Express Chain Pizzeria");
         translationBuilder.add("itemGroup.modern_columbian_hotel", "Modern Columbian Hotel");
         translationBuilder.add("itemGroup.chens_office", "Ch'en's Office");
+        translationBuilder.add("itemGroup.siesta_beach_hut", "Siesta Beach Hut");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -369,6 +388,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.log_cabinet_top", "Log Cabinet Top");
         translationBuilder.add("container.pizzeria_cupboard", "Pizzeria Cupboard");
         translationBuilder.add("container.lgd_bookcase", "L.D.G. Bookcase");
+        translationBuilder.add("container.summer_boat_cabinet", "Summer Boat Cabinet");
 
     }
 }

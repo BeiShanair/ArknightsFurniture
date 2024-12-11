@@ -161,6 +161,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "stream_of_consciousness_painting.author", "鹰角网络");
         translationBuilder.add(painting + "the_golden_era.title", "“光辉的时代”");
         translationBuilder.add(painting + "the_golden_era.author", "鹰角网络");
+        translationBuilder.add(painting + "voyage_impression_kids_painting", "航海印象儿童画");
+        translationBuilder.add(painting + "voyage_impression_kids_painting.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -344,6 +346,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.OFFICE_CLUE_BOARD, "办公室线索板");
         translationBuilder.add(ModBlocks.POTTED_CACTUS_PLANT, "仙人掌盆栽");
 
+        translationBuilder.add(ModBlocks.BEACH_HOUSE_FLOOR_LAMP, "沙滩小屋落地灯");
+        translationBuilder.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT, "蓝白帆布窗帘 Left");
+        translationBuilder.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT, "蓝白帆布窗帘 Right");
+        translationBuilder.add(ModBlocks.LAZY_BENCH, "懒懒™双人休息椅");
+        translationBuilder.add(ModBlocks.LAZY_COFFEE_TABLE, "懒懒™茶几");
+        translationBuilder.add(ModBlocks.LAZY_HIGH_TEA_TABLE, "懒懒™高脚茶几");
+        translationBuilder.add(ModBlocks.LAZY_LOUNGE_CHAIR, "懒懒™躺椅");
+        translationBuilder.add(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR, "罗德岛夏日挂历");
+        translationBuilder.add(ModBlocks.SIESTA_COAT_OF_ARMS_SOUVENIR, "汐斯塔市徽纪念品");
+        translationBuilder.add(ModBlocks.SUMMER_BOAT_CABINET_BOTTOM, "夏日小船柜 Bottom");
+        translationBuilder.add(ModBlocks.SUMMER_BOAT_CABINET_TOP, "夏日小船柜 Top");
+        translationBuilder.add(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR, "夏日收藏柜 Chair");
+        translationBuilder.add(ModBlocks.SUMMER_COLLECTION_SHELF, "夏日收藏柜");
+        translationBuilder.add(ModBlocks.SURFBOARD_STAND, "冲浪达人的板架");
+        translationBuilder.add(ModBlocks.WOODEN_BEAM, "木制顶梁");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -356,6 +374,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.express_chain_pizzeria", "快餐连锁披萨店");
         translationBuilder.add("itemGroup.modern_columbian_hotel", "哥伦比亚摩登酒店");
         translationBuilder.add("itemGroup.chens_office", "陈的办公室");
+        translationBuilder.add("itemGroup.siesta_beach_hut", "汐斯塔沙滩小屋");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -369,5 +388,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.log_cabinet_top", "原木置物柜 Top");
         translationBuilder.add("container.pizzeria_cupboard", "披萨店用餐盘柜");
         translationBuilder.add("container.lgd_bookcase", "近卫局通配书柜");
+        translationBuilder.add("container.summer_boat_cabinet", "夏日小船柜");
     }
 }

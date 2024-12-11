@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-11
+- 更新`汐斯塔沙滩小屋`家具套组
+- Upgrade of `Siesta Beach Hut` furniture set
+
 ## 2024-12-09
 - 更新`陈的办公室`家具套组
 - Upgrade of `Ch'en's Office` furniture set

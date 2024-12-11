@@ -286,6 +286,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POTTED_CACTUS_PLANT);
                     }).build());
 
+    public static final ItemGroup SIESTA_BEACH_HUT = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "siesta_beach_hut"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.siesta_beach_hut"))
+                    .icon(() -> new ItemStack(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BEACH_HOUSE_FLOOR_LAMP);
+                        entries.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_LEFT);
+                        entries.add(ModBlocks.BLUE_AND_WHITE_CANVAS_CURTAINS_RIGHT);
+                        entries.add(ModBlocks.LAZY_BENCH);
+                        entries.add(ModBlocks.LAZY_COFFEE_TABLE);
+                        entries.add(ModBlocks.LAZY_HIGH_TEA_TABLE);
+                        entries.add(ModBlocks.LAZY_LOUNGE_CHAIR);
+                        entries.add(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR);
+                        entries.add(ModBlocks.SIESTA_COAT_OF_ARMS_SOUVENIR);
+                        entries.add(ModBlocks.SUMMER_BOAT_CABINET_BOTTOM);
+                        entries.add(ModBlocks.SUMMER_BOAT_CABINET_TOP);
+                        entries.add(ModBlocks.SUMMER_COLLECTION_SHELF);
+                        entries.add(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR);
+                        entries.add(ModBlocks.SURFBOARD_STAND);
+                        entries.add(ModBlocks.WOODEN_BEAM);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }
