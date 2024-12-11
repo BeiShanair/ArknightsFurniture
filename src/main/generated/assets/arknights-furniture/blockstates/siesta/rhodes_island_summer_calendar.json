@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/siesta/rhodes_island_summer_calendar",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/siesta/rhodes_island_summer_calendar"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/siesta/rhodes_island_summer_calendar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/siesta/rhodes_island_summer_calendar",
+      "y": 270
+    }
+  }
+}

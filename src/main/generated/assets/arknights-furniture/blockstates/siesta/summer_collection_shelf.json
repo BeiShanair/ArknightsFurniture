@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/siesta/summer_collection_shelf",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/siesta/summer_collection_shelf"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/siesta/summer_collection_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/siesta/summer_collection_shelf",
+      "y": 270
+    }
+  }
+}

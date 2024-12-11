@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_planks"
+    },
+    "B": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " B "
+  ],
+  "result": {
+    "item": "arknights-furniture:siesta/lazy_high_tea_table"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/siesta/siesta_coat_of_arms_souvenir",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/siesta/siesta_coat_of_arms_souvenir"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/siesta/siesta_coat_of_arms_souvenir",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/siesta/siesta_coat_of_arms_souvenir",
+      "y": 270
+    }
+  }
+}
