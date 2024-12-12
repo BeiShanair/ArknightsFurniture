@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/rehearsal/tour_instrument_combo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/rehearsal/tour_instrument_combo"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/rehearsal/tour_instrument_combo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/rehearsal/tour_instrument_combo",
+      "y": 270
+    }
+  }
+}

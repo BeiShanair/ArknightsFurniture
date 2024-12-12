@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-12
+- 更新`罗德岛现代音乐排练室`家具套组
+- Upgrade of `Rhodes Island Modern Music Rehearsal Room` furniture set
+
 ## 2024-12-11
 - 更新`汐斯塔沙滩小屋`家具套组
 - Upgrade of `Siesta Beach Hut` furniture set

@@ -205,6 +205,27 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SURFBOARD_STAND);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WOODEN_BEAM);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.AMBER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BIRCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DARK_CLOUD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DARK_STEEL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DRIFTWOOD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLAME);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRIT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_SCROLLING_DISPLAY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_BELT_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SHALLOW_SEA);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SPOTLIGHT_CEILING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STAGE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOUR_INSTRUMENT_COMBO);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YARMAHAN_DRUM_SET);
     }
 
     @Override

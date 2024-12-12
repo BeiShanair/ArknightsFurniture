@@ -163,6 +163,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "the_golden_era.author", "Hypergryph");
         translationBuilder.add(painting + "voyage_impression_kids_painting", "Voyage Impression Kids Painting");
         translationBuilder.add(painting + "voyage_impression_kids_painting.author", "Hypergryph");
+        translationBuilder.add(painting + "band_promotional_poster", "Band Promotional Poster");
+        translationBuilder.add(painting + "band_promotional_poster.author", "Hypergryph");
+        translationBuilder.add(painting + "sarkaz_rock_n_roll_poster", "Sarkaz Rock 'n' Roll Poster");
+        translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -362,6 +366,27 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SURFBOARD_STAND, "Surfboard Stand");
         translationBuilder.add(ModBlocks.WOODEN_BEAM, "Wooden Beam");
 
+        translationBuilder.add(ModBlocks.AMBER, "Amber");
+        translationBuilder.add(ModBlocks.BIRCH, "Birch");
+        translationBuilder.add(ModBlocks.DARK_CLOUD, "Dark Cloud");
+        translationBuilder.add(ModBlocks.DARK_STEEL, "Dark Steel");
+        translationBuilder.add(ModBlocks.DRIFTWOOD, "Driftwood");
+        translationBuilder.add(ModBlocks.FLAME, "Flame");
+        translationBuilder.add(ModBlocks.GRIT, "Grit");
+        translationBuilder.add(ModBlocks.HANGING_SCROLLING_DISPLAY, "Hanging Scrolling Display");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF, "Rehearsal Room Accessory Shelf");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_BELT_SHELF, "Rehearsal Room Belt Shelf");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_BENCH, "Rehearsal Room Bench");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK, "Rehearsal Room Reception Desk");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH, "Rehearsal Room Round Bench");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT, "Rehearsal Room Spotlight");
+        translationBuilder.add(ModBlocks.SHALLOW_SEA, "Shallow Sea");
+        translationBuilder.add(ModBlocks.SPOTLIGHT_CEILING, "Spotlight Ceiling");
+        translationBuilder.add(ModBlocks.STAGE, "Stage");
+        translationBuilder.add(ModBlocks.TOUR_INSTRUMENT_COMBO, "Tour Instrument Combo");
+        translationBuilder.add(ModBlocks.WHEAT, "Wheat");
+        translationBuilder.add(ModBlocks.YARMAHAN_DRUM_SET, "Yarmahan Drum Set");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -375,6 +400,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.modern_columbian_hotel", "Modern Columbian Hotel");
         translationBuilder.add("itemGroup.chens_office", "Ch'en's Office");
         translationBuilder.add("itemGroup.siesta_beach_hut", "Siesta Beach Hut");
+        translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "Rhodes Island Modern Music Rehearsal Room");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

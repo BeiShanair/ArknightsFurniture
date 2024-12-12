@@ -9,6 +9,7 @@ import com.besson.arknights.block.custom.hotel.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.pizzeria.*;
+import com.besson.arknights.block.custom.rehearsal.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
@@ -215,6 +216,26 @@ public class ModBlocks {
     public static final Block SURFBOARD_STAND = registerBlock("siesta/surfboard_stand",new SurfboardStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block WOODEN_BEAM = registerBlock("siesta/wooden_beam",new WoodenBeam(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
+    public static final Block AMBER = registerBlock("rehearsal/amber",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BIRCH = registerBlock("rehearsal/birch",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DARK_CLOUD = registerBlock("rehearsal/dark_cloud",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DARK_STEEL = registerBlock("rehearsal/dark_steel",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DRIFTWOOD = registerBlock("rehearsal/driftwood",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block FLAME = registerBlock("rehearsal/flame",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block GRIT = registerBlock("rehearsal/grit",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HANGING_SCROLLING_DISPLAY = registerBlock("rehearsal/hanging_scrolling_display",new HangingScrollingDisplay(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block REHEARSAL_ROOM_ACCESSORY_SHELF = registerBlock("rehearsal/rehearsal_room_accessory_shelf",new RehearsalRoomAccessoryShelf(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block REHEARSAL_ROOM_BELT_SHELF = registerBlock("rehearsal/rehearsal_room_belt_shelf",new RehearsalRoomBeltShelf(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block REHEARSAL_ROOM_BENCH = registerBlock("rehearsal/rehearsal_room_bench",new RehearsalRoomBench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block REHEARSAL_ROOM_RECEPTION_DESK = registerBlock("rehearsal/rehearsal_room_reception_desk",new RehearsalRoomReceptionDesk(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block REHEARSAL_ROOM_ROUND_BENCH = registerBlock("rehearsal/rehearsal_room_round_bench",new RehearsalRoomRoundBench(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block REHEARSAL_ROOM_SPOTLIGHT = registerBlock("rehearsal/rehearsal_room_spotlight",new RehearsalRoomSpotlight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SHALLOW_SEA = registerBlock("rehearsal/shallow_sea",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SPOTLIGHT_CEILING = registerBlock("rehearsal/spotlight_ceiling",new SpotlightCeiling(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block STAGE = registerBlock("rehearsal/stage",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block TOUR_INSTRUMENT_COMBO = registerBlock("rehearsal/tour_instrument_combo",new TourInstrumentCombo(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WHEAT = registerBlock("rehearsal/wheat",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block YARMAHAN_DRUM_SET = registerBlock("rehearsal/yarmahan_drum_set",new YarmahanDrumSet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
 
     private static Block registerBlock(String id, Block block) {

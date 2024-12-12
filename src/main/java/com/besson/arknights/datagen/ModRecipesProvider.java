@@ -1498,6 +1498,91 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "wooden_beam"));
 
+        registerGuitar(exporter, ModBlocks.AMBER);
+        registerGuitar(exporter, ModBlocks.BIRCH);
+        registerGuitar(exporter, ModBlocks.DARK_CLOUD);
+        registerGuitar(exporter, ModBlocks.DARK_STEEL);
+        registerGuitar(exporter, ModBlocks.DRIFTWOOD);
+        registerGuitar(exporter, ModBlocks.FLAME);
+        registerGuitar(exporter, ModBlocks.GRIT);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HANGING_SCROLLING_DISPLAY, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.PAPER)
+                .criterion("has_item", conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "hanging_scrolling_display"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_accessory_shelf"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_BELT_SHELF, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_belt_shelf"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_BENCH, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_bench"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_reception_desk"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_ROUND_BENCH, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_round_bench"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REHEARSAL_ROOM_SPOTLIGHT, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rehearsal_room_spotlight"));
+
+        registerGuitar(exporter, ModBlocks.SHALLOW_SEA);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SPOTLIGHT_CEILING, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "spotlight_ceiling"));
+
+        registerGuitar(exporter, ModBlocks.STAGE);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOUR_INSTRUMENT_COMBO, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.OAK_PLANKS)
+                .criterion("has_item", conditionsFromItem(Items.OAK_PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "tour_instrument_combo"));
+
+        registerGuitar(exporter, ModBlocks.WHEAT);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YARMAHAN_DRUM_SET, 1)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "yarmahan_drum_set"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);
@@ -1545,5 +1630,14 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .input(block)
                 .criterion("has_item", conditionsFromItem(block))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, Registries.BLOCK.getId(block).getPath() + "_parts"));
+    }
+    public static void registerGuitar(Consumer<RecipeJsonProvider> exporter, Block block) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, block, 1)
+                .pattern(" # ")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, Registries.BLOCK.getId(block).getPath()));
     }
 }

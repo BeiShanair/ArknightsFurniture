@@ -203,5 +203,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SUMMER_COLLECTION_SHELF_CHAIR);
         addDrop(ModBlocks.SURFBOARD_STAND);
         addDrop(ModBlocks.WOODEN_BEAM);
+
+        addDrop(ModBlocks.AMBER);
+        addDrop(ModBlocks.BIRCH);
+        addDrop(ModBlocks.DARK_CLOUD);
+        addDrop(ModBlocks.DARK_STEEL);
+        addDrop(ModBlocks.DRIFTWOOD);
+        addDrop(ModBlocks.FLAME);
+        addDrop(ModBlocks.GRIT);
+        addDrop(ModBlocks.HANGING_SCROLLING_DISPLAY);
+        addDrop(ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF);
+        addDrop(ModBlocks.REHEARSAL_ROOM_BELT_SHELF);
+        addDrop(ModBlocks.REHEARSAL_ROOM_BENCH);
+        addDrop(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK);
+        addDrop(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH);
+        addDrop(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT);
+        addDrop(ModBlocks.SHALLOW_SEA);
+        addDrop(ModBlocks.SPOTLIGHT_CEILING);
+        addDrop(ModBlocks.STAGE);
+        addDrop(ModBlocks.TOUR_INSTRUMENT_COMBO);
+        addDrop(ModBlocks.WHEAT);
+        addDrop(ModBlocks.YARMAHAN_DRUM_SET);
     }
 }

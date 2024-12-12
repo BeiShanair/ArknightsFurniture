@@ -163,6 +163,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "the_golden_era.author", "鹰角网络");
         translationBuilder.add(painting + "voyage_impression_kids_painting", "航海印象儿童画");
         translationBuilder.add(painting + "voyage_impression_kids_painting.author", "鹰角网络");
+        translationBuilder.add(painting + "band_promotional_poster", "乐队宣传海报");
+        translationBuilder.add(painting + "band_promotional_poster.author", "鹰角网络");
+        translationBuilder.add(painting + "sarkaz_rock_n_roll_poster", "萨卡兹摇滚海报");
+        translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -362,6 +366,27 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SURFBOARD_STAND, "冲浪达人的板架");
         translationBuilder.add(ModBlocks.WOODEN_BEAM, "木制顶梁");
 
+        translationBuilder.add(ModBlocks.AMBER, "“琥珀”");
+        translationBuilder.add(ModBlocks.BIRCH, "“白桦”");
+        translationBuilder.add(ModBlocks.DARK_CLOUD, "“乌云”");
+        translationBuilder.add(ModBlocks.DARK_STEEL, "“墨钢”");
+        translationBuilder.add(ModBlocks.DRIFTWOOD, "“浮木”");
+        translationBuilder.add(ModBlocks.FLAME, "“烈火”");
+        translationBuilder.add(ModBlocks.GRIT, "“磨砂”");
+        translationBuilder.add(ModBlocks.HANGING_SCROLLING_DISPLAY, "悬挂式滚动显示屏");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF, "排练室配件挂板");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_BELT_SHELF, "排练室背带挂板");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_BENCH, "排练室长凳");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK, "排练室接待台");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH, "排练室圆凳");
+        translationBuilder.add(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT, "排练室聚光灯");
+        translationBuilder.add(ModBlocks.SHALLOW_SEA, "“浅海”");
+        translationBuilder.add(ModBlocks.SPOTLIGHT_CEILING, "聚光灯吊顶");
+        translationBuilder.add(ModBlocks.STAGE, "“舞台”");
+        translationBuilder.add(ModBlocks.TOUR_INSTRUMENT_COMBO, "巡演设备组合");
+        translationBuilder.add(ModBlocks.WHEAT, "“麦香”");
+        translationBuilder.add(ModBlocks.YARMAHAN_DRUM_SET, "雅尔玛汗™架子鼓");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -375,6 +400,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.modern_columbian_hotel", "哥伦比亚摩登酒店");
         translationBuilder.add("itemGroup.chens_office", "陈的办公室");
         translationBuilder.add("itemGroup.siesta_beach_hut", "汐斯塔沙滩小屋");
+        translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "罗德岛现代音乐排练室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

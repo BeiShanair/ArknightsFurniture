@@ -306,6 +306,31 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_BEAM);
                     }).build());
 
+    public static final ItemGroup RHODES_ISLAND_MODERN_MUSIC_REHEARSAL_ROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_modern_music_rehearsal_room"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_modern_music_rehearsal_room"))
+                    .icon(() -> new ItemStack(ModBlocks.YARMAHAN_DRUM_SET)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AMBER);
+                        entries.add(ModBlocks.BIRCH);
+                        entries.add(ModBlocks.DARK_CLOUD);
+                        entries.add(ModBlocks.DARK_STEEL);
+                        entries.add(ModBlocks.DRIFTWOOD);
+                        entries.add(ModBlocks.FLAME);
+                        entries.add(ModBlocks.GRIT);
+                        entries.add(ModBlocks.HANGING_SCROLLING_DISPLAY);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_ACCESSORY_SHELF);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_BELT_SHELF);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_BENCH);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_RECEPTION_DESK);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_ROUND_BENCH);
+                        entries.add(ModBlocks.REHEARSAL_ROOM_SPOTLIGHT);
+                        entries.add(ModBlocks.SHALLOW_SEA);
+                        entries.add(ModBlocks.SPOTLIGHT_CEILING);
+                        entries.add(ModBlocks.STAGE);
+                        entries.add(ModBlocks.TOUR_INSTRUMENT_COMBO);
+                        entries.add(ModBlocks.WHEAT);
+                        entries.add(ModBlocks.YARMAHAN_DRUM_SET);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }
