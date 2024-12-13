@@ -1583,6 +1583,104 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "yarmahan_drum_set"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_AIRDUCT, 1)
+                .pattern("# #")
+                .pattern("###")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_airduct"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("# #")
+                .input('#', Items.IRON_INGOT)
+                .input('A', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_airflow_control_pipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_antimicrobial_lamp"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_CEILING_LIGHT, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_ceiling_light"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_DISINFECTING_QUARTERS, 1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_disinfecting_quarters"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_FLUORESCENT_LAMP, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_fluorescent_lamp"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_LORRY, 1)
+                .pattern("#  ")
+                .pattern(" AA")
+                .pattern("###")
+                .input('#', Items.IRON_INGOT)
+                .input('A', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_lorry"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_MATERIALS_BOX, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_materials_box"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANROOM_PIPE_VALVE, 1)
+                .pattern("# #")
+                .pattern("###")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanroom_pipe_valve"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERGENCY_STRETCHER, 1)
+                .pattern("#AA")
+                .pattern(" ##")
+                .input('#', ItemTags.PLANKS)
+                .input('A', ItemTags.WOOL)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "emergency_stretcher"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MULTIFUNCTIONAL_STERILIZER, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "multifunctional_sterilizer"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.WOODEN_SHOVEL)
+                .criterion("has_item", conditionsFromItem(Items.WOODEN_SHOVEL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "multifunctional_engineering_shovel"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUPPLY_TANKS, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "supply_tanks"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

@@ -331,6 +331,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.YARMAHAN_DRUM_SET);
                     }).build());
 
+    public static final ItemGroup AIRTIGHT_ANTI_CHEMICAL_SAFETY_CABIN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "airtight_anti-chemical_safety_cabin"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.airtight_anti-chemical_safety_cabin"))
+                    .icon(() -> new ItemStack(ModBlocks.CLEANROOM_LORRY)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CLEANROOM_AIRDUCT);
+                        entries.add(ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE);
+                        entries.add(ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP);
+                        entries.add(ModBlocks.CLEANROOM_CEILING_LIGHT);
+                        entries.add(ModBlocks.CLEANROOM_DISINFECTING_QUARTERS);
+                        entries.add(ModBlocks.CLEANROOM_FLUORESCENT_LAMP);
+                        entries.add(ModBlocks.CLEANROOM_LORRY);
+                        entries.add(ModBlocks.CLEANROOM_MATERIALS_BOX);
+                        entries.add(ModBlocks.CLEANROOM_PIPE_VALVE);
+                        entries.add(ModBlocks.EMERGENCY_STRETCHER);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
+                        entries.add(ModBlocks.SUPPLY_TANKS);
+                    }).build());
+
+
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

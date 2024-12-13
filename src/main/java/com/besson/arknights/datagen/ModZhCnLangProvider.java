@@ -387,6 +387,20 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WHEAT, "“麦香”");
         translationBuilder.add(ModBlocks.YARMAHAN_DRUM_SET, "雅尔玛汗™架子鼓");
 
+        translationBuilder.add(ModBlocks.CLEANROOM_AIRDUCT, "安全舱导气管");
+        translationBuilder.add(ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE, "安全舱控气管");
+        translationBuilder.add(ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP, "安全舱消毒灯");
+        translationBuilder.add(ModBlocks.CLEANROOM_CEILING_LIGHT, "安全舱吸顶灯");
+        translationBuilder.add(ModBlocks.CLEANROOM_DISINFECTING_QUARTERS, "安全舱消毒间");
+        translationBuilder.add(ModBlocks.CLEANROOM_FLUORESCENT_LAMP, "安全舱日光灯");
+        translationBuilder.add(ModBlocks.CLEANROOM_LORRY, "安全舱工程车");
+        translationBuilder.add(ModBlocks.CLEANROOM_MATERIALS_BOX, "安全舱物资箱");
+        translationBuilder.add(ModBlocks.CLEANROOM_PIPE_VALVE, "舱室管道阀门");
+        translationBuilder.add(ModBlocks.EMERGENCY_STRETCHER, "急诊推床");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_STERILIZER, "多功能消毒器");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL, "多功能工程锹");
+        translationBuilder.add(ModBlocks.SUPPLY_TANKS, "补给资源罐");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -401,6 +415,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.chens_office", "陈的办公室");
         translationBuilder.add("itemGroup.siesta_beach_hut", "汐斯塔沙滩小屋");
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "罗德岛现代音乐排练室");
+        translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "气密防化安全舱");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

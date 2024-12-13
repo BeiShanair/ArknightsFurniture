@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-13
+- 更新`气密防化安全舱`家具套组
+- Upgrade of `Airtight Anti-Chemical Safety Cabin` furniture set
+
 ## 2024-12-12
 - 更新`罗德岛现代音乐排练室`家具套组
 - Upgrade of `Rhodes Island Modern Music Rehearsal Room` furniture set

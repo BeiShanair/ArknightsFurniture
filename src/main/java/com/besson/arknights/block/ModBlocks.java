@@ -1,6 +1,7 @@
 package com.besson.arknights.block;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.custom.airtight.*;
 import com.besson.arknights.block.custom.chen.*;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.countryside.*;
@@ -236,6 +237,20 @@ public class ModBlocks {
     public static final Block TOUR_INSTRUMENT_COMBO = registerBlock("rehearsal/tour_instrument_combo",new TourInstrumentCombo(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block WHEAT = registerBlock("rehearsal/wheat",new Guitar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block YARMAHAN_DRUM_SET = registerBlock("rehearsal/yarmahan_drum_set",new YarmahanDrumSet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block CLEANROOM_AIRDUCT = registerBlock("airtight/cleanroom_airduct",new CleanroomAirduct(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CLEANROOM_AIRFLOW_CONTROL_PIPE = registerBlock("airtight/cleanroom_airflow_control_pipe",new CleanroomAirflowControlPipe(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CLEANROOM_ANTIMICROBIAL_LAMP = registerBlock("airtight/cleanroom_antimicrobial_lamp",new CleanroomAntimicrobialLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CLEANROOM_CEILING_LIGHT = registerBlock("airtight/cleanroom_ceiling_light",new CleanroomCeilingLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CLEANROOM_DISINFECTING_QUARTERS = registerBlock("airtight/cleanroom_disinfecting_quarters",new CleanroomDisinfectingQuarters(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CLEANROOM_FLUORESCENT_LAMP = registerBlock("airtight/cleanroom_fluorescent_lamp",new CleanroomFluorescentLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CLEANROOM_LORRY = registerBlock("airtight/cleanroom_lorry",new CleanroomLorry(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CLEANROOM_MATERIALS_BOX = registerBlock("airtight/cleanroom_materials_box",new CleanroomMaterialsBox(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CLEANROOM_PIPE_VALVE = registerBlock("airtight/cleanroom_pipe_valve",new CleanroomPipeValve(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block EMERGENCY_STRETCHER = registerBlock("airtight/emergency_stretcher",new EmergencyStretcher(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_ENGINEERING_SHOVEL = registerBlock("airtight/multifunctional_engineering_shovel",new MultifunctionalEngineeringShovel(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MULTIFUNCTIONAL_STERILIZER = registerBlock("airtight/multifunctional_sterilizer",new MultifunctionalSterilizer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SUPPLY_TANKS = registerBlock("airtight/supply_tanks",new SupplyTanks(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
 
     private static Block registerBlock(String id, Block block) {

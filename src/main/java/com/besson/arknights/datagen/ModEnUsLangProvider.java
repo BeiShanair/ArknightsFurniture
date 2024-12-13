@@ -387,6 +387,20 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WHEAT, "Wheat");
         translationBuilder.add(ModBlocks.YARMAHAN_DRUM_SET, "Yarmahan Drum Set");
 
+        translationBuilder.add(ModBlocks.CLEANROOM_AIRDUCT, "Cleanroom Airduct");
+        translationBuilder.add(ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE, "Cleanroom Airflow Control Pipe");
+        translationBuilder.add(ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP, "Cleanroom Antimicrobial Lamp");
+        translationBuilder.add(ModBlocks.CLEANROOM_CEILING_LIGHT, "Cleanroom Ceiling Light");
+        translationBuilder.add(ModBlocks.CLEANROOM_DISINFECTING_QUARTERS, "Cleanroom Disinfecting Quarters");
+        translationBuilder.add(ModBlocks.CLEANROOM_FLUORESCENT_LAMP, "Cleanroom Fluorescent Lamp");
+        translationBuilder.add(ModBlocks.CLEANROOM_LORRY, "Cleanroom Lorry");
+        translationBuilder.add(ModBlocks.CLEANROOM_MATERIALS_BOX, "Cleanroom Materials Box");
+        translationBuilder.add(ModBlocks.CLEANROOM_PIPE_VALVE, "Cleanroom Pipe Valve");
+        translationBuilder.add(ModBlocks.EMERGENCY_STRETCHER, "Emergency Stretcher");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_STERILIZER, "Multifunctional Sterilizer");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL, "Multifunctional Engineering Shovel");
+        translationBuilder.add(ModBlocks.SUPPLY_TANKS, "Supply Tanks");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -401,6 +415,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.chens_office", "Ch'en's Office");
         translationBuilder.add("itemGroup.siesta_beach_hut", "Siesta Beach Hut");
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "Rhodes Island Modern Music Rehearsal Room");
+        translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "Airtight Anti-Chemical Safety Cabin");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

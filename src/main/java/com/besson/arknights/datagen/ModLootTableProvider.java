@@ -224,5 +224,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TOUR_INSTRUMENT_COMBO);
         addDrop(ModBlocks.WHEAT);
         addDrop(ModBlocks.YARMAHAN_DRUM_SET);
+
+        addDrop(ModBlocks.CLEANROOM_AIRDUCT);
+        addDrop(ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE);
+        addDrop(ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP);
+        addDrop(ModBlocks.CLEANROOM_CEILING_LIGHT);
+        addDrop(ModBlocks.CLEANROOM_DISINFECTING_QUARTERS);
+        addDrop(ModBlocks.CLEANROOM_FLUORESCENT_LAMP);
+        addDrop(ModBlocks.CLEANROOM_LORRY);
+        addDrop(ModBlocks.CLEANROOM_MATERIALS_BOX);
+        addDrop(ModBlocks.CLEANROOM_PIPE_VALVE);
+        addDrop(ModBlocks.EMERGENCY_STRETCHER);
+        addDrop(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
+        addDrop(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
+        addDrop(ModBlocks.SUPPLY_TANKS);
     }
 }

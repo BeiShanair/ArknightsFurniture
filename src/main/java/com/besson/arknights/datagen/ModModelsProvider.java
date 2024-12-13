@@ -226,6 +226,20 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOUR_INSTRUMENT_COMBO);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHEAT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.YARMAHAN_DRUM_SET);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_AIRDUCT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_AIRFLOW_CONTROL_PIPE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_ANTIMICROBIAL_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_CEILING_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_DISINFECTING_QUARTERS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_FLUORESCENT_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_LORRY);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_MATERIALS_BOX);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANROOM_PIPE_VALVE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMERGENCY_STRETCHER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUPPLY_TANKS);
     }
 
     @Override
