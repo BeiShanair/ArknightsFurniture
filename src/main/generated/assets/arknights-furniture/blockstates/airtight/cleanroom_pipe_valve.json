@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/airtight/cleanroom_pipe_valve",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/airtight/cleanroom_pipe_valve"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/airtight/cleanroom_pipe_valve",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/airtight/cleanroom_pipe_valve",
+      "y": 270
+    }
+  }
+}
