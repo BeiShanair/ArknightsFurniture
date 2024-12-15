@@ -167,6 +167,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "band_promotional_poster.author", "Hypergryph");
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster", "Sarkaz Rock 'n' Roll Poster");
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "Hypergryph");
+        translationBuilder.add(painting + "scenery_from_reimselar", "Scenery From Reimselar");
+        translationBuilder.add(painting + "scenery_from_reimselar.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -401,6 +403,21 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL, "Multifunctional Engineering Shovel");
         translationBuilder.add(ModBlocks.SUPPLY_TANKS, "Supply Tanks");
 
+        translationBuilder.add(ModBlocks.BANQUET_GUEST_SEAT, "Banquet Guest Seat");
+        translationBuilder.add(ModBlocks.BANQUET_HOST_SEAT, "Banquet Host Seat");
+        translationBuilder.add(ModBlocks.BANQUET_TABLE, "Banquet Table");
+        translationBuilder.add(ModBlocks.CANDLE_CHANDELIER, "Candle Chandelier");
+        translationBuilder.add(ModBlocks.CANLELIT_HEARTH, "Candlelit Hearth");
+        translationBuilder.add(ModBlocks.DOUBLE_DECKER_CHANDELIER, "Double Decker Chandelier");
+        translationBuilder.add(ModBlocks.LOCKED_CABINET, "Locked Cabinet");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_DOWN, "Ionic Column Down");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_UP, "Ionic Column Up");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_MIDDLE, "Ionic Column Middle");
+        translationBuilder.add(ModBlocks.REIMSELAR_BRAZIER, "Reimselar Brazier");
+        translationBuilder.add(ModBlocks.REIMSELAR_GUARDS_BUST, "Reimselar Guard's Bust");
+        translationBuilder.add(ModBlocks.REIMSELAR_MAGIC_MIRROR, "Reimselar Magic Mirror");
+        translationBuilder.add(ModBlocks.REIMSELAR_STOOL, "Reimselar Stool");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -416,6 +433,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.siesta_beach_hut", "Siesta Beach Hut");
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "Rhodes Island Modern Music Rehearsal Room");
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "Airtight Anti-Chemical Safety Cabin");
+        translationBuilder.add("itemGroup.reimselar_ballroom", "Reimselar Ballroom");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -430,6 +448,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.pizzeria_cupboard", "Pizzeria Cupboard");
         translationBuilder.add("container.lgd_bookcase", "L.D.G. Bookcase");
         translationBuilder.add("container.summer_boat_cabinet", "Summer Boat Cabinet");
+        translationBuilder.add("container.locked_cabinet", "Locked Cabinet");
 
     }
 }

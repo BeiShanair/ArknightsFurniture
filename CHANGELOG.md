@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-15
+- 更新`兰赛拉尔宴会厅`家具套组
+- Upgrade of `Reimselar Ballroom` furniture set
+
 ## 2024-12-13
 - 更新`气密防化安全舱`家具套组
 - Upgrade of `Airtight Anti-Chemical Safety Cabin` furniture set

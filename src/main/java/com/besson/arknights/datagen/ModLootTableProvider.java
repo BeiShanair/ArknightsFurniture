@@ -238,5 +238,20 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
         addDrop(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
         addDrop(ModBlocks.SUPPLY_TANKS);
+
+        addDrop(ModBlocks.BANQUET_GUEST_SEAT);
+        addDrop(ModBlocks.BANQUET_HOST_SEAT);
+        addDrop(ModBlocks.BANQUET_TABLE);
+        addDrop(ModBlocks.CANDLE_CHANDELIER);
+        addDrop(ModBlocks.CANLELIT_HEARTH);
+        addDrop(ModBlocks.DOUBLE_DECKER_CHANDELIER);
+        addDrop(ModBlocks.LOCKED_CABINET);
+        addDrop(ModBlocks.IONIC_COLUMN_DOWN);
+        addDrop(ModBlocks.IONIC_COLUMN_UP);
+        addDrop(ModBlocks.IONIC_COLUMN_MIDDLE);
+        addDrop(ModBlocks.REIMSELAR_BRAZIER);
+        addDrop(ModBlocks.REIMSELAR_GUARDS_BUST);
+        addDrop(ModBlocks.REIMSELAR_MAGIC_MIRROR);
+        addDrop(ModBlocks.REIMSELAR_STOOL);
     }
 }

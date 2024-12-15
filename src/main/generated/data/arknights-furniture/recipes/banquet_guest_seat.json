@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:reimselar/banquet_guest_seat"
+  },
+  "show_notification": true
+}

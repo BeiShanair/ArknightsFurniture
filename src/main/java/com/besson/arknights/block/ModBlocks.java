@@ -11,6 +11,7 @@ import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.rehearsal.*;
+import com.besson.arknights.block.custom.reimselar.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
@@ -251,6 +252,21 @@ public class ModBlocks {
     public static final Block MULTIFUNCTIONAL_ENGINEERING_SHOVEL = registerBlock("airtight/multifunctional_engineering_shovel",new MultifunctionalEngineeringShovel(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block MULTIFUNCTIONAL_STERILIZER = registerBlock("airtight/multifunctional_sterilizer",new MultifunctionalSterilizer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SUPPLY_TANKS = registerBlock("airtight/supply_tanks",new SupplyTanks(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block BANQUET_GUEST_SEAT = registerBlock("reimselar/banquet_guest_seat",new BanquetGuestSeat(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BANQUET_HOST_SEAT = registerBlock("reimselar/banquet_host_seat",new BanquetHostSeat(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BANQUET_TABLE = registerBlock("reimselar/banquet_table",new BanquetTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CANDLE_CHANDELIER = registerBlock("reimselar/candle_chandelier",new CandleChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CANLELIT_HEARTH = registerBlock("reimselar/canlelit_hearth",new CanlelitHearth(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DOUBLE_DECKER_CHANDELIER = registerBlock("reimselar/double_decker_chandelier",new DoubleDeckerChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOCKED_CABINET = registerBlock("reimselar/locked_cabinet",new LockedCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.LOCKED_CABINET));
+    public static final Block IONIC_COLUMN_DOWN = registerBlock("reimselar/ionic_column_down",new LonicColumn(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block IONIC_COLUMN_MIDDLE = registerBlock("reimselar/ionic_column_middle",new LonicColumn(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block IONIC_COLUMN_UP = registerBlock("reimselar/ionic_column_up",new LonicColumn(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block REIMSELAR_BRAZIER = registerBlock("reimselar/reimselar_brazier",new ReimselarBrazier(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block REIMSELAR_GUARDS_BUST = registerBlock("reimselar/reimselar_guards_bust",new ReimselarGuardsBust(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block REIMSELAR_MAGIC_MIRROR = registerBlock("reimselar/reimselar_magic_mirror",new ReimselarMagicMirror(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block REIMSELAR_STOOL = registerBlock("reimselar/reimselar_stool",new ReimselarStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
 
     private static Block registerBlock(String id, Block block) {

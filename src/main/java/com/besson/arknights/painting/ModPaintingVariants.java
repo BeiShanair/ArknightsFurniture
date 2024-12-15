@@ -62,6 +62,7 @@ public class ModPaintingVariants {
     public static final PaintingVariant VOYAGE_IMPRESSION_KIDS_PAINTING = registerPaintingVariant("voyage_impression_kids_painting", new PaintingVariant(16, 16));
     public static final PaintingVariant BAND_PROMOTIONAL_POSTER = registerPaintingVariant("band_promotional_poster", new PaintingVariant(16, 32));
     public static final PaintingVariant SARKAZ_ROCK_N_ROLL_POSTER = registerPaintingVariant("sarkaz_rock_n_roll_poster", new PaintingVariant(16, 32));
+    public static final PaintingVariant SCENERY_FROM_REIMSELAR = registerPaintingVariant("scenery_from_reimselar", new PaintingVariant(16, 16));
 
     private static PaintingVariant registerPaintingVariant(String id, PaintingVariant variant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(ArknightsFurniture.MOD_ID, id), variant);

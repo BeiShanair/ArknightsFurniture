@@ -349,6 +349,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SUPPLY_TANKS);
                     }).build());
 
+    public static final ItemGroup REIMSELAR_BALLROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "reimselar_ballroom"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.reimselar_ballroom"))
+                    .icon(() -> new ItemStack(ModBlocks.LOCKED_CABINET)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BANQUET_GUEST_SEAT);
+                        entries.add(ModBlocks.BANQUET_HOST_SEAT);
+                        entries.add(ModBlocks.BANQUET_TABLE);
+                        entries.add(ModBlocks.CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.CANLELIT_HEARTH);
+                        entries.add(ModBlocks.DOUBLE_DECKER_CHANDELIER);
+                        entries.add(ModBlocks.LOCKED_CABINET);
+                        entries.add(ModBlocks.IONIC_COLUMN_DOWN);
+                        entries.add(ModBlocks.IONIC_COLUMN_MIDDLE);
+                        entries.add(ModBlocks.IONIC_COLUMN_UP);
+                        entries.add(ModBlocks.REIMSELAR_BRAZIER);
+                        entries.add(ModBlocks.REIMSELAR_GUARDS_BUST);
+                        entries.add(ModBlocks.REIMSELAR_MAGIC_MIRROR);
+                        entries.add(ModBlocks.REIMSELAR_STOOL);
+                    }).build());
 
 
     public static void registerItemGroups() {

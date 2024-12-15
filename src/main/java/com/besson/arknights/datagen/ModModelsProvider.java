@@ -240,6 +240,21 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SUPPLY_TANKS);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BANQUET_GUEST_SEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BANQUET_HOST_SEAT);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.BANQUET_TABLE, ModelIds.getBlockModelId(ModBlocks.BANQUET_TABLE));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CANDLE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CANLELIT_HEARTH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOUBLE_DECKER_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOCKED_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IONIC_COLUMN_DOWN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IONIC_COLUMN_MIDDLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IONIC_COLUMN_UP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_BRAZIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_GUARDS_BUST);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_MAGIC_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_STOOL);
     }
 
     @Override

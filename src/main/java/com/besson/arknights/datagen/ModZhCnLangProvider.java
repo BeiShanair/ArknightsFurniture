@@ -167,6 +167,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "band_promotional_poster.author", "鹰角网络");
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster", "萨卡兹摇滚海报");
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "鹰角网络");
+        translationBuilder.add(painting + "scenery_from_reimselar", "《兰赛拉尔风光》");
+        translationBuilder.add(painting + "scenery_from_reimselar.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -401,6 +403,21 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_ENGINEERING_SHOVEL, "多功能工程锹");
         translationBuilder.add(ModBlocks.SUPPLY_TANKS, "补给资源罐");
 
+        translationBuilder.add(ModBlocks.BANQUET_GUEST_SEAT, "宴会厅次席");
+        translationBuilder.add(ModBlocks.BANQUET_HOST_SEAT, "宴会厅主座");
+        translationBuilder.add(ModBlocks.BANQUET_TABLE, "宴席长桌");
+        translationBuilder.add(ModBlocks.CANDLE_CHANDELIER, "吸顶蜡烛吊灯");
+        translationBuilder.add(ModBlocks.CANLELIT_HEARTH, "蜡烛展示炉");
+        translationBuilder.add(ModBlocks.DOUBLE_DECKER_CHANDELIER, "双层吸顶蜡烛吊灯");
+        translationBuilder.add(ModBlocks.LOCKED_CABINET, "上锁的立柜");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_DOWN, "艾式立柱 Down");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_UP, "艾式立柱 Up");
+        translationBuilder.add(ModBlocks.IONIC_COLUMN_MIDDLE, "艾式立柱 Middle");
+        translationBuilder.add(ModBlocks.REIMSELAR_BRAZIER, "兰赛拉尔火盆");
+        translationBuilder.add(ModBlocks.REIMSELAR_GUARDS_BUST, "兰城卫兵半身像");
+        translationBuilder.add(ModBlocks.REIMSELAR_MAGIC_MIRROR, "兰赛拉尔魔镜");
+        translationBuilder.add(ModBlocks.REIMSELAR_STOOL, "兰赛拉尔矮凳");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -416,6 +433,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.siesta_beach_hut", "汐斯塔沙滩小屋");
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "罗德岛现代音乐排练室");
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "气密防化安全舱");
+        translationBuilder.add("itemGroup.reimselar_ballroom", "兰赛拉尔宴会厅");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -430,5 +448,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.pizzeria_cupboard", "披萨店用餐盘柜");
         translationBuilder.add("container.lgd_bookcase", "近卫局通配书柜");
         translationBuilder.add("container.summer_boat_cabinet", "夏日小船柜");
+        translationBuilder.add("container.locked_cabinet", "上锁的立柜");
     }
 }
