@@ -418,6 +418,18 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.REIMSELAR_MAGIC_MIRROR, "兰赛拉尔魔镜");
         translationBuilder.add(ModBlocks.REIMSELAR_STOOL, "兰赛拉尔矮凳");
 
+        translationBuilder.add(ModBlocks.BOARDED_UP_STONE_WINDOWS, "锁夜石窗");
+        translationBuilder.add(ModBlocks.CAULDRON_OF_SWEETS, "铸蜜坩埚");
+        translationBuilder.add(ModBlocks.DESK_OF_THE_OCCULT, "碎序书桌");
+        translationBuilder.add(ModBlocks.ELEGANT_SEAT, "典雅木椅");
+        translationBuilder.add(ModBlocks.MANY_RITUAL_GOURDS, "更多仪瓜");
+        translationBuilder.add(ModBlocks.RITUAL_CHANDELIER, "辅仪吊灯");
+        translationBuilder.add(ModBlocks.SEVERAL_RITUAL_GOURDS, "数个仪瓜");
+        translationBuilder.add(ModBlocks.STACK_OF_GRIMOIRES, "塑忆书群");
+        translationBuilder.add(ModBlocks.STRANGE_BED, "异样寝床");
+        translationBuilder.add(ModBlocks.STRANGE_BED_LIGHT, "异样寝床 Light");
+        translationBuilder.add(ModBlocks.STRANGE_BED_TREE, "异样寝床 Tree");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -434,6 +446,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "罗德岛现代音乐排练室");
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "气密防化安全舱");
         translationBuilder.add("itemGroup.reimselar_ballroom", "兰赛拉尔宴会厅");
+        translationBuilder.add("itemGroup.secret_occult_society", "魂灵秘会");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

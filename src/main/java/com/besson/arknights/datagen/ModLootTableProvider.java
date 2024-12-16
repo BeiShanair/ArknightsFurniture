@@ -253,5 +253,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.REIMSELAR_GUARDS_BUST);
         addDrop(ModBlocks.REIMSELAR_MAGIC_MIRROR);
         addDrop(ModBlocks.REIMSELAR_STOOL);
+
+        addDrop(ModBlocks.BOARDED_UP_STONE_WINDOWS);
+        addDrop(ModBlocks.CAULDRON_OF_SWEETS);
+        addDrop(ModBlocks.DESK_OF_THE_OCCULT);
+        addDrop(ModBlocks.ELEGANT_SEAT);
+        addDrop(ModBlocks.MANY_RITUAL_GOURDS);
+        addDrop(ModBlocks.RITUAL_CHANDELIER);
+        addDrop(ModBlocks.SEVERAL_RITUAL_GOURDS);
+        addDrop(ModBlocks.STACK_OF_GRIMOIRES);
+        addDrop(ModBlocks.STRANGE_BED);
+        addDrop(ModBlocks.STRANGE_BED_LIGHT);
+        addDrop(ModBlocks.STRANGE_BED_TREE);
     }
 }

@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-16
+- 更新`魂灵秘会`家具套组
+- Upgrade of `Secret Occult Society` furniture set
+
 ## 2024-12-15
 - 更新`兰赛拉尔宴会厅`家具套组
 - Upgrade of `Reimselar Ballroom` furniture set

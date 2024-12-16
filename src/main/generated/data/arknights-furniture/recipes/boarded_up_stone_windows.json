@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "AAA",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:occult/boarded_up_stone_windows"
+  },
+  "show_notification": true
+}

@@ -255,6 +255,18 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_GUARDS_BUST);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_MAGIC_MIRROR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REIMSELAR_STOOL);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOARDED_UP_STONE_WINDOWS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CAULDRON_OF_SWEETS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DESK_OF_THE_OCCULT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ELEGANT_SEAT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MANY_RITUAL_GOURDS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RITUAL_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEVERAL_RITUAL_GOURDS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STACK_OF_GRIMOIRES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED_TREE);
     }
 
     @Override

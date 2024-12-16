@@ -9,6 +9,7 @@ import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
+import com.besson.arknights.block.custom.occult.*;
 import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.rehearsal.*;
 import com.besson.arknights.block.custom.reimselar.*;
@@ -267,6 +268,19 @@ public class ModBlocks {
     public static final Block REIMSELAR_GUARDS_BUST = registerBlock("reimselar/reimselar_guards_bust",new ReimselarGuardsBust(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block REIMSELAR_MAGIC_MIRROR = registerBlock("reimselar/reimselar_magic_mirror",new ReimselarMagicMirror(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block REIMSELAR_STOOL = registerBlock("reimselar/reimselar_stool",new ReimselarStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block BOARDED_UP_STONE_WINDOWS = registerBlock("occult/boarded_up_stone_windows",new BoardedUpStoneWindows(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CAULDRON_OF_SWEETS = registerBlock("occult/cauldron_of_sweets",new CauldronOfSweets(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DESK_OF_THE_OCCULT = registerBlock("occult/desk_of_the_occult",new DeskOfTheOccult(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ELEGANT_SEAT = registerBlock("occult/elegant_seat",new ElegantSeat(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MANY_RITUAL_GOURDS = registerBlock("occult/many_ritual_gourds",new ManyRitualGourds(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RITUAL_CHANDELIER = registerBlock("occult/ritual_chandelier",new RitualChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SEVERAL_RITUAL_GOURDS = registerBlock("occult/several_ritual_gourds",new SeveralRitualGourds(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STACK_OF_GRIMOIRES = registerBlock("occult/stack_of_grimoires",new StackOfGrimoires(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STRANGE_BED = registerBlock("occult/strange_bed",new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STRANGE_BED_LIGHT = registerBlock("occult/strange_bed_light",new StrangeBedLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STRANGE_BED_TREE = registerBlock("occult/strange_bed_tree",new StrangeBedTree(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
 
 
     private static Block registerBlock(String id, Block block) {

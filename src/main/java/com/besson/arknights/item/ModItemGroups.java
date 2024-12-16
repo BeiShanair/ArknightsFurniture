@@ -368,6 +368,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.REIMSELAR_STOOL);
                     }).build());
 
+    public static final ItemGroup SECRET_OCCULT_SOCIETY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "secret_occult_society"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.secret_occult_society"))
+                    .icon(() -> new ItemStack(ModBlocks.STACK_OF_GRIMOIRES)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BOARDED_UP_STONE_WINDOWS);
+                        entries.add(ModBlocks.CAULDRON_OF_SWEETS);
+                        entries.add(ModBlocks.DESK_OF_THE_OCCULT);
+                        entries.add(ModBlocks.ELEGANT_SEAT);
+                        entries.add(ModBlocks.MANY_RITUAL_GOURDS);
+                        entries.add(ModBlocks.RITUAL_CHANDELIER);
+                        entries.add(ModBlocks.SEVERAL_RITUAL_GOURDS);
+                        entries.add(ModBlocks.STACK_OF_GRIMOIRES);
+                        entries.add(ModBlocks.STRANGE_BED);
+                        entries.add(ModBlocks.STRANGE_BED_LIGHT);
+                        entries.add(ModBlocks.STRANGE_BED_TREE);
+                    }).build());
 
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");

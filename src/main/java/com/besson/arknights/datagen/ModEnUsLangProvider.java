@@ -418,6 +418,18 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.REIMSELAR_MAGIC_MIRROR, "Reimselar Magic Mirror");
         translationBuilder.add(ModBlocks.REIMSELAR_STOOL, "Reimselar Stool");
 
+        translationBuilder.add(ModBlocks.BOARDED_UP_STONE_WINDOWS, "Boarded Up Stone Windows");
+        translationBuilder.add(ModBlocks.CAULDRON_OF_SWEETS, "Cauldron Of Sweets");
+        translationBuilder.add(ModBlocks.DESK_OF_THE_OCCULT, "Desk Of The Occult");
+        translationBuilder.add(ModBlocks.ELEGANT_SEAT, "Elegant Seat");
+        translationBuilder.add(ModBlocks.MANY_RITUAL_GOURDS, "Many Ritual Gourds");
+        translationBuilder.add(ModBlocks.RITUAL_CHANDELIER, "Ritual Chandelier");
+        translationBuilder.add(ModBlocks.SEVERAL_RITUAL_GOURDS, "Several Ritual Gourds");
+        translationBuilder.add(ModBlocks.STACK_OF_GRIMOIRES, "Stack Of Grimoires");
+        translationBuilder.add(ModBlocks.STRANGE_BED, "Strange Bed");
+        translationBuilder.add(ModBlocks.STRANGE_BED_LIGHT, "Strange Bed Light");
+        translationBuilder.add(ModBlocks.STRANGE_BED_TREE, "Strange Bed Tree");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -434,6 +446,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.rhodes_island_modern_music_rehearsal_room", "Rhodes Island Modern Music Rehearsal Room");
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "Airtight Anti-Chemical Safety Cabin");
         translationBuilder.add("itemGroup.reimselar_ballroom", "Reimselar Ballroom");
+        translationBuilder.add("itemGroup.secret_occult_society", "Secret Occult Society");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

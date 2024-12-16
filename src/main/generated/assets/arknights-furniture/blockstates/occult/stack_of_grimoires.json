@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/occult/stack_of_grimoires",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/occult/stack_of_grimoires"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/occult/stack_of_grimoires",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/occult/stack_of_grimoires",
+      "y": 270
+    }
+  }
+}
