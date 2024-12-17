@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/safehouse/collectible_beverage_dispenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/safehouse/collectible_beverage_dispenser"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/safehouse/collectible_beverage_dispenser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/safehouse/collectible_beverage_dispenser",
+      "y": 270
+    }
+  }
+}

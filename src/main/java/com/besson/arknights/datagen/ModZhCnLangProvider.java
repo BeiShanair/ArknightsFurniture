@@ -430,6 +430,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STRANGE_BED_LIGHT, "异样寝床 Light");
         translationBuilder.add(ModBlocks.STRANGE_BED_TREE, "异样寝床 Tree");
 
+        translationBuilder.add(ModBlocks.ADJUSTABLE_ROUND_STOOL, "可调节圆凳");
+        translationBuilder.add(ModBlocks.COLLECTIBLE_BEVERAGE_DISPENSER, "珍藏饮料桶");
+        translationBuilder.add(ModBlocks.COMFORTABLE_SOFA, "松软沙发");
+        translationBuilder.add(ModBlocks.FLUORESCENT_CEILING_LAMP, "日光灯吊顶");
+        translationBuilder.add(ModBlocks.HIGH_POWER_FLOOR_LAMP, "高功率落地灯");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH, "多功能工作台");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_BOARD, "多功能工作台 Board");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_COMPUTER, "多功能工作台 Computer");
+        translationBuilder.add(ModBlocks.OLD_RECORD_PLAYER, "旧式唱片机");
+        translationBuilder.add(ModBlocks.OUTGOING_SHIPMENTS, "待运货物");
+        translationBuilder.add(ModBlocks.PENGUIN_CLUE_COLLECTION_BOARD, "企鹅线索收集板");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES1, "红色杂物柜1");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES2, "红色杂物柜2");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES3, "红色杂物柜3");
+        translationBuilder.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR, "安全间隔门");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -447,6 +463,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "气密防化安全舱");
         translationBuilder.add("itemGroup.reimselar_ballroom", "兰赛拉尔宴会厅");
         translationBuilder.add("itemGroup.secret_occult_society", "魂灵秘会");
+        translationBuilder.add("itemGroup.penguin_logistics_safehouse", "企鹅物流安全屋");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

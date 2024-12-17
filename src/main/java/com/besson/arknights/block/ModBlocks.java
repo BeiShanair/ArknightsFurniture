@@ -13,6 +13,7 @@ import com.besson.arknights.block.custom.occult.*;
 import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.rehearsal.*;
 import com.besson.arknights.block.custom.reimselar.*;
+import com.besson.arknights.block.custom.safehouse.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
@@ -280,6 +281,22 @@ public class ModBlocks {
     public static final Block STRANGE_BED = registerBlock("occult/strange_bed",new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block STRANGE_BED_LIGHT = registerBlock("occult/strange_bed_light",new StrangeBedLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block STRANGE_BED_TREE = registerBlock("occult/strange_bed_tree",new StrangeBedTree(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block ADJUSTABLE_ROUND_STOOL = registerBlock("safehouse/adjustable_round_stool",new AdjustableRoundStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block COLLECTIBLE_BEVERAGE_DISPENSER = registerBlock("safehouse/collectible_beverage_dispenser",new CollectibleBeverageDispenser(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block COMFORTABLE_SOFA = registerBlock("safehouse/comfortable_sofa",new ComfortableSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block FLUORESCENT_CEILING_LAMP = registerBlock("safehouse/fluorescent_ceiling_lamp",new FluorescentCeilingLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HIGH_POWER_FLOOR_LAMP = registerBlock("safehouse/high_power_floor_lamp",new HighPowerFloorLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_WORKBENCH = registerBlock("safehouse/multifunctional_workbench",new MultifunctionalWorkbench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MULTIFUNCTIONAL_WORKBENCH_BOARD = registerBlock("safehouse/multifunctional_workbench_board",new MultifunctionalWorkbenchBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MULTIFUNCTIONAL_WORKBENCH_COMPUTER = registerBlock("safehouse/multifunctional_workbench_computer",new MultifunctionalWorkbenchComputer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block OLD_RECORD_PLAYER = registerBlock("safehouse/old_record_player",new OldRecordPlayer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block OUTGOING_SHIPMENTS = registerBlock("safehouse/outgoing_shipments",new OutgoingShipments(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PENGUIN_CLUE_COLLECTION_BOARD = registerBlock("safehouse/penguin_clue_collection_board",new PenguinClueCollectionBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block RED_SUNDRIES_SHELVES1 = registerBlock("safehouse/red_sundries_shelves1",new RedSundriesShelves(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RED_SUNDRIES_SHELVES2 = registerBlock("safehouse/red_sundries_shelves2",new RedSundriesShelves(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RED_SUNDRIES_SHELVES3 = registerBlock("safehouse/red_sundries_shelves3",new RedSundriesShelves(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SAFEHOUSE_PARTITION_DOOR = registerBlock("safehouse/safehouse_partition_door",new SafehousePartitionDoor(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
 
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:safehouse/comfortable_sofa"
+  },
+  "show_notification": true
+}

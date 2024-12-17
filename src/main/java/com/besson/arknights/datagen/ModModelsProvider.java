@@ -267,6 +267,23 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED_LIGHT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STRANGE_BED_TREE);
+
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ADJUSTABLE_ROUND_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.COLLECTIBLE_BEVERAGE_DISPENSER);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.COMFORTABLE_SOFA, ModelIds.getBlockModelId(ModBlocks.COMFORTABLE_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUORESCENT_CEILING_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HIGH_POWER_FLOOR_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_WORKBENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_COMPUTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OLD_RECORD_PLAYER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OUTGOING_SHIPMENTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PENGUIN_CLUE_COLLECTION_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_SUNDRIES_SHELVES1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_SUNDRIES_SHELVES2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_SUNDRIES_SHELVES3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
+
     }
 
     @Override

@@ -384,6 +384,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRANGE_BED_TREE);
                     }).build());
 
+    public static final ItemGroup PENGUIN_LOGISTICS_SAFEHOUSE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "penguin_logistics_safehouse"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.penguin_logistics_safehouse"))
+                    .icon(() -> new ItemStack(ModBlocks.SAFEHOUSE_PARTITION_DOOR)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ADJUSTABLE_ROUND_STOOL);
+                        entries.add(ModBlocks.COLLECTIBLE_BEVERAGE_DISPENSER);
+                        entries.add(ModBlocks.COMFORTABLE_SOFA);
+                        entries.add(ModBlocks.FLUORESCENT_CEILING_LAMP);
+                        entries.add(ModBlocks.HIGH_POWER_FLOOR_LAMP);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_BOARD);
+                        entries.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_COMPUTER);
+                        entries.add(ModBlocks.OLD_RECORD_PLAYER);
+                        entries.add(ModBlocks.OUTGOING_SHIPMENTS);
+                        entries.add(ModBlocks.PENGUIN_CLUE_COLLECTION_BOARD);
+                        entries.add(ModBlocks.RED_SUNDRIES_SHELVES1);
+                        entries.add(ModBlocks.RED_SUNDRIES_SHELVES2);
+                        entries.add(ModBlocks.RED_SUNDRIES_SHELVES3);
+                        entries.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

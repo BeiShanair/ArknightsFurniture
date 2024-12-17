@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-17
+- 更新`企鹅物流安全屋`家具套组
+- Upgrade of `Penguin Logistics SafeHouse` furniture set
+
 ## 2024-12-16
 - 更新`魂灵秘会`家具套组
 - Upgrade of `Secret Occult Society` furniture set

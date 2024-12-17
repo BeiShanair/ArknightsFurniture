@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:paper"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "ABA",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:safehouse/penguin_clue_collection_board"
+  },
+  "show_notification": true
+}

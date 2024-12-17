@@ -430,6 +430,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.STRANGE_BED_LIGHT, "Strange Bed Light");
         translationBuilder.add(ModBlocks.STRANGE_BED_TREE, "Strange Bed Tree");
 
+        translationBuilder.add(ModBlocks.ADJUSTABLE_ROUND_STOOL, "Adjustable Round Stool");
+        translationBuilder.add(ModBlocks.COLLECTIBLE_BEVERAGE_DISPENSER, "Collectible Beverage Dispenser");
+        translationBuilder.add(ModBlocks.COMFORTABLE_SOFA, "Comfortable Sofa");
+        translationBuilder.add(ModBlocks.FLUORESCENT_CEILING_LAMP, "Fluorescent Ceiling Lamp");
+        translationBuilder.add(ModBlocks.HIGH_POWER_FLOOR_LAMP, "High Power Floor Lamp");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH, "Multifunctional Workbench");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_BOARD, "Multifunctional Workbench Board");
+        translationBuilder.add(ModBlocks.MULTIFUNCTIONAL_WORKBENCH_COMPUTER, "Multifunctional Workbench Computer");
+        translationBuilder.add(ModBlocks.OLD_RECORD_PLAYER, "Old Record Player");
+        translationBuilder.add(ModBlocks.OUTGOING_SHIPMENTS, "Outgoing Shipments");
+        translationBuilder.add(ModBlocks.PENGUIN_CLUE_COLLECTION_BOARD, "Penguin Clue Collection Board");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES1, "Red Sundries Shelves1");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES2, "Red Sundries Shelves2");
+        translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES3, "Red Sundries Shelves3");
+        translationBuilder.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR, "Safehouse Partition Door");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -447,6 +463,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.airtight_anti-chemical_safety_cabin", "Airtight Anti-Chemical Safety Cabin");
         translationBuilder.add("itemGroup.reimselar_ballroom", "Reimselar Ballroom");
         translationBuilder.add("itemGroup.secret_occult_society", "Secret Occult Society");
+        translationBuilder.add("itemGroup.penguin_logistics_safehouse", "Penguin Logistics Safehouse");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
