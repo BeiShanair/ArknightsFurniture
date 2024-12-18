@@ -17,6 +17,7 @@ import com.besson.arknights.block.custom.safehouse.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
+import com.besson.arknights.block.custom.workstation.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -298,6 +299,16 @@ public class ModBlocks {
     public static final Block RED_SUNDRIES_SHELVES3 = registerBlock("safehouse/red_sundries_shelves3",new RedSundriesShelves(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SAFEHOUSE_PARTITION_DOOR = registerBlock("safehouse/safehouse_partition_door",new SafehousePartitionDoor(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
+    public static final Block CEILING_FLOODLIGHTS = registerBlock("workstation/ceiling_floodlights",new CeilingFloodlights(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CLEANSER = registerBlock("workstation/cleanser",new Cleanser(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DUAL_BEAMED_CRANE = registerBlock("workstation/dual_beamed_crane",new DualBeamedCrane(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block INDUSTRIAL_CUTTING_STATION = registerBlock("workstation/industrial_cutting_station",new IndustrialCuttingStation(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block MATERIAL_CRATES = registerBlock("workstation/material_crates",new MaterialCrates(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.MATERIAL_CRATES));
+    public static final Block ROBOTIC_ARM = registerBlock("workstation/robotic_arm",new RoboticArm(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WEAPON_STORAGE_CABINET = registerBlock("workstation/weapon_storage_cabinet",new WeaponStorageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WHITE_ROUND_STOOL = registerBlock("workstation/white_round_stool",new WhiteRoundStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WORKBENCH = registerBlock("workstation/workbench",new Workbench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WORKSTATION_BLACKBOARD = registerBlock("workstation/workstation_blackboard",new WorkstationBlackboard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
 
     private static Block registerBlock(String id, Block block) {

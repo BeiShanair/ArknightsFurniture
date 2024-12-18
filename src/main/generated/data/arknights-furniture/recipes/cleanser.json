@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "AA",
+    "BB"
+  ],
+  "result": {
+    "item": "arknights-furniture:workstation/cleanser"
+  },
+  "show_notification": true
+}

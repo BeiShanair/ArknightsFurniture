@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/workstation/robotic_arm",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/workstation/robotic_arm"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/workstation/robotic_arm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/workstation/robotic_arm",
+      "y": 270
+    }
+  }
+}

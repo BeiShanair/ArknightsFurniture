@@ -446,6 +446,17 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES3, "Red Sundries Shelves3");
         translationBuilder.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR, "Safehouse Partition Door");
 
+        translationBuilder.add(ModBlocks.CEILING_FLOODLIGHTS, "Ceiling Floodlights");
+        translationBuilder.add(ModBlocks.CLEANSER, "Cleanser");
+        translationBuilder.add(ModBlocks.DUAL_BEAMED_CRANE, "Dual Beamed Crane");
+        translationBuilder.add(ModBlocks.INDUSTRIAL_CUTTING_STATION, "Industrial Cutting Station");
+        translationBuilder.add(ModBlocks.MATERIAL_CRATES, "Material Crates");
+        translationBuilder.add(ModBlocks.ROBOTIC_ARM, "Robotic Arm");
+        translationBuilder.add(ModBlocks.WEAPON_STORAGE_CABINET, "Weapon Storage Cabinet");
+        translationBuilder.add(ModBlocks.WHITE_ROUND_STOOL, "White Round Stool");
+        translationBuilder.add(ModBlocks.WORKBENCH, "Workbench");
+        translationBuilder.add(ModBlocks.WORKSTATION_BLACKBOARD, "Workstation Blackboard");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -464,6 +475,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.reimselar_ballroom", "Reimselar Ballroom");
         translationBuilder.add("itemGroup.secret_occult_society", "Secret Occult Society");
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "Penguin Logistics Safehouse");
+        translationBuilder.add("itemGroup.rhodes_island_workstation", "Rhodes Island Workstation");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -479,6 +491,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.lgd_bookcase", "L.D.G. Bookcase");
         translationBuilder.add("container.summer_boat_cabinet", "Summer Boat Cabinet");
         translationBuilder.add("container.locked_cabinet", "Locked Cabinet");
+        translationBuilder.add("container.material_crates", "Material Crates");
 
     }
 }

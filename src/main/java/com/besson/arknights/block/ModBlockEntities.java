@@ -15,6 +15,7 @@ import com.besson.arknights.block.custom.sideline.SimpleCabinetBE;
 import com.besson.arknights.block.custom.siesta.SummerBoatCabinetBE;
 import com.besson.arknights.block.custom.warehouse.CartonBE;
 import com.besson.arknights.block.custom.warehouse.LargeShelfBE;
+import com.besson.arknights.block.custom.workstation.MaterialCratesBE;
 import com.mojang.datafixers.types.Type;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntity;
@@ -75,6 +76,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<LockedCabinetBE> LOCKED_CABINET = create("locked_cabinet",
             BlockEntityType.Builder.create(LockedCabinetBE::new, ModBlocks.LOCKED_CABINET));
+
+    public static final BlockEntityType<MaterialCratesBE> MATERIAL_CRATES = create("material_crates",
+            BlockEntityType.Builder.create(MaterialCratesBE::new, ModBlocks.MATERIAL_CRATES));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

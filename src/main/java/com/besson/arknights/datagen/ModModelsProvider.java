@@ -284,6 +284,17 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_SUNDRIES_SHELVES3);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_FLOODLIGHTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CLEANSER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DUAL_BEAMED_CRANE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INDUSTRIAL_CUTTING_STATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MATERIAL_CRATES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ROBOTIC_ARM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WEAPON_STORAGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHITE_ROUND_STOOL);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.WORKBENCH, ModelIds.getBlockModelId(ModBlocks.WORKBENCH));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORKSTATION_BLACKBOARD);
+
     }
 
     @Override

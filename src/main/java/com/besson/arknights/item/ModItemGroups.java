@@ -404,6 +404,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
                     }).build());
 
+    public static final ItemGroup RHODES_ISLAND_WORKSTATION = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_workstation"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_workstation"))
+                    .icon(() -> new ItemStack(ModBlocks.ROBOTIC_ARM)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CEILING_FLOODLIGHTS);
+                        entries.add(ModBlocks.CLEANSER);
+                        entries.add(ModBlocks.DUAL_BEAMED_CRANE);
+                        entries.add(ModBlocks.INDUSTRIAL_CUTTING_STATION);
+                        entries.add(ModBlocks.MATERIAL_CRATES);
+                        entries.add(ModBlocks.ROBOTIC_ARM);
+                        entries.add(ModBlocks.WEAPON_STORAGE_CABINET);
+                        entries.add(ModBlocks.WHITE_ROUND_STOOL);
+                        entries.add(ModBlocks.WORKBENCH);
+                        entries.add(ModBlocks.WORKSTATION_BLACKBOARD);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

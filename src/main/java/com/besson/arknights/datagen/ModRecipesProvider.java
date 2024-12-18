@@ -2002,6 +2002,82 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "safehouse_partition_door"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEILING_FLOODLIGHTS, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ceiling_floodlights"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CLEANSER, 1)
+                .pattern("AA")
+                .pattern("BB")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "cleanser"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUAL_BEAMED_CRANE, 1)
+                .pattern("ABA")
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "dual_beamed_crane"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INDUSTRIAL_CUTTING_STATION, 1)
+                .pattern("A  ")
+                .pattern("BAB")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "industrial_cutting_station"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MATERIAL_CRATES, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "material_crates"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ROBOTIC_ARM, 1)
+                .pattern("ABA")
+                .pattern("BAB")
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.REDSTONE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "robotic_arm"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WEAPON_STORAGE_CABINET, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "weapon_storage_cabinet"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_ROUND_STOOL, 1)
+                .pattern("A")
+                .pattern("B")
+                .input('A', ItemTags.WOOL)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromTag(ItemTags.WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "white_round_stool"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WORKBENCH, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "workbench"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WORKSTATION_BLACKBOARD, 1)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "workstation_blackboard"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

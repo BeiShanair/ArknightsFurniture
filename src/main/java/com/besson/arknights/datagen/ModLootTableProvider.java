@@ -282,5 +282,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_SUNDRIES_SHELVES3);
         addDrop(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
 
+        addDrop(ModBlocks.CEILING_FLOODLIGHTS);
+        addDrop(ModBlocks.CLEANSER);
+        addDrop(ModBlocks.DUAL_BEAMED_CRANE);
+        addDrop(ModBlocks.INDUSTRIAL_CUTTING_STATION);
+        addDrop(ModBlocks.MATERIAL_CRATES);
+        addDrop(ModBlocks.ROBOTIC_ARM);
+        addDrop(ModBlocks.WEAPON_STORAGE_CABINET);
+        addDrop(ModBlocks.WHITE_ROUND_STOOL);
+        addDrop(ModBlocks.WORKBENCH);
+        addDrop(ModBlocks.WORKSTATION_BLACKBOARD);
     }
 }

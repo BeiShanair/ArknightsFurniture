@@ -446,6 +446,17 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_SUNDRIES_SHELVES3, "红色杂物柜3");
         translationBuilder.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR, "安全间隔门");
 
+        translationBuilder.add(ModBlocks.CEILING_FLOODLIGHTS, "泛光吊顶");
+        translationBuilder.add(ModBlocks.CLEANSER, "清洁器");
+        translationBuilder.add(ModBlocks.DUAL_BEAMED_CRANE, "双梁式起重机");
+        translationBuilder.add(ModBlocks.INDUSTRIAL_CUTTING_STATION, "工业切割台");
+        translationBuilder.add(ModBlocks.MATERIAL_CRATES, "物资箱");
+        translationBuilder.add(ModBlocks.ROBOTIC_ARM, "机械臂");
+        translationBuilder.add(ModBlocks.WEAPON_STORAGE_CABINET, "武器收纳柜");
+        translationBuilder.add(ModBlocks.WHITE_ROUND_STOOL, "白色圆凳");
+        translationBuilder.add(ModBlocks.WORKBENCH, "工作台");
+        translationBuilder.add(ModBlocks.WORKSTATION_BLACKBOARD, "工作间黑板");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -464,6 +475,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.reimselar_ballroom", "兰赛拉尔宴会厅");
         translationBuilder.add("itemGroup.secret_occult_society", "魂灵秘会");
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "企鹅物流安全屋");
+        translationBuilder.add("itemGroup.rhodes_island_workstation", "罗德岛工作间");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -479,5 +491,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.lgd_bookcase", "近卫局通配书柜");
         translationBuilder.add("container.summer_boat_cabinet", "夏日小船柜");
         translationBuilder.add("container.locked_cabinet", "上锁的立柜");
+        translationBuilder.add("container.material_crates", "物资箱");
     }
 }
