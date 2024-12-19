@@ -2078,6 +2078,181 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "workstation_blackboard"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BAMBOO_SCREEN, 1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.BAMBOO_PLANKS)
+                .criterion("has_item", conditionsFromItem(Items.BAMBOO_PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "bamboo_screen"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOILING_STATION, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "boiling_station"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOILING_STATION_POT, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "boiling_station_pot"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEILING_MOUNTED_LIGHTS, 1)
+                .pattern("BAB")
+                .input('A', Items.GLOWSTONE_DUST)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ceiling_mounted_lights"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EATERY_DINING_TABLE, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "eatery_dining_table"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EATERY_ROUND_STOOL, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "eatery_round_stool"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELECTRIC_FRYING_TABLE, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "electric_frying_table"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HALF_SHUT_SCREEN, 1)
+                .pattern("##")
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "half_shut_screen"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEXAGONAL_LANTERN, 1)
+                .pattern("###")
+                .pattern("#A#")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "hexagonal_lantern"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_fang"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_jiao"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_left"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_long"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_meng"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_menu1"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_menu2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_right"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "inscription_ceiling_plaque_zi"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORNAMENTAL_BONSAI, 1)
+                .pattern(" A ")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.FLOWER_POT)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ornamental_bonsai"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORNAMENTAL_PLANT, 1)
+                .pattern("AA")
+                .pattern("##")
+                .input('#', ItemTags.PLANKS)
+                .input('A', ItemTags.SAPLINGS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ornamental_plant"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RECTANGULAR_BENCH, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "rectangular_bench"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_SPOTLIGHT, 1)
+                .pattern("BAB")
+                .input('A', Items.GLOWSTONE_DUST)
+                .input('B', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "small_spotlight"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WOODEN_CORNER_TABLE, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "wooden_corner_table"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

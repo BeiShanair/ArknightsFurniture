@@ -457,6 +457,31 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WORKBENCH, "Workbench");
         translationBuilder.add(ModBlocks.WORKSTATION_BLACKBOARD, "Workstation Blackboard");
 
+        translationBuilder.add(ModBlocks.BAMBOO_SCREEN, "Bamboo Screen");
+        translationBuilder.add(ModBlocks.BOILING_STATION, "Boiling Station");
+        translationBuilder.add(ModBlocks.BOILING_STATION_POT, "Boiling Station Pot");
+        translationBuilder.add(ModBlocks.CEILING_MOUNTED_LIGHTS, "Ceiling Mounted Lights");
+        translationBuilder.add(ModBlocks.EATERY_DINING_TABLE, "Eatery Dining Table");
+        translationBuilder.add(ModBlocks.EATERY_ROUND_STOOL, "Eatery Round Stool");
+        translationBuilder.add(ModBlocks.ELECTRIC_FRYING_TABLE, "Electric Frying Table");
+        translationBuilder.add(ModBlocks.HALF_SHUT_SCREEN, "Half Shut Screen");
+        translationBuilder.add(ModBlocks.HEXAGONAL_LANTERN, "Hexagonal Lantern");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE, "Inscription Ceiling Plaque");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG, "Inscription Ceiling Plaque Fang");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO, "Inscription Ceiling Plaque Jiao");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT, "Inscription Ceiling Plaque Left");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG, "Inscription Ceiling Plaque Long");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG, "Inscription Ceiling Plaque Meng");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1, "Inscription Ceiling Plaque Menu1");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2, "Inscription Ceiling Plaque Menu2");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT, "Inscription Ceiling Plaque Right");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI, "Inscription Ceiling Plaque Zi");
+        translationBuilder.add(ModBlocks.ORNAMENTAL_BONSAI, "Ornamental Bonsai");
+        translationBuilder.add(ModBlocks.ORNAMENTAL_PLANT, "Ornamental Plant");
+        translationBuilder.add(ModBlocks.RECTANGULAR_BENCH, "Rectangular Bench");
+        translationBuilder.add(ModBlocks.SMALL_SPOTLIGHT, "Small Spotlight");
+        translationBuilder.add(ModBlocks.WOODEN_CORNER_TABLE, "Wooden Corner Table");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -476,6 +501,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.secret_occult_society", "Secret Occult Society");
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "Penguin Logistics Safehouse");
         translationBuilder.add("itemGroup.rhodes_island_workstation", "Rhodes Island Workstation");
+        translationBuilder.add("itemGroup.lungmen_eatery", "Lungmen Eatery");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

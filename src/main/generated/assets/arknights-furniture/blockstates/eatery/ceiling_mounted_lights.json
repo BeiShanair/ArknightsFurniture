@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/eatery/ceiling_mounted_lights",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/eatery/ceiling_mounted_lights"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/eatery/ceiling_mounted_lights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/eatery/ceiling_mounted_lights",
+      "y": 270
+    }
+  }
+}

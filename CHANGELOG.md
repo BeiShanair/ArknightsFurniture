@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-19
+- 更新`龙门食坊`家具套组
+- Upgrade of `Lungmen Eatery` furniture set
+
 ## 2024-12-18
 - 更新`罗德岛工作间`家具套组
 - Upgrade of `Rhodes Island Workstation` furniture set

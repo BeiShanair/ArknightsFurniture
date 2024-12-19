@@ -457,6 +457,31 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WORKBENCH, "工作台");
         translationBuilder.add(ModBlocks.WORKSTATION_BLACKBOARD, "工作间黑板");
 
+        translationBuilder.add(ModBlocks.BAMBOO_SCREEN, "竹屏风");
+        translationBuilder.add(ModBlocks.BOILING_STATION, "炖锅台");
+        translationBuilder.add(ModBlocks.BOILING_STATION_POT, "炖锅台 Pot");
+        translationBuilder.add(ModBlocks.CEILING_MOUNTED_LIGHTS, "吸顶灯");
+        translationBuilder.add(ModBlocks.EATERY_DINING_TABLE, "食坊餐桌");
+        translationBuilder.add(ModBlocks.EATERY_ROUND_STOOL, "食坊圆凳");
+        translationBuilder.add(ModBlocks.ELECTRIC_FRYING_TABLE, "电煎台");
+        translationBuilder.add(ModBlocks.HALF_SHUT_SCREEN, "半掩屏风");
+        translationBuilder.add(ModBlocks.HEXAGONAL_LANTERN, "六角宫灯");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE, "题字吊顶");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG, "题字吊顶 坊");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO, "题字吊顶 饺");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT, "题字吊顶 Left");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG, "题字吊顶 龙");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG, "题字吊顶 门");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1, "题字吊顶 菜单1");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2, "题字吊顶 菜单2");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT, "题字吊顶 Right");
+        translationBuilder.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI, "题字吊顶 子");
+        translationBuilder.add(ModBlocks.ORNAMENTAL_BONSAI, "观赏盆栽");
+        translationBuilder.add(ModBlocks.ORNAMENTAL_PLANT, "观赏植物");
+        translationBuilder.add(ModBlocks.RECTANGULAR_BENCH, "四方长板凳");
+        translationBuilder.add(ModBlocks.SMALL_SPOTLIGHT, "聚焦灯");
+        translationBuilder.add(ModBlocks.WOODEN_CORNER_TABLE, "转角木桌");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -476,6 +501,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.secret_occult_society", "魂灵秘会");
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "企鹅物流安全屋");
         translationBuilder.add("itemGroup.rhodes_island_workstation", "罗德岛工作间");
+        translationBuilder.add("itemGroup.lungmen_eatery", "龙门食坊");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

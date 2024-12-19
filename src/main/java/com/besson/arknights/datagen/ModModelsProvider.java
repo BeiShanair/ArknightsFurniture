@@ -295,6 +295,30 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.WORKBENCH, ModelIds.getBlockModelId(ModBlocks.WORKBENCH));
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WORKSTATION_BLACKBOARD);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BAMBOO_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOILING_STATION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOILING_STATION_POT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_MOUNTED_LIGHTS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EATERY_DINING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EATERY_ROUND_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ELECTRIC_FRYING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HALF_SHUT_SCREEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEXAGONAL_LANTERN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORNAMENTAL_BONSAI);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORNAMENTAL_PLANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RECTANGULAR_BENCH);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SPOTLIGHT);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.WOODEN_CORNER_TABLE, ModelIds.getBlockModelId(ModBlocks.WOODEN_CORNER_TABLE));
     }
 
     @Override

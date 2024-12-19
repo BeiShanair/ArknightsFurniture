@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/eatery/half_shut_screen",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/eatery/half_shut_screen"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/eatery/half_shut_screen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/eatery/half_shut_screen",
+      "y": 270
+    }
+  }
+}

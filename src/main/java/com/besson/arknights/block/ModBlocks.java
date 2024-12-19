@@ -5,6 +5,7 @@ import com.besson.arknights.block.custom.airtight.*;
 import com.besson.arknights.block.custom.chen.*;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.countryside.*;
+import com.besson.arknights.block.custom.eatery.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
 import com.besson.arknights.block.custom.lgd.*;
@@ -309,6 +310,31 @@ public class ModBlocks {
     public static final Block WHITE_ROUND_STOOL = registerBlock("workstation/white_round_stool",new WhiteRoundStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block WORKBENCH = registerBlock("workstation/workbench",new Workbench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block WORKSTATION_BLACKBOARD = registerBlock("workstation/workstation_blackboard",new WorkstationBlackboard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block BAMBOO_SCREEN = registerBlock("eatery/bamboo_screen",new BambooScreen(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BOILING_STATION = registerBlock("eatery/boiling_station",new BoilingStation(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BOILING_STATION_POT = registerBlock("eatery/boiling_station_pot",new BoilingStationPot(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block CEILING_MOUNTED_LIGHTS = registerBlock("eatery/ceiling_mounted_lights",new CeilingMountedLights(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block EATERY_DINING_TABLE = registerBlock("eatery/eatery_dining_table",new EateryDiningTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block EATERY_ROUND_STOOL = registerBlock("eatery/eatery_round_stool",new EateryRoundStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ELECTRIC_FRYING_TABLE = registerBlock("eatery/electric_frying_table",new ElectricFryingTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HALF_SHUT_SCREEN = registerBlock("eatery/half_shut_screen",new HalfShutScreen(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HEXAGONAL_LANTERN = registerBlock("eatery/hexagonal_lantern",new HexagonalLantern(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE = registerBlock("eatery/inscription_ceiling_plaque",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_FANG = registerBlock("eatery/inscription_ceiling_plaque_fang",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_JIAO = registerBlock("eatery/inscription_ceiling_plaque_jiao",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_LEFT = registerBlock("eatery/inscription_ceiling_plaque_left",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_LONG = registerBlock("eatery/inscription_ceiling_plaque_long",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_MENG = registerBlock("eatery/inscription_ceiling_plaque_meng",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_MENU1 = registerBlock("eatery/inscription_ceiling_plaque_menu1",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_MENU2 = registerBlock("eatery/inscription_ceiling_plaque_menu2",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_RIGHT = registerBlock("eatery/inscription_ceiling_plaque_right",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block INSCRIPTION_CEILING_PLAQUE_ZI = registerBlock("eatery/inscription_ceiling_plaque_zi",new InscriptionCeilingPlaque(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ORNAMENTAL_BONSAI = registerBlock("eatery/ornamental_bonsai",new OrnamentalBonsai(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ORNAMENTAL_PLANT = registerBlock("eatery/ornamental_plant",new OrnamentalPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block RECTANGULAR_BENCH = registerBlock("eatery/rectangular_bench",new RectangularBench(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SMALL_SPOTLIGHT = registerBlock("eatery/small_spotlight",new SmallSpotlight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WOODEN_CORNER_TABLE = registerBlock("eatery/wooden_corner_table",new WoodenCornerTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
 
     private static Block registerBlock(String id, Block block) {

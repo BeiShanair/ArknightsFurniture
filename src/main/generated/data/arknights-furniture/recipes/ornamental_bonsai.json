@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:eatery/ornamental_bonsai"
+  },
+  "show_notification": true
+}

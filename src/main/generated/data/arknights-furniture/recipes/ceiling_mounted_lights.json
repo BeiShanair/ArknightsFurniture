@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BAB"
+  ],
+  "result": {
+    "item": "arknights-furniture:eatery/ceiling_mounted_lights"
+  },
+  "show_notification": true
+}

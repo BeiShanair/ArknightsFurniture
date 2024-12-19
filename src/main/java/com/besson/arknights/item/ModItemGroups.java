@@ -419,6 +419,35 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WORKSTATION_BLACKBOARD);
                     }).build());
 
+    public static final ItemGroup LUNGMEN_EATERY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "lungmen_eatery"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.lungmen_eatery"))
+                    .icon(() -> new ItemStack(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BAMBOO_SCREEN);
+                        entries.add(ModBlocks.BOILING_STATION);
+                        entries.add(ModBlocks.BOILING_STATION_POT);
+                        entries.add(ModBlocks.CEILING_MOUNTED_LIGHTS);
+                        entries.add(ModBlocks.EATERY_DINING_TABLE);
+                        entries.add(ModBlocks.EATERY_ROUND_STOOL);
+                        entries.add(ModBlocks.ELECTRIC_FRYING_TABLE);
+                        entries.add(ModBlocks.HALF_SHUT_SCREEN);
+                        entries.add(ModBlocks.HEXAGONAL_LANTERN);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT);
+                        entries.add(ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI);
+                        entries.add(ModBlocks.ORNAMENTAL_BONSAI);
+                        entries.add(ModBlocks.ORNAMENTAL_PLANT);
+                        entries.add(ModBlocks.RECTANGULAR_BENCH);
+                        entries.add(ModBlocks.SMALL_SPOTLIGHT);
+                        entries.add(ModBlocks.WOODEN_CORNER_TABLE);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/eatery/boiling_station_pot",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/eatery/boiling_station_pot"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/eatery/boiling_station_pot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/eatery/boiling_station_pot",
+      "y": 270
+    }
+  }
+}

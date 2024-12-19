@@ -292,5 +292,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_ROUND_STOOL);
         addDrop(ModBlocks.WORKBENCH);
         addDrop(ModBlocks.WORKSTATION_BLACKBOARD);
+
+        addDrop(ModBlocks.BAMBOO_SCREEN);
+        addDrop(ModBlocks.BOILING_STATION);
+        addDrop(ModBlocks.BOILING_STATION_POT);
+        addDrop(ModBlocks.CEILING_MOUNTED_LIGHTS);
+        addDrop(ModBlocks.EATERY_DINING_TABLE);
+        addDrop(ModBlocks.EATERY_ROUND_STOOL);
+        addDrop(ModBlocks.ELECTRIC_FRYING_TABLE);
+        addDrop(ModBlocks.HALF_SHUT_SCREEN);
+        addDrop(ModBlocks.HEXAGONAL_LANTERN);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_FANG);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_JIAO);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LEFT);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENG);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU1);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_MENU2);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_RIGHT);
+        addDrop(ModBlocks.INSCRIPTION_CEILING_PLAQUE_ZI);
+        addDrop(ModBlocks.ORNAMENTAL_BONSAI);
+        addDrop(ModBlocks.ORNAMENTAL_PLANT);
+        addDrop(ModBlocks.RECTANGULAR_BENCH);
+        addDrop(ModBlocks.SMALL_SPOTLIGHT);
+        addDrop(ModBlocks.WOODEN_CORNER_TABLE);
     }
 }
