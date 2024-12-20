@@ -169,6 +169,12 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "Hypergryph");
         translationBuilder.add(painting + "scenery_from_reimselar", "Scenery From Reimselar");
         translationBuilder.add(painting + "scenery_from_reimselar.author", "Hypergryph");
+        translationBuilder.add(painting + "fruity_adventure1", "Fruity Adventure 1");
+        translationBuilder.add(painting + "fruity_adventure1.author", "Hypergryph");
+        translationBuilder.add(painting + "fruity_adventure2", "Fruity Adventure 2");
+        translationBuilder.add(painting + "fruity_adventure2.author", "Hypergryph");
+        translationBuilder.add(painting + "fruity_adventure3", "Fruity Adventure 3");
+        translationBuilder.add(painting + "fruity_adventure3.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -482,6 +488,20 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_SPOTLIGHT, "Small Spotlight");
         translationBuilder.add(ModBlocks.WOODEN_CORNER_TABLE, "Wooden Corner Table");
 
+        translationBuilder.add(ModBlocks.FRESH_FOOD_CABINET, "Fresh Food Cabinet");
+        translationBuilder.add(ModBlocks.GARDEN_STYLE_CEILING_FIXTURE, "Garden Style Ceiling Fixture");
+        translationBuilder.add(ModBlocks.GREEN_TWO_SEAT_SOFA, "Green Two Seat Sofa");
+        translationBuilder.add(ModBlocks.HEALTHY_DECORATIVE_PLATE, "Healthy Decorative Plate");
+        translationBuilder.add(ModBlocks.HEALTHY_DINING_TABLE, "Healthy Dining Table");
+        translationBuilder.add(ModBlocks.HEALTHY_MENU, "Healthy Menu");
+        translationBuilder.add(ModBlocks.HEALTHY_SERVICE_COUNTER, "Healthy Service Counter");
+        translationBuilder.add(ModBlocks.HEALTHY_SERVICE_COUNTER_CASHIER, "Healthy Service Counter Cashier");
+        translationBuilder.add(ModBlocks.HEALTHY_SPOTLIGHT, "Healthy Spotlight");
+        translationBuilder.add(ModBlocks.ICEY_JUICER, "Icey Juicer");
+        translationBuilder.add(ModBlocks.SELF_SERVICE_ORDERING_KIOSK, "Self Service Ordering Kiosk");
+        translationBuilder.add(ModBlocks.TODAYS_RECOMMENDATIONS, "Today's Recommendations");
+        translationBuilder.add(ModBlocks.VENDING_MACHINE, "Vending Machine");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -502,6 +522,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "Penguin Logistics Safehouse");
         translationBuilder.add("itemGroup.rhodes_island_workstation", "Rhodes Island Workstation");
         translationBuilder.add("itemGroup.lungmen_eatery", "Lungmen Eatery");
+        translationBuilder.add("itemGroup.healthy_diner", "Healthy Diner");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

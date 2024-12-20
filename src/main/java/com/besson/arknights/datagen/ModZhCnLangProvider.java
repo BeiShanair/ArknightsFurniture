@@ -169,6 +169,12 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "sarkaz_rock_n_roll_poster.author", "鹰角网络");
         translationBuilder.add(painting + "scenery_from_reimselar", "《兰赛拉尔风光》");
         translationBuilder.add(painting + "scenery_from_reimselar.author", "鹰角网络");
+        translationBuilder.add(painting + "fruity_adventure1", "“果蔬大冒险” 1");
+        translationBuilder.add(painting + "fruity_adventure1.author", "鹰角网络");
+        translationBuilder.add(painting + "fruity_adventure2", "“果蔬大冒险” 2");
+        translationBuilder.add(painting + "fruity_adventure2.author", "鹰角网络");
+        translationBuilder.add(painting + "fruity_adventure3", "“果蔬大冒险” 3");
+        translationBuilder.add(painting + "fruity_adventure3.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -482,6 +488,20 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_SPOTLIGHT, "聚焦灯");
         translationBuilder.add(ModBlocks.WOODEN_CORNER_TABLE, "转角木桌");
 
+        translationBuilder.add(ModBlocks.FRESH_FOOD_CABINET, "冷鲜食品柜");
+        translationBuilder.add(ModBlocks.GARDEN_STYLE_CEILING_FIXTURE, "轻松花园吊顶");
+        translationBuilder.add(ModBlocks.GREEN_TWO_SEAT_SOFA, "绿色双人沙发");
+        translationBuilder.add(ModBlocks.HEALTHY_DECORATIVE_PLATE, "健康装饰牌");
+        translationBuilder.add(ModBlocks.HEALTHY_DINING_TABLE, "健康餐桌");
+        translationBuilder.add(ModBlocks.HEALTHY_MENU, "健康价目表");
+        translationBuilder.add(ModBlocks.HEALTHY_SERVICE_COUNTER, "健康服务台");
+        translationBuilder.add(ModBlocks.HEALTHY_SERVICE_COUNTER_CASHIER, "健康服务台 收银机");
+        translationBuilder.add(ModBlocks.HEALTHY_SPOTLIGHT, "健康聚光灯");
+        translationBuilder.add(ModBlocks.ICEY_JUICER, "冰爽果汁机");
+        translationBuilder.add(ModBlocks.SELF_SERVICE_ORDERING_KIOSK, "自助点餐机");
+        translationBuilder.add(ModBlocks.TODAYS_RECOMMENDATIONS, "每日推荐牌");
+        translationBuilder.add(ModBlocks.VENDING_MACHINE, "自助售货机");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -502,6 +522,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.penguin_logistics_safehouse", "企鹅物流安全屋");
         translationBuilder.add("itemGroup.rhodes_island_workstation", "罗德岛工作间");
         translationBuilder.add("itemGroup.lungmen_eatery", "龙门食坊");
+        translationBuilder.add("itemGroup.healthy_diner", "健康快餐店");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

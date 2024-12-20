@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/diner/healthy_service_counter_cashier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/diner/healthy_service_counter_cashier"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/diner/healthy_service_counter_cashier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/diner/healthy_service_counter_cashier",
+      "y": 270
+    }
+  }
+}

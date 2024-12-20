@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:diner/green_two_seat_sofa"
+  },
+  "show_notification": true
+}

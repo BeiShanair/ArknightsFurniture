@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/diner/garden_style_ceiling_fixture",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/diner/garden_style_ceiling_fixture"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/diner/garden_style_ceiling_fixture",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/diner/garden_style_ceiling_fixture",
+      "y": 270
+    }
+  }
+}

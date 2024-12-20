@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "A  ",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:diner/healthy_service_counter_cashier"
+  },
+  "show_notification": true
+}

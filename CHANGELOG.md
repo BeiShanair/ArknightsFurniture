@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-20
+- 更新`健康快餐店`家具套组
+- Upgrade of `Healthy Diner` furniture set
+
 ## 2024-12-19
 - 更新`龙门食坊`家具套组
 - Upgrade of `Lungmen Eatery` furniture set

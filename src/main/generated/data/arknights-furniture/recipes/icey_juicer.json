@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "pattern": [
+    "A A",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:diner/icey_juicer"
+  },
+  "show_notification": true
+}

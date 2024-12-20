@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    " # ",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:diner/healthy_service_counter"
+  },
+  "show_notification": true
+}

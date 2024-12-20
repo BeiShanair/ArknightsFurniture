@@ -319,6 +319,21 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RECTANGULAR_BENCH);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SPOTLIGHT);
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.WOODEN_CORNER_TABLE, ModelIds.getBlockModelId(ModBlocks.WOODEN_CORNER_TABLE));
+
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.FRESH_FOOD_CABINET, ModelIds.getBlockModelId(ModBlocks.FRESH_FOOD_CABINET));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GARDEN_STYLE_CEILING_FIXTURE);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.GREEN_TWO_SEAT_SOFA, ModelIds.getBlockModelId(ModBlocks.GREEN_TWO_SEAT_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_DECORATIVE_PLATE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_DINING_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_MENU);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_SERVICE_COUNTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_SERVICE_COUNTER_CASHIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HEALTHY_SPOTLIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ICEY_JUICER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SELF_SERVICE_ORDERING_KIOSK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TODAYS_RECOMMENDATIONS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VENDING_MACHINE);
+
     }
 
     @Override

@@ -448,6 +448,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOODEN_CORNER_TABLE);
                     }).build());
 
+    public static final ItemGroup HEALTHY_DINER = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "healthy_diner"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.healthy_diner"))
+                    .icon(() -> new ItemStack(ModBlocks.TODAYS_RECOMMENDATIONS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FRESH_FOOD_CABINET);
+                        entries.add(ModBlocks.GARDEN_STYLE_CEILING_FIXTURE);
+                        entries.add(ModBlocks.GREEN_TWO_SEAT_SOFA);
+                        entries.add(ModBlocks.HEALTHY_DECORATIVE_PLATE);
+                        entries.add(ModBlocks.HEALTHY_DINING_TABLE);
+                        entries.add(ModBlocks.HEALTHY_MENU);
+                        entries.add(ModBlocks.HEALTHY_SERVICE_COUNTER);
+                        entries.add(ModBlocks.HEALTHY_SERVICE_COUNTER_CASHIER);
+                        entries.add(ModBlocks.HEALTHY_SPOTLIGHT);
+                        entries.add(ModBlocks.ICEY_JUICER);
+                        entries.add(ModBlocks.SELF_SERVICE_ORDERING_KIOSK);
+                        entries.add(ModBlocks.TODAYS_RECOMMENDATIONS);
+                        entries.add(ModBlocks.VENDING_MACHINE);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

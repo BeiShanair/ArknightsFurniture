@@ -5,6 +5,7 @@ import com.besson.arknights.block.custom.airtight.*;
 import com.besson.arknights.block.custom.chen.*;
 import com.besson.arknights.block.custom.columbian.*;
 import com.besson.arknights.block.custom.countryside.*;
+import com.besson.arknights.block.custom.diner.*;
 import com.besson.arknights.block.custom.eatery.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
@@ -336,6 +337,19 @@ public class ModBlocks {
     public static final Block SMALL_SPOTLIGHT = registerBlock("eatery/small_spotlight",new SmallSpotlight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block WOODEN_CORNER_TABLE = registerBlock("eatery/wooden_corner_table",new WoodenCornerTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
+    public static final Block FRESH_FOOD_CABINET = registerBlock("diner/fresh_food_cabinet",new FreshFoodCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GARDEN_STYLE_CEILING_FIXTURE = registerBlock("diner/garden_style_ceiling_fixture",new GardenStyleCeilingFixture(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GREEN_TWO_SEAT_SOFA = registerBlock("diner/green_two_seat_sofa",new GreenTwoSeatSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HEALTHY_DECORATIVE_PLATE = registerBlock("diner/healthy_decorative_plate",new HealthyDecorativePlate(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HEALTHY_DINING_TABLE = registerBlock("diner/healthy_dining_table",new HealthyDiningTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HEALTHY_MENU = registerBlock("diner/healthy_menu",new HealthyMenu(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HEALTHY_SERVICE_COUNTER = registerBlock("diner/healthy_service_counter",new HealthyServiceCounter(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HEALTHY_SERVICE_COUNTER_CASHIER = registerBlock("diner/healthy_service_counter_cashier",new HealthyServiceCounterCashier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HEALTHY_SPOTLIGHT = registerBlock("diner/healthy_spotlight",new HealthySpotlight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ICEY_JUICER = registerBlock("diner/icey_juicer",new IceyJuicer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SELF_SERVICE_ORDERING_KIOSK = registerBlock("diner/self_service_ordering_kiosk",new SelfServiceOrderingKiosk(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block TODAYS_RECOMMENDATIONS = registerBlock("diner/todays_recommendations",new TodaysRecommendations(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block VENDING_MACHINE = registerBlock("diner/vending_machine",new VendingMachine(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

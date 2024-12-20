@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/diner/self_service_ordering_kiosk",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/diner/self_service_ordering_kiosk"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/diner/self_service_ordering_kiosk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/diner/self_service_ordering_kiosk",
+      "y": 270
+    }
+  }
+}
