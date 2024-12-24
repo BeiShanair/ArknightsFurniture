@@ -2353,6 +2353,73 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "vending_machine"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_ROW_SEATING, 1)
+                .pattern("AAA")
+                .pattern("BBB")
+                .input('A', ItemTags.WOOL)
+                .input('B', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "double_row_seating"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DOUBLE_ROW_SEATING_DESK, 1)
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "double_row_seating_desk"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GOURMET_FOOD_WARMER, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "gourmet_food_warmer"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LARGE_NOTICE_BOARD, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "large_notice_board"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIQUOR_STORAGE_RACK, 1)
+                .pattern("AAA")
+                .pattern("ABA")
+                .input('A', ItemTags.PLANKS)
+                .input('B', Items.BUCKET)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "liquor_storage_rack"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PRISTINE_SERVICE_COUNTER, 1)
+                .pattern("AAA")
+                .pattern("BBB")
+                .input('B', Items.IRON_INGOT)
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pristine_service_counter"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESTAURANT_NOTICE_BOARD, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "restaurant_notice_board"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "seven_cities_warm_light_chandelier"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.UPSCALE_MENU_DISPLAY, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "upscale_menu_display"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

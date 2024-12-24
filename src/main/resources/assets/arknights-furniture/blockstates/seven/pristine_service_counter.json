@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,type=single": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter"
+        },
+        "facing=north,type=left": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_left"
+        },
+        "facing=north,type=right": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_right"
+        },
+        "facing=north,type=middle": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_middle"
+        },
+        "facing=east,type=single": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter",
+            "y": 90
+        },
+        "facing=east,type=left": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_left",
+            "y": 90
+        },
+        "facing=east,type=right": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_right",
+            "y": 90
+        },
+        "facing=east,type=middle": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_middle",
+            "y": 90
+        },
+        "facing=south,type=single": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter",
+            "y": 180
+        },
+        "facing=south,type=left": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_left",
+            "y": 180
+        },
+        "facing=south,type=right": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_right",
+            "y": 180
+        },
+        "facing=south,type=middle": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_middle",
+            "y": 180
+        },
+        "facing=west,type=single": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter",
+            "y": 270
+        },
+        "facing=west,type=left": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_left",
+            "y": 270
+        },
+        "facing=west,type=right": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_right",
+            "y": 270
+        },
+        "facing=west,type=middle": {
+            "model": "arknights-furniture:block/seven/pristine_service_counter_middle",
+            "y": 270
+        }
+    }
+}

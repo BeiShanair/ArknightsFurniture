@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/seven/upscale_menu_display",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/seven/upscale_menu_display"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/seven/upscale_menu_display",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/seven/upscale_menu_display",
+      "y": 270
+    }
+  }
+}

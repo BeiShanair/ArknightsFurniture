@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:wool"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "item": "arknights-furniture:seven/double_row_seating"
+  },
+  "show_notification": true
+}

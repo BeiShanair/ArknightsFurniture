@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/seven/seven_cities_warm_light_chandelier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/seven/seven_cities_warm_light_chandelier"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/seven/seven_cities_warm_light_chandelier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/seven/seven_cities_warm_light_chandelier",
+      "y": 270
+    }
+  }
+}

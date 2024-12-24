@@ -175,6 +175,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "fruity_adventure2.author", "Hypergryph");
         translationBuilder.add(painting + "fruity_adventure3", "Fruity Adventure 3");
         translationBuilder.add(painting + "fruity_adventure3.author", "Hypergryph");
+        translationBuilder.add(painting + "famous_painting_copy", "Famous Painting Copy");
+        translationBuilder.add(painting + "famous_painting_copy.author", "Hypergryph");
+        translationBuilder.add(painting + "famous_painting_replica", "Famous Painting Replica");
+        translationBuilder.add(painting + "famous_painting_replica.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -502,6 +506,16 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TODAYS_RECOMMENDATIONS, "Today's Recommendations");
         translationBuilder.add(ModBlocks.VENDING_MACHINE, "Vending Machine");
 
+        translationBuilder.add(ModBlocks.DOUBLE_ROW_SEATING, "Double Row Seating");
+        translationBuilder.add(ModBlocks.DOUBLE_ROW_SEATING_DESK, "Double Row Seating Desk");
+        translationBuilder.add(ModBlocks.GOURMET_FOOD_WARMER, "Gourmet Food Warmer");
+        translationBuilder.add(ModBlocks.LARGE_NOTICE_BOARD, "Large Notice Board");
+        translationBuilder.add(ModBlocks.LIQUOR_STORAGE_RACK, "Liquor Storage Rack");
+        translationBuilder.add(ModBlocks.PRISTINE_SERVICE_COUNTER, "Pristine Service Counter");
+        translationBuilder.add(ModBlocks.RESTAURANT_NOTICE_BOARD, "Restaurant Notice Board");
+        translationBuilder.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER, "Seven Cities Warm Light Chandelier");
+        translationBuilder.add(ModBlocks.UPSCALE_MENU_DISPLAY, "Upscale Menu Display");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -523,6 +537,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.rhodes_island_workstation", "Rhodes Island Workstation");
         translationBuilder.add("itemGroup.lungmen_eatery", "Lungmen Eatery");
         translationBuilder.add("itemGroup.healthy_diner", "Healthy Diner");
+        translationBuilder.add("itemGroup.seven_cities_style_restaurant", "Seven Cities-style Restaurant");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

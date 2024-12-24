@@ -465,6 +465,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TODAYS_RECOMMENDATIONS);
                         entries.add(ModBlocks.VENDING_MACHINE);
                     }).build());
+
+    public static final ItemGroup SEVEN_CITIES_STYLE_RESTAURANT = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "seven_cities_style_restaurant"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.seven_cities_style_restaurant"))
+                    .icon(() -> new ItemStack(ModBlocks.LARGE_NOTICE_BOARD)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DOUBLE_ROW_SEATING);
+                        entries.add(ModBlocks.DOUBLE_ROW_SEATING_DESK);
+                        entries.add(ModBlocks.GOURMET_FOOD_WARMER);
+                        entries.add(ModBlocks.LARGE_NOTICE_BOARD);
+                        entries.add(ModBlocks.LIQUOR_STORAGE_RACK);
+                        entries.add(ModBlocks.PRISTINE_SERVICE_COUNTER);
+                        entries.add(ModBlocks.RESTAURANT_NOTICE_BOARD);
+                        entries.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
+                        entries.add(ModBlocks.UPSCALE_MENU_DISPLAY);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

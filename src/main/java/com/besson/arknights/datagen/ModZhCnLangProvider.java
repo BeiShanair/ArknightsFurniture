@@ -175,6 +175,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "fruity_adventure2.author", "鹰角网络");
         translationBuilder.add(painting + "fruity_adventure3", "“果蔬大冒险” 3");
         translationBuilder.add(painting + "fruity_adventure3.author", "鹰角网络");
+        translationBuilder.add(painting + "famous_painting_copy", "复制版名画");
+        translationBuilder.add(painting + "famous_painting_copy.author", "鹰角网络");
+        translationBuilder.add(painting + "famous_painting_replica", "临摹板名画");
+        translationBuilder.add(painting + "famous_painting_replica.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -502,6 +506,16 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TODAYS_RECOMMENDATIONS, "每日推荐牌");
         translationBuilder.add(ModBlocks.VENDING_MACHINE, "自助售货机");
 
+        translationBuilder.add(ModBlocks.DOUBLE_ROW_SEATING, "双排沙发座");
+        translationBuilder.add(ModBlocks.DOUBLE_ROW_SEATING_DESK, "双排沙发座 桌");
+        translationBuilder.add(ModBlocks.GOURMET_FOOD_WARMER, "美食保温柜");
+        translationBuilder.add(ModBlocks.LARGE_NOTICE_BOARD, "大号宣传板");
+        translationBuilder.add(ModBlocks.LIQUOR_STORAGE_RACK, "啤酒储藏柜");
+        translationBuilder.add(ModBlocks.PRISTINE_SERVICE_COUNTER, "整洁服务台");
+        translationBuilder.add(ModBlocks.RESTAURANT_NOTICE_BOARD, "餐厅宣传板");
+        translationBuilder.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER, "七城式暖光吊灯");
+        translationBuilder.add(ModBlocks.UPSCALE_MENU_DISPLAY, "高脚价目表");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -523,6 +537,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.rhodes_island_workstation", "罗德岛工作间");
         translationBuilder.add("itemGroup.lungmen_eatery", "龙门食坊");
         translationBuilder.add("itemGroup.healthy_diner", "健康快餐店");
+        translationBuilder.add("itemGroup.seven_cities_style_restaurant", "七城风情餐厅");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

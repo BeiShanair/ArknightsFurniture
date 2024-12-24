@@ -332,5 +332,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TODAYS_RECOMMENDATIONS);
         addDrop(ModBlocks.VENDING_MACHINE);
 
+        addDrop(ModBlocks.DOUBLE_ROW_SEATING);
+        addDrop(ModBlocks.DOUBLE_ROW_SEATING_DESK);
+        addDrop(ModBlocks.GOURMET_FOOD_WARMER);
+        addDrop(ModBlocks.LARGE_NOTICE_BOARD);
+        addDrop(ModBlocks.LIQUOR_STORAGE_RACK);
+        addDrop(ModBlocks.PRISTINE_SERVICE_COUNTER);
+        addDrop(ModBlocks.RESTAURANT_NOTICE_BOARD);
+        addDrop(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
+        addDrop(ModBlocks.UPSCALE_MENU_DISPLAY);
+
     }
 }

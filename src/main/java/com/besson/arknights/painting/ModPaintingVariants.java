@@ -66,6 +66,8 @@ public class ModPaintingVariants {
     public static final PaintingVariant FRUITY_ADVENTURE1 = registerPaintingVariant("fruity_adventure1", new PaintingVariant(16, 16));
     public static final PaintingVariant FRUITY_ADVENTURE2 = registerPaintingVariant("fruity_adventure2", new PaintingVariant(16, 16));
     public static final PaintingVariant FRUITY_ADVENTURE3 = registerPaintingVariant("fruity_adventure3", new PaintingVariant(16, 16));
+    public static final PaintingVariant FAMOUS_PAINTING_COPY = registerPaintingVariant("famous_painting_copy", new PaintingVariant(16, 16));
+    public static final PaintingVariant FAMOUS_PAINTING_REPLICA = registerPaintingVariant("famous_painting_replica", new PaintingVariant(16, 16));
 
     private static PaintingVariant registerPaintingVariant(String id, PaintingVariant variant) {
         return Registry.register(Registries.PAINTING_VARIANT, new Identifier(ArknightsFurniture.MOD_ID, id), variant);

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/seven/double_row_seating_desk",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/seven/double_row_seating_desk"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/seven/double_row_seating_desk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/seven/double_row_seating_desk",
+      "y": 270
+    }
+  }
+}

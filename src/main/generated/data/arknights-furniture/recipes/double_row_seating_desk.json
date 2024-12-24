@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "arknights-furniture:seven/double_row_seating_desk"
+  },
+  "show_notification": true
+}

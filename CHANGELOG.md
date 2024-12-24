@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-24
+- 更新`七城风情餐厅`家具套组
+- Upgrade of `Seven Cities-style Restaurant` furniture set
+
 ## 2024-12-20
 - 更新`健康快餐店`家具套组
 - Upgrade of `Healthy Diner` furniture set

@@ -16,6 +16,7 @@ import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.rehearsal.*;
 import com.besson.arknights.block.custom.reimselar.*;
 import com.besson.arknights.block.custom.safehouse.*;
+import com.besson.arknights.block.custom.seven.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
 import com.besson.arknights.block.custom.warehouse.*;
@@ -350,6 +351,17 @@ public class ModBlocks {
     public static final Block SELF_SERVICE_ORDERING_KIOSK = registerBlock("diner/self_service_ordering_kiosk",new SelfServiceOrderingKiosk(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block TODAYS_RECOMMENDATIONS = registerBlock("diner/todays_recommendations",new TodaysRecommendations(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block VENDING_MACHINE = registerBlock("diner/vending_machine",new VendingMachine(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block DOUBLE_ROW_SEATING = registerBlock("seven/double_row_seating",new DoubleRowSeating(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block DOUBLE_ROW_SEATING_DESK = registerBlock("seven/double_row_seating_desk",new DoubleRowSeatingDesk(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GOURMET_FOOD_WARMER = registerBlock("seven/gourmet_food_warmer",new GourmetFoodWarmer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LARGE_NOTICE_BOARD = registerBlock("seven/large_notice_board",new LargeNoticeBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LIQUOR_STORAGE_RACK = registerBlock("seven/liquor_storage_rack",new LiquorStorageRack(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PRISTINE_SERVICE_COUNTER = registerBlock("seven/pristine_service_counter",new PristineServiceCounter(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block RESTAURANT_NOTICE_BOARD = registerBlock("seven/restaurant_notice_board",new RestaurantNoticeBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SEVEN_CITIES_WARM_LIGHT_CHANDELIER = registerBlock("seven/seven_cities_warm_light_chandelier",new SevenCitiesWarmLightChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block UPSCALE_MENU_DISPLAY = registerBlock("seven/upscale_menu_display",new UpscaleMenuDisplay(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

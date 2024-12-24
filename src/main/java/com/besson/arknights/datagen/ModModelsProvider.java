@@ -334,6 +334,16 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TODAYS_RECOMMENDATIONS);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.VENDING_MACHINE);
 
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.DOUBLE_ROW_SEATING, ModelIds.getBlockModelId(ModBlocks.DOUBLE_ROW_SEATING));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DOUBLE_ROW_SEATING_DESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GOURMET_FOOD_WARMER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LARGE_NOTICE_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LIQUOR_STORAGE_RACK);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.PRISTINE_SERVICE_COUNTER, ModelIds.getBlockModelId(ModBlocks.PRISTINE_SERVICE_COUNTER));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RESTAURANT_NOTICE_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UPSCALE_MENU_DISPLAY);
+
     }
 
     @Override
