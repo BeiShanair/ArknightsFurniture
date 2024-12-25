@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "AAA",
+    " A "
+  ],
+  "result": {
+    "item": "arknights-furniture:mercenary/upscale_dining_table"
+  },
+  "show_notification": true
+}

@@ -342,5 +342,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
         addDrop(ModBlocks.UPSCALE_MENU_DISPLAY);
 
+        addDrop(ModBlocks.BOUNTY_DISPLAY_RACK);
+        addDrop(ModBlocks.BULLETPROOF_GLASS_DOOR);
+        addDrop(ModBlocks.HANGING_DARTBOARD);
+        addDrop(ModBlocks.HANGING_SHELVES);
+        addDrop(ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL);
+        addDrop(ModBlocks.IGNITION_TOOL);
+        addDrop(ModBlocks.LOUNGE_BULLETIN_BOARD);
+        addDrop(ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE);
+        addDrop(ModBlocks.LOUNGE_CHANDELIER);
+        addDrop(ModBlocks.LOUNGE_TUBE_LIGHT);
+        addDrop(ModBlocks.RED_FRAMED_FLOOR_MIRROR);
+        addDrop(ModBlocks.SARKAZ_BALL_RACK);
+        addDrop(ModBlocks.SARKAZ_POOL_TABLE);
+        addDrop(ModBlocks.SMALL_LOUNGE_WALL_LIGHT);
+        addDrop(ModBlocks.UPSCALE_DINING_TABLE);
+
     }
 }

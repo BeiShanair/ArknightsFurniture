@@ -480,6 +480,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.UPSCALE_MENU_DISPLAY);
                     }).build());
 
+    public static final ItemGroup SARKAZ_MERCENARY_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "sarkaz_mercenary_lounge"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.sarkaz_mercenary_lounge"))
+                    .icon(() -> new ItemStack(ModBlocks.SARKAZ_BALL_RACK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.BOUNTY_DISPLAY_RACK);
+                        entries.add(ModBlocks.BULLETPROOF_GLASS_DOOR);
+                        entries.add(ModBlocks.HANGING_DARTBOARD);
+                        entries.add(ModBlocks.HANGING_SHELVES);
+                        entries.add(ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL);
+                        entries.add(ModBlocks.IGNITION_TOOL);
+                        entries.add(ModBlocks.LOUNGE_BULLETIN_BOARD);
+                        entries.add(ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE);
+                        entries.add(ModBlocks.LOUNGE_CHANDELIER);
+                        entries.add(ModBlocks.LOUNGE_TUBE_LIGHT);
+                        entries.add(ModBlocks.RED_FRAMED_FLOOR_MIRROR);
+                        entries.add(ModBlocks.SARKAZ_BALL_RACK);
+                        entries.add(ModBlocks.SARKAZ_POOL_TABLE);
+                        entries.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT);
+                        entries.add(ModBlocks.UPSCALE_DINING_TABLE);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

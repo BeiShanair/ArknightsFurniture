@@ -344,6 +344,22 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UPSCALE_MENU_DISPLAY);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BOUNTY_DISPLAY_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BULLETPROOF_GLASS_DOOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_DARTBOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_SHELVES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IGNITION_TOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOUNGE_BULLETIN_BOARD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOUNGE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOUNGE_TUBE_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RED_FRAMED_FLOOR_MIRROR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SARKAZ_BALL_RACK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SARKAZ_POOL_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_LOUNGE_WALL_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UPSCALE_DINING_TABLE);
+
     }
 
     @Override

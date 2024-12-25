@@ -2420,6 +2420,112 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "upscale_menu_display"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BOUNTY_DISPLAY_RACK, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "bounty_display_rack"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BULLETPROOF_GLASS_DOOR, 1)
+                .pattern("AA")
+                .pattern("AA")
+                .input('A', Items.GLASS)
+                .criterion("has_item", conditionsFromItem(Items.GLASS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "bulletproof_glass_door"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HANGING_DARTBOARD, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "hanging_dartboard"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HANGING_SHELVES, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "hanging_shelves"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL, 1)
+                .pattern("AAA")
+                .pattern("BBB")
+                .input('B', Items.IRON_INGOT)
+                .input('A', Items.GUNPOWDER)
+                .criterion("has_item", conditionsFromItem(Items.GUNPOWDER))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "high_output_explosive_material"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IGNITION_TOOL, 1)
+                .pattern("AAA")
+                .pattern("BBB")
+                .input('B', Items.IRON_INGOT)
+                .input('A', Items.FLINT_AND_STEEL)
+                .criterion("has_item", conditionsFromItem(Items.FLINT_AND_STEEL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ignition_tool"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LOUNGE_BULLETIN_BOARD, 1)
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "lounge_bulletin_board"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "lounge_ceiling_light_fixture"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LOUNGE_CHANDELIER, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "lounge_chandelier"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LOUNGE_TUBE_LIGHT, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "lounge_tube_light"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_FRAMED_FLOOR_MIRROR, 1)
+                .pattern("ABA")
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLASS_PANE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "red_framed_floor_mirror"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SARKAZ_BALL_RACK, 1)
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "sarkaz_ball_rack"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SARKAZ_POOL_TABLE, 1)
+                .pattern("AAA")
+                .pattern(" A ")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "sarkaz_pool_table"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_LOUNGE_WALL_LIGHT, 1)
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "small_lounge_wall_light"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.UPSCALE_DINING_TABLE, 1)
+                .pattern("AAA")
+                .pattern(" A ")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "upscale_dining_table"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

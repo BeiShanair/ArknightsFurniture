@@ -7,6 +7,7 @@ import com.besson.arknights.block.custom.countryside.LogCabinetBottomBE;
 import com.besson.arknights.block.custom.countryside.LogCabinetTopBE;
 import com.besson.arknights.block.custom.fantastic.SmallSquareNightstandBE;
 import com.besson.arknights.block.custom.lgd.SmallSandalwoodNightstandBE;
+import com.besson.arknights.block.custom.mercenary.HangingShelvesBE;
 import com.besson.arknights.block.custom.pizzeria.PizzeriaCupboardBE;
 import com.besson.arknights.block.custom.reimselar.LockedCabinetBE;
 import com.besson.arknights.block.custom.sideline.CheckerboardBookcaseBE;
@@ -79,6 +80,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<MaterialCratesBE> MATERIAL_CRATES = create("material_crates",
             BlockEntityType.Builder.create(MaterialCratesBE::new, ModBlocks.MATERIAL_CRATES));
+
+    public static final BlockEntityType<HangingShelvesBE> HANGING_SHELVES = create("hanging_shelves",
+            BlockEntityType.Builder.create(HangingShelvesBE::new, ModBlocks.HANGING_SHELVES));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String id, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, id);

@@ -516,6 +516,22 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER, "Seven Cities Warm Light Chandelier");
         translationBuilder.add(ModBlocks.UPSCALE_MENU_DISPLAY, "Upscale Menu Display");
 
+        translationBuilder.add(ModBlocks.BOUNTY_DISPLAY_RACK, "Bounty Display Rack");
+        translationBuilder.add(ModBlocks.BULLETPROOF_GLASS_DOOR, "Bulletproof Glass Door");
+        translationBuilder.add(ModBlocks.HANGING_DARTBOARD, "Hanging Dartboard");
+        translationBuilder.add(ModBlocks.HANGING_SHELVES, "Hanging Shelves");
+        translationBuilder.add(ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL, "High Output Explosive Material");
+        translationBuilder.add(ModBlocks.IGNITION_TOOL, "Ignition Tool");
+        translationBuilder.add(ModBlocks.LOUNGE_BULLETIN_BOARD, "Lounge Bulletin Board");
+        translationBuilder.add(ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE, "Lounge Ceiling Light Fixture");
+        translationBuilder.add(ModBlocks.LOUNGE_CHANDELIER, "Lounge Chandelier");
+        translationBuilder.add(ModBlocks.LOUNGE_TUBE_LIGHT, "Lounge Tube Light");
+        translationBuilder.add(ModBlocks.RED_FRAMED_FLOOR_MIRROR, "Red Framed Floor Mirror");
+        translationBuilder.add(ModBlocks.SARKAZ_BALL_RACK, "Sarkaz Ball Rack");
+        translationBuilder.add(ModBlocks.SARKAZ_POOL_TABLE, "Sarkaz Pool Table");
+        translationBuilder.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT, "Small Lounge Wall Light");
+        translationBuilder.add(ModBlocks.UPSCALE_DINING_TABLE, "Upscale Dining Table");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -538,6 +554,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.lungmen_eatery", "Lungmen Eatery");
         translationBuilder.add("itemGroup.healthy_diner", "Healthy Diner");
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "Seven Cities-style Restaurant");
+        translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "Sarkaz Mercenary Lounge");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -554,6 +571,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.summer_boat_cabinet", "Summer Boat Cabinet");
         translationBuilder.add("container.locked_cabinet", "Locked Cabinet");
         translationBuilder.add("container.material_crates", "Material Crates");
+        translationBuilder.add("container.hanging_shelves", "Hanging Shelves");
 
     }
 }

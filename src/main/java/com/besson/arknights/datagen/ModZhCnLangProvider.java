@@ -516,6 +516,22 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER, "七城式暖光吊灯");
         translationBuilder.add(ModBlocks.UPSCALE_MENU_DISPLAY, "高脚价目表");
 
+        translationBuilder.add(ModBlocks.BOUNTY_DISPLAY_RACK, "战利品陈列架");
+        translationBuilder.add(ModBlocks.BULLETPROOF_GLASS_DOOR, "防弹玻璃隔板");
+        translationBuilder.add(ModBlocks.HANGING_DARTBOARD, "挂式飞镖盘");
+        translationBuilder.add(ModBlocks.HANGING_SHELVES, "挂式置物架");
+        translationBuilder.add(ModBlocks.HIGH_OUTPUT_EXPLOSIVE_MATERIAL, "大当量炸药原料");
+        translationBuilder.add(ModBlocks.IGNITION_TOOL, "起爆器制作工具");
+        translationBuilder.add(ModBlocks.LOUNGE_BULLETIN_BOARD, "休息室布告板");
+        translationBuilder.add(ModBlocks.LOUNGE_CEILING_LIGHT_FIXTURE, "休息室光源吊顶");
+        translationBuilder.add(ModBlocks.LOUNGE_CHANDELIER, "休息室吊灯");
+        translationBuilder.add(ModBlocks.LOUNGE_TUBE_LIGHT, "休息室灯管");
+        translationBuilder.add(ModBlocks.RED_FRAMED_FLOOR_MIRROR, "红框落地镜");
+        translationBuilder.add(ModBlocks.SARKAZ_BALL_RACK, "萨卡兹式摆球器");
+        translationBuilder.add(ModBlocks.SARKAZ_POOL_TABLE, "萨卡兹台球桌");
+        translationBuilder.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT, "休息室小壁灯");
+        translationBuilder.add(ModBlocks.UPSCALE_DINING_TABLE, "高脚餐台");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -538,6 +554,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.lungmen_eatery", "龙门食坊");
         translationBuilder.add("itemGroup.healthy_diner", "健康快餐店");
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "七城风情餐厅");
+        translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "萨卡兹佣兵休息室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -554,5 +571,6 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.summer_boat_cabinet", "夏日小船柜");
         translationBuilder.add("container.locked_cabinet", "上锁的立柜");
         translationBuilder.add("container.material_crates", "物资箱");
+        translationBuilder.add("container.hanging_shelves", "挂式置物架");
     }
 }

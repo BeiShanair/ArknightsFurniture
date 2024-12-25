@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-25
+- 更新`萨卡兹佣兵休息室`家具套组
+- Upgrade of `Sarkaz Mercenary Lounge` furniture set
+
 ## 2024-12-24
 - 更新`七城风情餐厅`家具套组
 - Upgrade of `Seven Cities-style Restaurant` furniture set

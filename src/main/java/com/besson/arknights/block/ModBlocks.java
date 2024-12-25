@@ -11,6 +11,7 @@ import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
+import com.besson.arknights.block.custom.mercenary.*;
 import com.besson.arknights.block.custom.occult.*;
 import com.besson.arknights.block.custom.pizzeria.*;
 import com.besson.arknights.block.custom.rehearsal.*;
@@ -361,6 +362,23 @@ public class ModBlocks {
     public static final Block RESTAURANT_NOTICE_BOARD = registerBlock("seven/restaurant_notice_board",new RestaurantNoticeBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SEVEN_CITIES_WARM_LIGHT_CHANDELIER = registerBlock("seven/seven_cities_warm_light_chandelier",new SevenCitiesWarmLightChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block UPSCALE_MENU_DISPLAY = registerBlock("seven/upscale_menu_display",new UpscaleMenuDisplay(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block BOUNTY_DISPLAY_RACK = registerBlock("mercenary/bounty_display_rack",new BountyDisplayRack(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BULLETPROOF_GLASS_DOOR = registerBlock("mercenary/bulletproof_glass_door",new BulletproofGlassDoor(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HANGING_DARTBOARD = registerBlock("mercenary/hanging_dartboard",new HangingDartboard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HANGING_SHELVES = registerBlock("mercenary/hanging_shelves",new HangingShelves(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.HANGING_SHELVES));
+    public static final Block HIGH_OUTPUT_EXPLOSIVE_MATERIAL = registerBlock("mercenary/high_output_explosive_material",new HighOutputExplosiveMaterial(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block IGNITION_TOOL = registerBlock("mercenary/ignition_tool",new IgnitionTool(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LOUNGE_BULLETIN_BOARD = registerBlock("mercenary/lounge_bulletin_board",new LoungeBulletinBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOUNGE_CEILING_LIGHT_FIXTURE = registerBlock("mercenary/lounge_ceiling_light_fixture",new LoungeCeilingLightFixture(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOUNGE_CHANDELIER = registerBlock("mercenary/lounge_chandelier",new LoungeChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOUNGE_TUBE_LIGHT = registerBlock("mercenary/lounge_tube_light",new LoungeTubeLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block RED_FRAMED_FLOOR_MIRROR = registerBlock("mercenary/red_framed_floor_mirror",new RedFramedFloorMirror(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SARKAZ_BALL_RACK = registerBlock("mercenary/sarkaz_ball_rack",new SarkazBallRack(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SARKAZ_POOL_TABLE = registerBlock("mercenary/sarkaz_pool_table",new SarkazPoolTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block SMALL_LOUNGE_WALL_LIGHT = registerBlock("mercenary/small_lounge_wall_light",new SmallLoungeWallLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block UPSCALE_DINING_TABLE = registerBlock("mercenary/upscale_dining_table",new UpscaleDiningTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
 
 
     private static Block registerBlock(String id, Block block) {
