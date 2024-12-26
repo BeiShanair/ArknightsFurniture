@@ -532,6 +532,16 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT, "Small Lounge Wall Light");
         translationBuilder.add(ModBlocks.UPSCALE_DINING_TABLE, "Upscale Dining Table");
 
+        translationBuilder.add(ModBlocks.CEILING_DISK_LIGHT, "Ceiling Disk Light");
+        translationBuilder.add(ModBlocks.HANGING_LAMP, "Hanging Lamp");
+        translationBuilder.add(ModBlocks.LONG_WOODEN_TABLE, "Long Wooden Table");
+        translationBuilder.add(ModBlocks.LOW_BOOKSHELF, "Low Bookshelf");
+        translationBuilder.add(ModBlocks.LOW_FLOOR_LAMP, "Low Floor Lamp");
+        translationBuilder.add(ModBlocks.LOW_STORAGE_CABINET, "Low Storage Cabinet");
+        translationBuilder.add(ModBlocks.PORTABLE_PICNIC_STOVE, "Portable Picnic Stove");
+        translationBuilder.add(ModBlocks.SIMPLE_LOW_CHAIR, "Simple Low Chair");
+        translationBuilder.add(ModBlocks.SQUAD_BULLETIN_BOARD, "Squad Bulletin Board");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -555,6 +565,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.healthy_diner", "Healthy Diner");
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "Seven Cities-style Restaurant");
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "Sarkaz Mercenary Lounge");
+        translationBuilder.add("itemGroup.ursus_student_clubroom", "Ursus Student Clubroom");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -572,6 +583,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.locked_cabinet", "Locked Cabinet");
         translationBuilder.add("container.material_crates", "Material Crates");
         translationBuilder.add("container.hanging_shelves", "Hanging Shelves");
+        translationBuilder.add("container.low_storage_cabinet", "Low Storage Cabinet");
 
     }
 }

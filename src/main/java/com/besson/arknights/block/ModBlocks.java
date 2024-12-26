@@ -20,6 +20,7 @@ import com.besson.arknights.block.custom.safehouse.*;
 import com.besson.arknights.block.custom.seven.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
+import com.besson.arknights.block.custom.ursus.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import com.besson.arknights.block.custom.workstation.*;
 import net.minecraft.block.AbstractBlock;
@@ -379,6 +380,15 @@ public class ModBlocks {
     public static final Block SMALL_LOUNGE_WALL_LIGHT = registerBlock("mercenary/small_lounge_wall_light",new SmallLoungeWallLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block UPSCALE_DINING_TABLE = registerBlock("mercenary/upscale_dining_table",new UpscaleDiningTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
+    public static final Block CEILING_DISK_LIGHT = registerBlock("ursus/ceiling_disk_light",new CeilingDiskLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block HANGING_LAMP = registerBlock("ursus/hanging_lamp",new HangingLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LONG_WOODEN_TABLE = registerBlock("ursus/long_wooden_table",new LongWoodenTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LOW_BOOKSHELF = registerBlock("ursus/low_bookshelf",new LowBookshelf(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block LOW_FLOOR_LAMP = registerBlock("ursus/low_floor_lamp",new LowFloorLamp(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LOW_STORAGE_CABINET = registerBlock("ursus/low_storage_cabinet",new LowStorageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.LOW_STORAGE_CABINET));
+    public static final Block PORTABLE_PICNIC_STOVE = registerBlock("ursus/portable_picnic_stove",new PortablePicnicStove(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_LOW_CHAIR = registerBlock("ursus/simple_low_chair",new SimpleLowChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SQUAD_BULLETIN_BOARD = registerBlock("ursus/squad_bulletin_board",new SquadBulletinBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
 
     private static Block registerBlock(String id, Block block) {

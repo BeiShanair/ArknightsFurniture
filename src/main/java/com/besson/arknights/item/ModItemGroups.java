@@ -500,6 +500,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.UPSCALE_DINING_TABLE);
                     }).build());
 
+    public static final ItemGroup URSUS_STUDENT_CLUBROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ursus_student_clubroom"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ursus_student_clubroom"))
+                    .icon(() -> new ItemStack(ModBlocks.SQUAD_BULLETIN_BOARD)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CEILING_DISK_LIGHT);
+                        entries.add(ModBlocks.HANGING_LAMP);
+                        entries.add(ModBlocks.LONG_WOODEN_TABLE);
+                        entries.add(ModBlocks.LOW_BOOKSHELF);
+                        entries.add(ModBlocks.LOW_FLOOR_LAMP);
+                        entries.add(ModBlocks.LOW_STORAGE_CABINET);
+                        entries.add(ModBlocks.PORTABLE_PICNIC_STOVE);
+                        entries.add(ModBlocks.SIMPLE_LOW_CHAIR);
+                        entries.add(ModBlocks.SQUAD_BULLETIN_BOARD);
+                    }).build());
+
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

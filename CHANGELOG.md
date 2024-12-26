@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2024-12-26
+- 更新`乌萨斯学生活动室`家具套组
+- Upgrade of `Ursus Student Clubroom` furniture set
+
 ## 2024-12-25
 - 更新`萨卡兹佣兵休息室`家具套组
 - Upgrade of `Sarkaz Mercenary Lounge` furniture set

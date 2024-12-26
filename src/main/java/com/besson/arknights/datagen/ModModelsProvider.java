@@ -360,6 +360,16 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_LOUNGE_WALL_LIGHT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.UPSCALE_DINING_TABLE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_DISK_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HANGING_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LONG_WOODEN_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_BOOKSHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_FLOOR_LAMP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_STORAGE_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_PICNIC_STOVE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_LOW_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SQUAD_BULLETIN_BOARD);
+
     }
 
     @Override

@@ -532,6 +532,16 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT, "休息室小壁灯");
         translationBuilder.add(ModBlocks.UPSCALE_DINING_TABLE, "高脚餐台");
 
+        translationBuilder.add(ModBlocks.CEILING_DISK_LIGHT, "圆盘吊顶");
+        translationBuilder.add(ModBlocks.HANGING_LAMP, "垂吊挂灯");
+        translationBuilder.add(ModBlocks.LONG_WOODEN_TABLE, "木制长桌");
+        translationBuilder.add(ModBlocks.LOW_BOOKSHELF, "落地书架");
+        translationBuilder.add(ModBlocks.LOW_FLOOR_LAMP, "低矮落地灯");
+        translationBuilder.add(ModBlocks.LOW_STORAGE_CABINET, "低矮储物柜");
+        translationBuilder.add(ModBlocks.PORTABLE_PICNIC_STOVE, "便携野餐炉");
+        translationBuilder.add(ModBlocks.SIMPLE_LOW_CHAIR, "简易便椅");
+        translationBuilder.add(ModBlocks.SQUAD_BULLETIN_BOARD, "社团布告板");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -555,6 +565,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.healthy_diner", "健康快餐店");
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "七城风情餐厅");
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "萨卡兹佣兵休息室");
+        translationBuilder.add("itemGroup.ursus_student_clubroom", "乌萨斯学生活动室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -572,5 +583,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.locked_cabinet", "上锁的立柜");
         translationBuilder.add("container.material_crates", "物资箱");
         translationBuilder.add("container.hanging_shelves", "挂式置物架");
+        translationBuilder.add("container.low_storage_cabinet", "低矮储物柜");
+
     }
 }

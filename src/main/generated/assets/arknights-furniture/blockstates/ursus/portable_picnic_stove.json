@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/ursus/portable_picnic_stove",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/ursus/portable_picnic_stove"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/ursus/portable_picnic_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/ursus/portable_picnic_stove",
+      "y": 270
+    }
+  }
+}
