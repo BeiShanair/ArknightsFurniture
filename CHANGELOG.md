@@ -1,6 +1,6 @@
 # 更新日志 / Changelog
 
-## 2024-12-26
+## 2024-12-27
 - 更新`莱塔尼亚之夜`家具套组
 - Upgrade of `Leithanian Nights` furniture set
 
