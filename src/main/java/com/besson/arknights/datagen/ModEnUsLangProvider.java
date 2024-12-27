@@ -179,6 +179,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "famous_painting_copy.author", "Hypergryph");
         translationBuilder.add(painting + "famous_painting_replica", "Famous Painting Replica");
         translationBuilder.add(painting + "famous_painting_replica.author", "Hypergryph");
+        translationBuilder.add(painting + "love_and_sunflowers", "Love And Sunflowers");
+        translationBuilder.add(painting + "love_and_sunflowers.author", "Hypergryph");
 
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
@@ -542,6 +544,20 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_LOW_CHAIR, "Simple Low Chair");
         translationBuilder.add(ModBlocks.SQUAD_BULLETIN_BOARD, "Squad Bulletin Board");
 
+        translationBuilder.add(ModBlocks.ACCOMPANISTS_CHAIR, "Accompanists Chair");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF, "All In One Bookshelf");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_BOTTOM, "All In One Bookshelf Bottom");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_UPPER, "All In One Bookshelf Upper");
+        translationBuilder.add(ModBlocks.ANTIQUE_PHONOGRAPH, "Antique Phonograph");
+        translationBuilder.add(ModBlocks.EXTRA_LONG_WHITE_SOFA, "Extra Long White Sofa");
+        translationBuilder.add(ModBlocks.FOUR_CANDLE_CHANDELIER, "Four Candle Chandelier");
+        translationBuilder.add(ModBlocks.FOUR_POSTER_BED, "Four Poster Bed");
+        translationBuilder.add(ModBlocks.GLOBE_OF_BALANCE, "Globe Of Balance");
+        translationBuilder.add(ModBlocks.GRAND_SIX_CANDLE_CHANDELIER, "Grand Six Candle Chandelier");
+        translationBuilder.add(ModBlocks.LEITHANIAN_BEVERAGE, "Leithanian Beverage");
+        translationBuilder.add(ModBlocks.MONOCHROMATIC_CELLO, "Monochromatic Cello");
+        translationBuilder.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS, "Pile Of Miscellaneous Books");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -566,6 +582,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "Seven Cities-style Restaurant");
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "Sarkaz Mercenary Lounge");
         translationBuilder.add("itemGroup.ursus_student_clubroom", "Ursus Student Clubroom");
+        translationBuilder.add("itemGroup.leithanian_nights", "Leithanian Nights");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");

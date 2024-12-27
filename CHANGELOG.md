@@ -1,6 +1,10 @@
 # 更新日志 / Changelog
 
 ## 2024-12-26
+- 更新`莱塔尼亚之夜`家具套组
+- Upgrade of `Leithanian Nights` furniture set
+
+## 2024-12-26
 - 更新`乌萨斯学生活动室`家具套组
 - Upgrade of `Ursus Student Clubroom` furniture set
 

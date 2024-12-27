@@ -9,6 +9,7 @@ import com.besson.arknights.block.custom.diner.*;
 import com.besson.arknights.block.custom.eatery.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
+import com.besson.arknights.block.custom.leithanian.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
 import com.besson.arknights.block.custom.mercenary.*;
@@ -389,6 +390,20 @@ public class ModBlocks {
     public static final Block PORTABLE_PICNIC_STOVE = registerBlock("ursus/portable_picnic_stove",new PortablePicnicStove(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block SIMPLE_LOW_CHAIR = registerBlock("ursus/simple_low_chair",new SimpleLowChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block SQUAD_BULLETIN_BOARD = registerBlock("ursus/squad_bulletin_board",new SquadBulletinBoard(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    public static final Block ACCOMPANISTS_CHAIR = registerBlock("leithanian/accompanists_chair",new AccompanistsChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block ALL_IN_ONE_BOOKSHELF = registerBlock("leithanian/all_in_one_bookshelf",new AllInOneBookshelf(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ALL_IN_ONE_BOOKSHELF_BOTTOM = registerBlock("leithanian/all_in_one_bookshelf_bottom",new AllInOneBookshelfBottom(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ALL_IN_ONE_BOOKSHELF_UPPER = registerBlock("leithanian/all_in_one_bookshelf_upper",new AllInOneBookshelfUpper(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ANTIQUE_PHONOGRAPH = registerBlock("leithanian/antique_phonograph",new AntiquePhonograph(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block EXTRA_LONG_WHITE_SOFA = registerBlock("leithanian/extra_long_white_sofa",new ExtraLongWhiteSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block FOUR_CANDLE_CHANDELIER = registerBlock("leithanian/four_candle_chandelier",new FourCandleChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block FOUR_POSTER_BED = registerBlock("leithanian/four_poster_bed",new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block GLOBE_OF_BALANCE = registerBlock("leithanian/globe_of_balance",new GlobeOfBalance(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GRAND_SIX_CANDLE_CHANDELIER = registerBlock("leithanian/grand_six_candle_chandelier",new GrandSixCandleChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LEITHANIAN_BEVERAGE = registerBlock("leithanian/leithanian_beverage",new LeithanianBeverage(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block MONOCHROMATIC_CELLO = registerBlock("leithanian/monochromatic_cello",new MonochromaticCello(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block PILE_OF_MISCELLANEOUS_BOOKS = registerBlock("leithanian/pile_of_miscellaneous_books",new PileOfMiscellaneousBooks(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
 
 
     private static Block registerBlock(String id, Block block) {

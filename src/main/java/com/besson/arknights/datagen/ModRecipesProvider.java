@@ -2591,6 +2591,100 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "squad_bulletin_board"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ACCOMPANISTS_CHAIR, 1)
+                .pattern(" A")
+                .pattern("AA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "accompanists_chair"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ALL_IN_ONE_BOOKSHELF, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "all_in_one_bookshelf"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ALL_IN_ONE_BOOKSHELF_BOTTOM, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "all_in_one_bookshelf_bottom"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ALL_IN_ONE_BOOKSHELF_UPPER, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "all_in_one_bookshelf_upper"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ANTIQUE_PHONOGRAPH, 1)
+                .pattern("ABA")
+                .pattern("ABA")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.REDSTONE)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "antique_phonograph"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EXTRA_LONG_WHITE_SOFA, 1)
+                .pattern("AAA")
+                .pattern("BBB")
+                .input('A', Items.WHITE_WOOL)
+                .input('B', ItemTags.PLANKS)
+                .criterion("has_item", conditionsFromItem(Items.WHITE_WOOL))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "extra_long_white_sofa"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FOUR_CANDLE_CHANDELIER, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', Items.TORCH)
+                .criterion("has_item", conditionsFromItem(Items.TORCH))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "four_candle_chandelier"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FOUR_POSTER_BED, 1)
+                .pattern("BAB")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "four_poster_bed"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOBE_OF_BALANCE, 1)
+                .pattern("AA")
+                .pattern("AA")
+                .input('A', Items.GOLD_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.GOLD_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "globe_of_balance"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAND_SIX_CANDLE_CHANDELIER, 1)
+                .pattern("AAA")
+                .pattern("BAB")
+                .input('A', Items.IRON_INGOT)
+                .input('B', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "grand_six_candle_chandelier"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LEITHANIAN_BEVERAGE, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', Items.GLASS_BOTTLE)
+                .criterion("has_item", conditionsFromItem(Items.GLASS_BOTTLE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "leithanian_beverage"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MONOCHROMATIC_CELLO, 1)
+                .pattern("AA")
+                .pattern("AA")
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "monochromatic_cello"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS, 1)
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', Items.BOOK)
+                .criterion("has_item", conditionsFromItem(Items.BOOK))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "pile_of_miscellaneous_books"));
+
         registerFurnParts(exporter, ModBlocks.BLACK_BED, 125);
         registerFurnParts(exporter, ModBlocks.BLACK_NIGHTSTAND, 48);
         registerFurnParts(exporter, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 41);

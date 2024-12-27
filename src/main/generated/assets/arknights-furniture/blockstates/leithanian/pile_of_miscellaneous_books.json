@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/leithanian/pile_of_miscellaneous_books",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/leithanian/pile_of_miscellaneous_books"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/leithanian/pile_of_miscellaneous_books",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/leithanian/pile_of_miscellaneous_books",
+      "y": 270
+    }
+  }
+}

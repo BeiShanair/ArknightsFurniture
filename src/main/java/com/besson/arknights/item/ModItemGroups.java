@@ -514,6 +514,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SQUAD_BULLETIN_BOARD);
                     }).build());
 
+    public static final ItemGroup LEITHANIAN_NIGHTS = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "leithanian_nights"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.leithanian_nights"))
+                    .icon(() -> new ItemStack(ModBlocks.MONOCHROMATIC_CELLO)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ACCOMPANISTS_CHAIR);
+                        entries.add(ModBlocks.ALL_IN_ONE_BOOKSHELF);
+                        entries.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_BOTTOM);
+                        entries.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_UPPER);
+                        entries.add(ModBlocks.ANTIQUE_PHONOGRAPH);
+                        entries.add(ModBlocks.EXTRA_LONG_WHITE_SOFA);
+                        entries.add(ModBlocks.FOUR_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.FOUR_POSTER_BED);
+                        entries.add(ModBlocks.GLOBE_OF_BALANCE);
+                        entries.add(ModBlocks.GRAND_SIX_CANDLE_CHANDELIER);
+                        entries.add(ModBlocks.LEITHANIAN_BEVERAGE);
+                        entries.add(ModBlocks.MONOCHROMATIC_CELLO);
+                        entries.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

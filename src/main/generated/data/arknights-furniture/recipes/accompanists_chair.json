@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    " A",
+    "AA"
+  ],
+  "result": {
+    "item": "arknights-furniture:leithanian/accompanists_chair"
+  },
+  "show_notification": true
+}

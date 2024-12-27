@@ -179,6 +179,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "famous_painting_copy.author", "鹰角网络");
         translationBuilder.add(painting + "famous_painting_replica", "临摹板名画");
         translationBuilder.add(painting + "famous_painting_replica.author", "鹰角网络");
+        translationBuilder.add(painting + "love_and_sunflowers", "“向日葵与美”");
+        translationBuilder.add(painting + "love_and_sunflowers.author", "鹰角网络");
 
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
@@ -542,6 +544,20 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_LOW_CHAIR, "简易便椅");
         translationBuilder.add(ModBlocks.SQUAD_BULLETIN_BOARD, "社团布告板");
 
+        translationBuilder.add(ModBlocks.ACCOMPANISTS_CHAIR, "伴琴椅");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF, "一体式书桌");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_BOTTOM, "一体式书桌 Bottom");
+        translationBuilder.add(ModBlocks.ALL_IN_ONE_BOOKSHELF_UPPER, "一体式书桌 Upper");
+        translationBuilder.add(ModBlocks.ANTIQUE_PHONOGRAPH, "仿古唱片机");
+        translationBuilder.add(ModBlocks.EXTRA_LONG_WHITE_SOFA, "白色加长沙发");
+        translationBuilder.add(ModBlocks.FOUR_CANDLE_CHANDELIER, "四烛吊灯");
+        translationBuilder.add(ModBlocks.FOUR_POSTER_BED, "四柱床");
+        translationBuilder.add(ModBlocks.GLOBE_OF_BALANCE, "“平衡之球”");
+        translationBuilder.add(ModBlocks.GRAND_SIX_CANDLE_CHANDELIER, "六烛大吊灯");
+        translationBuilder.add(ModBlocks.LEITHANIAN_BEVERAGE, "莱塔尼亚饮料");
+        translationBuilder.add(ModBlocks.MONOCHROMATIC_CELLO, "黑漆白头大提琴");
+        translationBuilder.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS, "杂书堆");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -566,6 +582,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.seven_cities_style_restaurant", "七城风情餐厅");
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "萨卡兹佣兵休息室");
         translationBuilder.add("itemGroup.ursus_student_clubroom", "乌萨斯学生活动室");
+        translationBuilder.add("itemGroup.leithanian_nights", "莱塔尼亚之夜");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

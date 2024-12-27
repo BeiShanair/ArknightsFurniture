@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:white_wool"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "item": "arknights-furniture:leithanian/extra_long_white_sofa"
+  },
+  "show_notification": true
+}
