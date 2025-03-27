@@ -384,6 +384,20 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MONOCHROMATIC_CELLO);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CUBICLE_FLOORPLAN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CUBICLE_LIGHTING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FLOOR_INDICATOR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.HR_OFFICE_LIGHTING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OVERLOADED_PRINTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PRICKLY_ORNAMENTAL_PLANT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SQUARE_SOFA_STOOL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_ISSUE_OFFICE_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_ISSUE_WORKDESK);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.STANDARD_ISSUE_WORKDESK_COMPUTER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRANSPARENT_DIVIDING_PARTITION);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_DISPENSER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHEELED_STORAGE_CABINET);
+
     }
 
     @Override

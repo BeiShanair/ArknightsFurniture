@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2025-03-27
+- 更新`罗德岛人事办公室`家具套组
+- Upgrade of `Rhodes Island HR Office` furniture set
+
 ## 2024-12-27
 - 更新`莱塔尼亚之夜`家具套组
 - Upgrade of `Leithanian Nights` furniture set

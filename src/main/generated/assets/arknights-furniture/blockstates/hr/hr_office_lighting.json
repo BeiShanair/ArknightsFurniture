@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/hr/hr_office_lighting",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/hr/hr_office_lighting"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/hr/hr_office_lighting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/hr/hr_office_lighting",
+      "y": 270
+    }
+  }
+}

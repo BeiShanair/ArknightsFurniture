@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/hr/standard_issue_office_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/hr/standard_issue_office_chair"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/hr/standard_issue_office_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/hr/standard_issue_office_chair",
+      "y": 270
+    }
+  }
+}

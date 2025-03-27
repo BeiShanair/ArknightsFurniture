@@ -9,6 +9,7 @@ import com.besson.arknights.block.custom.diner.*;
 import com.besson.arknights.block.custom.eatery.*;
 import com.besson.arknights.block.custom.fantastic.*;
 import com.besson.arknights.block.custom.hotel.*;
+import com.besson.arknights.block.custom.hr.*;
 import com.besson.arknights.block.custom.leithanian.*;
 import com.besson.arknights.block.custom.lgd.*;
 import com.besson.arknights.block.custom.lifecycle.*;
@@ -404,6 +405,20 @@ public class ModBlocks {
     public static final Block LEITHANIAN_BEVERAGE = registerBlock("leithanian/leithanian_beverage",new LeithanianBeverage(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block MONOCHROMATIC_CELLO = registerBlock("leithanian/monochromatic_cello",new MonochromaticCello(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block PILE_OF_MISCELLANEOUS_BOOKS = registerBlock("leithanian/pile_of_miscellaneous_books",new PileOfMiscellaneousBooks(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+
+    public static final Block CUBICLE_FLOORPLAN = registerBlock("hr/cubicle_floorplan",new CubicleFloorplan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block CUBICLE_LIGHTING = registerBlock("hr/cubicle_lighting",new CubicleLighting(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block FLOOR_INDICATOR = registerBlock("hr/floor_indicator",new FloorIndicator(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block HR_OFFICE_LIGHTING = registerBlock("hr/hr_office_lighting",new HrOfficeLighting(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block OVERLOADED_PRINTER = registerBlock("hr/overloaded_printer",new OverloadedPrinter(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block PRICKLY_ORNAMENTAL_PLANT = registerBlock("hr/prickly_ornamental_plant",new PricklyOrnamentalPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SQUARE_SOFA_STOOL = registerBlock("hr/square_sofa_stool",new SquareSofaStool(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block STANDARD_ISSUE_OFFICE_CHAIR = registerBlock("hr/standard_issue_office_chair",new StandardIssueOfficeChair(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STANDARD_ISSUE_WORKDESK = registerBlock("hr/standard_issue_workdesk",new StandardIssueWorkdesk(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block STANDARD_ISSUE_WORKDESK_COMPUTER = registerBlock("hr/standard_issue_workdesk_computer",new StandardIssueWorkdeskComputer(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block TRANSPARENT_DIVIDING_PARTITION = registerBlock("hr/transparent_dividing_partition",new TransparentDividingPartition(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WATER_DISPENSER = registerBlock("hr/water_dispenser",new WaterDispenser(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block WHEELED_STORAGE_CABINET = registerBlock("hr/wheeled_storage_cabinet",new WheeledStorageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.WHEELED_STORAGE_CABINET));
 
 
     private static Block registerBlock(String id, Block block) {

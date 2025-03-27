@@ -558,6 +558,20 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MONOCHROMATIC_CELLO, "黑漆白头大提琴");
         translationBuilder.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS, "杂书堆");
 
+        translationBuilder.add(ModBlocks.CUBICLE_FLOORPLAN, "工位指示板");
+        translationBuilder.add(ModBlocks.CUBICLE_LIGHTING, "工位光源");
+        translationBuilder.add(ModBlocks.FLOOR_INDICATOR, "楼层指示牌");
+        translationBuilder.add(ModBlocks.HR_OFFICE_LIGHTING, "人事办公室光源");
+        translationBuilder.add(ModBlocks.OVERLOADED_PRINTER, "过载打印机");
+        translationBuilder.add(ModBlocks.PRICKLY_ORNAMENTAL_PLANT, "尖锐的观赏植物");
+        translationBuilder.add(ModBlocks.SQUARE_SOFA_STOOL, "等位沙发凳");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_OFFICE_CHAIR, "标配办公椅");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_WORKDESK, "标配办公桌");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_WORKDESK_COMPUTER, "标配办公桌-电脑");
+        translationBuilder.add(ModBlocks.TRANSPARENT_DIVIDING_PARTITION, "隔断用透明屏风");
+        translationBuilder.add(ModBlocks.WATER_DISPENSER, "桶装饮水机");
+        translationBuilder.add(ModBlocks.WHEELED_STORAGE_CABINET, "可动收纳柜");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -583,6 +597,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "萨卡兹佣兵休息室");
         translationBuilder.add("itemGroup.ursus_student_clubroom", "乌萨斯学生活动室");
         translationBuilder.add("itemGroup.leithanian_nights", "莱塔尼亚之夜");
+        translationBuilder.add("itemGroup.rhodes_island_hr_office", "罗德岛人事办公室");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");
@@ -601,6 +616,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.material_crates", "物资箱");
         translationBuilder.add("container.hanging_shelves", "挂式置物架");
         translationBuilder.add("container.low_storage_cabinet", "低矮储物柜");
+        translationBuilder.add("container.wheeled_storage_cabinet", "可动储物柜");
 
     }
 }

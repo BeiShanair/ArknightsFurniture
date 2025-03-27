@@ -15,6 +15,8 @@ public class ArknightsFurnitureClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ECO_EXHIBITION_CABINET, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_CONIFER_PLANT, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TRANSPARENT_DIVIDING_PARTITION, RenderLayer.getTranslucent());
+
         EntityRendererRegistry.register(ModBlockEntities.SEAT, SeatRenderer::new);
     }
 }

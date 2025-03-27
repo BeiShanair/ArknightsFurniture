@@ -558,6 +558,20 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MONOCHROMATIC_CELLO, "Monochromatic Cello");
         translationBuilder.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS, "Pile Of Miscellaneous Books");
 
+        translationBuilder.add(ModBlocks.CUBICLE_FLOORPLAN, "Cubicle Floorplan");
+        translationBuilder.add(ModBlocks.CUBICLE_LIGHTING, "Cubicle Lighting");
+        translationBuilder.add(ModBlocks.FLOOR_INDICATOR, "Floor Indicator");
+        translationBuilder.add(ModBlocks.HR_OFFICE_LIGHTING, "HR Office Lighting");
+        translationBuilder.add(ModBlocks.OVERLOADED_PRINTER, "Overloaded Printer");
+        translationBuilder.add(ModBlocks.PRICKLY_ORNAMENTAL_PLANT, "Prickly Ornamental Plant");
+        translationBuilder.add(ModBlocks.SQUARE_SOFA_STOOL, "Square Sofa Stool");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_OFFICE_CHAIR, "Standard Issue Office Chair");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_WORKDESK, "Standard Issue Workdesk");
+        translationBuilder.add(ModBlocks.STANDARD_ISSUE_WORKDESK_COMPUTER, "Standard Issue Workdesk Computer");
+        translationBuilder.add(ModBlocks.TRANSPARENT_DIVIDING_PARTITION, "Transparent Dividing Partition");
+        translationBuilder.add(ModBlocks.WATER_DISPENSER, "Water Dispenser");
+        translationBuilder.add(ModBlocks.WHEELED_STORAGE_CABINET, "Wheeled Storage Cabinet");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -583,6 +597,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.sarkaz_mercenary_lounge", "Sarkaz Mercenary Lounge");
         translationBuilder.add("itemGroup.ursus_student_clubroom", "Ursus Student Clubroom");
         translationBuilder.add("itemGroup.leithanian_nights", "Leithanian Nights");
+        translationBuilder.add("itemGroup.rhodes_island_hr_office", "Rhodes Island HR Office");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
@@ -601,6 +616,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("container.material_crates", "Material Crates");
         translationBuilder.add("container.hanging_shelves", "Hanging Shelves");
         translationBuilder.add("container.low_storage_cabinet", "Low Storage Cabinet");
+        translationBuilder.add("container.wheeled_storage_cabinet", "Wheeled Storage Cabinet");
 
     }
 }

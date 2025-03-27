@@ -158,6 +158,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GENERAL_CONSOLE);
                         entries.add(ModBlocks.NOTE_BOARD_IN_CABIN);
                     }).build());
+
     public static final ItemGroup COLUMBIAN_CAFE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "columbian_cafe"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.columbian_cafe"))
                     .icon(() -> new ItemStack(ModBlocks.BOLIVARIAN_COFFEE_BEAN)).entries((displayContext, entries) -> {
@@ -530,6 +531,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LEITHANIAN_BEVERAGE);
                         entries.add(ModBlocks.MONOCHROMATIC_CELLO);
                         entries.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS);
+                    }).build());
+
+    public static final ItemGroup RHODES_ISLAND_HR_OFFICE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_hr_office"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_hr_office"))
+                    .icon(() -> new ItemStack(ModBlocks.CUBICLE_FLOORPLAN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.CUBICLE_FLOORPLAN);
+                        entries.add(ModBlocks.CUBICLE_LIGHTING);
+                        entries.add(ModBlocks.FLOOR_INDICATOR);
+                        entries.add(ModBlocks.HR_OFFICE_LIGHTING);
+                        entries.add(ModBlocks.OVERLOADED_PRINTER);
+                        entries.add(ModBlocks.PRICKLY_ORNAMENTAL_PLANT);
+                        entries.add(ModBlocks.SQUARE_SOFA_STOOL);
+                        entries.add(ModBlocks.STANDARD_ISSUE_OFFICE_CHAIR);
+                        entries.add(ModBlocks.STANDARD_ISSUE_WORKDESK);
+                        entries.add(ModBlocks.STANDARD_ISSUE_WORKDESK_COMPUTER);
+                        entries.add(ModBlocks.TRANSPARENT_DIVIDING_PARTITION);
+                        entries.add(ModBlocks.WATER_DISPENSER);
+                        entries.add(ModBlocks.WHEELED_STORAGE_CABINET);
                     }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");

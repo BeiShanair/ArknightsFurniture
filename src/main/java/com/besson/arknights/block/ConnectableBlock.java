@@ -28,10 +28,6 @@ public class ConnectableBlock extends FurnitureHorizontalFacingBlock{
     }
 
     private BlockState getRelatedBlockState(BlockState state, WorldAccess access, BlockPos pos, Direction direction){
-//        boolean left = this.isRelatedBlock(access, pos, direction.rotateYCounterclockwise(), direction) ||
-//                this.isRelatedBlock(access, pos, direction.rotateYCounterclockwise(), direction.rotateYCounterclockwise());
-//        boolean right = this.isRelatedBlock(access,pos, direction.rotateYClockwise(), direction) ||
-//                this.isRelatedBlock(access, pos, direction.rotateYClockwise(), direction.rotateYClockwise());
         boolean left = isRelatedInDirection(access, pos, direction, true);
         boolean right = isRelatedInDirection(access, pos, direction, false);
         if (left && right){
@@ -46,8 +42,7 @@ public class ConnectableBlock extends FurnitureHorizontalFacingBlock{
 
     private boolean isRelatedInDirection(WorldAccess access, BlockPos pos, Direction direction, boolean counterclockwise) {
         Direction rotatedOnce = counterclockwise ? direction.rotateYCounterclockwise() : direction.rotateYClockwise();
-        Direction rotatedTwice = rotatedOnce.rotateYCounterclockwise();
-        return this.isRelatedBlock(access, pos, rotatedOnce, direction) || this.isRelatedBlock(access, pos, rotatedTwice, direction);
+        return this.isRelatedBlock(access, pos, rotatedOnce, direction);
     }
 
     private boolean isRelatedBlock(WorldAccess access, BlockPos pos, Direction direction1, Direction direction2){
