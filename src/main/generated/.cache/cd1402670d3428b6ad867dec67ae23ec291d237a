@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-27T12:36:56.8283079	Arknights Furniture/Block Loot Tables
+// 1.20.1	2025-03-27T17:44:50.1457325	Arknights Furniture/Block Loot Tables
 14a22fdab6adafff051d1dc2bc4e90848d2cc618 data\arknights-furniture\loot_tables\blocks\airtight\cleanroom_lorry.json
 7daf597036c91dda2ac6012311a3243757f42870 data\arknights-furniture\loot_tables\blocks\chen\office_clue_board.json
 1f2acf24a522b1201a3d87231a3326b3391073c9 data\arknights-furniture\loot_tables\blocks\sideline\low_black_and_white_sofa.json
@@ -130,8 +130,8 @@ c2915b32cdf46b4a14307c6f8e9391179422faa4 data\arknights-furniture\loot_tables\bl
 6944436e92a25ed19fce694a33e6110c52a0d847 data\arknights-furniture\loot_tables\blocks\workstation\workstation_blackboard.json
 1f5eed6d37a3214576849b4da2e19429cf994936 data\arknights-furniture\loot_tables\blocks\safehouse\multifunctional_workbench_computer.json
 9f8cc14a2e1bd18556ff1e7faa56fb8b90098d01 data\arknights-furniture\loot_tables\blocks\reimselar\banquet_guest_seat.json
-5b67c43744b76710b2ed7adfb41b9f55d9e0d3cf data\arknights-furniture\loot_tables\blocks\ldg\simple_gray_lounge_chair.json
 924866c9763927b09a811b08c59a8dc70645321b data\arknights-furniture\loot_tables\blocks\ldg\piano_black_vintage_stool.json
+5b67c43744b76710b2ed7adfb41b9f55d9e0d3cf data\arknights-furniture\loot_tables\blocks\ldg\simple_gray_lounge_chair.json
 02048af52a9d269cc7eafb3920a0bb2cad03b5d8 data\arknights-furniture\loot_tables\blocks\hr\hr_office_lighting.json
 ff590b2075b115cc6c52a5352b8095d36fe819d6 data\arknights-furniture\loot_tables\blocks\occult\boarded_up_stone_windows.json
 a91910506964871beb05cce946e3408365ce9307 data\arknights-furniture\loot_tables\blocks\safehouse\outgoing_shipments.json

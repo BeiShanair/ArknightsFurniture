@@ -35,7 +35,7 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block AIR_MATTRESS = registerBlock("warehouse/air_mattress", new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
+    public static final Block AIR_MATTRESS = registerBlock("warehouse/air_mattress", new AirMattress(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block ATTENDANCE_BOARD = registerBlock("warehouse/attendance_board", new AttendanceBoard(AbstractBlock.Settings.create().strength(0.3f, 0.3f)));
     public static final Block CARGO_TROLLEY = registerBlock("warehouse/cargo_trolley", new CargoTrolley(AbstractBlock.Settings.create().strength(0.3f, 0.5f).nonOpaque()));
     public static final Block CARTON = registerBlock("warehouse/carton", new Carton(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CARTON));

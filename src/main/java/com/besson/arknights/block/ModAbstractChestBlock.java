@@ -1,5 +1,6 @@
 package com.besson.arknights.block;
 
+import com.besson.arknights.block.custom.warehouse.CartonBE;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -72,11 +73,16 @@ public abstract class ModAbstractChestBlock<T extends BlockEntity> extends Abstr
     public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
         if (!state.isOf(newState.getBlock())) {
             BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof Inventory) {
+            if (blockEntity instanceof Inventory && !(blockEntity instanceof CartonBE)) {
                 ItemScatterer.spawn(world, pos, (Inventory)blockEntity);
                 world.updateComparators(pos, this);
-            }
+            } else if (blockEntity instanceof CartonBE) {
+                if (!state.get(FurnitureProperties.TAPED)) {
+                    System.out.println("CartonBE");
+                    ItemScatterer.spawn(world, pos, (Inventory)blockEntity);
+                }
 
+            }
             super.onStateReplaced(state, world, pos, newState, moved);
         }
     }

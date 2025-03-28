@@ -66,6 +66,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CARDBOARD);
                         entries.add(ModItems.FURN_PARTS_ZIP1);
                         entries.add(ModItems.FURN_PARTS_ZIP2);
+                        entries.add(ModItems.TAPE);
                     }).build());
 
     // WareHouse

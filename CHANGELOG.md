@@ -1,4 +1,7 @@
 # 更新日志 / Changelog
+## 2025-03-28
+- 重制`货运仓库`家具套组模型及贴图
+- Rebuild the model and texture of the `Freight Warehouse` furniture set
 
 ## 2025-03-27
 - 更新`罗德岛人事办公室`家具套组

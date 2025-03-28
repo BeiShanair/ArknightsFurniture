@@ -1,6 +1,7 @@
 package com.besson.arknights.item;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.item.custom.TapeItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -55,6 +56,8 @@ public class ModItems {
     public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
     public static final Item FURN_PARTS_ZIP1 = registerItem("furn_parts_zip1", new Item(new Item.Settings()));
     public static final Item FURN_PARTS_ZIP2 = registerItem("furn_parts_zip2", new Item(new Item.Settings()));
+
+    public static final Item TAPE = registerItem("tape", new TapeItem(new Item.Settings()));
 
     private static Item registerItem(String id, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ArknightsFurniture.MOD_ID, id),item);

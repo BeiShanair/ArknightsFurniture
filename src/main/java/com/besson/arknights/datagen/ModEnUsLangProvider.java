@@ -57,6 +57,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.VICTORIA_LOGO, "Victoria Logo");
         translationBuilder.add(ModItems.YAN_LOGO, "Yan Logo");
 
+        translationBuilder.add(ModItems.TAPE, "Tape");
+
         translationBuilder.add(painting + "abyssal_hunters.title", "Abyssal Hunters");
         translationBuilder.add(painting + "abyssal_hunters.author", "Hypergryph");
         translationBuilder.add(painting + "aegir.title", "Aegir");

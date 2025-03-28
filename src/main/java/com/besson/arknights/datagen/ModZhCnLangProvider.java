@@ -57,6 +57,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.VICTORIA_LOGO, "维多利亚 Logo");
         translationBuilder.add(ModItems.YAN_LOGO, "炎 Logo");
 
+        translationBuilder.add(ModItems.TAPE, "胶带");
+
         translationBuilder.add(painting + "abyssal_hunters.title", "深海猎人");
         translationBuilder.add(painting + "abyssal_hunters.author", "鹰角网络");
         translationBuilder.add(painting + "aegir.title", "阿戈尔");
