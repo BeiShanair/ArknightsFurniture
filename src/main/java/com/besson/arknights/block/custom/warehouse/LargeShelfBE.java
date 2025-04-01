@@ -12,6 +12,7 @@ import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 public class LargeShelfBE extends ModAbstractContainerBE {
     protected LargeShelfBE(BlockEntityType<?> blockEntityType, BlockPos blockPos, BlockState blockState) {

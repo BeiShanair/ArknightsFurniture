@@ -203,6 +203,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "很多纸箱");
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "便携计算器");
         translationBuilder.add(ModBlocks.POST_IT_NOTE, "快捷便利贴");
+        translationBuilder.add(ModBlocks.CEILING_ROW_LIGHT, "贴壁天花板排灯");
+        translationBuilder.add(ModBlocks.CONCRETE_WALL, "强化混凝土平滑墙");
+        translationBuilder.add(ModBlocks.DORMITORY_DOOR_FRAMES, "宿舍门框");
+        translationBuilder.add(ModBlocks.REINFORCED_CONCRETE_WALLS, "铆钉孔强化混凝土平滑墙");
 
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "瓷色壁灯");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "黑色简约时钟");

@@ -203,6 +203,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "Pile Of Cartons");
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "Portable Calculator");
         translationBuilder.add(ModBlocks.POST_IT_NOTE, "Post It Note");
+        translationBuilder.add(ModBlocks.CEILING_ROW_LIGHT, "Ceiling Row Light");
+        translationBuilder.add(ModBlocks.CONCRETE_WALL, "Concrete Wall");
+        translationBuilder.add(ModBlocks.DORMITORY_DOOR_FRAMES, "Dormitory Door Frames");
+        translationBuilder.add(ModBlocks.REINFORCED_CONCRETE_WALLS, "Reinforced Concrete Walls");
 
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "Grayish Wall Light");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "Simple Black Clock");

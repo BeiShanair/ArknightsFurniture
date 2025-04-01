@@ -87,6 +87,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PILE_OF_CARTONS);
                         entries.add(ModBlocks.PORTABLE_CALCULATOR);
                         entries.add(ModBlocks.POST_IT_NOTE);
+                        entries.add(ModBlocks.CEILING_ROW_LIGHT);
+                        entries.add(ModBlocks.CONCRETE_WALL);
+                        entries.add(ModBlocks.DORMITORY_DOOR_FRAMES);
+                        entries.add(ModBlocks.REINFORCED_CONCRETE_WALLS);
                     }).build());
 
     // Side-line/Simple Black-and-white/Orange Furniture

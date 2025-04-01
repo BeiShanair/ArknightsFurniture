@@ -27,6 +27,10 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PILE_OF_CARTONS);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_CALCULATOR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POST_IT_NOTE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_ROW_LIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONCRETE_WALL);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DORMITORY_DOOR_FRAMES);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REINFORCED_CONCRETE_WALLS);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_LIGHT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CLOCK);

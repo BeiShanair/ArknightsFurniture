@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "A#A"
+  ],
+  "result": {
+    "item": "arknights-furniture:warehouse/ceiling_row_light"
+  },
+  "show_notification": true
+}

@@ -135,6 +135,37 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "graffiti"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEILING_ROW_LIGHT, 1)
+                .pattern("A#A")
+                .input('A', Items.IRON_INGOT)
+                .input('#', Items.GLOWSTONE_DUST)
+                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "ceiling_row_light"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CONCRETE_WALL, 1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.BLACK_CONCRETE)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_CONCRETE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "concrete_wall"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DORMITORY_DOOR_FRAMES, 1)
+                .pattern("#A#")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ItemTags.PLANKS)
+                .input('A', Items.IRON_INGOT)
+                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "dormitory_door_frames"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_CONCRETE_WALLS, 1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Items.BLACK_CONCRETE)
+                .criterion("has_item", conditionsFromItem(Items.BLACK_CONCRETE))
+                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "reinforced_concrete_walls"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_BED, 1)
                 .pattern("###")

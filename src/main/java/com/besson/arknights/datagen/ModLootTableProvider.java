@@ -25,6 +25,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PILE_OF_CARTONS);
         addDrop(ModBlocks.PORTABLE_CALCULATOR);
         addDrop(ModBlocks.POST_IT_NOTE);
+        addDrop(ModBlocks.CEILING_ROW_LIGHT);
+        addDrop(ModBlocks.CONCRETE_WALL);
+        addDrop(ModBlocks.DORMITORY_DOOR_FRAMES);
+        addDrop(ModBlocks.REINFORCED_CONCRETE_WALLS);
 
         addDrop(ModBlocks.GRAYISH_WALL_LIGHT);
         addDrop(ModBlocks.SIMPLE_BLACK_CLOCK);

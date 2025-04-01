@@ -49,6 +49,10 @@ public class ModBlocks {
     public static final Block PILE_OF_CARTONS = registerBlock("warehouse/pile_of_cartons", new PileOfCartons(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block PORTABLE_CALCULATOR = registerBlock("warehouse/portable_calculator", new PortableCalculator(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block POST_IT_NOTE = registerBlock("warehouse/post_it_note", new PostItNote(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
+    public static final Block CEILING_ROW_LIGHT = registerBlock("warehouse/ceiling_row_light", new CeilingRowLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CONCRETE_WALL = registerBlock("warehouse/concrete_wall", new ConcreteWall(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block DORMITORY_DOOR_FRAMES = registerBlock("warehouse/dormitory_door_frames", new DormitoryDoorFrames(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block REINFORCED_CONCRETE_WALLS = registerBlock("warehouse/reinforced_concrete_walls", new ReinforcedConcreteWalls(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
 
     public static final Block GRAYISH_WALL_LIGHT = registerBlock("sideline/grayish_wall_light", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_BLACK_CLOCK = registerBlock("sideline/simple_black_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "arknights-furniture:warehouse/dormitory_door_frames"
+  },
+  "show_notification": true
+}

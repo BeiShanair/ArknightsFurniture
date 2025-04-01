@@ -1,7 +1,24 @@
 # 更新日志 / Changelog
+## 2025-04-01
+- 现在，`货运仓库`家具套组中的`大号货架`可以展示其储存的物品，未来将进一步拓展至其他方块
+- Now, the `Warehouse` furniture set's `Large Shelf` can display the items it stores, and this feature will be further expanded to other blocks in the future
+
+## 2025-03-31
+- 追加`货运仓库`家具套组中纸箱的玩法，可用胶带将其封装，而后将无法打开（测试内容）
+- Add gameplay for cardboard boxes in the `Warehouse` furniture set, which can be sealed with tape and cannot be opened (Beta)
+
+## 2025-03-29
+- 添加`货运仓库`家具套组中额外的内容
+- Add additional content to the `Warehouse` furniture set
+
 ## 2025-03-28
 - 重制`货运仓库`家具套组模型及贴图
-- Rebuild the model and texture of the `Freight Warehouse` furniture set
+- Rebuild the model and texture of the `Warehouse` furniture set
+
+- `货运仓库`家具套组中的`轮班考勤板`将改为赞助板，所有为方舟模组提供赞助的玩家都将记录在上面
+- The `Attendance Board` in the `Warehouse` furniture set will be changed to a sponsorship board, and all players who sponsor this mod will be recorded on it
+
+### 特别感谢`@天天摸鱼的仁桀`为模组提供美术支持！Thanks！
 
 ## 2025-03-27
 - 更新`罗德岛人事办公室`家具套组
