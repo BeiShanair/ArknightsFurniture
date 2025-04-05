@@ -400,5 +400,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WATER_DISPENSER);
         addDrop(ModBlocks.WHEELED_STORAGE_CABINET);
 
+        addDrop(ModBlocks.TOTEM_POT);
+        addDrop(ModBlocks.TOTEM_SPEAKERS);
+        addDrop(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
+        addDrop(ModBlocks.TRIBAL_STONE_STAND);
+        addDrop(ModBlocks.TRIBAL_STYLE_SOFA);
+        addDrop(ModBlocks.TROPICAL_POTTED_PLANT);
+
     }
 }

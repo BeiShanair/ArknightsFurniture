@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-04-05
+- 更新`部落风情旅舍`家具套组
+- Upgrade of `Tribal Style Inn` furniture set
+
 ## 2025-04-01
 - 现在，`货运仓库`家具套组中的`大号货架`可以展示其储存的物品，未来将进一步拓展至其他方块
 - Now, the `Warehouse` furniture set's `Large Shelf` can display the items it stores, and this feature will be further expanded to other blocks in the future

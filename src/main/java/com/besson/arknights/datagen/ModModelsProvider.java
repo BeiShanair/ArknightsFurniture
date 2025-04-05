@@ -402,6 +402,14 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WATER_DISPENSER);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WHEELED_STORAGE_CABINET);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOTEM_POT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOTEM_SPEAKERS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_LOFT_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TRIBAL_STONE_STAND);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.TRIBAL_STYLE_SOFA, ModelIds.getBlockModelId(ModBlocks.TRIBAL_STYLE_SOFA));
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TROPICAL_POTTED_PLANT);
+
     }
 
     @Override

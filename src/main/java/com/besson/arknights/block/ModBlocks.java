@@ -22,6 +22,7 @@ import com.besson.arknights.block.custom.safehouse.*;
 import com.besson.arknights.block.custom.seven.*;
 import com.besson.arknights.block.custom.sideline.*;
 import com.besson.arknights.block.custom.siesta.*;
+import com.besson.arknights.block.custom.tribal.*;
 import com.besson.arknights.block.custom.ursus.*;
 import com.besson.arknights.block.custom.warehouse.*;
 import com.besson.arknights.block.custom.workstation.*;
@@ -424,6 +425,13 @@ public class ModBlocks {
     public static final Block WATER_DISPENSER = registerBlock("hr/water_dispenser",new WaterDispenser(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block WHEELED_STORAGE_CABINET = registerBlock("hr/wheeled_storage_cabinet",new WheeledStorageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.WHEELED_STORAGE_CABINET));
 
+    public static final Block TOTEM_POT = registerBlock("tribal/totem_pot",new TotemPot(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block TOTEM_SPEAKERS = registerBlock("tribal/totem_speakers",new TotemSpeakers(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block TRIBAL_DECORATIVE_CHANDELIER = registerBlock("tribal/tribal_decorative_chandelier",new TribalDecorativeChandelier(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block TRIBAL_LOFT_BED = registerBlock("tribal/tribal_loft_bed",new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block TRIBAL_STONE_STAND = registerBlock("tribal/tribal_stone_stand",new TribalStoneStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block TRIBAL_STYLE_SOFA = registerBlock("tribal/tribal_style_sofa",new TribalStyleSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block TROPICAL_POTTED_PLANT = registerBlock("tribal/tropical_potted_plant",new TropicalPottedPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

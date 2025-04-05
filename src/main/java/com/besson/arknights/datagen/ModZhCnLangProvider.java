@@ -578,6 +578,14 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WATER_DISPENSER, "桶装饮水机");
         translationBuilder.add(ModBlocks.WHEELED_STORAGE_CABINET, "可动收纳柜");
 
+        translationBuilder.add(ModBlocks.TOTEM_POT, "图腾壶");
+        translationBuilder.add(ModBlocks.TOTEM_SPEAKERS, "图腾音箱");
+        translationBuilder.add(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER, "部落装饰吊灯");
+        translationBuilder.add(ModBlocks.TRIBAL_LOFT_BED, "部落高架床");
+        translationBuilder.add(ModBlocks.TRIBAL_STONE_STAND, "部落杂物石墩");
+        translationBuilder.add(ModBlocks.TRIBAL_STYLE_SOFA, "部落风情沙发");
+        translationBuilder.add(ModBlocks.TROPICAL_POTTED_PLANT, "热带植物盆栽");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "基建材料");
         translationBuilder.add("itemGroup.warehouse", "货运仓库");
@@ -604,6 +612,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.ursus_student_clubroom", "乌萨斯学生活动室");
         translationBuilder.add("itemGroup.leithanian_nights", "莱塔尼亚之夜");
         translationBuilder.add("itemGroup.rhodes_island_hr_office", "罗德岛人事办公室");
+        translationBuilder.add("itemGroup.tribal_style_inn", "部落风情旅舍");
 
         translationBuilder.add("container.carton", "纸箱");
         translationBuilder.add("container.large_shelf", "大号货架");

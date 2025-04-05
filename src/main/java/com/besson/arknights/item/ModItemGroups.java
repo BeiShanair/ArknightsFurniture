@@ -555,6 +555,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_DISPENSER);
                         entries.add(ModBlocks.WHEELED_STORAGE_CABINET);
                     }).build());
+
+    public static final ItemGroup TRIBAL_STYLE_INN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "tribal_style_inn"),
+            ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.tribal_style_inn"))
+                    .icon(() -> new ItemStack(ModBlocks.CUBICLE_FLOORPLAN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.TOTEM_POT);
+                        entries.add(ModBlocks.TOTEM_SPEAKERS);
+                        entries.add(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER);
+                        entries.add(ModBlocks.TRIBAL_LOFT_BED);
+                        entries.add(ModBlocks.TRIBAL_STONE_STAND);
+                        entries.add(ModBlocks.TRIBAL_STYLE_SOFA);
+                        entries.add(ModBlocks.TROPICAL_POTTED_PLANT);
+                    }).build());
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

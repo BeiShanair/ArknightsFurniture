@@ -578,6 +578,14 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WATER_DISPENSER, "Water Dispenser");
         translationBuilder.add(ModBlocks.WHEELED_STORAGE_CABINET, "Wheeled Storage Cabinet");
 
+        translationBuilder.add(ModBlocks.TOTEM_POT, "Totem Pot");
+        translationBuilder.add(ModBlocks.TOTEM_SPEAKERS, "Totem Speakers");
+        translationBuilder.add(ModBlocks.TRIBAL_DECORATIVE_CHANDELIER, "Tribal Decorative Chandelier");
+        translationBuilder.add(ModBlocks.TRIBAL_LOFT_BED, "Tribal Loft Bed");
+        translationBuilder.add(ModBlocks.TRIBAL_STONE_STAND, "Tribal Stone Stand");
+        translationBuilder.add(ModBlocks.TRIBAL_STYLE_SOFA, "Tribal Style Sofa");
+        translationBuilder.add(ModBlocks.TROPICAL_POTTED_PLANT, "Tropical Potted Plant");
+
         translationBuilder.add("itemGroup.logo", "Logo");
         translationBuilder.add("itemGroup.material", "Material");
         translationBuilder.add("itemGroup.warehouse", "Warehouse");
@@ -604,6 +612,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemGroup.ursus_student_clubroom", "Ursus Student Clubroom");
         translationBuilder.add("itemGroup.leithanian_nights", "Leithanian Nights");
         translationBuilder.add("itemGroup.rhodes_island_hr_office", "Rhodes Island HR Office");
+        translationBuilder.add("itemGroup.tribal_style_inn", "Tribal Style Inn");
 
         translationBuilder.add("container.carton", "Carton");
         translationBuilder.add("container.large_shelf", "Large Shelf");
