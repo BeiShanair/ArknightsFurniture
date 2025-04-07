@@ -45,7 +45,7 @@ public class ConnectableBlock extends FurnitureHorizontalFacingBlock{
         return this.isRelatedBlock(access, pos, rotatedOnce, direction);
     }
 
-    private boolean isRelatedBlock(WorldAccess access, BlockPos pos, Direction direction1, Direction direction2){
+    public boolean isRelatedBlock(WorldAccess access, BlockPos pos, Direction direction1, Direction direction2){
         BlockState state = access.getBlockState(pos.offset(direction1));
         if (state.getBlock() == this){
             Direction blockDirection = state.get(FACING);

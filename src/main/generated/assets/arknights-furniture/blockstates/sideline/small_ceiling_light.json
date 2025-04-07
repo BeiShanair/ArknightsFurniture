@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/sideline/small_ceiling_light",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/sideline/small_ceiling_light"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/sideline/small_ceiling_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/sideline/small_ceiling_light",
+      "y": 270
+    }
+  }
+}

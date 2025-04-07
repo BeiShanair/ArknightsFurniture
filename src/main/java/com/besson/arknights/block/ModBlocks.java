@@ -63,13 +63,18 @@ public class ModBlocks {
     public static final Block SMALL_CALLBOARD = registerBlock("sideline/small_callboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BLACK_AND_WHITE_SQUARE_TABLE = registerBlock("sideline/black_and_white_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_BLACK_AND_WHITE_SOFA = registerBlock("sideline/low_black_and_white_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block CHECKERBOARD_BOOKCASE1 = registerBlock("sideline/checkerboard_bookcase1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
-    public static final Block CHECKERBOARD_BOOKCASE2 = registerBlock("sideline/checkerboard_bookcase2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
-    public static final Block CHECKERBOARD_BOOKCASE3 = registerBlock("sideline/checkerboard_bookcase3", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
-    public static final Block SIMPLE_BLACK_CABINET = registerBlock("sideline/simple_black_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
+    public static final Block CHECKERBOARD_BOOKCASE_BOTTOM = registerBlock("sideline/checkerboard_bookcase_bottom", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block CHECKERBOARD_BOOKCASE_M1 = registerBlock("sideline/checkerboard_bookcase_m1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block CHECKERBOARD_BOOKCASE_M2 = registerBlock("sideline/checkerboard_bookcase_m2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block CHECKERBOARD_BOOKCASE_TOP = registerBlock("sideline/checkerboard_bookcase_top", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block GRAY_FIBER_CARPET = registerBlock("sideline/gray_fiber_carpet", new FiberCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GRAYISH_WALL_BOTTOM = registerBlock("sideline/grayish_wall_bottom", new GrayishWall(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block GRAYISH_WALL_TOP = registerBlock("sideline/grayish_wall_top", new GrayishWall(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SMALL_CEILING_LIGHT = registerBlock("sideline/small_ceiling_light", new CeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SIMPLE_BLACK_CABINET = registerBlock("sideline/simple_black_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SIMPLE_CABINET));
     public static final Block BLACK_OFFICE_CHAIR = registerBlock("sideline/black_office_chair", new OfficeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
-    public static final Block SIMPLE_BLACK_DESK_LEFT = registerBlock("sideline/simple_black_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
-    public static final Block SIMPLE_BLACK_DESK_RIGHT = registerBlock("sideline/simple_black_desk_right", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    public static final Block SIMPLE_BLACK_DESK_LEFT = registerBlock("sideline/simple_black_desk_left", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_BLACK_DESK_RIGHT = registerBlock("sideline/simple_black_desk_right", new SimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
 
     public static final Block ORANGE_WALL_LAMP = registerBlock("sideline/orange_wall_lamp", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_ORANGE_CLOCK = registerBlock("sideline/simple_orange_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));

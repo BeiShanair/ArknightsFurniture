@@ -1,4 +1,14 @@
 # 更新日志 / Changelog
+## 2025-04-07
+- 重制`边线/纯色简约家居`家具套组模型及贴图
+- Rebuild the model and texture of the `Side Line/Simple Black-and-White Furniture` furniture set
+
+- 进行了一系列小更新，针对一些内容进行技术开发及修复
+- A series of small updates were made, focusing on technical development and fixes for some content
+
+- 未来的配方先缓缓
+- Future recipes will be released later
+
 ## 2025-04-05
 - 更新`部落风情旅舍`家具套组
 - Upgrade of `Tribal Style Inn` furniture set

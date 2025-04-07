@@ -216,13 +216,18 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_CALLBOARD, "Small Callboard");
         translationBuilder.add(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE, "Black And White Square Table");
         translationBuilder.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, "Low Black And White Sofa");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE1, "Checkerboard Bookcase 1");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE2, "Checkerboard Bookcase 2");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE3, "Checkerboard Bookcase 3");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CABINET, "Simple Black Cabinet");
         translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "Black Office Chair");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "Simple Black Desk Left");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "Simple Black Desk Right");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM, "Checkerboard Bookcase Bottom");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_M1, "Checkerboard Bookcase Middle 1");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_M2, "Checkerboard Bookcase Middle 2");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_TOP, "Checkerboard Bookcase Top");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_BOTTOM, "Grayish Wall Bottom");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_TOP, "Grayish Wall Top");
+        translationBuilder.add(ModBlocks.GRAY_FIBER_CARPET, "Gray Fiber Carpet");
+        translationBuilder.add(ModBlocks.SMALL_CEILING_LIGHT, "Small Ceiling Light");
 
         translationBuilder.add(ModBlocks.ORANGE_WALL_LAMP, "Orange Wall Lamp");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CLOCK, "Simple Orange Clock");

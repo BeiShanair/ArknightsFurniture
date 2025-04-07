@@ -1,0 +1,49 @@
+{
+    "variants": {
+        "facing=north,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall"
+        },
+        "facing=north,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_left"
+        },
+        "facing=north,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_right"
+        },
+        "facing=east,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall",
+            "y": 90
+        },
+        "facing=east,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_left",
+            "y": 90
+        },
+        "facing=east,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_right",
+            "y": 90
+        },
+        "facing=south,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall",
+            "y": 180
+        },
+        "facing=south,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_left",
+            "y": 180
+        },
+        "facing=south,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_right",
+            "y": 180
+        },
+        "facing=west,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall",
+            "y": 270
+        },
+        "facing=west,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_left",
+            "y": 270
+        },
+        "facing=west,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/concrete_wall_right",
+            "y": 270
+        }
+    }
+}

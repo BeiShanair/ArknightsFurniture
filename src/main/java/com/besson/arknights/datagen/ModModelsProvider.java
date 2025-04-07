@@ -28,9 +28,9 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.PORTABLE_CALCULATOR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.POST_IT_NOTE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CEILING_ROW_LIGHT);
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CONCRETE_WALL);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.CONCRETE_WALL, ModelIds.getBlockModelId(ModBlocks.CONCRETE_WALL));
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DORMITORY_DOOR_FRAMES);
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.REINFORCED_CONCRETE_WALLS);
+        blockStateModelGenerator.registerParentedItemModel(ModBlocks.REINFORCED_CONCRETE_WALLS, ModelIds.getBlockModelId(ModBlocks.REINFORCED_CONCRETE_WALLS));
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_LIGHT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CLOCK);
@@ -40,13 +40,18 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_CALLBOARD);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE);
         blockStateModelGenerator.registerParentedItemModel(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, ModelIds.getBlockModelId(ModBlocks.LOW_BLACK_AND_WHITE_SOFA));
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE1);
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE2);
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE_M1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE_M2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHECKERBOARD_BOOKCASE_TOP);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CABINET);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_OFFICE_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAY_FIBER_CARPET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_BOTTOM);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_TOP);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_CEILING_LIGHT);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_WALL_LAMP);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CLOCK);

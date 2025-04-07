@@ -1,0 +1,49 @@
+{
+    "variants": {
+        "facing=north,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls"
+        },
+        "facing=north,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_left"
+        },
+        "facing=north,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_right"
+        },
+        "facing=east,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls",
+            "y": 90
+        },
+        "facing=east,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_left",
+            "y": 90
+        },
+        "facing=east,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_right",
+            "y": 90
+        },
+        "facing=south,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls",
+            "y": 180
+        },
+        "facing=south,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_left",
+            "y": 180
+        },
+        "facing=south,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_right",
+            "y": 180
+        },
+        "facing=west,double_block_type=single": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls",
+            "y": 270
+        },
+        "facing=west,double_block_type=left": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_left",
+            "y": 270
+        },
+        "facing=west,double_block_type=right": {
+            "model": "arknights-furniture:block/warehouse/reinforced_concrete_walls_right",
+            "y": 270
+        }
+    }
+}

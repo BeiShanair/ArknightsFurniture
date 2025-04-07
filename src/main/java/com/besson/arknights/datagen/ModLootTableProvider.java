@@ -38,13 +38,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMALL_CALLBOARD);
         addDrop(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE);
         addDrop(ModBlocks.LOW_BLACK_AND_WHITE_SOFA);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE1);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE2);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE3);
         addDrop(ModBlocks.BLACK_OFFICE_CHAIR);
         addDrop(ModBlocks.SIMPLE_BLACK_CABINET);
         addDrop(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
         addDrop(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
+        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM);
+        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_M1);
+        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_M2);
+        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_TOP);
+        addDrop(ModBlocks.GRAY_FIBER_CARPET);
+        addDrop(ModBlocks.GRAYISH_WALL_BOTTOM);
+        addDrop(ModBlocks.GRAYISH_WALL_TOP);
+        addDrop(ModBlocks.SMALL_CEILING_LIGHT);
 
         addDrop(ModBlocks.ORANGE_WALL_LAMP);
         addDrop(ModBlocks.SIMPLE_ORANGE_CLOCK);

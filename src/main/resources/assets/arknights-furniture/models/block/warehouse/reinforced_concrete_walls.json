@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "arknights-furniture:block/warehouse/reinforced_concrete_walls",
-		"particle": "arknights-furniture:block/black"
+		"particle": "arknights-furniture:block/gray"
 	},
 	"elements": [
 		{
