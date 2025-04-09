@@ -1,4 +1,13 @@
 # 更新日志 / Changelog
+## 2025-04-09
+- 现在，`货运仓库`家具套组中的`大号货架 （空）`只能存储3个物品，但可以渲染其储存的物品
+- Now, the `Large Shelf (Empty)` in the `Warehouse` furniture set can only store 3 items, but it can render the items it stores
+
+- `大号货架`变更放置方式，当放置首层方块后，另外三层也将自动生成；破坏同理
+- The `Large Shelf` has changed its placement method. After placing the first layer block, the other three layers will be generated automatically. The same applies to destruction
+
+- `大号货架`保持原样，依旧可以存储9个物品，但不能渲染其储存的物品
+- The `Large Shelf` remains unchanged and can still store 9 items, but it cannot render the items it stores
 ## 2025-04-07
 - 重制`边线/纯色简约家居`家具套组模型及贴图
 - Rebuild the model and texture of the `Side Line/Simple Black-and-White Furniture` furniture set

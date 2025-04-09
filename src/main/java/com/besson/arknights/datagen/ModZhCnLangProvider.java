@@ -195,10 +195,11 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CARTON, "纸箱");
         translationBuilder.add(ModBlocks.CARTON_STOOL, "纸箱凳");
         translationBuilder.add(ModBlocks.GRAFFITI, "涂鸦");
-        translationBuilder.add(ModBlocks.LARGE_SHELF1, "大号货架1");
+        translationBuilder.add(ModBlocks.LARGE_SHELF1, "大号货架");
         translationBuilder.add(ModBlocks.LARGE_SHELF2, "大号货架2");
         translationBuilder.add(ModBlocks.LARGE_SHELF3, "大号货架3");
         translationBuilder.add(ModBlocks.LARGE_SHELF4, "大号货架4");
+        translationBuilder.add(ModBlocks.LARGE_SHELF_EMPTY, "大号货架 (空)");
         translationBuilder.add(ModBlocks.PALLET, "货物垫板");
         translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "很多纸箱");
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "便携计算器");
@@ -207,6 +208,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CONCRETE_WALL, "强化混凝土平滑墙");
         translationBuilder.add(ModBlocks.DORMITORY_DOOR_FRAMES, "宿舍门框");
         translationBuilder.add(ModBlocks.REINFORCED_CONCRETE_WALLS, "铆钉孔强化混凝土平滑墙");
+
+        translationBuilder.add("tooltip.arknights.large_shelf", "它可以存储9个物品");
+        translationBuilder.add("tooltip.arknights.large_shelf_empty", "它可以存储3个物品，可以渲染存储的物品");
 
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "瓷色壁灯");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "黑色简约时钟");

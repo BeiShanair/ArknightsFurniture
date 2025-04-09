@@ -18,6 +18,7 @@ import com.besson.arknights.block.custom.siesta.SummerBoatCabinetBE;
 import com.besson.arknights.block.custom.ursus.LowStorageCabinetBE;
 import com.besson.arknights.block.custom.warehouse.CartonBE;
 import com.besson.arknights.block.custom.warehouse.LargeShelfBE;
+import com.besson.arknights.block.custom.warehouse.LargeShelfEmptyBE;
 import com.besson.arknights.block.custom.workstation.MaterialCratesBE;
 import com.mojang.datafixers.types.Type;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
@@ -41,6 +42,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<LargeShelfBE> LARGE_SHELF = create("large_shelf",
             BlockEntityType.Builder.create(LargeShelfBE::new, ModBlocks.LARGE_SHELF1, ModBlocks.LARGE_SHELF2, ModBlocks.LARGE_SHELF3, ModBlocks.LARGE_SHELF4));
+
+    public static final BlockEntityType<LargeShelfEmptyBE> LARGE_SHELF_EMPTY = create("large_shelf_empty",
+            BlockEntityType.Builder.create(LargeShelfEmptyBE::new, ModBlocks.LARGE_SHELF_EMPTY));
 
     public static final BlockEntityType<NightstandBE> NIGHTSTAND = create("nightstand",
             BlockEntityType.Builder.create(NightstandBE::new, ModBlocks.BLACK_NIGHTSTAND, ModBlocks.ORANGE_NIGHTSTAND));

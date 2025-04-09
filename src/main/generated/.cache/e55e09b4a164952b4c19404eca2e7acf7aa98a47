@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-07T10:00:43.6359994	Arknights Furniture/Recipes
+// 1.20.1	2025-04-09T20:02:05.3068735	Arknights Furniture/Recipes
 46386d5e45426e86da53f72d09a52a5e25f08c3f data\arknights-furniture\recipes\chens_weapon_rack.json
 137a61b4b27480d773c7e9843142574dcb1df53b data\arknights-furniture\advancements\recipes\building_blocks\candlelit_hearth.json
 945f405e49d75df513bfe7599041f8901f216a7f data\arknights-furniture\recipes\futon_bunk_bed_top.json
@@ -536,8 +536,8 @@ c08a9ffe7b97b066bdc3865789122c94f5e2188b data\arknights-furniture\recipes\carton
 ec4c207a0ab1c184df218e848310cfd48ec739c0 data\arknights-furniture\recipes\pizzeria_exit_sign.json
 243502d9e40b65a82e296c13f1baea67fb43cb89 data\arknights-furniture\recipes\lazy_lounge_chair.json
 1b3f0dfab48971815ce4760594420182aebb8c69 data\arknights-furniture\advancements\recipes\building_blocks\grand_six_candle_chandelier.json
-2b1479a13760aa99abdf6f2b3ba295fed691a9f6 data\arknights-furniture\recipes\weapon_storage_cabinet.json
 b1c8357d4dd18e851db07244b81ee0f22871d1b2 data\arknights-furniture\recipes\workbench.json
+2b1479a13760aa99abdf6f2b3ba295fed691a9f6 data\arknights-furniture\recipes\weapon_storage_cabinet.json
 2e7bd7a79598364d95815e14a11b2ffae0b9bfdc data\arknights-furniture\recipes\summer_boat_cabinet_bottom.json
 35981ed2d99b5922064d6e72bb3ff67e4217b2e2 data\arknights-furniture\recipes\sideline\black_hd_tv_parts.json
 d03276350eccff264a769be1190e44fad38c84f5 data\arknights-furniture\advancements\recipes\building_blocks\small_teak_nightstand.json

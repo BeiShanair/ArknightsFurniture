@@ -80,9 +80,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CARTON_STOOL);
                         entries.add(ModBlocks.GRAFFITI);
                         entries.add(ModBlocks.LARGE_SHELF1);
-                        entries.add(ModBlocks.LARGE_SHELF2);
-                        entries.add(ModBlocks.LARGE_SHELF3);
-                        entries.add(ModBlocks.LARGE_SHELF4);
+                        entries.add(ModBlocks.LARGE_SHELF_EMPTY);
                         entries.add(ModBlocks.PALLET);
                         entries.add(ModBlocks.PILE_OF_CARTONS);
                         entries.add(ModBlocks.PORTABLE_CALCULATOR);

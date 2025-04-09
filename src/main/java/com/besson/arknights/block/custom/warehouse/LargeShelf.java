@@ -1,18 +1,18 @@
 package com.besson.arknights.block.custom.warehouse;
 
 import com.besson.arknights.block.ModAbstractChestBlock;
-import com.besson.arknights.block.ModBlockEntities;
 import com.besson.arknights.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.block.entity.BlockEntityTicker;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
@@ -21,6 +21,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class LargeShelf extends ModAbstractChestBlock<LargeShelfBE> {
@@ -38,6 +39,11 @@ public class LargeShelf extends ModAbstractChestBlock<LargeShelfBE> {
             case EAST, WEST -> SHAPE_WE;
             default -> SHAPE_NS;
         };
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+        tooltip.add(Text.translatable("tooltip.arknights.large_shelf"));
     }
 
     @Nullable

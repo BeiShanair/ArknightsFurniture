@@ -195,10 +195,11 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CARTON, "Carton");
         translationBuilder.add(ModBlocks.CARTON_STOOL, "Carton Stool");
         translationBuilder.add(ModBlocks.GRAFFITI, "Graffiti");
-        translationBuilder.add(ModBlocks.LARGE_SHELF1, "Large Shelf 1");
+        translationBuilder.add(ModBlocks.LARGE_SHELF1, "Large Shelf");
         translationBuilder.add(ModBlocks.LARGE_SHELF2, "Large Shelf 2");
         translationBuilder.add(ModBlocks.LARGE_SHELF3, "Large Shelf 3");
         translationBuilder.add(ModBlocks.LARGE_SHELF4, "Large Shelf 4");
+        translationBuilder.add(ModBlocks.LARGE_SHELF_EMPTY, "Large Shelf Empty");
         translationBuilder.add(ModBlocks.PALLET, "Pallet");
         translationBuilder.add(ModBlocks.PILE_OF_CARTONS, "Pile Of Cartons");
         translationBuilder.add(ModBlocks.PORTABLE_CALCULATOR, "Portable Calculator");
@@ -207,6 +208,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CONCRETE_WALL, "Concrete Wall");
         translationBuilder.add(ModBlocks.DORMITORY_DOOR_FRAMES, "Dormitory Door Frames");
         translationBuilder.add(ModBlocks.REINFORCED_CONCRETE_WALLS, "Reinforced Concrete Walls");
+
+        translationBuilder.add("tooltip.arknights.large_shelf", "It can store up to 9 items.");
+        translationBuilder.add("tooltip.arknights.large_shelf_empty", "It can store up to 3 items.Stored items can be rendered.");
 
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "Grayish Wall Light");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "Simple Black Clock");

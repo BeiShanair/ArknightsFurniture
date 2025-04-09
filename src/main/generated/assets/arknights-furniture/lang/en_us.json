@@ -355,10 +355,11 @@
   "block.arknights-furniture.warehouse.concrete_wall": "Concrete Wall",
   "block.arknights-furniture.warehouse.dormitory_door_frames": "Dormitory Door Frames",
   "block.arknights-furniture.warehouse.graffiti": "Graffiti",
-  "block.arknights-furniture.warehouse.large_shelf1": "Large Shelf 1",
+  "block.arknights-furniture.warehouse.large_shelf1": "Large Shelf",
   "block.arknights-furniture.warehouse.large_shelf2": "Large Shelf 2",
   "block.arknights-furniture.warehouse.large_shelf3": "Large Shelf 3",
   "block.arknights-furniture.warehouse.large_shelf4": "Large Shelf 4",
+  "block.arknights-furniture.warehouse.large_shelf_empty": "Large Shelf Empty",
   "block.arknights-furniture.warehouse.pallet": "Pallet",
   "block.arknights-furniture.warehouse.pile_of_cartons": "Pile Of Cartons",
   "block.arknights-furniture.warehouse.portable_calculator": "Portable Calculator",
@@ -590,5 +591,7 @@
   "painting.arknights-furniture.voyage_impression_kids_painting": "Voyage Impression Kids Painting",
   "painting.arknights-furniture.voyage_impression_kids_painting.author": "Hypergryph",
   "painting.arknights-furniture.yan.author": "Hypergryph",
-  "painting.arknights-furniture.yan.title": "Yan"
+  "painting.arknights-furniture.yan.title": "Yan",
+  "tooltip.arknights.large_shelf": "It can store up to 9 items.",
+  "tooltip.arknights.large_shelf_empty": "It can store up to 3 items.Stored items can be rendered."
 }

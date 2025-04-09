@@ -21,6 +21,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LARGE_SHELF2);
         addDrop(ModBlocks.LARGE_SHELF3);
         addDrop(ModBlocks.LARGE_SHELF4);
+        addDrop(ModBlocks.LARGE_SHELF_EMPTY);
         addDrop(ModBlocks.PALLET);
         addDrop(ModBlocks.PILE_OF_CARTONS);
         addDrop(ModBlocks.PORTABLE_CALCULATOR);

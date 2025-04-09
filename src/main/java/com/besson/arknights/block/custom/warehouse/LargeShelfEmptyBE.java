@@ -2,23 +2,25 @@ package com.besson.arknights.block.custom.warehouse;
 
 import com.besson.arknights.block.ModAbstractContainerBE;
 import com.besson.arknights.block.ModBlockEntities;
+import com.besson.arknights.screen.SmallSlotScreenHandler;
+import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.screen.GenericContainerScreenHandler;
+import net.minecraft.network.PacketByteBuf;
 import net.minecraft.screen.ScreenHandler;
-import net.minecraft.screen.ScreenHandlerType;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 
-public class LargeShelfBE extends ModAbstractContainerBE {
-    protected LargeShelfBE(BlockEntityType<?> blockEntityType, BlockPos blockPos, BlockState blockState) {
+public class LargeShelfEmptyBE extends ModAbstractContainerBE implements ExtendedScreenHandlerFactory {
+    protected LargeShelfEmptyBE(BlockEntityType<?> blockEntityType, BlockPos blockPos, BlockState blockState) {
         super(blockEntityType, blockPos, blockState);
     }
-    public LargeShelfBE(BlockPos pos, BlockState state) {
-        this(ModBlockEntities.LARGE_SHELF, pos, state);
+    public LargeShelfEmptyBE(BlockPos pos, BlockState state) {
+        this(ModBlockEntities.LARGE_SHELF_EMPTY, pos, state);
     }
 
     @Override
@@ -28,16 +30,21 @@ public class LargeShelfBE extends ModAbstractContainerBE {
 
     @Override
     public DefaultedList<ItemStack> createInventory() {
-        return DefaultedList.ofSize(9, ItemStack.EMPTY);
+        return DefaultedList.ofSize(3, ItemStack.EMPTY);
     }
 
     @Override
     protected ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory) {
-        return new GenericContainerScreenHandler(ScreenHandlerType.GENERIC_9X1, syncId, playerInventory, this, 1);
+        return new SmallSlotScreenHandler(syncId, playerInventory, this);
     }
 
     @Override
     public int size() {
-        return 9;
+        return 3;
+    }
+
+    @Override
+    public void writeScreenOpeningData(ServerPlayerEntity player, PacketByteBuf buf) {
+        buf.writeBlockPos(this.pos);
     }
 }

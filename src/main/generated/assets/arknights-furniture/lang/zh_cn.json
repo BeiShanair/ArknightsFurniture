@@ -355,10 +355,11 @@
   "block.arknights-furniture.warehouse.concrete_wall": "强化混凝土平滑墙",
   "block.arknights-furniture.warehouse.dormitory_door_frames": "宿舍门框",
   "block.arknights-furniture.warehouse.graffiti": "涂鸦",
-  "block.arknights-furniture.warehouse.large_shelf1": "大号货架1",
+  "block.arknights-furniture.warehouse.large_shelf1": "大号货架",
   "block.arknights-furniture.warehouse.large_shelf2": "大号货架2",
   "block.arknights-furniture.warehouse.large_shelf3": "大号货架3",
   "block.arknights-furniture.warehouse.large_shelf4": "大号货架4",
+  "block.arknights-furniture.warehouse.large_shelf_empty": "大号货架 (空)",
   "block.arknights-furniture.warehouse.pallet": "货物垫板",
   "block.arknights-furniture.warehouse.pile_of_cartons": "很多纸箱",
   "block.arknights-furniture.warehouse.portable_calculator": "便携计算器",
@@ -590,5 +591,7 @@
   "painting.arknights-furniture.voyage_impression_kids_painting": "航海印象儿童画",
   "painting.arknights-furniture.voyage_impression_kids_painting.author": "鹰角网络",
   "painting.arknights-furniture.yan.author": "鹰角网络",
-  "painting.arknights-furniture.yan.title": "炎"
+  "painting.arknights-furniture.yan.title": "炎",
+  "tooltip.arknights.large_shelf": "它可以存储9个物品",
+  "tooltip.arknights.large_shelf_empty": "它可以存储3个物品，可以渲染存储的物品"
 }

@@ -46,6 +46,7 @@ public class ModBlocks {
     public static final Block LARGE_SHELF2 = registerBlock("warehouse/large_shelf2", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block LARGE_SHELF3 = registerBlock("warehouse/large_shelf3", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
     public static final Block LARGE_SHELF4 = registerBlock("warehouse/large_shelf4", new LargeShelf(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF));
+    public static final Block LARGE_SHELF_EMPTY = registerBlock("warehouse/large_shelf_empty", new LargeShelfEmpty(AbstractBlock.Settings.create().strength(0.5f, 0.5f).nonOpaque(), () -> ModBlockEntities.LARGE_SHELF_EMPTY));
     public static final Block PALLET = registerBlock("warehouse/pallet", new Pallet(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block PILE_OF_CARTONS = registerBlock("warehouse/pile_of_cartons", new PileOfCartons(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block PORTABLE_CALCULATOR = registerBlock("warehouse/portable_calculator", new PortableCalculator(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
