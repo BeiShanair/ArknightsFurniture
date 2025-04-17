@@ -12,7 +12,7 @@ public class CeilingLight extends ModSwitchableLight {
     public CeilingLight(Settings settings) {
         super(settings.luminance(state -> state.get(LIT) ? 15 : 0));
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(7, 15.625, 7, 9, 16, 9);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(6, 15.625, 6, 10, 16, 10);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

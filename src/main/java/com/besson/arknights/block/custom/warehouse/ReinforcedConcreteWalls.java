@@ -1,6 +1,5 @@
 package com.besson.arknights.block.custom.warehouse;
 
-import com.besson.arknights.block.FurnitureHorizontalFacingBlock;
 import com.besson.arknights.block.ModDoubleBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

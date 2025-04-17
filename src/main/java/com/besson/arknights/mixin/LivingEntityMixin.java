@@ -1,6 +1,7 @@
 package com.besson.arknights.mixin;
 
 import com.besson.arknights.block.FurnitureBedBlock;
+import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.block.custom.warehouse.AirMattress;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -22,9 +23,12 @@ public abstract class LivingEntityMixin extends Entity {
     at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;setPosition(DDD)V"))
     private void modifySleepPosition(LivingEntity entity, double x, double y, double z, BlockPos pos) {
         BlockState state = this.getWorld().getBlockState(pos);
-        double modifiedY = state.getBlock() instanceof AirMattress ?
-                pos.getY() + 0.25 : pos.getZ() + 0.6875;
-
+        double modifiedY = pos.getY() + 0.6875;
+        if (state.getBlock() instanceof AirMattress) {
+            modifiedY = pos.getY() + 0.25;
+        } else if (state.getBlock() instanceof FurnitureBedBlock) {
+            modifiedY = pos.getY() + 0.75;
+        }
         this.setPosition(x, modifiedY, z);
     }
 }

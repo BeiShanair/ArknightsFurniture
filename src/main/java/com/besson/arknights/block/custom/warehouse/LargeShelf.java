@@ -130,7 +130,7 @@ public class LargeShelf extends ModAbstractChestBlock<LargeShelfBE> {
             if (isShelfBlock(neighborState) && world.getBlockState(neighborPos).isAir()) {
                 return Blocks.AIR.getDefaultState(); // 邻居被破坏时也破坏自己
             }
-            return state.with(FACING, neighborState.get(FACING)); // 同步朝向
+            return state.with(FACING, state.get(FACING));
         }
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }

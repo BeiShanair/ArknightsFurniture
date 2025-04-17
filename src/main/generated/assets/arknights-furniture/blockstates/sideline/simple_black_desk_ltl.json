@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/sideline/simple_black_desk_ltl",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/sideline/simple_black_desk_ltl"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/sideline/simple_black_desk_ltl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/sideline/simple_black_desk_ltl",
+      "y": 270
+    }
+  }
+}

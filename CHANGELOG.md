@@ -1,4 +1,10 @@
 # 更新日志 / Changelog
+## 2025-04-17
+- `大号货架`的放置方式拓展至更多方块，主要应用于较大模型上，以修复大方块模型不正确的碰撞箱
+- The placement method of `Large Shelf` has been expanded to more blocks, mainly applied to larger models, to fix incorrect collision boxes for large block models
+
+- 修正了`黑色大床`睡觉时，玩家高度异常的情况
+- Fixed the abnormal player height when sleeping on the `Simple Black Bed`
 ## 2025-04-09
 - 现在，`货运仓库`家具套组中的`大号货架 （空）`只能存储3个物品，但可以渲染其储存的物品
 - Now, the `Large Shelf (Empty)` in the `Warehouse` furniture set can only store 3 items, but it can render the items it stores

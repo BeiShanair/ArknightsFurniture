@@ -222,14 +222,10 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA, "纯色矮沙发");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CABINET, "黑色简拼桌柜");
         translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "黑色滚轮靠背椅");
-        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT, "黑色简拼办公桌 Left");
-        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT, "黑色简拼办公桌 Right");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM, "纯色棋盘式书柜 Bottom");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_M1, "纯色棋盘式书柜 Middle 1");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_M2, "纯色棋盘式书柜 Middle 2");
-        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_TOP, "纯色棋盘式书柜 Top");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_BOTTOM, "瓷色墙 Bottom");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_TOP, "瓷色墙 Top");
+        translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LBL, "黑色简拼办公桌");
+        translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_BBL, "纯色棋盘式书柜");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_BBL, "瓷色墙 Bottom");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_TBL, "瓷色墙 Top");
         translationBuilder.add(ModBlocks.GRAY_FIBER_CARPET, "灰色纤维地毯");
         translationBuilder.add(ModBlocks.SMALL_CEILING_LIGHT, "小型吸顶灯");
 

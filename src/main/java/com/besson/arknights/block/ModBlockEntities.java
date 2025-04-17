@@ -54,7 +54,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<CheckerboardBookcaseBE> CHECKERBOARD_BOOKCASE = create("checkerboard_bookcase",
             BlockEntityType.Builder.create(CheckerboardBookcaseBE::new,
-                    ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM, ModBlocks.CHECKERBOARD_BOOKCASE_M1, ModBlocks.CHECKERBOARD_BOOKCASE_M2, ModBlocks.CHECKERBOARD_BOOKCASE_TOP,
+                    ModBlocks.CHECKERBOARD_BOOKCASE_BBL, ModBlocks.CHECKERBOARD_BOOKCASE_BBR, ModBlocks.CHECKERBOARD_BOOKCASE_BTL, ModBlocks.CHECKERBOARD_BOOKCASE_BTR,
+                    ModBlocks.CHECKERBOARD_BOOKCASE_MBL, ModBlocks.CHECKERBOARD_BOOKCASE_MBR, ModBlocks.CHECKERBOARD_BOOKCASE_MTL, ModBlocks.CHECKERBOARD_BOOKCASE_MTR,
+                    ModBlocks.CHECKERBOARD_BOOKCASE_TL, ModBlocks.CHECKERBOARD_BOOKCASE_TR,
                     ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3));
 
     public static final BlockEntityType<SmallSquareNightstandBE> SMALL_SQUARE_NIGHTSTAND = create("small_square_nightstand",

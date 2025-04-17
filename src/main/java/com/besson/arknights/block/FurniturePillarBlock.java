@@ -9,6 +9,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.WorldAccess;
 
+// 与可连接方块类似，只是判断方向改为上下
 public class FurniturePillarBlock extends FurnitureHorizontalFacingBlock{
     public static final EnumProperty<Type> TYPE = EnumProperty.of("type2", Type.class);
     public FurniturePillarBlock(Settings settings) {

@@ -13,6 +13,8 @@ public class FurnitureBedBlock extends BedBlock {
         super(color, settings);
     }
     private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 8, 16);
+
+    // 重写方法，以放置多余模型显示
     @Override
     public BlockRenderType getRenderType(BlockState state) {
         if (state.get(PART) == BedPart.HEAD) {

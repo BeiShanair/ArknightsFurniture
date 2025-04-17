@@ -103,17 +103,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_CALLBOARD);
                         entries.add(ModBlocks.BLACK_AND_WHITE_SQUARE_TABLE);
                         entries.add(ModBlocks.LOW_BLACK_AND_WHITE_SOFA);
-                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM);
-                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE_M1);
-                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE_M2);
-                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE_TOP);
+                        entries.add(ModBlocks.CHECKERBOARD_BOOKCASE_BBL);
                         entries.add(ModBlocks.BLACK_OFFICE_CHAIR);
                         entries.add(ModBlocks.SIMPLE_BLACK_CABINET);
-                        entries.add(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
-                        entries.add(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
+                        entries.add(ModBlocks.SIMPLE_BLACK_DESK_LBL);
                         entries.add(ModBlocks.GRAY_FIBER_CARPET);
-                        entries.add(ModBlocks.GRAYISH_WALL_BOTTOM);
-                        entries.add(ModBlocks.GRAYISH_WALL_TOP);
+                        entries.add(ModBlocks.GRAYISH_WALL_BBL);
+                        entries.add(ModBlocks.GRAYISH_WALL_TBL);
                         entries.add(ModBlocks.SMALL_CEILING_LIGHT);
 
                         entries.add(ModBlocks.ORANGE_WALL_LAMP);

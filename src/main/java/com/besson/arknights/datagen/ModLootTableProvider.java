@@ -18,9 +18,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CARTON_STOOL);
         addDrop(ModBlocks.GRAFFITI);
         addDrop(ModBlocks.LARGE_SHELF1);
-        addDrop(ModBlocks.LARGE_SHELF2);
-        addDrop(ModBlocks.LARGE_SHELF3);
-        addDrop(ModBlocks.LARGE_SHELF4);
         addDrop(ModBlocks.LARGE_SHELF_EMPTY);
         addDrop(ModBlocks.PALLET);
         addDrop(ModBlocks.PILE_OF_CARTONS);
@@ -41,15 +38,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LOW_BLACK_AND_WHITE_SOFA);
         addDrop(ModBlocks.BLACK_OFFICE_CHAIR);
         addDrop(ModBlocks.SIMPLE_BLACK_CABINET);
-        addDrop(ModBlocks.SIMPLE_BLACK_DESK_LEFT);
-        addDrop(ModBlocks.SIMPLE_BLACK_DESK_RIGHT);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_BOTTOM);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_M1);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_M2);
-        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_TOP);
+        addDrop(ModBlocks.SIMPLE_BLACK_DESK_LBL);
+        addDrop(ModBlocks.CHECKERBOARD_BOOKCASE_BBL);
         addDrop(ModBlocks.GRAY_FIBER_CARPET);
-        addDrop(ModBlocks.GRAYISH_WALL_BOTTOM);
-        addDrop(ModBlocks.GRAYISH_WALL_TOP);
+        addDrop(ModBlocks.GRAYISH_WALL_BBL);
+        addDrop(ModBlocks.GRAYISH_WALL_TBL);
         addDrop(ModBlocks.SMALL_CEILING_LIGHT);
 
         addDrop(ModBlocks.ORANGE_WALL_LAMP);
