@@ -19,8 +19,7 @@ public class PedestalCoffeeTable extends FurnitureHorizontalFacingBlock {
     private static final VoxelShape SHAPE = Stream.of(
             Block.createCuboidShape(7, 1, 7, 9, 14, 9),
             Block.createCuboidShape(0, 15, 0, 16, 16, 16),
-            Block.createCuboidShape(5, 0, 5, 11, 1, 11),
-            Block.createCuboidShape(6, 14, 6, 10, 15, 10)
+            Block.createCuboidShape(4.05, 0, 4.35, 11.75, 1.5, 11.75)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     @Override

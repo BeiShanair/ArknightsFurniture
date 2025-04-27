@@ -273,16 +273,16 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.BAR_CEILING, "Bar Ceiling");
         translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "Barstool With Curved Legs");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE1, "Beverage Cabinet Coffee 1");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE2, "Beverage Cabinet Coffee 2");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DC, "Beverage Cabinet DC");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DRINK, "Beverage Cabinet Drink");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE, "Beverage Cabinet Coffee");
         translationBuilder.add(ModBlocks.BEVERAGE_CABINET_EMPTY, "Beverage Cabinet Empty");
         translationBuilder.add(ModBlocks.BEVERAGE_MENU, "Beverage Menu");
         translationBuilder.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN, "Bolivarian Coffee Bean");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE1, "Brown Bookcase 1");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE2, "Brown Bookcase 2");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE3, "Brown Bookcase 3");
+        translationBuilder.add(ModBlocks.BRICK_PATTERN_WALLPAPER, "Brick Pattern Wallpaper");
+        translationBuilder.add(ModBlocks.BRICK_PATTERN_WALLPAPER_FLOOR, "Brick Pattern Wallpaper Floor");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE_LB, "Brown Bookcase");
+        translationBuilder.add(ModBlocks.COFFEE_BEAN_CAN, "Coffee Bean Can");
+        translationBuilder.add(ModBlocks.COFFEE_BEAN_DISPLAY, "Coffee Bean Display");
+        translationBuilder.add(ModBlocks.COFFEE_MENU, "Coffee Menu");
         translationBuilder.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO, "Columbian Street View Photo");
         translationBuilder.add(ModBlocks.DINING_CHAIR, "Dining Chair");
         translationBuilder.add(ModBlocks.PEDESTAL_COFFEE_TABLE, "Pedestal Coffee Table");
@@ -291,6 +291,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_BRICK_CAFE_BAR, "Red Brick Cafe Bar");
         translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "Red Brown Cabinet");
         translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "Soft Ceiling Light");
+        translationBuilder.add(ModBlocks.WOOD_ORNAMENT, "Wood Ornament");
+        translationBuilder.add(ModBlocks.CAFE_FLOOR, "Cafe Floor");
 
         translationBuilder.add(ModBlocks.BLACK_PEDESTAL_TABLE, "Black Pedestal Table");
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "Black Vintage Chair");

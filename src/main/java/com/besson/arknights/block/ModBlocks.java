@@ -139,16 +139,21 @@ public class ModBlocks {
 
     public static final Block BAR_CEILING = registerBlock("columbian/bar_ceiling", new BarCeiling(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BARSTOOL_WITH_CURVED_LEGS = registerBlock("columbian/barstool_with_curved_legs", new BarstoolWithCurvedLegs(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
-    public static final Block BEVERAGE_CABINET_COFFEE1 = registerBlock("columbian/beverage_cabinet_coffee1", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BEVERAGE_CABINET_COFFEE2 = registerBlock("columbian/beverage_cabinet_coffee2", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BEVERAGE_CABINET_DC = registerBlock("columbian/beverage_cabinet_dc", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BEVERAGE_CABINET_DRINK = registerBlock("columbian/beverage_cabinet_drink", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BEVERAGE_CABINET_EMPTY = registerBlock("columbian/beverage_cabinet_empty", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_COFFEE = registerBlock("columbian/beverage_cabinet_coffee", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BEVERAGE_CABINET_EMPTY = registerBlock("columbian/beverage_cabinet_empty", new BeverageCabinetEmpty(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BEVERAGE_MENU = registerBlock("columbian/beverage_menu", new BeverageMenu(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BOLIVARIAN_COFFEE_BEAN = registerBlock("columbian/bolivarian_coffee_bean", new BolivarianCoffeeBean(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
-    public static final Block BROWN_BOOKCASE1 = registerBlock("columbian/brown_bookcase1", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
-    public static final Block BROWN_BOOKCASE2 = registerBlock("columbian/brown_bookcase2", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
-    public static final Block BROWN_BOOKCASE3 = registerBlock("columbian/brown_bookcase3", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BRICK_PATTERN_WALLPAPER = registerBlock("columbian/brick_pattern_wallpaper", new BrickPatternWallpaper(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block BRICK_PATTERN_WALLPAPER_FLOOR = registerBlock("columbian/brick_pattern_wallpaper_floor", new BrickPatternWallpaper(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block BROWN_BOOKCASE_LB = registerBlockWithOutBlockItems("columbian/brown_bookcase_lb", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE_LM = registerBlockWithOutBlockItems("columbian/brown_bookcase_lm", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE_LT = registerBlockWithOutBlockItems("columbian/brown_bookcase_lt", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE_RB = registerBlockWithOutBlockItems("columbian/brown_bookcase_rb", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE_RM = registerBlockWithOutBlockItems("columbian/brown_bookcase_rm", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BROWN_BOOKCASE_RT = registerBlockWithOutBlockItems("columbian/brown_bookcase_rt", new BrownBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block COFFEE_BEAN_CAN = registerBlock("columbian/coffee_bean_can", new CoffeeBeanCan(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block COFFEE_BEAN_DISPLAY = registerBlock("columbian/coffee_bean_display", new CoffeeBeanDisplay(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block COFFEE_MENU = registerBlock("columbian/coffee_menu", new CoffeeMenu(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block COLUMBIAN_STREET_VIEW_PHOTO = registerBlock("columbian/columbian_street_view_photo", new ColumbianStreetViewPhoto(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block DINING_CHAIR = registerBlock("columbian/dining_chair", new DiningChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block PEDESTAL_COFFEE_TABLE = registerBlock("columbian/pedestal_coffee_table", new PedestalCoffeeTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -156,7 +161,9 @@ public class ModBlocks {
     public static final Block POTTED_LONG_LEAF_PLANT = registerBlock("columbian/potted_long_leaf_plant", new PottedLongLeafPlant(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block RED_BRICK_CAFE_BAR = registerBlock("columbian/red_brick_cafe_bar", new RedBrickCafeBar(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block RED_BROWN_CABINET = registerBlock("columbian/red_brown_cabinet", new RedBrownCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.RED_BROWN_CABINET));
-    public static final Block SOFT_CEILING_LIGHT = registerBlock("columbian/soft_ceiling_light", new SoftCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block SOFT_CEILING_LIGHT = registerBlock("columbian/soft_ceiling_light", new SoftCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
+    public static final Block WOOD_ORNAMENT = registerBlock("columbian/wood_ornament", new WoodOrnament(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CAFE_FLOOR = registerBlock("columbian/cafe_floor", new Block(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
 
     public static final Block BLACK_PEDESTAL_TABLE = registerBlock("ldg/black_pedestal_table", new BlackPedestalTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BLACK_VINTAGE_CHAIR = registerBlock("ldg/black_vintage_chair", new BlackVintageChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
@@ -456,6 +463,10 @@ public class ModBlocks {
     public static final Block TRIBAL_STONE_STAND = registerBlock("tribal/tribal_stone_stand",new TribalStoneStand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block TRIBAL_STYLE_SOFA = registerBlock("tribal/tribal_style_sofa",new TribalStyleSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block TROPICAL_POTTED_PLANT = registerBlock("tribal/tropical_potted_plant",new TropicalPottedPlant(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+
+    private static Block registerBlockWithOutBlockItems(String id, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(ArknightsFurniture.MOD_ID, id), block);
+    }
 
     private static Block registerBlock(String id, Block block) {
         registerBlockItem(id, block);

@@ -1,7 +1,10 @@
 package com.besson.arknights.item;
 
 import com.besson.arknights.ArknightsFurniture;
+import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.custom.TapeItem;
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -59,6 +62,15 @@ public class ModItems {
 
     public static final Item TAPE = registerItem("tape", new TapeItem(new Item.Settings()));
 
+    public static final Item BROWN_BOOKCASE = registerSameBlockItem(ModBlocks.BROWN_BOOKCASE_LB, ModBlocks.BROWN_BOOKCASE_RB,
+            ModBlocks.BROWN_BOOKCASE_LT, ModBlocks.BROWN_BOOKCASE_RT, ModBlocks.BROWN_BOOKCASE_LM, ModBlocks.BROWN_BOOKCASE_RM);
+    private static Item registerSameBlockItem(Block block, Block... blocks){
+        BlockItem blockItem = new BlockItem(block, new Item.Settings());
+        for (Block b : blocks) {
+            Item.BLOCK_ITEMS.put(b, blockItem);
+        }
+        return Registry.register(Registries.ITEM, new Identifier(ArknightsFurniture.MOD_ID, Registries.BLOCK.getId(block).getPath()), blockItem);
+    }
     private static Item registerItem(String id, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ArknightsFurniture.MOD_ID, id),item);
     }

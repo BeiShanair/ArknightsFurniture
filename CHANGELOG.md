@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-04-27
+- 重制`哥伦比亚咖啡馆`家具套组模型及贴图
+- Rebuild the model and texture of the `Columbian Cafe` furniture set
+
 ## 2025-04-17
 - `大号货架`的放置方式拓展至更多方块，主要应用于较大模型上，以修复大方块模型不正确的碰撞箱
 - The placement method of `Large Shelf` has been expanded to more blocks, mainly applied to larger models, to fix incorrect collision boxes for large block models

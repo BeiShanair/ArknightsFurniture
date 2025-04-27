@@ -89,16 +89,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.BAR_CEILING);
         addDrop(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
-        addDrop(ModBlocks.BEVERAGE_CABINET_COFFEE1);
-        addDrop(ModBlocks.BEVERAGE_CABINET_COFFEE2);
-        addDrop(ModBlocks.BEVERAGE_CABINET_DC);
-        addDrop(ModBlocks.BEVERAGE_CABINET_DRINK);
+        addDrop(ModBlocks.BEVERAGE_CABINET_COFFEE);
         addDrop(ModBlocks.BEVERAGE_CABINET_EMPTY);
         addDrop(ModBlocks.BEVERAGE_MENU);
         addDrop(ModBlocks.BOLIVARIAN_COFFEE_BEAN);
-        addDrop(ModBlocks.BROWN_BOOKCASE1);
-        addDrop(ModBlocks.BROWN_BOOKCASE2);
-        addDrop(ModBlocks.BROWN_BOOKCASE3);
+        addDrop(ModBlocks.BROWN_BOOKCASE_LB);
+        addDrop(ModBlocks.BRICK_PATTERN_WALLPAPER);
+        addDrop(ModBlocks.BRICK_PATTERN_WALLPAPER_FLOOR);
+        addDrop(ModBlocks.COFFEE_BEAN_CAN);
+        addDrop(ModBlocks.COFFEE_BEAN_DISPLAY);
+        addDrop(ModBlocks.COFFEE_MENU);
         addDrop(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO);
         addDrop(ModBlocks.DINING_CHAIR);
         addDrop(ModBlocks.PEDESTAL_COFFEE_TABLE);
@@ -107,6 +107,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RED_BRICK_CAFE_BAR);
         addDrop(ModBlocks.RED_BROWN_CABINET);
         addDrop(ModBlocks.SOFT_CEILING_LIGHT);
+        addDrop(ModBlocks.WOOD_ORNAMENT);
+        addDrop(ModBlocks.CAFE_FLOOR);
 
         addDrop(ModBlocks.BLACK_PEDESTAL_TABLE);
         addDrop(ModBlocks.BLACK_VINTAGE_CHAIR);

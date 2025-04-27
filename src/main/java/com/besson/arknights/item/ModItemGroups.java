@@ -168,17 +168,17 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.BOLIVARIAN_COFFEE_BEAN)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BAR_CEILING);
                         entries.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
-                        entries.add(ModBlocks.BEVERAGE_CABINET_COFFEE1);
-                        entries.add(ModBlocks.BEVERAGE_CABINET_COFFEE2);
-                        entries.add(ModBlocks.BEVERAGE_CABINET_DC);
-                        entries.add(ModBlocks.BEVERAGE_CABINET_DRINK);
+                        entries.add(ModBlocks.BEVERAGE_CABINET_COFFEE);
                         entries.add(ModBlocks.BEVERAGE_CABINET_EMPTY);
                         entries.add(ModBlocks.BEVERAGE_MENU);
                         entries.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN);
-                        entries.add(ModBlocks.BROWN_BOOKCASE1);
-                        entries.add(ModBlocks.BROWN_BOOKCASE2);
-                        entries.add(ModBlocks.BROWN_BOOKCASE3);
+                        entries.add(ModBlocks.BRICK_PATTERN_WALLPAPER);
+                        entries.add(ModBlocks.BRICK_PATTERN_WALLPAPER_FLOOR);
+                        entries.add(ModBlocks.BROWN_BOOKCASE_LB);
                         entries.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO);
+                        entries.add(ModBlocks.COFFEE_BEAN_DISPLAY);
+                        entries.add(ModBlocks.COFFEE_BEAN_CAN);
+                        entries.add(ModBlocks.COFFEE_MENU);
                         entries.add(ModBlocks.DINING_CHAIR);
                         entries.add(ModBlocks.PEDESTAL_COFFEE_TABLE);
                         entries.add(ModBlocks.PENDANT_LIGHT);
@@ -186,6 +186,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_BRICK_CAFE_BAR);
                         entries.add(ModBlocks.RED_BROWN_CABINET);
                         entries.add(ModBlocks.SOFT_CEILING_LIGHT);
+                        entries.add(ModBlocks.WOOD_ORNAMENT);
+                        entries.add(ModBlocks.CAFE_FLOOR);
                     }).build());
 
     public static final ItemGroup LDG_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ldg_faux_lungmen_lounge"),

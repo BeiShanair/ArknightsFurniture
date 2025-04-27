@@ -273,16 +273,16 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.BAR_CEILING, "吧台吊顶");
         translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "曲底高脚咖啡椅");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE1, "饮料陈列架 Coffee 1");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE2, "饮料陈列架 Coffee 2");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DC, "饮料陈列架 DC");
-        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_DRINK, "饮料陈列架 Drink");
+        translationBuilder.add(ModBlocks.BEVERAGE_CABINET_COFFEE, "饮料陈列架 Coffee");
         translationBuilder.add(ModBlocks.BEVERAGE_CABINET_EMPTY, "饮料陈列架 Empty");
         translationBuilder.add(ModBlocks.BEVERAGE_MENU, "饮料价目表");
         translationBuilder.add(ModBlocks.BOLIVARIAN_COFFEE_BEAN, "玻利瓦尔咖啡豆");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE1, "褐色跃格书架 1");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE2, "褐色跃格书架 2");
-        translationBuilder.add(ModBlocks.BROWN_BOOKCASE3, "褐色跃格书架 3");
+        translationBuilder.add(ModBlocks.BRICK_PATTERN_WALLPAPER, "砖墙壁纸");
+        translationBuilder.add(ModBlocks.BRICK_PATTERN_WALLPAPER_FLOOR, "砖墙壁纸 Floor");
+        translationBuilder.add(ModBlocks.BROWN_BOOKCASE_LB, "褐色跃格书架");
+        translationBuilder.add(ModBlocks.COFFEE_BEAN_CAN, "咖啡豆罐");
+        translationBuilder.add(ModBlocks.COFFEE_BEAN_DISPLAY, "咖啡豆陈列架");
+        translationBuilder.add(ModBlocks.COFFEE_MENU, "餐牌");
         translationBuilder.add(ModBlocks.COLUMBIAN_STREET_VIEW_PHOTO, "哥伦比亚街景照");
         translationBuilder.add(ModBlocks.DINING_CHAIR, "成对咖啡椅");
         translationBuilder.add(ModBlocks.PEDESTAL_COFFEE_TABLE, "独脚咖啡桌");
@@ -291,6 +291,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.RED_BRICK_CAFE_BAR, "红砖咖啡馆吧台");
         translationBuilder.add(ModBlocks.RED_BROWN_CABINET, "红砖色储物柜");
         translationBuilder.add(ModBlocks.SOFT_CEILING_LIGHT, "柔和顶灯");
+        translationBuilder.add(ModBlocks.WOOD_ORNAMENT, "木制摆件");
+        translationBuilder.add(ModBlocks.CAFE_FLOOR, "咖啡厅地板");
 
         translationBuilder.add(ModBlocks.BLACK_PEDESTAL_TABLE, "黑色独脚桌");
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "黑色复古椅");

@@ -18,7 +18,7 @@ public class BarstoolWithCurvedLegs extends FurnitureHorizontalFacingBlock {
     public BarstoolWithCurvedLegs(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(1, 0, 1, 15, 13.625, 15);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
@@ -27,7 +27,7 @@ public class BarstoolWithCurvedLegs extends FurnitureHorizontalFacingBlock {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient){
-            return SeatEntity.create(world,pos,0.7,player,state.get(FACING));
+            return SeatEntity.create(world,pos,0.6,player,state.get(FACING));
         }
         return ActionResult.SUCCESS;
     }
