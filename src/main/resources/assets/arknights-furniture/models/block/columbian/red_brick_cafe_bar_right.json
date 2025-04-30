@@ -2,32 +2,32 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "arknights-furniture:block/columbian/red_brick_cafe_bar_right",
-		"particle": "arknights-furniture:block/gray"
+		"3": "arknights-furniture:block/columbian/red_brick_cafe_bar_right",
+		"particle": "arknights-furniture:block/brown"
 	},
 	"elements": [
 		{
 			"from": [1, 0, 1],
 			"to": [16, 15, 15],
 			"faces": {
-				"north": {"uv": [4, 0, 7.75, 3.75], "texture": "#1"},
-				"east": {"uv": [4, 7.5, 7.5, 11.25], "texture": "#1"},
-				"south": {"uv": [4, 3.75, 7.75, 7.5], "texture": "#1"},
-				"west": {"uv": [7.5, 7.5, 11, 11.25], "texture": "#1"},
-				"up": {"uv": [11.5, 3.5, 7.75, 0], "texture": "#1"},
-				"down": {"uv": [11.5, 3.5, 7.75, 7], "texture": "#1"}
+				"north": {"uv": [4, 0, 7.75, 3.75], "texture": "#3"},
+				"east": {"uv": [4, 7.5, 7.5, 11.25], "texture": "#3"},
+				"south": {"uv": [4, 3.75, 7.75, 7.5], "texture": "#3"},
+				"west": {"uv": [7.5, 7.5, 11, 11.25], "texture": "#3"},
+				"up": {"uv": [11.5, 3.5, 7.75, 0], "texture": "#3"},
+				"down": {"uv": [11.5, 3.5, 7.75, 7], "texture": "#3"}
 			}
 		},
 		{
 			"from": [0, 15, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [7.75, 7, 11.75, 7.25], "texture": "#1"},
-				"east": {"uv": [7.75, 7.25, 11.75, 7.5], "texture": "#1"},
-				"south": {"uv": [0, 8, 4, 8.25], "texture": "#1"},
-				"west": {"uv": [0, 8.25, 4, 8.5], "texture": "#1"},
-				"up": {"uv": [4, 4, 0, 0], "texture": "#1"},
-				"down": {"uv": [4, 4, 0, 8], "texture": "#1"}
+				"north": {"uv": [7.75, 7, 11.75, 7.25], "texture": "#3"},
+				"east": {"uv": [7.75, 7.25, 11.75, 7.5], "texture": "#3"},
+				"south": {"uv": [0, 8, 4, 8.25], "texture": "#3"},
+				"west": {"uv": [0, 8.25, 4, 8.5], "texture": "#3"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#3"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#3"}
 			}
 		}
 	],

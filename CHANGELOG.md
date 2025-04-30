@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-04-30
+- 修正一部分模型和贴图
+- Fix some models and textures
+
 ## 2025-04-27
 - 重制`哥伦比亚咖啡馆`家具套组模型及贴图
 - Rebuild the model and texture of the `Columbian Cafe` furniture set

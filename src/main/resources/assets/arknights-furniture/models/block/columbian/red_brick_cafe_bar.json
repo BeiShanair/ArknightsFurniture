@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "arknights-furniture:block/columbian/red_brick_cafe_bar",
-		"particle": "arknights-furniture:block/gray"
+		"particle": "arknights-furniture:block/brown"
 	},
 	"elements": [
 		{
