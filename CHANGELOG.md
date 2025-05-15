@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-05-15
+- 修正一部分模型和贴图
+- Fix some models and textures
+
 ## 2025-04-30
 - 修正一部分模型和贴图
 - Fix some models and textures
