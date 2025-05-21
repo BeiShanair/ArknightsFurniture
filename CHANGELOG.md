@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-05-21
+- 完善`ModAbstractContainerBE`类，新增`ViewerCountManager stateManager`
+- Complete the `ModAbstractContainerBE` class, add `ViewerCountManager stateManager`
+
 ## 2025-05-15
 - 修正一部分模型和贴图
 - Fix some models and textures

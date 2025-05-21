@@ -97,7 +97,6 @@ public class LargeShelf extends ModAbstractChestBlock<LargeShelfBE> {
         // 向下破坏
         for (int i = 1; i <= 3; i++) {
             BlockPos downPos = pos.down(i);
-            System.out.println(world.getBlockState(downPos));
             if (isShelfBlock(world.getBlockState(downPos))) {
                 world.removeBlock(downPos, false);
             }
