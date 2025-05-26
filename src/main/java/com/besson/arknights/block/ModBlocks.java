@@ -28,6 +28,7 @@ import com.besson.arknights.block.custom.warehouse.*;
 import com.besson.arknights.block.custom.workstation.*;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -111,8 +112,8 @@ public class ModBlocks {
     public static final Block SIMPLE_ORANGE_DESK_LEFT = registerBlock("sideline/simple_orange_desk_left", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block SIMPLE_ORANGE_DESK_RIGHT = registerBlock("sideline/simple_orange_desk_right", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
 
-    public static final Block BROWN_BEAN_BAG_SOFA = registerBlock("fantastic/brown_bean_bag_sofa", new BrownBeanBagSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block ECO_EXHIBITION_CABINET = registerBlock("fantastic/eco_exhibition_cabinet", new EcoExhibitionCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BROWN_BEAN_BAG_SOFA = registerBlock("fantastic/brown_bean_bag_sofa", new BrownBeanBagSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block ECO_EXHIBITION_CABINET = registerBlock("fantastic/eco_exhibition_cabinet", new EcoExhibitionCabinetBase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque().solidBlock(Blocks::never)));
     public static final Block ECO_EXHIBITION_CABINET_BASE = registerBlock("fantastic/eco_exhibition_cabinet_base", new EcoExhibitionCabinetBase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT = registerBlock("fantastic/flush_mount_rectangle_ceiling_light", new FlushMountRectangleCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block FLUSH_MOUNT_SQUARE_CEILING_LIGHT = registerBlock("fantastic/flush_mount_square_ceiling_light", new FlushMountSquareCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
@@ -123,6 +124,17 @@ public class ModBlocks {
     public static final Block SMALL_SQUARE_NIGHTSTAND = registerBlock("fantastic/small_square_nightstand", new SmallSquareNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SMALL_SQUARE_NIGHTSTAND));
     public static final Block SPECIMEN_DATA_BOARD = registerBlock("fantastic/specimen_data_board", new SpecimenDataBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block WIRE_SIDE_TABLE = registerBlock("fantastic/wire_side_table", new WireSideTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block COPPER_FLOOR_FRONT = registerBlock("fantastic/copper_floor_front", new CopperFloor(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block COPPER_FLOOR_BEHIND = registerBlock("fantastic/copper_floor_behind", new CopperFloor(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_BOTTOM = registerBlock("fantastic/metallic_wallpaper_bottom", new MetallicWallpaper1(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_TOP = registerBlock("fantastic/metallic_wallpaper_top", new MetallicWallpaper1(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_LB = registerBlock("fantastic/metallic_wallpaper_lb", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_LT = registerBlock("fantastic/metallic_wallpaper_lt", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_RB = registerBlock("fantastic/metallic_wallpaper_rb", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block METALLIC_WALLPAPER_RT = registerBlock("fantastic/metallic_wallpaper_rt", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block UNKNOWN_SPECIMENS = registerBlock("fantastic/unknown_specimens", new UnknownSpecimens(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block WIDE_GRAY_CARPET = registerBlock("fantastic/wide_gray_carpet", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block UNKNOWN_BONES = registerBlock("fantastic/unknown_bones", new UnknownBones(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
     public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("lifecycle/anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("lifecycle/built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));

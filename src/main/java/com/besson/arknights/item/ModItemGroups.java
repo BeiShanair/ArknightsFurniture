@@ -133,7 +133,6 @@ public class ModItemGroups {
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.fantastic_bio-documentary"))
                     .icon(() -> new ItemStack(ModBlocks.WIRE_SIDE_TABLE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BROWN_BEAN_BAG_SOFA);
-                        entries.add(ModBlocks.ECO_EXHIBITION_CABINET);
                         entries.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
                         entries.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
                         entries.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
@@ -144,6 +143,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
                         entries.add(ModBlocks.SPECIMEN_DATA_BOARD);
                         entries.add(ModBlocks.WIRE_SIDE_TABLE);
+                        entries.add(ModBlocks.WIDE_GRAY_CARPET);
+                        entries.add(ModBlocks.UNKNOWN_SPECIMENS);
+                        entries.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM);
+                        entries.add(ModBlocks.METALLIC_WALLPAPER_LB);
+                        entries.add(ModBlocks.COPPER_FLOOR_FRONT);
+                        entries.add(ModBlocks.UNKNOWN_BONES);
                     }).build());
 
     public static final ItemGroup NO_12_LIFE_CYCLE_CABIN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "no_12_life_cycle_cabin"),

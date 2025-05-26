@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-05-26
+- 重制`幻想生物纪实`家具套组模型及贴图
+- Rebuild the model and texture of the `Fantastic Bio-Documentary` furniture set
+
 ## 2025-05-21
 - 完善`ModAbstractContainerBE`类，新增`ViewerCountManager stateManager`
 - Complete the `ModAbstractContainerBE` class, add `ViewerCountManager stateManager`

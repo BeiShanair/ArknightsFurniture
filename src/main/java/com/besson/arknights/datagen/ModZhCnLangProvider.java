@@ -224,8 +224,8 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "黑色滚轮靠背椅");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LBL, "黑色简拼办公桌");
         translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_BBL, "纯色棋盘式书柜");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_BBL, "瓷色墙 Bottom");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_TBL, "瓷色墙 Top");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_BBL, "瓷色壁纸 Bottom");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_TBL, "瓷色壁纸 Top");
         translationBuilder.add(ModBlocks.GRAY_FIBER_CARPET, "灰色纤维地毯");
         translationBuilder.add(ModBlocks.SMALL_CEILING_LIGHT, "小型吸顶灯");
 
@@ -246,8 +246,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "橘色简拼办公桌 Right");
 
         translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "褐色懒人沙发");
-        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET, "生态展览柜");
-        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "生态展览柜 Base");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "生态展览柜");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "内嵌宽顶灯");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT, "内嵌方顶灯");
         translationBuilder.add(ModBlocks.METALLIC_BED, "金属大床");
@@ -257,6 +256,12 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND, "方形床头矮柜");
         translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "展出标本资料板");
         translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "筐形矮茶几");
+        translationBuilder.add(ModBlocks.COPPER_FLOOR_FRONT, "铜色地板");
+        translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM, "金属墙纸 #1");
+        translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_LB, "金属墙纸 #2");
+        translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "未知生物标本集");
+        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET, "灰色宽地毯");
+        translationBuilder.add(ModBlocks.UNKNOWN_BONES, "未确认生物骨骼");
 
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "防爆垃圾桶");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "嵌壁资料柜 1");

@@ -12,7 +12,7 @@ public class PottedBroadleafPlant extends FurnitureHorizontalFacingBlock {
     public PottedBroadleafPlant(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(3, 0, 3, 13, 18, 13);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3.5, 0, 3.5, 12.5, 14, 12.5);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

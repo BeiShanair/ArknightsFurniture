@@ -224,8 +224,8 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BLACK_OFFICE_CHAIR, "Black Office Chair");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_DESK_LBL, "Simple Black Desk");
         translationBuilder.add(ModBlocks.CHECKERBOARD_BOOKCASE_BBL, "Checkerboard Bookcase");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_BBL, "Grayish Wall Bottom");
-        translationBuilder.add(ModBlocks.GRAYISH_WALL_TBL, "Grayish Wall Top");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_BBL, "Grayish Wallpaper Bottom");
+        translationBuilder.add(ModBlocks.GRAYISH_WALL_TBL, "Grayish Wallpaper Top");
         translationBuilder.add(ModBlocks.GRAY_FIBER_CARPET, "Gray Fiber Carpet");
         translationBuilder.add(ModBlocks.SMALL_CEILING_LIGHT, "Small Ceiling Light");
 
@@ -246,8 +246,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "Simple Orange Desk Right");
 
         translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "Brown Bean Bag Sofa");
-        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET, "Eco Exhibition Cabinet");
-        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "Eco Exhibition Cabinet Base");
+        translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "Eco Exhibition Cabinet");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "Flush Mount Rectangle Ceiling Light");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT, "Flush Mount Square Ceiling Light");
         translationBuilder.add(ModBlocks.METALLIC_BED, "Metallic Bed");
@@ -257,6 +256,12 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND, "Small Square Nightstand");
         translationBuilder.add(ModBlocks.SPECIMEN_DATA_BOARD, "Specimen Data Board");
         translationBuilder.add(ModBlocks.WIRE_SIDE_TABLE, "Wire Side Table");
+        translationBuilder.add(ModBlocks.COPPER_FLOOR_FRONT, "Copper Floor");
+        translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM, "Metallic Wallpaper #1");
+        translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_LB, "Metallic Wallpaper #2");
+        translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "Unknown Specimens");
+        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET, "Wide Gray Carpet");
+        translationBuilder.add(ModBlocks.UNKNOWN_BONES, "Unknown Bones");
 
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "Anti-Explosion Trash Can");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "Built-In File Cabinet 1");

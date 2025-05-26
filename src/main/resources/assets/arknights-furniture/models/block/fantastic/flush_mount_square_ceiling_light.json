@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "arknights-furniture:block/fantastic/flush_mount_square_ceiling_light",
+		"1": "arknights-furniture:block/fantastic/flush_mount_square_ceiling_light",
 		"particle": "arknights-furniture:block/gray"
 	},
 	"elements": [
@@ -10,12 +10,12 @@
 			"from": [-8, 15, -8],
 			"to": [24, 16, 24],
 			"faces": {
-				"north": {"uv": [8, 0, 16, 0.25], "texture": "#0"},
-				"east": {"uv": [8, 0.25, 16, 0.5], "texture": "#0"},
-				"south": {"uv": [8, 0.5, 16, 0.75], "texture": "#0"},
-				"west": {"uv": [8, 0.75, 16, 1], "texture": "#0"},
-				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
-				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+				"north": {"uv": [8, 0, 16, 0.25], "texture": "#1"},
+				"east": {"uv": [8, 0.25, 16, 0.5], "texture": "#1"},
+				"south": {"uv": [8, 0.5, 16, 0.75], "texture": "#1"},
+				"west": {"uv": [8, 0.75, 16, 1], "texture": "#1"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#1"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#1"}
 			}
 		}
 	],
@@ -44,6 +44,7 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
+			"translation": [0, -1, 0],
 			"scale": [0.3, 0.3, 0.3]
 		},
 		"fixed": {

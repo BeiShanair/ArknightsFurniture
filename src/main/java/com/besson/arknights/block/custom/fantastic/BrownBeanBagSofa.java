@@ -18,7 +18,7 @@ public class BrownBeanBagSofa extends FurnitureHorizontalFacingBlock {
     public BrownBeanBagSofa(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(-2, 0, -2, 18, 13, 18);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 10, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

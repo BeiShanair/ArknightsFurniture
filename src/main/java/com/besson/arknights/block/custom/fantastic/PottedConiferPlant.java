@@ -12,7 +12,7 @@ public class PottedConiferPlant extends FurnitureHorizontalFacingBlock {
     public PottedConiferPlant(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 20, 12);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(5.25, 0, 5.25, 10.75, 22.5, 10.75);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

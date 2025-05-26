@@ -13,8 +13,8 @@ public class FlushMountRectangleCeilingLight extends ModSwitchableLight {
     public FlushMountRectangleCeilingLight(Settings settings) {
         super(settings.luminance(state -> state.get(Properties.LIT) ? 15 : 0));
     }
-    private static final VoxelShape SHAPE_NS = Block.createCuboidShape(-8, 15, 0, 24, 16, 16);
-    private static final VoxelShape SHAPE_WE = Block.createCuboidShape(0, 15, -8, 16, 16, 24);
+    private static final VoxelShape SHAPE_NS = Block.createCuboidShape(-16, 15, -8, 32, 16, 24);
+    private static final VoxelShape SHAPE_WE = Block.createCuboidShape(-8, 15, -16, 24, 16, 32);
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return switch (state.get(FACING)) {
