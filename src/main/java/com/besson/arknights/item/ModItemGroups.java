@@ -143,7 +143,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
                         entries.add(ModBlocks.SPECIMEN_DATA_BOARD);
                         entries.add(ModBlocks.WIRE_SIDE_TABLE);
-                        entries.add(ModBlocks.WIDE_GRAY_CARPET);
+                        entries.add(ModBlocks.WIDE_GRAY_CARPET_LEFT);
                         entries.add(ModBlocks.UNKNOWN_SPECIMENS);
                         entries.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM);
                         entries.add(ModBlocks.METALLIC_WALLPAPER_LB);

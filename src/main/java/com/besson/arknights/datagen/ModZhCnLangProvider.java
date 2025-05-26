@@ -260,7 +260,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM, "金属墙纸 #1");
         translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_LB, "金属墙纸 #2");
         translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "未知生物标本集");
-        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET, "灰色宽地毯");
+        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET_LEFT, "灰色宽地毯");
         translationBuilder.add(ModBlocks.UNKNOWN_BONES, "未确认生物骨骼");
 
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "防爆垃圾桶");

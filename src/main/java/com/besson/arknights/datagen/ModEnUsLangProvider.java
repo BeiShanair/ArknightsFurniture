@@ -260,7 +260,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_BOTTOM, "Metallic Wallpaper #1");
         translationBuilder.add(ModBlocks.METALLIC_WALLPAPER_LB, "Metallic Wallpaper #2");
         translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "Unknown Specimens");
-        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET, "Wide Gray Carpet");
+        translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET_LEFT, "Wide Gray Carpet");
         translationBuilder.add(ModBlocks.UNKNOWN_BONES, "Unknown Bones");
 
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "Anti-Explosion Trash Can");

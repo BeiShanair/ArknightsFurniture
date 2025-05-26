@@ -91,6 +91,7 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BEAN_BAG_SOFA);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_GLASS);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.METALLIC_BED);
@@ -109,7 +110,8 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.METALLIC_WALLPAPER_LT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.METALLIC_WALLPAPER_RT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.UNKNOWN_SPECIMENS);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.WIDE_GRAY_CARPET);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.WIDE_GRAY_CARPET_LEFT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.WIDE_GRAY_CARPET_RIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.UNKNOWN_BONES);
 
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);

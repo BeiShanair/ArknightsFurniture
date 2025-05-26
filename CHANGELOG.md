@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 ## 2025-05-26
+- 修正部分`幻想生物纪实`家具套组模型及贴图
+- Fix some models and textures of the `Fantastic Bio-Documentary` furniture set
+
+## 2025-05-26
 - 重制`幻想生物纪实`家具套组模型及贴图
 - Rebuild the model and texture of the `Fantastic Bio-Documentary` furniture set
 
