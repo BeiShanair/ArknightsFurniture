@@ -91,7 +91,6 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BEAN_BAG_SOFA);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_GLASS);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.METALLIC_BED);

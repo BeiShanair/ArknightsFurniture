@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 
 public class SmallSquareNightstand extends ModAbstractChestBlock<SmallSquareNightstandBE> {
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 19, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 12, 16);
 
     public SmallSquareNightstand(Settings settings, Supplier<BlockEntityType<? extends SmallSquareNightstandBE>> blockEntityTypeSupplier) {
         super(settings, blockEntityTypeSupplier);

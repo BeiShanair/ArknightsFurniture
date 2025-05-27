@@ -64,6 +64,18 @@ public class ModItems {
 
     public static final Item BROWN_BOOKCASE = registerSameBlockItem(ModBlocks.BROWN_BOOKCASE_LB, ModBlocks.BROWN_BOOKCASE_RB,
             ModBlocks.BROWN_BOOKCASE_LT, ModBlocks.BROWN_BOOKCASE_RT, ModBlocks.BROWN_BOOKCASE_LM, ModBlocks.BROWN_BOOKCASE_RM);
+    public static final Item LARGE_SHELF = registerSameBlockItem(ModBlocks.LARGE_SHELF1, ModBlocks.LARGE_SHELF2, ModBlocks.LARGE_SHELF3, ModBlocks.LARGE_SHELF4);
+    public static final Item CHECKERBOARD_BOOKCASE = registerSameBlockItem(ModBlocks.CHECKERBOARD_BOOKCASE_BBL, ModBlocks.CHECKERBOARD_BOOKCASE_BBR, ModBlocks.CHECKERBOARD_BOOKCASE_BTL,
+            ModBlocks.CHECKERBOARD_BOOKCASE_BTR, ModBlocks.CHECKERBOARD_BOOKCASE_MBL, ModBlocks.CHECKERBOARD_BOOKCASE_MBR, ModBlocks.CHECKERBOARD_BOOKCASE_MTL, ModBlocks.CHECKERBOARD_BOOKCASE_MTR,
+            ModBlocks.CHECKERBOARD_BOOKCASE_TL, ModBlocks.CHECKERBOARD_BOOKCASE_TR);
+    public static final Item GRAYISH_WALL = registerSameBlockItem(ModBlocks.GRAYISH_WALL_BBL, ModBlocks.GRAYISH_WALL_BBR, ModBlocks.GRAYISH_WALL_BTL, ModBlocks.GRAYISH_WALL_BTR,
+            ModBlocks.GRAYISH_WALL_TBL, ModBlocks.GRAYISH_WALL_TBR, ModBlocks.GRAYISH_WALL_TTL, ModBlocks.GRAYISH_WALL_TTR);
+    public static final Item SIMPLE_BLACK_DESK = registerSameBlockItem(ModBlocks.SIMPLE_BLACK_DESK_LBL, ModBlocks.SIMPLE_BLACK_DESK_LBR, ModBlocks.SIMPLE_BLACK_DESK_LTL, ModBlocks.SIMPLE_BLACK_DESK_LTR,
+            ModBlocks.SIMPLE_BLACK_DESK_RBL, ModBlocks.SIMPLE_BLACK_DESK_RBR, ModBlocks.SIMPLE_BLACK_DESK_RTL, ModBlocks.SIMPLE_BLACK_DESK_RTR);
+    public static final Item ECO_EXHIBITION_CABINET = registerSameBlockItem(ModBlocks.ECO_EXHIBITION_CABINET, ModBlocks.ECO_EXHIBITION_CABINET_BASE);
+    public static final Item COPPER_FLOOR = registerSameBlockItem(ModBlocks.COPPER_FLOOR_FRONT, ModBlocks.COPPER_FLOOR_BEHIND);
+    public static final Item METALLIC_WALLPAPER1 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_BOTTOM, ModBlocks.METALLIC_WALLPAPER_TOP);
+    public static final Item METALLIC_WALLPAPER2 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_LB, ModBlocks.METALLIC_WALLPAPER_LT, ModBlocks.METALLIC_WALLPAPER_RB, ModBlocks.METALLIC_WALLPAPER_RT);
     private static Item registerSameBlockItem(Block block, Block... blocks){
         BlockItem blockItem = new BlockItem(block, new Item.Settings());
         for (Block b : blocks) {

@@ -3,13 +3,13 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "arknights-furniture:block/fantastic/unknown_bones",
-		"particle": "arknights-furniture:block/gray"
+		"particle": "arknights-furniture:block/fantastic/unknown_bones"
 	},
 	"elements": [
 		{
-			"from": [0, 0, 14],
-			"to": [16, 22, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [15, 9, 14]},
+			"from": [-3.69, 0.09, 11.36],
+			"to": [20, 32, 15.98],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15.96, 4.38, 13.36]},
 			"faces": {
 				"north": {"uv": [0, 0, 4, 5.75], "texture": "#0"},
 				"east": {"uv": [0, 5.75, 0.25, 11.5], "texture": "#0"},
@@ -45,11 +45,11 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [2.25, -3.25, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"translation": [1.5, -3.75, 0],
+			"scale": [0.4, 0.4, 0.4]
 		},
 		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
+			"scale": [0.3, 0.3, 0.3]
 		}
 	}
 }
