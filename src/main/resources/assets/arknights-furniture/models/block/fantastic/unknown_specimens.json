@@ -3,13 +3,13 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "arknights-furniture:block/fantastic/unknown_specimens",
-		"particle": "arknights-furniture:block/gray"
+		"particle": "arknights-furniture:block/fantastic/unknown_specimens"
 	},
 	"elements": [
 		{
-			"from": [0, 13, 15],
-			"to": [18, 22, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 13, 14]},
+			"from": [-7.66, 15.52, 14],
+			"to": [23.66, 31.18, 15.74],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15.52, 12.7]},
 			"faces": {
 				"north": {"uv": [0, 0, 4.5, 2.25], "texture": "#0"},
 				"east": {"uv": [4, 5, 4.25, 7.25], "texture": "#0"},
@@ -20,9 +20,9 @@
 			}
 		},
 		{
-			"from": [10, 2, 15],
-			"to": [18, 11, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2, 14]},
+			"from": [9.74, -3.62, 14],
+			"to": [23.66, 12.04, 15.74],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -3.62, 12.7]},
 			"faces": {
 				"north": {"uv": [0, 4.5, 2, 6.75], "texture": "#0"},
 				"east": {"uv": [4.5, 5, 4.75, 7.25], "texture": "#0"},
@@ -33,9 +33,9 @@
 			}
 		},
 		{
-			"from": [0, -2, 15],
-			"to": [8, 7, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, 14]},
+			"from": [-7.66, -10.58, 14],
+			"to": [6.26, 5.08, 15.74],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-7.66, -10.58, 12.7]},
 			"faces": {
 				"north": {"uv": [2, 4.5, 4, 6.75], "texture": "#0"},
 				"east": {"uv": [5, 5, 5.25, 7.25], "texture": "#0"},
@@ -71,11 +71,11 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [3.5, -3.75, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"translation": [0, -1.5, 0],
+			"scale": [0.3, 0.3, 0.3]
 		},
 		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
+			"scale": [0.3, 0.3, 0.3]
 		}
 	},
 	"groups": [
