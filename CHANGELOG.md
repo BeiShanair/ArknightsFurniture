@@ -2,7 +2,8 @@
 ## 2025-05-28
 - 修正部分`幻想生物纪实`家具套组模型及贴图
 - Fix some models and textures of the `Fantastic Bio-Documentary` furniture set
-
+- 修复一些bug
+- Fix some bugs
 ## 2025-05-27
 - 修正部分`幻想生物纪实`家具套组模型及贴图
 - Fix some models and textures of the `Fantastic Bio-Documentary` furniture set

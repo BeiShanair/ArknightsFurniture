@@ -10,7 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    // 图标
+    // region LOGO
     public static final ItemGroup LOGO = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "logo"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.logo"))
                     .icon(() -> new ItemStack(ModItems.RHODES_ISLAND_OVERRIDE_LOGO)).entries((displayContext, entries) -> {
@@ -58,7 +58,9 @@ public class ModItemGroups {
                         entries.add(ModItems.VICTORIA_LOGO);
                         entries.add(ModItems.YAN_LOGO);
                     }).build());
-    // 材料
+    // endregion
+
+    // region MATERIAL
     public static final ItemGroup MATERIAL = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "material"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.material"))
                     .icon(() -> new ItemStack(ModItems.FURN_PARTS)).entries((displayContext, entries) -> {
@@ -68,8 +70,9 @@ public class ModItemGroups {
                         entries.add(ModItems.FURN_PARTS_ZIP2);
                         entries.add(ModItems.TAPE);
                     }).build());
+    // endregion
 
-    // WareHouse
+    // region WAREHOUSE
     public static final ItemGroup WAREHOUSE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "warehouse"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.warehouse"))
                     .icon(() -> new ItemStack(ModBlocks.CARTON)).entries((displayContext, entries) -> {
@@ -90,8 +93,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DORMITORY_DOOR_FRAMES);
                         entries.add(ModBlocks.REINFORCED_CONCRETE_WALLS);
                     }).build());
+    // endregion
 
-    // Side-line/Simple Black-and-white/Orange Furniture
+    // region SIDE_LINE
     public static final ItemGroup SIDE_LINE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "side_line"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.side_line"))
                     .icon(() -> new ItemStack(ModBlocks.SIMPLE_BLACK_CLOCK)).entries((displayContext, entries) -> {
@@ -128,7 +132,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
                         entries.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
                     }).build());
+    // endregion
 
+    // region FANTASTIC BIO-DOCUMENTARY
     public static final ItemGroup FANTASTIC_BIO_DOCUMENTARY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "fantastic_bio-documentary"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.fantastic_bio-documentary"))
                     .icon(() -> new ItemStack(ModBlocks.WIRE_SIDE_TABLE)).entries((displayContext, entries) -> {
@@ -150,7 +156,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COPPER_FLOOR_FRONT);
                         entries.add(ModBlocks.UNKNOWN_BONES);
                     }).build());
+    // endregion
 
+    // region NO.12 LIFE CYCLE CABIN
     public static final ItemGroup NO_12_LIFE_CYCLE_CABIN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "no_12_life_cycle_cabin"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.no_12_life_cycle_cabin"))
                     .icon(() -> new ItemStack(ModBlocks.GENERAL_CONSOLE)).entries((displayContext, entries) -> {
@@ -167,7 +175,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GENERAL_CONSOLE);
                         entries.add(ModBlocks.NOTE_BOARD_IN_CABIN);
                     }).build());
+    // endregion
 
+    // region COLUMBIAN CAFE
     public static final ItemGroup COLUMBIAN_CAFE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "columbian_cafe"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.columbian_cafe"))
                     .icon(() -> new ItemStack(ModBlocks.BOLIVARIAN_COFFEE_BEAN)).entries((displayContext, entries) -> {
@@ -194,7 +204,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WOOD_ORNAMENT);
                         entries.add(ModBlocks.CAFE_FLOOR);
                     }).build());
+    // endregion
 
+    // region FAUX LUNG MEN LOUNGE
     public static final ItemGroup LDG_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ldg_faux_lungmen_lounge"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ldg_faux_lungmen_lounge"))
                     .icon(() -> new ItemStack(ModBlocks.BLACK_PEDESTAL_TABLE)).entries((displayContext, entries) -> {
@@ -219,7 +231,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEAK_ATTENDANCE_BOARD);
                         entries.add(ModBlocks.WHITE_PEDESTAL_TABLE);
                     }).build());
+    // endregion
 
+    // region SAMI COUNTRYSIDE VILLA
     public static final ItemGroup SAMI_COUNTRYSIDE_VILLA = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "sami_countryside_villa"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.sami_countryside_villa"))
                     .icon(() -> new ItemStack(ModBlocks.CREATURES_REMAINS)).entries((displayContext, entries) -> {
@@ -238,7 +252,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VINTAGE_CEILING_FAN);
                         entries.add(ModBlocks.VINTAGE_CEILING_LIGHT);
                     }).build());
+    // endregion
 
+    // region EXPRESS CHAIN PIZZERIA
     public static final ItemGroup EXPRESS_CHAIN_PIZZERIA = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "express_chain_pizzeria"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.express_chain_pizzeria"))
                     .icon(() -> new ItemStack(ModBlocks.PIZZERIA_POSTER_STAND)).entries((displayContext, entries) -> {
@@ -258,7 +274,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PIZZERIA_POSTER_STAND);
                         entries.add(ModBlocks.PIZZERIA_SOFT_CEILING_LIGHT);
                     }).build());
+    // endregion
 
+    // region MODERN COLUMBIAN HOTEL
     public static final ItemGroup MODERN_COLUMBIAN_HOTEL = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "modern_columbian_hotel"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.modern_columbian_hotel"))
                     .icon(() -> new ItemStack(ModBlocks.WILLIAMS_GRAND_PIANO_SET)).entries((displayContext, entries) -> {
@@ -277,7 +295,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VERSATILE_BAR_STAND);
                         entries.add(ModBlocks.WILLIAMS_GRAND_PIANO_SET);
                     }).build());
+    // endregion
 
+    // region CHEN'S OFFICE
     public static final ItemGroup CHENS_OFFICE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "chens_office"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.chens_office"))
                     .icon(() -> new ItemStack(ModBlocks.CHENS_CERTIFICATE_OF_HONOR)).entries((displayContext, entries) -> {
@@ -297,7 +317,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OFFICE_CLUE_BOARD);
                         entries.add(ModBlocks.POTTED_CACTUS_PLANT);
                     }).build());
+    // endregion
 
+    // region SIESTA BEACH HUT
     public static final ItemGroup SIESTA_BEACH_HUT = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "siesta_beach_hut"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.siesta_beach_hut"))
                     .icon(() -> new ItemStack(ModBlocks.RHODES_ISLAND_SUMMER_CALENDAR)).entries((displayContext, entries) -> {
@@ -317,7 +339,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SURFBOARD_STAND);
                         entries.add(ModBlocks.WOODEN_BEAM);
                     }).build());
+    // endregion
 
+    // region RHODES ISLAND MODERN MUSIC REHEARSAL ROOM
     public static final ItemGroup RHODES_ISLAND_MODERN_MUSIC_REHEARSAL_ROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_modern_music_rehearsal_room"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_modern_music_rehearsal_room"))
                     .icon(() -> new ItemStack(ModBlocks.YARMAHAN_DRUM_SET)).entries((displayContext, entries) -> {
@@ -342,7 +366,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHEAT);
                         entries.add(ModBlocks.YARMAHAN_DRUM_SET);
                     }).build());
+    // endregion
 
+    // region AIRTIGHT ANTI-CHEMICAL SAFETY CABIN
     public static final ItemGroup AIRTIGHT_ANTI_CHEMICAL_SAFETY_CABIN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "airtight_anti-chemical_safety_cabin"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.airtight_anti-chemical_safety_cabin"))
                     .icon(() -> new ItemStack(ModBlocks.CLEANROOM_LORRY)).entries((displayContext, entries) -> {
@@ -360,7 +386,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MULTIFUNCTIONAL_STERILIZER);
                         entries.add(ModBlocks.SUPPLY_TANKS);
                     }).build());
+    // endregion
 
+    // region REIMSELAR BALLROOM
     public static final ItemGroup REIMSELAR_BALLROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "reimselar_ballroom"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.reimselar_ballroom"))
                     .icon(() -> new ItemStack(ModBlocks.LOCKED_CABINET)).entries((displayContext, entries) -> {
@@ -379,7 +407,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.REIMSELAR_MAGIC_MIRROR);
                         entries.add(ModBlocks.REIMSELAR_STOOL);
                     }).build());
+    // endregion
 
+    // region SECRET OCCULT SOCIETY
     public static final ItemGroup SECRET_OCCULT_SOCIETY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "secret_occult_society"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.secret_occult_society"))
                     .icon(() -> new ItemStack(ModBlocks.STACK_OF_GRIMOIRES)).entries((displayContext, entries) -> {
@@ -395,7 +425,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRANGE_BED_LIGHT);
                         entries.add(ModBlocks.STRANGE_BED_TREE);
                     }).build());
+    // endregion
 
+    // region PENGUIN LOGISTICS SAFEHOUSE
     public static final ItemGroup PENGUIN_LOGISTICS_SAFEHOUSE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "penguin_logistics_safehouse"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.penguin_logistics_safehouse"))
                     .icon(() -> new ItemStack(ModBlocks.SAFEHOUSE_PARTITION_DOOR)).entries((displayContext, entries) -> {
@@ -415,7 +447,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_SUNDRIES_SHELVES3);
                         entries.add(ModBlocks.SAFEHOUSE_PARTITION_DOOR);
                     }).build());
+    // endregion
 
+    // region RHODES ISLAND WORKSTATION
     public static final ItemGroup RHODES_ISLAND_WORKSTATION = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_workstation"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_workstation"))
                     .icon(() -> new ItemStack(ModBlocks.ROBOTIC_ARM)).entries((displayContext, entries) -> {
@@ -430,7 +464,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WORKBENCH);
                         entries.add(ModBlocks.WORKSTATION_BLACKBOARD);
                     }).build());
+    // endregion
 
+    // region LUNG MEN EATERY
     public static final ItemGroup LUNGMEN_EATERY = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "lungmen_eatery"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.lungmen_eatery"))
                     .icon(() -> new ItemStack(ModBlocks.INSCRIPTION_CEILING_PLAQUE_LONG)).entries((displayContext, entries) -> {
@@ -459,7 +495,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_SPOTLIGHT);
                         entries.add(ModBlocks.WOODEN_CORNER_TABLE);
                     }).build());
+    // endregion
 
+    // region HEALTHY DINER
     public static final ItemGroup HEALTHY_DINER = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "healthy_diner"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.healthy_diner"))
                     .icon(() -> new ItemStack(ModBlocks.TODAYS_RECOMMENDATIONS)).entries((displayContext, entries) -> {
@@ -477,7 +515,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TODAYS_RECOMMENDATIONS);
                         entries.add(ModBlocks.VENDING_MACHINE);
                     }).build());
+    // endregion
 
+    // region SEVEN CITIES STYLE RESTAURANT
     public static final ItemGroup SEVEN_CITIES_STYLE_RESTAURANT = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "seven_cities_style_restaurant"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.seven_cities_style_restaurant"))
                     .icon(() -> new ItemStack(ModBlocks.LARGE_NOTICE_BOARD)).entries((displayContext, entries) -> {
@@ -491,7 +531,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SEVEN_CITIES_WARM_LIGHT_CHANDELIER);
                         entries.add(ModBlocks.UPSCALE_MENU_DISPLAY);
                     }).build());
+    // endregion
 
+    // region SARKAZ MERCENARY LOUNGE
     public static final ItemGroup SARKAZ_MERCENARY_LOUNGE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "sarkaz_mercenary_lounge"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.sarkaz_mercenary_lounge"))
                     .icon(() -> new ItemStack(ModBlocks.SARKAZ_BALL_RACK)).entries((displayContext, entries) -> {
@@ -511,7 +553,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_LOUNGE_WALL_LIGHT);
                         entries.add(ModBlocks.UPSCALE_DINING_TABLE);
                     }).build());
+    // endregion
 
+    // region URUSUS STUDENT CLUBROOM
     public static final ItemGroup URSUS_STUDENT_CLUBROOM = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "ursus_student_clubroom"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.ursus_student_clubroom"))
                     .icon(() -> new ItemStack(ModBlocks.SQUAD_BULLETIN_BOARD)).entries((displayContext, entries) -> {
@@ -525,7 +569,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_LOW_CHAIR);
                         entries.add(ModBlocks.SQUAD_BULLETIN_BOARD);
                     }).build());
+    // endregion
 
+    // region LEITHANIAN NIGHTS
     public static final ItemGroup LEITHANIAN_NIGHTS = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "leithanian_nights"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.leithanian_nights"))
                     .icon(() -> new ItemStack(ModBlocks.MONOCHROMATIC_CELLO)).entries((displayContext, entries) -> {
@@ -543,7 +589,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MONOCHROMATIC_CELLO);
                         entries.add(ModBlocks.PILE_OF_MISCELLANEOUS_BOOKS);
                     }).build());
+    // endregion
 
+    // region RHODES ISLAND HR OFFICE
     public static final ItemGroup RHODES_ISLAND_HR_OFFICE = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "rhodes_island_hr_office"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.rhodes_island_hr_office"))
                     .icon(() -> new ItemStack(ModBlocks.CUBICLE_FLOORPLAN)).entries((displayContext, entries) -> {
@@ -561,7 +609,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_DISPENSER);
                         entries.add(ModBlocks.WHEELED_STORAGE_CABINET);
                     }).build());
+    // endregion
 
+    // region TRIBAL STYLE INN
     public static final ItemGroup TRIBAL_STYLE_INN = Registry.register(Registries.ITEM_GROUP, new Identifier(ArknightsFurniture.MOD_ID, "tribal_style_inn"),
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.tribal_style_inn"))
                     .icon(() -> new ItemStack(ModBlocks.CUBICLE_FLOORPLAN)).entries((displayContext, entries) -> {
@@ -573,6 +623,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TRIBAL_STYLE_SOFA);
                         entries.add(ModBlocks.TROPICAL_POTTED_PLANT);
                     }).build());
+    // endregion
     public static void registerItemGroups() {
         ArknightsFurniture.LOGGER.info("Registering item groups...");
     }

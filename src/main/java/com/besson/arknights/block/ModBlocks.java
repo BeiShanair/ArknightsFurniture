@@ -37,6 +37,7 @@ import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    // region WAREHOUSE
     public static final Block AIR_MATTRESS = registerBlock("warehouse/air_mattress", new AirMattress(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block ATTENDANCE_BOARD = registerBlock("warehouse/attendance_board", new AttendanceBoard(AbstractBlock.Settings.create().strength(0.3f, 0.3f)));
     public static final Block CARGO_TROLLEY = registerBlock("warehouse/cargo_trolley", new CargoTrolley(AbstractBlock.Settings.create().strength(0.3f, 0.5f).nonOpaque()));
@@ -56,7 +57,9 @@ public class ModBlocks {
     public static final Block CONCRETE_WALL = registerBlock("warehouse/concrete_wall", new ConcreteWall(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block DORMITORY_DOOR_FRAMES = registerBlock("warehouse/dormitory_door_frames", new DormitoryDoorFrames(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block REINFORCED_CONCRETE_WALLS = registerBlock("warehouse/reinforced_concrete_walls", new ReinforcedConcreteWalls(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    // endregion
 
+    // region SIDE LINE
     public static final Block GRAYISH_WALL_LIGHT = registerBlock("sideline/grayish_wall_light", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_BLACK_CLOCK = registerBlock("sideline/simple_black_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BLACK_HD_TV = registerBlock("sideline/black_hd_tv", new HDTV(AbstractBlock.Settings.create().strength(0.2f, 0.1f)));
@@ -111,7 +114,9 @@ public class ModBlocks {
     public static final Block SIMPLE_ORANGE_CABINET = registerBlock("sideline/simple_orange_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
     public static final Block SIMPLE_ORANGE_DESK_LEFT = registerBlock("sideline/simple_orange_desk_left", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block SIMPLE_ORANGE_DESK_RIGHT = registerBlock("sideline/simple_orange_desk_right", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    // endregion
 
+    // region FANTASTIC
     public static final Block BROWN_BEAN_BAG_SOFA = registerBlock("fantastic/brown_bean_bag_sofa", new BrownBeanBagSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block ECO_EXHIBITION_CABINET = registerBlockWithOutBlockItems("fantastic/eco_exhibition_cabinet", new EcoExhibitionCabinetBase(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque().solidBlock(Blocks::never)));
     public static final Block ECO_EXHIBITION_CABINET_BASE = registerBlockWithOutBlockItems("fantastic/eco_exhibition_cabinet_base", new EcoExhibitionCabinetBase(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -136,7 +141,9 @@ public class ModBlocks {
     public static final Block WIDE_GRAY_CARPET_LEFT = registerBlock("fantastic/wide_gray_carpet_left", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block WIDE_GRAY_CARPET_RIGHT = registerBlock("fantastic/wide_gray_carpet_right", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block UNKNOWN_BONES = registerBlock("fantastic/unknown_bones", new UnknownBones(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    // endregion
 
+    // region LIFECYCLE
     public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("lifecycle/anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("lifecycle/built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET2 = registerBlock("lifecycle/built_in_file_cabinet2", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -149,7 +156,9 @@ public class ModBlocks {
     public static final Block DIY_WORKBENCH_RIGHT = registerBlock("lifecycle/diy_workbench_right", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block GENERAL_CONSOLE = registerBlock("lifecycle/general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block NOTE_BOARD_IN_CABIN = registerBlock("lifecycle/note_board_in_cabin", new NoteBoardInCabin(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    // endregion
 
+    // region COLUMBIAN
     public static final Block BAR_CEILING = registerBlock("columbian/bar_ceiling", new BarCeiling(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block BARSTOOL_WITH_CURVED_LEGS = registerBlock("columbian/barstool_with_curved_legs", new BarstoolWithCurvedLegs(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block BEVERAGE_CABINET_COFFEE = registerBlock("columbian/beverage_cabinet_coffee", new BeverageCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
@@ -177,6 +186,7 @@ public class ModBlocks {
     public static final Block SOFT_CEILING_LIGHT = registerBlock("columbian/soft_ceiling_light", new SoftCeilingLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f).nonOpaque()));
     public static final Block WOOD_ORNAMENT = registerBlock("columbian/wood_ornament", new WoodOrnament(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block CAFE_FLOOR = registerBlock("columbian/cafe_floor", new Block(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    // endregion
 
     public static final Block BLACK_PEDESTAL_TABLE = registerBlock("ldg/black_pedestal_table", new BlackPedestalTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BLACK_VINTAGE_CHAIR = registerBlock("ldg/black_vintage_chair", new BlackVintageChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));

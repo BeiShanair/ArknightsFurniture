@@ -11,7 +11,7 @@ import net.minecraft.world.BlockView;
 
 public class FlushMountSquareCeilingLight extends ModSwitchableLight {
     public FlushMountSquareCeilingLight(Settings settings) {
-        super(settings.luminance(state -> state.get(Properties.LIT) ? 15 : 0));
+        super(settings.luminance(state -> state.get(LIT) ? 15 : 0));
     }
     private static final VoxelShape SHAPE = Block.createCuboidShape(-8, 15, -8, 24, 16, 24);
 
