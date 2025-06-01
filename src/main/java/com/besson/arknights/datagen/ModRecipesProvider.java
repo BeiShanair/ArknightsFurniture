@@ -67,31 +67,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(ModItems.CARDBOARD))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "large_shelf1"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LARGE_SHELF2, 1)
-                .pattern("ABA")
-                .input('A', Items.IRON_INGOT)
-                .input('B', Items.BLACK_DYE)
-                .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "large_shelf2"));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LARGE_SHELF3, 1)
-                .pattern(" # ")
-                .pattern("ABA")
-                .input('#', ModItems.CARDBOARD)
-                .input('A', Items.IRON_INGOT)
-                .input('B', Items.BLACK_DYE)
-                .criterion("has_item", conditionsFromItem(ModItems.CARDBOARD))
-                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "large_shelf3"));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LARGE_SHELF4, 1)
-                .pattern(" # ")
-                .pattern("ABA")
-                .input('#', Items.FLOWER_POT)
-                .input('A', Items.IRON_INGOT)
-                .input('B', Items.BLACK_DYE)
-                .criterion("has_item", conditionsFromItem(Items.FLOWER_POT))
-                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "large_shelf4"));
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PILE_OF_CARTONS, 1)
                 .pattern("###")
                 .pattern("###")
@@ -183,24 +158,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "black_nightstand"));
 
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIMPLE_BLACK_DESK_LEFT, 1)
-//                .pattern("###")
-//                .pattern("A  ")
-//                .pattern("###")
-//                .input('#', ItemTags.PLANKS)
-//                .input('A', Items.BLACK_DYE)
-//                .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
-//                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "simple_black_desk_left"));
-//
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SIMPLE_BLACK_DESK_RIGHT, 1)
-//                .pattern("###")
-//                .pattern("  A")
-//                .pattern("###")
-//                .input('#', ItemTags.PLANKS)
-//                .input('A', Items.BLACK_DYE)
-//                .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
-//                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "simple_black_desk_right"));
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_OFFICE_CHAIR, 1)
                 .pattern("A A")
                 .pattern("ABA")
@@ -218,34 +175,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .input('A', Items.BLACK_DYE)
                 .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "simple_black_cabinet"));
-
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHECKERBOARD_BOOKCASE1, 1)
-//                .pattern("###")
-//                .pattern("AAA")
-//                .input('#', ItemTags.PLANKS)
-//                .input('A', Items.BLACK_DYE)
-//                .criterion("has_item", conditionsFromItem(Items.BLACK_DYE))
-//                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "checkerboard_bookcase1"));
-//
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHECKERBOARD_BOOKCASE2, 1)
-//                .pattern("###")
-//                .pattern("ABA")
-//                .pattern("###")
-//                .input('#', ItemTags.PLANKS)
-//                .input('A', Items.WHITE_DYE)
-//                .input('B', Items.BLACK_DYE)
-//                .criterion("has_item", conditionsFromItem(Items.WHITE_DYE))
-//                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "checkerboard_bookcase2"));
-//
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHECKERBOARD_BOOKCASE3, 1)
-//                .pattern("###")
-//                .pattern("ABA")
-//                .pattern("###")
-//                .input('#', ItemTags.PLANKS)
-//                .input('A', Items.WHITE_DYE)
-//                .input('B', Items.BLACK_DYE)
-//                .criterion("has_item", conditionsFromItem(Items.WHITE_DYE))
-//                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "checkerboard_bookcase3"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_HD_TV, 1)
                 .pattern("#BA")
@@ -440,13 +369,6 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .input('B', Items.IRON_INGOT)
                 .criterion("has_item", conditionsFromItem(Items.GLASS_PANE))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "eco_exhibition_cabinet"));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ECO_EXHIBITION_CABINET_BASE, 1)
-                .pattern("###")
-                .pattern("###")
-                .input('#', ItemTags.PLANKS)
-                .criterion("has_item", conditionsFromTag(ItemTags.PLANKS))
-                .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "eco_exhibition_cabinet_base"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, 1)
                 .pattern("#A#")
