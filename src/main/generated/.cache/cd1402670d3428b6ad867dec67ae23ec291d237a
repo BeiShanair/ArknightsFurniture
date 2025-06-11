@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T10:23:29.5894125	Arknights Furniture/Block Loot Tables
+// 1.20.1	2025-06-11T12:19:07.5231673	Arknights Furniture/Block Loot Tables
 14a22fdab6adafff051d1dc2bc4e90848d2cc618 data\arknights-furniture\loot_tables\blocks\airtight\cleanroom_lorry.json
 7daf597036c91dda2ac6012311a3243757f42870 data\arknights-furniture\loot_tables\blocks\chen\office_clue_board.json
 1f2acf24a522b1201a3d87231a3326b3391073c9 data\arknights-furniture\loot_tables\blocks\sideline\low_black_and_white_sofa.json
@@ -179,8 +179,8 @@ e80b13f28d425f105f04a31ef6357620f2cb7e11 data\arknights-furniture\loot_tables\bl
 843eb6f2939dc7f3fc9f7ca91b46a827b1ab4400 data\arknights-furniture\loot_tables\blocks\fantastic\specimen_data_board.json
 279f18d1ab9f4eb4c1e6b819c61e07ad383b6448 data\arknights-furniture\loot_tables\blocks\hotel\barstool.json
 dd6528e35a1d031ab3a03fc400815cb44da6bad7 data\arknights-furniture\loot_tables\blocks\rehearsal\hanging_scrolling_display.json
-e4059b41e57e8c7203ce2e667bbd8ef549637344 data\arknights-furniture\loot_tables\blocks\eatery\rectangular_bench.json
 24a1a72d423193efbf8fd0336fb78f99ca74386b data\arknights-furniture\loot_tables\blocks\pizzeria\pizza_box.json
+e4059b41e57e8c7203ce2e667bbd8ef549637344 data\arknights-furniture\loot_tables\blocks\eatery\rectangular_bench.json
 0b2a70cc1fee4c3ac7f29bfc5fa04c94b42b2b77 data\arknights-furniture\loot_tables\blocks\ldg\bright_wall_light.json
 a165dee7cbf001672677668c55375af9274e4627 data\arknights-furniture\loot_tables\blocks\lifecycle\diy_workbench_right.json
 8eeb748522c7eb5f2de721b4473a5356e6837a44 data\arknights-furniture\loot_tables\blocks\eatery\bamboo_screen.json
@@ -352,8 +352,8 @@ ce1c4746c33f9223edce7835af9b2f28ac78dc44 data\arknights-furniture\loot_tables\bl
 2d8afbd9a08074e57f73edef2ca71e20c7511489 data\arknights-furniture\loot_tables\blocks\siesta\summer_collection_shelf.json
 74867df26815b4f1f7dd4b3d03d34c9b45b68a8b data\arknights-furniture\loot_tables\blocks\columbian\beverage_menu.json
 cc417b96060298535b82dda2b56971cd5fefd338 data\arknights-furniture\loot_tables\blocks\countryside\log_cabinet_bottom.json
-d78895347d8dfee336a6f10c9141d3d2e84674fd data\arknights-furniture\loot_tables\blocks\ldg\black_pedestal_table.json
 6adea67826b6ea600e0d973ccca7b9d2c1d7ca25 data\arknights-furniture\loot_tables\blocks\rehearsal\spotlight_ceiling.json
+d78895347d8dfee336a6f10c9141d3d2e84674fd data\arknights-furniture\loot_tables\blocks\ldg\black_pedestal_table.json
 00084829e9a4cbbed157d38057cba4213f9e7ef1 data\arknights-furniture\loot_tables\blocks\eatery\inscription_ceiling_plaque_zi.json
 7efb18cf45a1cbe3f36f75422c5fe18528ccd10c data\arknights-furniture\loot_tables\blocks\siesta\rhodes_island_summer_calendar.json
 7458ee850ba6b29c33b624123d6ff317c55a21c4 data\arknights-furniture\loot_tables\blocks\hotel\billboard_jukebox.json

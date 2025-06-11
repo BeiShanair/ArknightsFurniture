@@ -69,6 +69,13 @@ public class ModItemGroups {
                         entries.add(ModItems.FURN_PARTS_ZIP1);
                         entries.add(ModItems.FURN_PARTS_ZIP2);
                         entries.add(ModItems.TAPE);
+                        entries.add(ModItems.DAMAGED_DEVICE);
+                        entries.add(ModItems.DIKETON);
+                        entries.add(ModItems.ESTER);
+                        entries.add(ModItems.ORIROCK);
+                        entries.add(ModItems.ORIRON_SHARD);
+                        entries.add(ModItems.SUGAR_SUBSTITUTE);
+
                     }).build());
     // endregion
 

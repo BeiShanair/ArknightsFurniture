@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-06-11
+- 添加级别`T1`的一些材料
+- Add some materials of level `T1`
+
 ## 2025-05-28
 - 修正部分`幻想生物纪实`家具套组模型及贴图
 - Fix some models and textures of the `Fantastic Bio-Documentary` furniture set

@@ -507,5 +507,12 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FURN_PARTS_ZIP2, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.TAPE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.DAMAGED_DEVICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIKETON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ESTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORIROCK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORIRON_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUGAR_SUBSTITUTE, Models.GENERATED);
     }
 }

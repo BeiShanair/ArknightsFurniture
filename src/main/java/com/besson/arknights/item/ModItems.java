@@ -60,6 +60,13 @@ public class ModItems {
     public static final Item FURN_PARTS_ZIP1 = registerItem("furn_parts_zip1", new Item(new Item.Settings()));
     public static final Item FURN_PARTS_ZIP2 = registerItem("furn_parts_zip2", new Item(new Item.Settings()));
 
+    public static final Item DAMAGED_DEVICE = registerItem("material/damaged_device", new Item(new Item.Settings()));
+    public static final Item DIKETON = registerItem("material/diketon", new Item(new Item.Settings()));
+    public static final Item ESTER = registerItem("material/ester", new Item(new Item.Settings()));
+    public static final Item ORIROCK = registerItem("material/orirock", new Item(new Item.Settings()));
+    public static final Item ORIRON_SHARD = registerItem("material/oriron_shard", new Item(new Item.Settings()));
+    public static final Item SUGAR_SUBSTITUTE = registerItem("material/sugar_substitute", new Item(new Item.Settings()));
+
     public static final Item TAPE = registerItem("tape", new TapeItem(new Item.Settings()));
 
     public static final Item BROWN_BOOKCASE = registerSameBlockItem(ModBlocks.BROWN_BOOKCASE_LB, ModBlocks.BROWN_BOOKCASE_RB,
