@@ -12,7 +12,7 @@ public class GeneralConsole extends FurnitureHorizontalFacingBlock {
     public GeneralConsole(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 22, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 26, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

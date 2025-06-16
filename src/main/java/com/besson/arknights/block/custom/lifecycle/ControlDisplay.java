@@ -16,30 +16,10 @@ public class ControlDisplay extends FurnitureHorizontalFacingBlock {
     public ControlDisplay(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE_N = Stream.of(
-            Block.createCuboidShape(-16, 1, 14, 32, 32, 16),
-            Block.createCuboidShape(-16, 1, 12, 32, 2, 14),
-            Block.createCuboidShape(-11, 0, 14, -9, 1, 16),
-            Block.createCuboidShape(25, 0, 14, 27, 1, 16)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-    private static final VoxelShape SHAPE_S = Stream.of(
-            Block.createCuboidShape(-16, 1, 0, 32, 32, 2),
-            Block.createCuboidShape(-16, 1, 2, 32, 2, 4),
-            Block.createCuboidShape(25, 0, 0, 27, 1, 2),
-            Block.createCuboidShape(-11, 0, 0, -9, 1, 2)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-    private static final VoxelShape SHAPE_W = Stream.of(
-            Block.createCuboidShape(14, 1, -16, 16, 32, 32),
-            Block.createCuboidShape(12, 1, -16, 14, 2, 32),
-            Block.createCuboidShape(14, 0, 25, 16, 1, 27),
-            Block.createCuboidShape(14, 0, -11, 16, 1, -9)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-    private static final VoxelShape SHAPE_E = Stream.of(
-            Block.createCuboidShape(0, 1, -16, 2, 32, 32),
-            Block.createCuboidShape(2, 1, -16, 4, 2, 32),
-            Block.createCuboidShape(0, 0, -11, 2, 1, -9),
-            Block.createCuboidShape(0, 0, 25, 2, 1, 27)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+    private static final VoxelShape SHAPE_N = Block.createCuboidShape(-14, 9, 13.5, 30, 32, 15.5);
+    private static final VoxelShape SHAPE_S = Block.createCuboidShape(-14, 9, 0.5, 30, 32, 2.5);
+    private static final VoxelShape SHAPE_W = Block.createCuboidShape(13.5, 9, -14, 15.5, 32, 30);
+    private static final VoxelShape SHAPE_E = Block.createCuboidShape(0.5, 9, -14, 2.5, 32, 30);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

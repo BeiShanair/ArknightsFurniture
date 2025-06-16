@@ -13,6 +13,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
+        // region Logos
         translationBuilder.add(ModItems.ABYSSAL_HUNTERS_LOGO, "深海猎人 Logo");
         translationBuilder.add(ModItems.AEGIR_LOGO, "阿戈尔 Logo");
         translationBuilder.add(ModItems.BABEL_LOGO, "巴别塔 Logo");
@@ -56,9 +57,11 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.URSUS_STUDENT_SELF_GOVERNING_GROUP_LOGO, "乌萨斯学生自治团 Logo");
         translationBuilder.add(ModItems.VICTORIA_LOGO, "维多利亚 Logo");
         translationBuilder.add(ModItems.YAN_LOGO, "炎 Logo");
+        // endregion
 
         translationBuilder.add(ModItems.TAPE, "胶带");
 
+        // region Paintings
         translationBuilder.add(painting + "abyssal_hunters.title", "深海猎人");
         translationBuilder.add(painting + "abyssal_hunters.author", "鹰角网络");
         translationBuilder.add(painting + "aegir.title", "阿戈尔");
@@ -183,7 +186,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "famous_painting_replica.author", "鹰角网络");
         translationBuilder.add(painting + "love_and_sunflowers", "“向日葵与美”");
         translationBuilder.add(painting + "love_and_sunflowers.author", "鹰角网络");
+        // endregion
 
+        // region Materials
         translationBuilder.add(ModItems.FURN_PARTS, "家具零件");
         translationBuilder.add(ModItems.CARDBOARD, "纸板");
         translationBuilder.add(ModItems.FURN_PARTS_ZIP1, "家具零件 Zip1");
@@ -195,7 +200,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ORIROCK, "源岩");
         translationBuilder.add(ModItems.ORIRON_SHARD, "异铁碎片");
         translationBuilder.add(ModItems.SUGAR_SUBSTITUTE, "代糖");
+        // endregion
 
+        // region 货运仓库
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "实用气垫");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "轮班考勤板");
         translationBuilder.add(ModBlocks.CARGO_TROLLEY, "货运手推车");
@@ -218,7 +225,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add("tooltip.arknights.large_shelf", "它可以存储9个物品");
         translationBuilder.add("tooltip.arknights.large_shelf_empty", "它可以存储3个物品，可以渲染存储的物品");
+        // endregion
 
+        // region 边线
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "瓷色壁灯");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "黑色简约时钟");
         translationBuilder.add(ModBlocks.BLACK_HD_TV, "清晰™黑色电视");
@@ -251,7 +260,9 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CABINET, "橘色简拼桌柜");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "橘色简拼办公桌 Left");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "橘色简拼办公桌 Right");
+        // endregion
 
+        // region 幻想生物
         translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "褐色懒人沙发");
         translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "生态展览柜");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "内嵌宽顶灯");
@@ -269,19 +280,35 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "未知生物标本集");
         translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET_LEFT, "灰色宽地毯");
         translationBuilder.add(ModBlocks.UNKNOWN_BONES, "未确认生物骨骼");
+        // endregion
 
+        // region 生命循环舱
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "防爆垃圾桶");
+        translationBuilder.add(ModBlocks.BLACK_FIBER_CARPET, "黑色纤维地毯");
+        translationBuilder.add(ModBlocks.BLACK_HANGING_BASKET, "黑色吊篮");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "嵌壁资料柜 1");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET2, "嵌壁资料柜 2");
-        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN, "舱室组合双层床（单）");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN_BOTTOM, "舱室组合双层床 下");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN_TOP, "舱室组合双层床 上");
         translationBuilder.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT, "舱室灭火套组");
-        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE, "舱室嵌顶构件");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_LEFT, "舱室嵌顶构件 左");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_RIGHT, "舱室嵌顶构件 右");
         translationBuilder.add(ModBlocks.CONTROL_DISPLAY, "控制显示器");
         translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "组合滚轮靠背椅");
-        translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "组合工作台 Left");
-        translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "组合工作台 Right");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "组合工作台 左");
+        translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "组合工作台 右");
+        translationBuilder.add(ModBlocks.FIRE_EXTINGUISHER, "灭火器");
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "生命循环舱总控台");
-        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "舱用记事板");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER, "淡绿壁纸");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE, "淡绿壁纸 地面左中");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT, "淡绿壁纸 地面右");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE, "淡绿壁纸 驳色");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE2, "淡绿壁纸 驳色 2");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_RIGHT, "淡绿壁纸 右");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN_DISPLAY, "舱用记事板 展示框");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN, "舱用记事板 告示牌");
+        translationBuilder.add(ModBlocks.POWER_BOX, "配电箱");
+        translationBuilder.add(ModBlocks.SUCK_BEVERAGES, "吸吸乐饮品");
 
         translationBuilder.add(ModBlocks.BAR_CEILING, "吧台吊顶");
         translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "曲底高脚咖啡椅");

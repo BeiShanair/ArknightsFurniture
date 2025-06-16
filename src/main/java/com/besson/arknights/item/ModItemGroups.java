@@ -170,17 +170,31 @@ public class ModItemGroups {
             ItemGroup.create(null, -1).displayName(Text.translatable("itemGroup.no_12_life_cycle_cabin"))
                     .icon(() -> new ItemStack(ModBlocks.GENERAL_CONSOLE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
+                        entries.add(ModBlocks.BLACK_FIBER_CARPET);
+                        entries.add(ModBlocks.BLACK_HANGING_BASKET);
                         entries.add(ModBlocks.BUILT_IN_FILE_CABINET1);
                         entries.add(ModBlocks.BUILT_IN_FILE_CABINET2);
-                        entries.add(ModBlocks.BUNK_BED_IN_CABIN);
+                        entries.add(ModBlocks.BUNK_BED_IN_CABIN_TOP);
+                        entries.add(ModBlocks.BUNK_BED_IN_CABIN_BOTTOM);
                         entries.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
-                        entries.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE);
+                        entries.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_LEFT);
+                        entries.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_RIGHT);
                         entries.add(ModBlocks.CONTROL_DISPLAY);
                         entries.add(ModBlocks.DIY_SWIVEL_CHAIR);
                         entries.add(ModBlocks.DIY_WORKBENCH_LEFT);
                         entries.add(ModBlocks.DIY_WORKBENCH_RIGHT);
+                        entries.add(ModBlocks.FIRE_EXTINGUISHER);
                         entries.add(ModBlocks.GENERAL_CONSOLE);
-                        entries.add(ModBlocks.NOTE_BOARD_IN_CABIN);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE2);
+                        entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_RIGHT);
+                        entries.add(ModBlocks.NOTE_BOARD_IN_CABIN_DISPLAY);
+                        entries.add(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN);
+                        entries.add(ModBlocks.POWER_BOX);
+                        entries.add(ModBlocks.SUCK_BEVERAGES);
                     }).build());
     // endregion
 

@@ -2,6 +2,7 @@ package com.besson.arknights.mixin;
 
 import com.besson.arknights.block.FurnitureBedBlock;
 import com.besson.arknights.block.ModBlocks;
+import com.besson.arknights.block.custom.lifecycle.BunkBedInCabinTop;
 import com.besson.arknights.block.custom.warehouse.AirMattress;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -26,7 +27,11 @@ public abstract class LivingEntityMixin extends Entity {
         double modifiedY = pos.getY() + 0.6875;
         if (state.getBlock() instanceof AirMattress) {
             modifiedY = pos.getY() + 0.25;
-        } else if (state.getBlock() instanceof FurnitureBedBlock) {
+        }
+        else if (state.getBlock() instanceof BunkBedInCabinTop){
+            modifiedY = pos.getY() + 0.9;
+        }
+        else if (state.getBlock() instanceof FurnitureBedBlock) {
             modifiedY = pos.getY() + 0.75;
         }
         this.setPosition(x, modifiedY, z);

@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-06-16
+- 重制`12号生命循环舱`家具套组模型及贴图
+- Rebuild the model and texture of the `No.12 Life Cycle Cabin` furniture set
+
 ## 2025-06-11
 - 添加级别`T1`的一些材料
 - Add some materials of level `T1`

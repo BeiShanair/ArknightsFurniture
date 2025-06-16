@@ -13,6 +13,7 @@ public class ModModelsProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator generator) {
+        // region Warehouse
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.AIR_MATTRESS);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ATTENDANCE_BOARD);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.CARGO_TROLLEY);
@@ -32,7 +33,9 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerParentedItemModel(ModBlocks.CONCRETE_WALL, ModelIds.getBlockModelId(ModBlocks.CONCRETE_WALL));
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DORMITORY_DOOR_FRAMES);
         generator.registerParentedItemModel(ModBlocks.REINFORCED_CONCRETE_WALLS, ModelIds.getBlockModelId(ModBlocks.REINFORCED_CONCRETE_WALLS));
+        // endregion
 
+        // region Side Line
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_CLOCK);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_HD_TV);
@@ -87,7 +90,9 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CABINET);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
+        // endregion
 
+        // region Fantastic
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BROWN_BEAN_BAG_SOFA);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
@@ -112,19 +117,37 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.WIDE_GRAY_CARPET_LEFT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.WIDE_GRAY_CARPET_RIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.UNKNOWN_BONES);
+        // endregion
 
+        // region Life Cycle
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_FIBER_CARPET);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_HANGING_BASKET);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BUILT_IN_FILE_CABINET1);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BUILT_IN_FILE_CABINET2);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.BUNK_BED_IN_CABIN);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.BUNK_BED_IN_CABIN_TOP);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.BUNK_BED_IN_CABIN_BOTTOM);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FLUSH_MOUNT_PIPE);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_LEFT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_RIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.CONTROL_DISPLAY);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_SWIVEL_CHAIR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_LEFT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_RIGHT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.FIRE_EXTINGUISHER);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GENERAL_CONSOLE);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTE_BOARD_IN_CABIN);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE2);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_RIGHT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTE_BOARD_IN_CABIN_DISPLAY);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.POWER_BOX);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SUCK_BEVERAGES);
+        // endregion
+
 
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BAR_CEILING);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);

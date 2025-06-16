@@ -12,14 +12,18 @@ public class BuiltInFileCabinet extends FurnitureHorizontalFacingBlock {
     public BuiltInFileCabinet(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE_NS = Block.createCuboidShape(-16, 0, 0, 32, 16, 16);
-    private static final VoxelShape SHAPE_WE = Block.createCuboidShape(0, 0, -16, 16, 16, 32);
+    private static final VoxelShape SHAPE_N = Block.createCuboidShape(0, 0, 0, 32, 16, 16);
+    private static final VoxelShape SHAPE_W = Block.createCuboidShape(0, 0, -16, 16, 16, 16);
+    private static final VoxelShape SHAPE_S = Block.createCuboidShape(-16, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE_E = Block.createCuboidShape(0, 0, 0, 16, 16, 32);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return switch (state.get(FACING)) {
-            case WEST,EAST -> SHAPE_WE;
-            default -> SHAPE_NS;
+            case SOUTH -> SHAPE_S;
+            case WEST -> SHAPE_W;
+            case EAST -> SHAPE_E;
+            default -> SHAPE_N;
         };
     }
 }

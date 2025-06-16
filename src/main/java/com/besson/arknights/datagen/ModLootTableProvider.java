@@ -77,15 +77,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
         addDrop(ModBlocks.BUILT_IN_FILE_CABINET1);
         addDrop(ModBlocks.BUILT_IN_FILE_CABINET2);
-        addDrop(ModBlocks.BUNK_BED_IN_CABIN);
         addDrop(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
-        addDrop(ModBlocks.CABIN_FLUSH_MOUNT_PIPE);
         addDrop(ModBlocks.CONTROL_DISPLAY);
         addDrop(ModBlocks.DIY_SWIVEL_CHAIR);
         addDrop(ModBlocks.DIY_WORKBENCH_LEFT);
         addDrop(ModBlocks.DIY_WORKBENCH_RIGHT);
         addDrop(ModBlocks.GENERAL_CONSOLE);
-        addDrop(ModBlocks.NOTE_BOARD_IN_CABIN);
 
         addDrop(ModBlocks.BAR_CEILING);
         addDrop(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);

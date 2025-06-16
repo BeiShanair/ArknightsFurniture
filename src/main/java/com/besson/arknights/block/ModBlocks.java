@@ -145,17 +145,31 @@ public class ModBlocks {
 
     // region LIFECYCLE
     public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("lifecycle/anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLACK_FIBER_CARPET = registerBlock("lifecycle/black_fiber_carpet", new FiberCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLACK_HANGING_BASKET = registerBlock("lifecycle/black_hanging_basket", new BlackHangingBasket(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("lifecycle/built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET2 = registerBlock("lifecycle/built_in_file_cabinet2", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BUNK_BED_IN_CABIN = registerBlock("lifecycle/bunk_bed_in_cabin", new FurnitureBedBlock(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BUNK_BED_IN_CABIN_TOP = registerBlock("lifecycle/bunk_bed_in_cabin_top", new BunkBedInCabinTop(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block BUNK_BED_IN_CABIN_BOTTOM = registerBlock("lifecycle/bunk_bed_in_cabin_bottom", new BunkBedInCabin(DyeColor.BLACK, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block CABIN_FIRE_EXTINGUISHER_KIT = registerBlock("lifecycle/cabin_fire_extinguisher_kit", new CabinFireExtinguisherKit(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block CABIN_FLUSH_MOUNT_PIPE = registerBlock("lifecycle/cabin_flush_mount_pipe", new CabinFlushMountPipe(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CABIN_FLUSH_MOUNT_PIPE_LEFT = registerBlock("lifecycle/cabin_flush_mount_pipe_left", new CabinFlushMountPipe(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block CABIN_FLUSH_MOUNT_PIPE_RIGHT = registerBlock("lifecycle/cabin_flush_mount_pipe_right", new CabinFlushMountPipe(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block CONTROL_DISPLAY = registerBlock("lifecycle/control_display", new ControlDisplay(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block DIY_SWIVEL_CHAIR = registerBlock("lifecycle/diy_swivel_chair", new DiySwivelChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block DIY_WORKBENCH_LEFT = registerBlock("lifecycle/diy_workbench_left", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block DIY_WORKBENCH_RIGHT = registerBlock("lifecycle/diy_workbench_right", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
-    public static final Block GENERAL_CONSOLE = registerBlock("lifecycle/general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block NOTE_BOARD_IN_CABIN = registerBlock("lifecycle/note_board_in_cabin", new NoteBoardInCabin(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block FIRE_EXTINGUISHER = registerBlock("lifecycle/fire_extinguisher", new FireExtinguisher(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GENERAL_CONSOLE = registerBlock("lifecycle/general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block LIGHT_GREEN_WALLPAPER = registerBlock("lifecycle/light_green_wallpaper", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE = registerBlock("lifecycle/light_green_wallpaper_floor_middle", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT = registerBlock("lifecycle/light_green_wallpaper_floor_right", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block LIGHT_GREEN_WALLPAPER_REFUGE = registerBlock("lifecycle/light_green_wallpaper_refuge", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block LIGHT_GREEN_WALLPAPER_REFUGE2 = registerBlock("lifecycle/light_green_wallpaper_refuge2", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block LIGHT_GREEN_WALLPAPER_RIGHT = registerBlock("lifecycle/light_green_wallpaper_right", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block NOTE_BOARD_IN_CABIN_DISPLAY = registerBlock("lifecycle/note_board_in_cabin_display", new NoteBoardInCabinDisplay(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block NOTE_BOARD_IN_CABIN_SIGN = registerBlock("lifecycle/note_board_in_cabin_sign", new NoteBoardInCabinSign(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block POWER_BOX = registerBlock("lifecycle/power_box", new PowerBox(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SUCK_BEVERAGES = registerBlock("lifecycle/suck_beverages", new SuckBeverages(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     // endregion
 
     // region COLUMBIAN

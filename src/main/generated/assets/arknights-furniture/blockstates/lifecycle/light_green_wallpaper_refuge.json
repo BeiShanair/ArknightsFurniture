@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/lifecycle/light_green_wallpaper_refuge",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/lifecycle/light_green_wallpaper_refuge"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/lifecycle/light_green_wallpaper_refuge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/lifecycle/light_green_wallpaper_refuge",
+      "y": 270
+    }
+  }
+}

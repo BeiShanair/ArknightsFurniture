@@ -13,6 +13,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
+        //region Logos
         translationBuilder.add(ModItems.ABYSSAL_HUNTERS_LOGO, "Abyssal Hunters Logo");
         translationBuilder.add(ModItems.AEGIR_LOGO, "Aegir Logo");
         translationBuilder.add(ModItems.BABEL_LOGO, "Babel Logo");
@@ -56,9 +57,11 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.URSUS_STUDENT_SELF_GOVERNING_GROUP_LOGO, "Ursus Student Self-Governing Group Logo");
         translationBuilder.add(ModItems.VICTORIA_LOGO, "Victoria Logo");
         translationBuilder.add(ModItems.YAN_LOGO, "Yan Logo");
+        // endregion
 
         translationBuilder.add(ModItems.TAPE, "Tape");
 
+        // region Paintings
         translationBuilder.add(painting + "abyssal_hunters.title", "Abyssal Hunters");
         translationBuilder.add(painting + "abyssal_hunters.author", "Hypergryph");
         translationBuilder.add(painting + "aegir.title", "Aegir");
@@ -183,7 +186,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(painting + "famous_painting_replica.author", "Hypergryph");
         translationBuilder.add(painting + "love_and_sunflowers", "Love And Sunflowers");
         translationBuilder.add(painting + "love_and_sunflowers.author", "Hypergryph");
+        // endregion
 
+        // region Materials
         translationBuilder.add(ModItems.FURN_PARTS, "Furn Parts");
         translationBuilder.add(ModItems.CARDBOARD, "Cardboard");
         translationBuilder.add(ModItems.FURN_PARTS_ZIP1, "Furn Parts Zip 1");
@@ -195,7 +200,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ORIROCK, "Orirock");
         translationBuilder.add(ModItems.ORIRON_SHARD, "Orirock Shard");
         translationBuilder.add(ModItems.SUGAR_SUBSTITUTE, "Sugar Substitute");
+        // endregion
 
+        // region Warehouse
         translationBuilder.add(ModBlocks.AIR_MATTRESS, "Air Mattress");
         translationBuilder.add(ModBlocks.ATTENDANCE_BOARD, "Attendance Board");
         translationBuilder.add(ModBlocks.CARGO_TROLLEY, "Cargo Trolley");
@@ -218,7 +225,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add("tooltip.arknights.large_shelf", "It can store up to 9 items.");
         translationBuilder.add("tooltip.arknights.large_shelf_empty", "It can store up to 3 items.Stored items can be rendered.");
+        // endregion
 
+        // region Side Line
         translationBuilder.add(ModBlocks.GRAYISH_WALL_LIGHT, "Grayish Wall Light");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_CLOCK, "Simple Black Clock");
         translationBuilder.add(ModBlocks.BLACK_HD_TV, "Black HD TV");
@@ -251,7 +260,9 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CABINET, "Simple Orange Cabinet");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "Simple Orange Desk Left");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "Simple Orange Desk Right");
+        // endregion
 
+        // region Fantastic
         translationBuilder.add(ModBlocks.BROWN_BEAN_BAG_SOFA, "Brown Bean Bag Sofa");
         translationBuilder.add(ModBlocks.ECO_EXHIBITION_CABINET_BASE, "Eco Exhibition Cabinet");
         translationBuilder.add(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT, "Flush Mount Rectangle Ceiling Light");
@@ -269,19 +280,36 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.UNKNOWN_SPECIMENS, "Unknown Specimens");
         translationBuilder.add(ModBlocks.WIDE_GRAY_CARPET_LEFT, "Wide Gray Carpet");
         translationBuilder.add(ModBlocks.UNKNOWN_BONES, "Unknown Bones");
+        // endregion
 
+        // region Life Cycle
         translationBuilder.add(ModBlocks.ANTI_EXPLOSION_TRASH_CAN, "Anti-Explosion Trash Can");
+        translationBuilder.add(ModBlocks.BLACK_FIBER_CARPET, "Black Fiber Carpet");
+        translationBuilder.add(ModBlocks.BLACK_HANGING_BASKET, "Black Hanging Basket");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET1, "Built-In File Cabinet 1");
         translationBuilder.add(ModBlocks.BUILT_IN_FILE_CABINET2, "Built-In File Cabinet 2");
-        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN, "Bunk Bed In Cabin");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN_BOTTOM, "Bunk Bed In Cabin Bottom");
+        translationBuilder.add(ModBlocks.BUNK_BED_IN_CABIN_TOP, "Bunk Bed In Cabin Top");
         translationBuilder.add(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT, "Cabin Fire Extinguisher Kit");
-        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE, "Cabin Flush Mount Pipe");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_LEFT, "Cabin Flush Mount Pipe Left");
+        translationBuilder.add(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_RIGHT, "Cabin Flush Mount Pipe Right");
         translationBuilder.add(ModBlocks.CONTROL_DISPLAY, "Control Display");
         translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "DIY Swivel Chair");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "DIY Workbench Left");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "DIY Workbench Right");
+        translationBuilder.add(ModBlocks.FIRE_EXTINGUISHER, "Fire Extinguisher");
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "General Console");
-        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN, "Note Board In Cabin");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER, "Light Green Wallpaper");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE, "Light Green Wallpaper Floor Middle");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT, "Light Green Wallpaper Floor Right");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE, "Light Green Wallpaper Refuge");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE2, "Light Green Wallpaper Refuge 2");
+        translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_RIGHT, "Light Green Wallpaper Right");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN_DISPLAY, "Note Board In Cabin Display");
+        translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN, "Note Board In Cabin Sign");
+        translationBuilder.add(ModBlocks.POWER_BOX, "Power Box");
+        translationBuilder.add(ModBlocks.SUCK_BEVERAGES, "Suck Beverages");
+        // endregion
 
         translationBuilder.add(ModBlocks.BAR_CEILING, "Bar Ceiling");
         translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "Barstool With Curved Legs");

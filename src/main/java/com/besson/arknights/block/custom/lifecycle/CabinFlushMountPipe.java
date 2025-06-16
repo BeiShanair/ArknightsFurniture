@@ -16,16 +16,12 @@ public class CabinFlushMountPipe extends FurnitureHorizontalFacingBlock {
     public CabinFlushMountPipe(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE_NS = Stream.of(
-            Block.createCuboidShape(0, 13, 7, 16, 15, 9),
-            Block.createCuboidShape(0, 8, 6, 16, 12, 10),
-            Block.createCuboidShape(7, 9, 5, 9, 16, 11)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-    private static final VoxelShape SHAPE_WE = Stream.of(
-            Block.createCuboidShape(7, 13, 0, 9, 15, 16),
-            Block.createCuboidShape(6, 8, 0, 10, 12, 16),
-            Block.createCuboidShape(5, 9, 7, 11, 16, 9)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+    private static final VoxelShape SHAPE_NS = VoxelShapes.combineAndSimplify(
+            Block.createCuboidShape(0, 14.35, 7.25, 16, 15.85, 8.75),
+            Block.createCuboidShape(0, 11, 6.5, 16, 14, 9.5), BooleanBiFunction.OR);
+    private static final VoxelShape SHAPE_WE = VoxelShapes.combineAndSimplify(
+            Block.createCuboidShape(7.25, 14.35, 0, 8.75, 15.85, 16),
+            Block.createCuboidShape(6.5, 11, 0, 9.5, 14, 16), BooleanBiFunction.OR);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
