@@ -134,7 +134,7 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_SWIVEL_CHAIR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_LEFT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DIY_WORKBENCH_RIGHT);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.FIRE_EXTINGUISHER);
+//        generator.registerNorthDefaultHorizontalRotation(ModBlocks.FIRE_EXTINGUISHER);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GENERAL_CONSOLE);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE);

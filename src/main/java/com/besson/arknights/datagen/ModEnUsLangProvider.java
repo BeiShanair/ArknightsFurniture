@@ -297,7 +297,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "DIY Swivel Chair");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "DIY Workbench Left");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "DIY Workbench Right");
-        translationBuilder.add(ModBlocks.FIRE_EXTINGUISHER, "Fire Extinguisher");
+        translationBuilder.add(ModItems.FIRE_EXTINGUISHER, "Fire Extinguisher");
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "General Console");
         translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER, "Light Green Wallpaper");
         translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE, "Light Green Wallpaper Floor Middle");

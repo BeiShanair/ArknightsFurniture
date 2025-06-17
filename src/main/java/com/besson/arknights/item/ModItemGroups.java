@@ -183,7 +183,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIY_SWIVEL_CHAIR);
                         entries.add(ModBlocks.DIY_WORKBENCH_LEFT);
                         entries.add(ModBlocks.DIY_WORKBENCH_RIGHT);
-                        entries.add(ModBlocks.FIRE_EXTINGUISHER);
+                        entries.add(ModItems.FIRE_EXTINGUISHER);
                         entries.add(ModBlocks.GENERAL_CONSOLE);
                         entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER);
                         entries.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE);

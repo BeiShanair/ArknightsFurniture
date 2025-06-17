@@ -158,7 +158,7 @@ public class ModBlocks {
     public static final Block DIY_SWIVEL_CHAIR = registerBlock("lifecycle/diy_swivel_chair", new DiySwivelChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block DIY_WORKBENCH_LEFT = registerBlock("lifecycle/diy_workbench_left", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
     public static final Block DIY_WORKBENCH_RIGHT = registerBlock("lifecycle/diy_workbench_right", new DiyWorkbench(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
-    public static final Block FIRE_EXTINGUISHER = registerBlock("lifecycle/fire_extinguisher", new FireExtinguisher(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+//    public static final Block FIRE_EXTINGUISHER = registerBlock("lifecycle/fire_extinguisher", new FireExtinguisher(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block GENERAL_CONSOLE = registerBlock("lifecycle/general_console", new GeneralConsole(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block LIGHT_GREEN_WALLPAPER = registerBlock("lifecycle/light_green_wallpaper", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE = registerBlock("lifecycle/light_green_wallpaper_floor_middle", new FurnitureHorizontalFacingBlock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));

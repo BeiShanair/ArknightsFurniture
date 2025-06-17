@@ -2,6 +2,7 @@ package com.besson.arknights.item;
 
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.ModBlocks;
+import com.besson.arknights.item.custom.FireExtinguisher;
 import com.besson.arknights.item.custom.TapeItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -83,6 +84,8 @@ public class ModItems {
     public static final Item COPPER_FLOOR = registerSameBlockItem(ModBlocks.COPPER_FLOOR_FRONT, ModBlocks.COPPER_FLOOR_BEHIND);
     public static final Item METALLIC_WALLPAPER1 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_BOTTOM, ModBlocks.METALLIC_WALLPAPER_TOP);
     public static final Item METALLIC_WALLPAPER2 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_LB, ModBlocks.METALLIC_WALLPAPER_LT, ModBlocks.METALLIC_WALLPAPER_RB, ModBlocks.METALLIC_WALLPAPER_RT);
+
+    public static final Item FIRE_EXTINGUISHER = registerItem("fire_extinguisher", new FireExtinguisher(new Item.Settings()));
     private static Item registerSameBlockItem(Block block, Block... blocks){
         BlockItem blockItem = new BlockItem(block, new Item.Settings());
         for (Block b : blocks) {

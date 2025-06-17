@@ -297,7 +297,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DIY_SWIVEL_CHAIR, "组合滚轮靠背椅");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_LEFT, "组合工作台 左");
         translationBuilder.add(ModBlocks.DIY_WORKBENCH_RIGHT, "组合工作台 右");
-        translationBuilder.add(ModBlocks.FIRE_EXTINGUISHER, "灭火器");
+        translationBuilder.add(ModItems.FIRE_EXTINGUISHER, "灭火器");
         translationBuilder.add(ModBlocks.GENERAL_CONSOLE, "生命循环舱总控台");
         translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER, "淡绿壁纸");
         translationBuilder.add(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE, "淡绿壁纸 地面左中");

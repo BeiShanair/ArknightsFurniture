@@ -1,4 +1,8 @@
 # 更新日志 / Changelog
+## 2025-06-17
+- `灭火器`现在作为一个可以使用的物品（右键使用），可以扑灭火焰
+- The `Fire Extinguisher` is now a usable item (right-click to use) that can extinguish flames
+
 ## 2025-06-16
 - 重制`12号生命循环舱`家具套组模型及贴图
 - Rebuild the model and texture of the `No.12 Life Cycle Cabin` furniture set
