@@ -145,7 +145,7 @@ public class ModBlocks {
 
     // region LIFECYCLE
     public static final Block ANTI_EXPLOSION_TRASH_CAN = registerBlock("lifecycle/anti_explosion_trash_can", new AntiExplosionTrashCan(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block BLACK_FIBER_CARPET = registerBlock("lifecycle/black_fiber_carpet", new FiberCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block BLACK_FIBER_CARPET = registerBlock("lifecycle/black_fiber_carpet", new BlackFiberCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BLACK_HANGING_BASKET = registerBlock("lifecycle/black_hanging_basket", new BlackHangingBasket(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET1 = registerBlock("lifecycle/built_in_file_cabinet1", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block BUILT_IN_FILE_CABINET2 = registerBlock("lifecycle/built_in_file_cabinet2", new BuiltInFileCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));

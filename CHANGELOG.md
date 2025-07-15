@@ -1,4 +1,9 @@
 # 更新日志 / Changelog
+
+## 2025-07-15
+- 修复一些小问题
+- Fix some small issues
+
 ## 2025-06-17
 - `灭火器`现在作为一个可以使用的物品（右键使用），可以扑灭火焰
 - The `Fire Extinguisher` is now a usable item (right-click to use) that can extinguish flames
