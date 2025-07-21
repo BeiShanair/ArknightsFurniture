@@ -206,12 +206,16 @@ public class ModBlocks {
     public static final Block BLACK_VINTAGE_CHAIR = registerBlock("ldg/black_vintage_chair", new BlackVintageChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block BLACK_VINTAGE_STOOL = registerBlock("ldg/black_vintage_stool", new BlackVintageStool(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block BRIGHT_WALL_LIGHT = registerBlock("ldg/bright_wall_light", new BrightWallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
-    public static final Block DUPLEX_WOODEN_FENCE = registerBlock("ldg/duplex_wooden_fence", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block DUPLEX_WOODEN_FENCE_TOP = registerBlock("ldg/duplex_wooden_fence_top", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DUPLEX_WOODEN_FENCE_BOTTOM = registerBlock("ldg/duplex_wooden_fence_bottom", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
+    public static final Block DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT = registerBlock("ldg/duplex_wooden_fence_bottom_light", new DuplexWoodenFenceLight(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_SANDALWOOD_MEETING_TABLE = registerBlock("ldg/low_sandalwood_meeting_table", new LowSandalwoodMeetingTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
-    public static final Block SANDALWOOD_BED = registerBlock("ldg/sandalwood_bed", new FurnitureBedBlock(DyeColor.BROWN, AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block SANDALWOOD_BED = registerBlock("ldg/sandalwood_bed", new FurnitureBedBlock(DyeColor.BROWN, AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));
     public static final Block SANDALWOOD_MEETING_BOARD = registerBlock("ldg/sandalwood_meeting_board", new SandalwoodMeetingBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_BLACK_LOUNGE_CHAIR = registerBlock("ldg/simple_black_lounge_chair", new SimpleBlackLoungeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
-    public static final Block SMALL_SANDALWOOD_NIGHTSTAND = registerBlock("ldg/small_sandalwood_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
+    public static final Block SMALL_SANDALWOOD_NIGHTSTAND = registerBlock("ldg/small_sandalwood_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
+    public static final Block GRAY_WOOL_CARPET_LEFT = registerBlock("ldg/gray_wool_carpet_left", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GRAY_WOOL_CARPET_RIGHT = registerBlock("ldg/gray_wool_carpet_right", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
 
     public static final Block DUPLEX_BRONZE_FENCE = registerBlock("ldg/duplex_bronze_fence", new DuplexWoodenFence(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_TEAK_MEETING_TABLE = registerBlock("ldg/low_teak_meeting_table", new LowSandalwoodMeetingTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque()));

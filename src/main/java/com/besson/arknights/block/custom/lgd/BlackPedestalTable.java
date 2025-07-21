@@ -17,10 +17,21 @@ public class BlackPedestalTable extends FurnitureHorizontalFacingBlock {
         super(settings);
     }
     private static final VoxelShape SHAPE = Stream.of(
-            Block.createCuboidShape(5, 0, 5, 11, 1, 11),
-            Block.createCuboidShape(6, 1, 6, 10, 2, 10),
-            Block.createCuboidShape(7, 2, 7, 9, 15, 9),
-            Block.createCuboidShape(0, 15, 0, 16, 16, 16)
+            Block.createCuboidShape(11, 0, 11, 12, 0.5, 12),
+            Block.createCuboidShape(4, 0.5, 4, 12, 1, 12),
+            Block.createCuboidShape(7, 1, 7, 9, 15, 9),
+            Block.createCuboidShape(-2, 15, -3, 18, 16, 18),
+            Stream.of(
+                    Block.createCuboidShape(4, 0, 4, 7.25, 1, 12),
+                    Block.createCuboidShape(4, 0.1, 4, 12, 1.1, 7.25),
+                    Stream.of(
+                            Block.createCuboidShape(8.75, 0, 4, 12, 1, 12),
+                            Block.createCuboidShape(4, 0.1, 8.75, 12, 1.1, 12),
+                            Block.createCuboidShape(4, 0, 4, 5, 0.5, 5),
+                            Block.createCuboidShape(4, 0, 11, 5, 0.5, 12),
+                            Block.createCuboidShape(11, 0, 4, 12, 0.5, 5)
+                    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get()
+            ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get()
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     @Override

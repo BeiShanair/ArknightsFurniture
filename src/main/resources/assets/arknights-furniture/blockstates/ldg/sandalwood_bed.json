@@ -1,19 +1,19 @@
 {
   "variants": {
     "facing=east": {
-      "model": "arknights-furniture:block/ldg/sandalwood_bed",
-      "y": 90
+      "model": "arknights-furniture:block/ldg/sandalwood_bed"
     },
     "facing=north": {
-      "model": "arknights-furniture:block/ldg/sandalwood_bed"
+      "model": "arknights-furniture:block/ldg/sandalwood_bed",
+      "y": 270
     },
     "facing=south": {
       "model": "arknights-furniture:block/ldg/sandalwood_bed",
-      "y": 180
+      "y": 90
     },
     "facing=west": {
       "model": "arknights-furniture:block/ldg/sandalwood_bed",
-      "y": 270
+      "y": 180
     }
   }
 }

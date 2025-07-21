@@ -27,7 +27,7 @@ public class SimpleBlackLoungeChair extends FurnitureHorizontalFacingBlock {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient){
-            return SeatEntity.create(world,pos,0.2,player,state.get(FACING));
+            return SeatEntity.create(world,pos,0.15,player,state.get(FACING));
         }
         return ActionResult.SUCCESS;
     }

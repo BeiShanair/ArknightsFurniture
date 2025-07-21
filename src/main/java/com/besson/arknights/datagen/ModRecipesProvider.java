@@ -659,7 +659,7 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", conditionsFromItem(Items.GLOWSTONE_DUST))
                 .offerTo(exporter, new Identifier(ArknightsFurniture.MOD_ID, "bright_wall_light"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUPLEX_WOODEN_FENCE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUPLEX_WOODEN_FENCE_TOP, 1)
                 .pattern("AA")
                 .pattern("AA")
                 .input('A', ItemTags.PLANKS)

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arknights-furniture:ldg/duplex_wooden_fence"
+          "name": "arknights-furniture:ldg/duplex_wooden_fence_top"
         }
       ],
       "rolls": 1.0

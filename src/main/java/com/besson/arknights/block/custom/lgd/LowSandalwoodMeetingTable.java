@@ -12,10 +12,10 @@ public class LowSandalwoodMeetingTable extends FurnitureHorizontalFacingBlock {
     public LowSandalwoodMeetingTable(Settings settings) {
         super(settings);
     }
-    private static final VoxelShape SHAPE_N = Block.createCuboidShape(0, 0, 0, 16, 9, 32);
-    private static final VoxelShape SHAPE_W = Block.createCuboidShape(0, 0, 0, 32, 9, 16);
-    private static final VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, -16, 16, 9, 16);
-    private static final VoxelShape SHAPE_E = Block.createCuboidShape(-16, 0, 0, 16, 9, 16);
+    private static final VoxelShape SHAPE_N = Block.createCuboidShape(-16, 0, -16, 16, 9, 32);
+    private static final VoxelShape SHAPE_W = Block.createCuboidShape(-16, 0, 0, 32, 9, 32);
+    private static final VoxelShape SHAPE_S = Block.createCuboidShape(0, 0, -16, 32, 9, 32);
+    private static final VoxelShape SHAPE_E = Block.createCuboidShape(-16, 0, -16, 32, 9, 16);
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

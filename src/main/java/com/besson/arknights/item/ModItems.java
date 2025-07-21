@@ -3,6 +3,7 @@ package com.besson.arknights.item;
 import com.besson.arknights.ArknightsFurniture;
 import com.besson.arknights.block.ModBlocks;
 import com.besson.arknights.item.custom.FireExtinguisher;
+import com.besson.arknights.item.custom.SeatSummonItem;
 import com.besson.arknights.item.custom.TapeItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -12,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // region LOGOS
     public static final Item ABYSSAL_HUNTERS_LOGO = registerItem("abyssal_hunters_logo", new Item(new Item.Settings()));
     public static final Item AEGIR_LOGO = registerItem("aegir_logo", new Item(new Item.Settings()));
     public static final Item BABEL_LOGO = registerItem("babel_logo", new Item(new Item.Settings()));
@@ -55,6 +57,7 @@ public class ModItems {
     public static final Item URSUS_STUDENT_SELF_GOVERNING_GROUP_LOGO = registerItem("ursus_student_self-governing_group_logo", new Item(new Item.Settings()));
     public static final Item VICTORIA_LOGO = registerItem("victoria_logo", new Item(new Item.Settings()));
     public static final Item YAN_LOGO = registerItem("yan_logo", new Item(new Item.Settings()));
+    // endregion
 
     public static final Item FURN_PARTS = registerItem("furn_parts", new Item(new Item.Settings()));
     public static final Item CARDBOARD = registerItem("cardboard", new Item(new Item.Settings()));
@@ -86,6 +89,10 @@ public class ModItems {
     public static final Item METALLIC_WALLPAPER2 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_LB, ModBlocks.METALLIC_WALLPAPER_LT, ModBlocks.METALLIC_WALLPAPER_RB, ModBlocks.METALLIC_WALLPAPER_RT);
 
     public static final Item FIRE_EXTINGUISHER = registerItem("fire_extinguisher", new FireExtinguisher(new Item.Settings()));
+
+    public static final Item SEAT_SUMMON_ITEM_BLOCK = registerItem("seat_summon_item_block", new SeatSummonItem(0.8f, new Item.Settings()));
+    public static final Item SEAT_SUMMON_ITEM_SLAB = registerItem("seat_summon_item_slab", new SeatSummonItem(0.3f, new Item.Settings()));
+
     private static Item registerSameBlockItem(Block block, Block... blocks){
         BlockItem blockItem = new BlockItem(block, new Item.Settings());
         for (Block b : blocks) {

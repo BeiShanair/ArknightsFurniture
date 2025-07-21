@@ -75,7 +75,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ORIROCK);
                         entries.add(ModItems.ORIRON_SHARD);
                         entries.add(ModItems.SUGAR_SUBSTITUTE);
-
+                        entries.add(ModItems.SEAT_SUMMON_ITEM_BLOCK);
+                        entries.add(ModItems.SEAT_SUMMON_ITEM_SLAB);
                     }).build());
     // endregion
 
@@ -235,12 +236,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACK_VINTAGE_CHAIR);
                         entries.add(ModBlocks.BLACK_VINTAGE_STOOL);
                         entries.add(ModBlocks.BRIGHT_WALL_LIGHT);
-                        entries.add(ModBlocks.DUPLEX_WOODEN_FENCE);
+                        entries.add(ModBlocks.DUPLEX_WOODEN_FENCE_TOP);
+                        entries.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM);
+                        entries.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT);
                         entries.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE);
                         entries.add(ModBlocks.SANDALWOOD_BED);
                         entries.add(ModBlocks.SANDALWOOD_MEETING_BOARD);
                         entries.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
                         entries.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
+                        entries.add(ModBlocks.GRAY_WOOL_CARPET_LEFT);
 
                         entries.add(ModBlocks.DUPLEX_BRONZE_FENCE);
                         entries.add(ModBlocks.LOW_TEAK_MEETING_TABLE);

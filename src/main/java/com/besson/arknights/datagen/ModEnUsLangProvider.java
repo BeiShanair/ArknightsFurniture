@@ -338,12 +338,15 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "Black Vintage Chair");
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_STOOL, "Black Vintage Stool");
         translationBuilder.add(ModBlocks.BRIGHT_WALL_LIGHT, "Bright Wall Light");
-        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE, "Duplex Wooden Fence");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_TOP, "Duplex Wooden Fence Top");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM, "Duplex Wooden Fence Bottom");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT, "Duplex Wooden Fence Bottom Light");
         translationBuilder.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE, "Low Sandalwood Meeting Table");
         translationBuilder.add(ModBlocks.SANDALWOOD_BED, "Sandalwood Bed");
         translationBuilder.add(ModBlocks.SANDALWOOD_MEETING_BOARD, "Sandalwood Meeting Board");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "Simple Black Lounge Chair");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "Small Sandalwood Nightstand");
+        translationBuilder.add(ModBlocks.GRAY_WOOL_CARPET_LEFT, "Gray Wool Carpet");
 
         translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "Duplex Bronze Fence");
         translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "Low Teak Meeting Table");

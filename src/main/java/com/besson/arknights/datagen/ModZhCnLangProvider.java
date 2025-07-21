@@ -309,6 +309,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN, "舱用记事板 告示牌");
         translationBuilder.add(ModBlocks.POWER_BOX, "配电箱");
         translationBuilder.add(ModBlocks.SUCK_BEVERAGES, "吸吸乐饮品");
+        // endregion
 
         translationBuilder.add(ModBlocks.BAR_CEILING, "吧台吊顶");
         translationBuilder.add(ModBlocks.BARSTOOL_WITH_CURVED_LEGS, "曲底高脚咖啡椅");
@@ -337,12 +338,15 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_CHAIR, "黑色复古椅");
         translationBuilder.add(ModBlocks.BLACK_VINTAGE_STOOL, "黑色复古凳");
         translationBuilder.add(ModBlocks.BRIGHT_WALL_LIGHT, "明亮挂灯");
-        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE, "复式木制墙栏");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_TOP, "复式木制墙栏（上部）");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM, "复式木制墙栏（下部）");
+        translationBuilder.add(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT, "复式木制墙栏（地灯）");
         translationBuilder.add(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE, "檀木低脚会议桌");
         translationBuilder.add(ModBlocks.SANDALWOOD_BED, "檀木大床");
         translationBuilder.add(ModBlocks.SANDALWOOD_MEETING_BOARD, "檀木会议板");
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "黑色简装矮沙发");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "檀木床头矮柜");
+        translationBuilder.add(ModBlocks.GRAY_WOOL_CARPET_LEFT, "灰色绒毛地毯");
 
         translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "复式铜制墙栏");
         translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "柚木低脚会议桌");

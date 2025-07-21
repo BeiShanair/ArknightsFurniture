@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "arknights-furniture:block/ldg/duplex_wooden_fence_bottom",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arknights-furniture:block/ldg/duplex_wooden_fence_bottom"
+    },
+    "facing=south": {
+      "model": "arknights-furniture:block/ldg/duplex_wooden_fence_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arknights-furniture:block/ldg/duplex_wooden_fence_bottom",
+      "y": 270
+    }
+  }
+}

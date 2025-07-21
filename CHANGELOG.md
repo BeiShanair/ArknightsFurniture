@@ -1,5 +1,13 @@
 # 更新日志 / Changelog
 
+## 2025-07-21
+- - 修复一些小问题
+- Fix some small issues
+
+## 2025-07-20
+- 重制`近卫局休息室`家具套组模型及贴图
+- Rebuild the model and texture of the `L.D.G. Lounge` furniture set
+
 ## 2025-07-15
 - 修复一些小问题
 - Fix some small issues

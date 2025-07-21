@@ -23,12 +23,13 @@ public class BlackVintageStool extends FurnitureHorizontalFacingBlock {
         super(settings);
     }
     private static final VoxelShape SHAPE = Stream.of(
-            Block.createCuboidShape(2, 0, 2, 4, 8, 4),
-            Block.createCuboidShape(12, 0, 2, 14, 8, 4),
-            Block.createCuboidShape(12, 0, 12, 14, 8, 14),
-            Block.createCuboidShape(2, 0, 12, 4, 8, 14),
-            Block.createCuboidShape(2, 8, 2, 14, 10, 14)
-    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+            Block.createCuboidShape(3, 6.75, 3, 13, 8, 13.5),
+            Block.createCuboidShape(2.25, 8, 2.5, 13.75, 8.5, 14),
+            Block.createCuboidShape(2.5, 0, 2.75, 4.25, 8, 4.5),
+            Block.createCuboidShape(2.5, 0, 12, 4.25, 8, 13.75),
+            Block.createCuboidShape(11.75, 0, 12, 13.5, 8, 13.75),
+            Block.createCuboidShape(11.75, 0, 2.75, 13.5, 8, 4.5)
+    ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();;
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

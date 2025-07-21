@@ -181,12 +181,16 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_VINTAGE_CHAIR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BLACK_VINTAGE_STOOL);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.BRIGHT_WALL_LIGHT);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_WOODEN_FENCE);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_WOODEN_FENCE_TOP);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SANDALWOOD_BED);
+        generator.registerParentedItemModel(ModBlocks.SANDALWOOD_BED, ModelIds.getBlockModelId(ModBlocks.SANDALWOOD_BED));
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SANDALWOOD_MEETING_BOARD);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAY_WOOL_CARPET_LEFT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAY_WOOL_CARPET_RIGHT);
 
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_BRONZE_FENCE);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_TEAK_MEETING_TABLE);

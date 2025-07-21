@@ -19,7 +19,7 @@ public class SmallSandalwoodNightstand extends ModAbstractChestBlock<SmallSandal
     public SmallSandalwoodNightstand(Settings settings, Supplier<BlockEntityType<? extends SmallSandalwoodNightstandBE>> blockEntityTypeSupplier) {
         super(settings, blockEntityTypeSupplier);
     }
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 11, 16);
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return SHAPE;
