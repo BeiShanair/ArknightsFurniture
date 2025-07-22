@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-21T09:45:21.7448453	Arknights Furniture/Block Loot Tables
+// 1.20.1	2025-07-22T16:14:48.9153015	Arknights Furniture/Block Loot Tables
 14a22fdab6adafff051d1dc2bc4e90848d2cc618 data\arknights-furniture\loot_tables\blocks\airtight\cleanroom_lorry.json
 7daf597036c91dda2ac6012311a3243757f42870 data\arknights-furniture\loot_tables\blocks\chen\office_clue_board.json
 1f2acf24a522b1201a3d87231a3326b3391073c9 data\arknights-furniture\loot_tables\blocks\sideline\low_black_and_white_sofa.json
@@ -223,8 +223,8 @@ ab27f7984ccc858d9fe78357955b9542f7ec089e data\arknights-furniture\loot_tables\bl
 b5f9df45752a38bf165c8688405e4ece5376cf87 data\arknights-furniture\loot_tables\blocks\countryside\handmade_wood_basket.json
 9a1d5509c792c350d8480cda1aaf1027621ab093 data\arknights-furniture\loot_tables\blocks\eatery\boiling_station_pot.json
 1847eb12c29d4a78440c580cf56e24590147b322 data\arknights-furniture\loot_tables\blocks\safehouse\old_record_player.json
-9dd044974801f2abf70a5c9688e51c7dd53dca4f data\arknights-furniture\loot_tables\blocks\warehouse\large_shelf_empty.json
 a3aebe4bae85383d33a6e9c7f73cd2cd01740146 data\arknights-furniture\loot_tables\blocks\eatery\half_shut_screen.json
+9dd044974801f2abf70a5c9688e51c7dd53dca4f data\arknights-furniture\loot_tables\blocks\warehouse\large_shelf_empty.json
 0632d1df40aded8125df3faedf5de8e94a7e0559 data\arknights-furniture\loot_tables\blocks\diner\garden_style_ceiling_fixture.json
 a6929fbedb74ee34f312678f182296f4b998941e data\arknights-furniture\loot_tables\blocks\lifecycle\control_display.json
 c2579b06263ffb126d537907a48534020f638517 data\arknights-furniture\loot_tables\blocks\airtight\multifunctional_engineering_shovel.json

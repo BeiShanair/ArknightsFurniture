@@ -245,6 +245,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
                         entries.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
                         entries.add(ModBlocks.GRAY_WOOL_CARPET_LEFT);
+                        entries.add(ModBlocks.PAINTING_WITH_SANDALWOOD_FRAME);
 
                         entries.add(ModBlocks.DUPLEX_BRONZE_FENCE);
                         entries.add(ModBlocks.LOW_TEAK_MEETING_TABLE);

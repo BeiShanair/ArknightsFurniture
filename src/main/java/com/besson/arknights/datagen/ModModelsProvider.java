@@ -191,6 +191,7 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAY_WOOL_CARPET_LEFT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAY_WOOL_CARPET_RIGHT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.PAINTING_WITH_SANDALWOOD_FRAME);
 
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.DUPLEX_BRONZE_FENCE);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.LOW_TEAK_MEETING_TABLE);

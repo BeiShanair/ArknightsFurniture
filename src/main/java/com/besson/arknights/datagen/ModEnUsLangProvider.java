@@ -347,6 +347,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "Simple Black Lounge Chair");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "Small Sandalwood Nightstand");
         translationBuilder.add(ModBlocks.GRAY_WOOL_CARPET_LEFT, "Gray Wool Carpet");
+        translationBuilder.add(ModBlocks.PAINTING_WITH_SANDALWOOD_FRAME, "Painting With Sandalwood Frame");
 
         translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "Duplex Bronze Fence");
         translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "Low Teak Meeting Table");

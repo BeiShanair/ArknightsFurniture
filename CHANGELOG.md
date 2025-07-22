@@ -1,7 +1,11 @@
 # 更新日志 / Changelog
 
+## 2025-07-22
+- 修复一些小问题
+- Fix some small issues
+
 ## 2025-07-21
-- - 修复一些小问题
+- 修复一些小问题
 - Fix some small issues
 
 ## 2025-07-20

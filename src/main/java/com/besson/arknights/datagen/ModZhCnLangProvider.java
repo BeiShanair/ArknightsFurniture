@@ -347,6 +347,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR, "黑色简装矮沙发");
         translationBuilder.add(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND, "檀木床头矮柜");
         translationBuilder.add(ModBlocks.GRAY_WOOL_CARPET_LEFT, "灰色绒毛地毯");
+        translationBuilder.add(ModBlocks.PAINTING_WITH_SANDALWOOD_FRAME, "檀木相框挂画");
 
         translationBuilder.add(ModBlocks.DUPLEX_BRONZE_FENCE, "复式铜制墙栏");
         translationBuilder.add(ModBlocks.LOW_TEAK_MEETING_TABLE, "柚木低脚会议桌");
