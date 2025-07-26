@@ -75,8 +75,14 @@ public class ModItemGroups {
                         entries.add(ModItems.ORIROCK);
                         entries.add(ModItems.ORIRON_SHARD);
                         entries.add(ModItems.SUGAR_SUBSTITUTE);
-                        entries.add(ModItems.SEAT_SUMMON_ITEM_BLOCK);
-                        entries.add(ModItems.SEAT_SUMMON_ITEM_SLAB);
+                        entries.add(ModItems.DEVICE);
+                        entries.add(ModItems.ORIROCK_CUBE);
+                        entries.add(ModItems.ORIRON);
+                        entries.add(ModItems.POLYESTER);
+                        entries.add(ModItems.POLYKETON);
+                        entries.add(ModItems.SUGAR);
+//                        entries.add(ModItems.SEAT_SUMMON_ITEM_BLOCK);
+//                        entries.add(ModItems.SEAT_SUMMON_ITEM_SLAB);
                     }).build());
     // endregion
 

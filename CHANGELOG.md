@@ -1,5 +1,9 @@
 # 更新日志 / Changelog
 
+## 2025-07-26
+- 添加级别`T2`的一些材料
+- Add some materials of level `T2`
+
 ## 2025-07-22
 - 修复一些小问题
 - Fix some small issues

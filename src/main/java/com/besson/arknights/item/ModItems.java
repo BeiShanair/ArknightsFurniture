@@ -70,6 +70,12 @@ public class ModItems {
     public static final Item ORIROCK = registerItem("material/orirock", new Item(new Item.Settings()));
     public static final Item ORIRON_SHARD = registerItem("material/oriron_shard", new Item(new Item.Settings()));
     public static final Item SUGAR_SUBSTITUTE = registerItem("material/sugar_substitute", new Item(new Item.Settings()));
+    public static final Item DEVICE = registerItem("material/device", new Item(new Item.Settings()));
+    public static final Item ORIROCK_CUBE = registerItem("material/orirock_cube", new Item(new Item.Settings()));
+    public static final Item POLYESTER = registerItem("material/polyester", new Item(new Item.Settings()));
+    public static final Item POLYKETON = registerItem("material/polyketon", new Item(new Item.Settings()));
+    public static final Item SUGAR = registerItem("material/sugar", new Item(new Item.Settings()));
+    public static final Item ORIRON = registerItem("material/oriron", new Item(new Item.Settings()));
 
     public static final Item TAPE = registerItem("tape", new TapeItem(new Item.Settings()));
 

@@ -200,6 +200,14 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ORIROCK, "Orirock");
         translationBuilder.add(ModItems.ORIRON_SHARD, "Orirock Shard");
         translationBuilder.add(ModItems.SUGAR_SUBSTITUTE, "Sugar Substitute");
+        translationBuilder.add(ModItems.DEVICE, "Device");
+        translationBuilder.add(ModItems.ORIROCK_CUBE, "Orirock Cube");
+        translationBuilder.add(ModItems.ORIRON, "Oriron");
+        translationBuilder.add(ModItems.POLYESTER, "Polyester");
+        translationBuilder.add(ModItems.POLYKETON, "Polyketon");
+        translationBuilder.add(ModItems.SUGAR, "Sugar");
+
+
         // endregion
 
         // region Warehouse

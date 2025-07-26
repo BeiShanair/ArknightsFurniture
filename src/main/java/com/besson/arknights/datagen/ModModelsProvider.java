@@ -542,5 +542,11 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORIROCK, Models.GENERATED);
         itemModelGenerator.register(ModItems.ORIRON_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUGAR_SUBSTITUTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DEVICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORIROCK_CUBE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORIRON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POLYESTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POLYKETON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SUGAR, Models.GENERATED);
     }
 }

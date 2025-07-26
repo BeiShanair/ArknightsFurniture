@@ -200,6 +200,12 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ORIROCK, "源岩");
         translationBuilder.add(ModItems.ORIRON_SHARD, "异铁碎片");
         translationBuilder.add(ModItems.SUGAR_SUBSTITUTE, "代糖");
+        translationBuilder.add(ModItems.DEVICE, "装置");
+        translationBuilder.add(ModItems.ORIROCK_CUBE, "固源岩");
+        translationBuilder.add(ModItems.ORIRON, "异铁");
+        translationBuilder.add(ModItems.POLYESTER, "聚酸酯");
+        translationBuilder.add(ModItems.POLYKETON, "酮凝集");
+        translationBuilder.add(ModItems.SUGAR, "糖");
         // endregion
 
         // region 货运仓库
