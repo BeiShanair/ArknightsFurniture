@@ -13,9 +13,8 @@
     }
   },
   "pattern": [
-    "###",
-    "ABA",
-    "###"
+    "# #",
+    "ABA"
   ],
   "result": {
     "item": "arknights-furniture:ldg/sandalwood_meeting_board"

@@ -7,8 +7,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "## ",
+    "## "
   ],
   "result": {
     "item": "arknights-furniture:ldg/small_sandalwood_nightstand"

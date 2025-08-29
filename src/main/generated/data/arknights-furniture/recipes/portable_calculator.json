@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:command_block"
+      "item": "minecraft:lever"
     },
     "A": {
-      "item": "arknights-furniture:cardboard"
+      "item": "arknights-furniture:warehouse/carton"
     }
   },
   "pattern": [
-    " # ",
-    "AAA"
+    "#",
+    "A"
   ],
   "result": {
     "item": "arknights-furniture:warehouse/portable_calculator"

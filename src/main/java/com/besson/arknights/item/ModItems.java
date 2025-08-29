@@ -85,10 +85,15 @@ public class ModItems {
     public static final Item CHECKERBOARD_BOOKCASE = registerSameBlockItem(ModBlocks.CHECKERBOARD_BOOKCASE_BBL, ModBlocks.CHECKERBOARD_BOOKCASE_BBR, ModBlocks.CHECKERBOARD_BOOKCASE_BTL,
             ModBlocks.CHECKERBOARD_BOOKCASE_BTR, ModBlocks.CHECKERBOARD_BOOKCASE_MBL, ModBlocks.CHECKERBOARD_BOOKCASE_MBR, ModBlocks.CHECKERBOARD_BOOKCASE_MTL, ModBlocks.CHECKERBOARD_BOOKCASE_MTR,
             ModBlocks.CHECKERBOARD_BOOKCASE_TL, ModBlocks.CHECKERBOARD_BOOKCASE_TR);
+    public static final Item ORANGE_CHECKERBOARD_BOOKCASE = registerSameBlockItem(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBL, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBR, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BTL,
+            ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BTR, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MBL, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MBR, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MTL, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MTR,
+            ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_TL, ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_TR);
     public static final Item GRAYISH_WALL_BOTTOM = registerSameBlockItem(ModBlocks.GRAYISH_WALL_BBL, ModBlocks.GRAYISH_WALL_BBR, ModBlocks.GRAYISH_WALL_BTL, ModBlocks.GRAYISH_WALL_BTR);
     public static final Item GRAYISH_WALL_TOP = registerSameBlockItem(ModBlocks.GRAYISH_WALL_TBL, ModBlocks.GRAYISH_WALL_TBR, ModBlocks.GRAYISH_WALL_TTL, ModBlocks.GRAYISH_WALL_TTR);
     public static final Item SIMPLE_BLACK_DESK = registerSameBlockItem(ModBlocks.SIMPLE_BLACK_DESK_LBL, ModBlocks.SIMPLE_BLACK_DESK_LBR, ModBlocks.SIMPLE_BLACK_DESK_LTL, ModBlocks.SIMPLE_BLACK_DESK_LTR,
             ModBlocks.SIMPLE_BLACK_DESK_RBL, ModBlocks.SIMPLE_BLACK_DESK_RBR, ModBlocks.SIMPLE_BLACK_DESK_RTL, ModBlocks.SIMPLE_BLACK_DESK_RTR);
+    public static final Item SIMPLE_ORANGE_DESK = registerSameBlockItem(ModBlocks.SIMPLE_ORANGE_DESK_LBL, ModBlocks.SIMPLE_ORANGE_DESK_LBR, ModBlocks.SIMPLE_ORANGE_DESK_LTL, ModBlocks.SIMPLE_ORANGE_DESK_LTR,
+            ModBlocks.SIMPLE_ORANGE_DESK_RBL, ModBlocks.SIMPLE_ORANGE_DESK_RBR, ModBlocks.SIMPLE_ORANGE_DESK_RTL, ModBlocks.SIMPLE_ORANGE_DESK_RTR);
     public static final Item ECO_EXHIBITION_CABINET = registerSameBlockItem(ModBlocks.ECO_EXHIBITION_CABINET, ModBlocks.ECO_EXHIBITION_CABINET_BASE);
     public static final Item COPPER_FLOOR = registerSameBlockItem(ModBlocks.COPPER_FLOOR_FRONT, ModBlocks.COPPER_FLOOR_BEHIND);
     public static final Item METALLIC_WALLPAPER1 = registerSameBlockItem(ModBlocks.METALLIC_WALLPAPER_BOTTOM, ModBlocks.METALLIC_WALLPAPER_TOP);
@@ -98,6 +103,9 @@ public class ModItems {
 
     public static final Item SEAT_SUMMON_ITEM_BLOCK = registerItem("seat_summon_item_block", new SeatSummonItem(0.8f, new Item.Settings()));
     public static final Item SEAT_SUMMON_ITEM_SLAB = registerItem("seat_summon_item_slab", new SeatSummonItem(0.3f, new Item.Settings()));
+
+    public static final Item GRAY_WOOL_CARPET = registerSameBlockItem(ModBlocks.GRAY_WOOL_CARPET_LEFT, ModBlocks.GRAY_WOOL_CARPET_RIGHT);
+    public static final Item WIDE_GRAY_CARPET = registerSameBlockItem(ModBlocks.WIDE_GRAY_CARPET_LEFT, ModBlocks.WIDE_GRAY_CARPET_RIGHT);
 
     private static Item registerSameBlockItem(Block block, Block... blocks){
         BlockItem blockItem = new BlockItem(block, new Item.Settings());

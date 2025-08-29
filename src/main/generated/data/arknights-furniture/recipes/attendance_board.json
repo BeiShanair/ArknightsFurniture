@@ -4,10 +4,14 @@
   "key": {
     "#": {
       "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:paper"
     }
   },
   "pattern": [
     "###",
+    "AAA",
     "###"
   ],
   "result": {

@@ -3,12 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:brick"
+      "item": "minecraft:bricks"
+    },
+    "A": {
+      "tag": "minecraft:slabs"
     }
   },
   "pattern": [
-    "###",
-    "###"
+    "A",
+    "#"
   ],
   "result": {
     "item": "arknights-furniture:columbian/red_brick_cafe_bar"

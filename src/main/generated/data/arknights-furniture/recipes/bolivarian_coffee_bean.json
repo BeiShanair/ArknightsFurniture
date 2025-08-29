@@ -4,11 +4,14 @@
   "key": {
     "#": {
       "item": "minecraft:cocoa_beans"
+    },
+    "A": {
+      "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "## ",
-    "## "
+    "A#A",
+    "A#A"
   ],
   "result": {
     "item": "arknights-furniture:columbian/bolivarian_coffee_bean"

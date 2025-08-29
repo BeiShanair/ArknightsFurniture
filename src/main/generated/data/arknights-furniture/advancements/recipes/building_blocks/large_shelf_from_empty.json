@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "arknights-furniture:warehouse/carton"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arknights-furniture:large_shelf_from_empty"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warehouse/large_shelf_empty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "arknights-furniture:warehouse/large_shelf_empty"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_warehouse/large_shelf_empty",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arknights-furniture:large_shelf_from_empty"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -6,7 +6,7 @@
       "item": "minecraft:quartz"
     },
     "B": {
-      "item": "minecraft:torch"
+      "item": "minecraft:glowstone_dust"
     }
   },
   "pattern": [

@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "A",
-    "B"
+    "AAA",
+    "B B"
   ],
   "result": {
     "item": "arknights-furniture:ldg/black_vintage_chair"

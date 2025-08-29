@@ -6,6 +6,18 @@
         "items": [
           {
             "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_orange_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
               "minecraft:orange_wool"
             ]
           }
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_orange_wool",
       "has_item",
       "has_the_recipe"
     ]

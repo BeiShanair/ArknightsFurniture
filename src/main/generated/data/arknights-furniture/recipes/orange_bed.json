@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "###",
-    "AAA"
+    "##",
+    "AA"
   ],
   "result": {
     "item": "arknights-furniture:sideline/orange_bed"

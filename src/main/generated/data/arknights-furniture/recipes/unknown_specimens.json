@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:item_frame"
+    },
+    "A": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "#A"
+  ],
+  "result": {
+    "item": "arknights-furniture:fantastic/unknown_specimens"
+  },
+  "show_notification": true
+}

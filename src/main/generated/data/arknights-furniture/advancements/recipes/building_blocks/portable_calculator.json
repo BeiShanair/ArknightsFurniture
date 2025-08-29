@@ -6,7 +6,19 @@
         "items": [
           {
             "items": [
-              "minecraft:command_block"
+              "arknights-furniture:warehouse/carton"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lever": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lever"
             ]
           }
         ]
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_lever",
       "has_item",
       "has_the_recipe"
     ]

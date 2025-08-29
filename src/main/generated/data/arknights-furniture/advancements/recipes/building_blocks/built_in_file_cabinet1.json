@@ -11,6 +11,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "arknights-furniture:built_in_file_cabinet1"
@@ -21,6 +33,7 @@
   "requirements": [
     [
       "has_item",
+      "has_paper",
       "has_the_recipe"
     ]
   ],

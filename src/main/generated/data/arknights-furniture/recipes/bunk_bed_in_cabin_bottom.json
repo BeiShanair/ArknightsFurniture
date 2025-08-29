@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "AA#",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:lifecycle/bunk_bed_in_cabin_bottom"
+  },
+  "show_notification": true
+}

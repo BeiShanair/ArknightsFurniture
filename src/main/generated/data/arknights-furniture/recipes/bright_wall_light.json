@@ -13,9 +13,7 @@
     }
   },
   "pattern": [
-    "A",
-    "B",
-    "#"
+    "AB#"
   ],
   "result": {
     "item": "arknights-furniture:ldg/bright_wall_light"

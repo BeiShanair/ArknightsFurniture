@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "  A",
+    "AAA",
+    "A  "
+  ],
+  "result": {
+    "item": "arknights-furniture:ldg/duplex_wooden_fence_bottom"
+  },
+  "show_notification": true
+}

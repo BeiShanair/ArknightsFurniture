@@ -1,12 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_item": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:redstone_torch"
+              "minecraft:black_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lever": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lever"
             ]
           }
         ]
@@ -22,6 +46,8 @@
   },
   "requirements": [
     [
+      "has_lever",
+      "has_iron_ingot",
       "has_item",
       "has_the_recipe"
     ]

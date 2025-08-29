@@ -7,14 +7,11 @@
     },
     "A": {
       "item": "minecraft:paper"
-    },
-    "B": {
-      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
     "###",
-    "ABA",
+    "#A#",
     "###"
   ],
   "result": {

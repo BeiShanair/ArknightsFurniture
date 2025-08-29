@@ -10,8 +10,9 @@
     }
   },
   "pattern": [
-    "A",
-    "B"
+    "AA",
+    "BB",
+    "AA"
   ],
   "result": {
     "item": "arknights-furniture:lifecycle/cabin_fire_extinguisher_kit"

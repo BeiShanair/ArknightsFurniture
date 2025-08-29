@@ -3,14 +3,11 @@
   "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
-    },
-    "A": {
       "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "#A#",
+    "###",
     "# #",
     "# #"
   ],

@@ -75,7 +75,7 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.GRAYISH_WALL_TTR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_CEILING_LIGHT);
 
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_WALL_LAMP);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_WALL_LIGHT);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CLOCK);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_HD_TV);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_NIGHTSTAND);
@@ -83,13 +83,26 @@ public class ModModelsProvider extends FabricModelProvider {
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SMALL_NOTICEBOARD);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_SQUARE_TABLE);
         generator.registerParentedItemModel(ModBlocks.LOW_ORANGE_SOFA, ModelIds.getBlockModelId(ModBlocks.LOW_ORANGE_SOFA));
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BTL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BTR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MBL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MBR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MTL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_MTR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_TL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_TR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.ORANGE_SWIVEL_CHAIR);
         generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_CABINET);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
-        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LBL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LBR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LTL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_LTR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RBL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RBR);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RTL);
+        generator.registerNorthDefaultHorizontalRotation(ModBlocks.SIMPLE_ORANGE_DESK_RTR);
         // endregion
 
         // region Fantastic

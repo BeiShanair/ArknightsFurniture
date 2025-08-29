@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "A A"
+  ],
+  "result": {
+    "item": "arknights-furniture:sideline/simple_black_desk_lbl"
+  },
+  "show_notification": true
+}

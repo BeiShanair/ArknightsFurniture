@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "A",
-    "B"
+    "AAA",
+    " B "
   ],
   "result": {
     "item": "arknights-furniture:ldg/black_vintage_stool"

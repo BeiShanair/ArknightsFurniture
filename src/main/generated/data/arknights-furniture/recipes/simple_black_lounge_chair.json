@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "A",
-    "B"
+    "AB",
+    "BA"
   ],
   "result": {
     "item": "arknights-furniture:ldg/simple_black_lounge_chair"

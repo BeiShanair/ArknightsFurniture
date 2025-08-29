@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:item_frame"
+    },
+    "A": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "#A"
+  ],
+  "result": {
+    "item": "arknights-furniture:fantastic/unknown_bones"
+  },
+  "show_notification": true
+}

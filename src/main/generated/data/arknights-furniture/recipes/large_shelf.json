@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "arknights-furniture:warehouse/carton"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "ABA"
+  ],
+  "result": {
+    "item": "arknights-furniture:warehouse/large_shelf1"
+  },
+  "show_notification": true
+}

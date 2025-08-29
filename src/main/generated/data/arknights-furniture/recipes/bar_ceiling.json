@@ -6,12 +6,12 @@
       "tag": "minecraft:planks"
     },
     "A": {
-      "item": "minecraft:torch"
+      "item": "minecraft:glowstone_dust"
     }
   },
   "pattern": [
     "###",
-    "#A#"
+    "AAA"
   ],
   "result": {
     "item": "arknights-furniture:columbian/bar_ceiling"

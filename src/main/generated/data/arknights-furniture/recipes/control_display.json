@@ -3,13 +3,13 @@
   "category": "building",
   "key": {
     "#": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:iron_ingot"
     },
     "A": {
       "item": "minecraft:black_dye"
     },
     "B": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:lever"
     }
   },
   "pattern": [

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "A  ",
+    "AAA"
+  ],
+  "result": {
+    "item": "arknights-furniture:lifecycle/cabin_flush_mount_pipe_left"
+  },
+  "show_notification": true
+}

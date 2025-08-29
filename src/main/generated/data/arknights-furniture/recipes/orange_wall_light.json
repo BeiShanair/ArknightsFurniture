@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_dye"
+    },
+    "A": {
+      "item": "minecraft:quartz"
+    },
+    "B": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "pattern": [
+    "A#",
+    "B "
+  ],
+  "result": {
+    "item": "arknights-furniture:sideline/orange_wall_light"
+  },
+  "show_notification": true
+}

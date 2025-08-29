@@ -1,13 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_black_dye": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:black_dye"
             ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
           }
         ]
       },
@@ -22,6 +32,7 @@
   },
   "requirements": [
     [
+      "has_black_dye",
       "has_item",
       "has_the_recipe"
     ]

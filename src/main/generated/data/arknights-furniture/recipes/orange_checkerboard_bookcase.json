@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:orange_dye"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "###",
+    "ABA"
+  ],
+  "result": {
+    "item": "arknights-furniture:sideline/orange_checkerboard_bookcase_bbl"
+  },
+  "show_notification": true
+}

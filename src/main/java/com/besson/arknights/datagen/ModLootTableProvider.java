@@ -45,7 +45,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GRAYISH_WALL_TBL);
         addDrop(ModBlocks.SMALL_CEILING_LIGHT);
 
-        addDrop(ModBlocks.ORANGE_WALL_LAMP);
+        addDrop(ModBlocks.ORANGE_WALL_LIGHT);
         addDrop(ModBlocks.SIMPLE_ORANGE_CLOCK);
         addDrop(ModBlocks.ORANGE_HD_TV);
         addDrop(ModBlocks.ORANGE_NIGHTSTAND);
@@ -53,16 +53,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMALL_NOTICEBOARD);
         addDrop(ModBlocks.ORANGE_SQUARE_TABLE);
         addDrop(ModBlocks.LOW_ORANGE_SOFA);
-        addDrop(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1);
-        addDrop(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2);
-        addDrop(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3);
+        addDrop(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBL);
         addDrop(ModBlocks.ORANGE_SWIVEL_CHAIR);
         addDrop(ModBlocks.SIMPLE_ORANGE_CABINET);
-        addDrop(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
-        addDrop(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
+        addDrop(ModBlocks.SIMPLE_ORANGE_DESK_LBL);
 
         addDrop(ModBlocks.BROWN_BEAN_BAG_SOFA);
-        addDrop(ModBlocks.ECO_EXHIBITION_CABINET);
         addDrop(ModBlocks.ECO_EXHIBITION_CABINET_BASE);
         addDrop(ModBlocks.FLUSH_MOUNT_RECTANGLE_CEILING_LIGHT);
         addDrop(ModBlocks.FLUSH_MOUNT_SQUARE_CEILING_LIGHT);
@@ -73,16 +69,38 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMALL_SQUARE_NIGHTSTAND);
         addDrop(ModBlocks.SPECIMEN_DATA_BOARD);
         addDrop(ModBlocks.WIRE_SIDE_TABLE);
+        addDrop(ModBlocks.COPPER_FLOOR_FRONT);
+        addDrop(ModBlocks.METALLIC_WALLPAPER_BOTTOM);
+        addDrop(ModBlocks.METALLIC_WALLPAPER_LB);
+        addDrop(ModBlocks.UNKNOWN_SPECIMENS);
+        addDrop(ModBlocks.WIDE_GRAY_CARPET_LEFT);
+        addDrop(ModBlocks.UNKNOWN_BONES);
 
         addDrop(ModBlocks.ANTI_EXPLOSION_TRASH_CAN);
+        addDrop(ModBlocks.BLACK_FIBER_CARPET);
+        addDrop(ModBlocks.BLACK_HANGING_BASKET);
         addDrop(ModBlocks.BUILT_IN_FILE_CABINET1);
         addDrop(ModBlocks.BUILT_IN_FILE_CABINET2);
+        addDrop(ModBlocks.BUNK_BED_IN_CABIN_BOTTOM);
+        addDrop(ModBlocks.BUNK_BED_IN_CABIN_TOP);
         addDrop(ModBlocks.CABIN_FIRE_EXTINGUISHER_KIT);
+        addDrop(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_LEFT);
+        addDrop(ModBlocks.CABIN_FLUSH_MOUNT_PIPE_RIGHT);
         addDrop(ModBlocks.CONTROL_DISPLAY);
         addDrop(ModBlocks.DIY_SWIVEL_CHAIR);
         addDrop(ModBlocks.DIY_WORKBENCH_LEFT);
         addDrop(ModBlocks.DIY_WORKBENCH_RIGHT);
         addDrop(ModBlocks.GENERAL_CONSOLE);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_MIDDLE);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER_FLOOR_RIGHT);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER_REFUGE2);
+        addDrop(ModBlocks.LIGHT_GREEN_WALLPAPER_RIGHT);
+        addDrop(ModBlocks.NOTE_BOARD_IN_CABIN_DISPLAY);
+        addDrop(ModBlocks.NOTE_BOARD_IN_CABIN_SIGN);
+        addDrop(ModBlocks.POWER_BOX);
+        addDrop(ModBlocks.SUCK_BEVERAGES);
 
         addDrop(ModBlocks.BAR_CEILING);
         addDrop(ModBlocks.BARSTOOL_WITH_CURVED_LEGS);
@@ -112,11 +130,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLACK_VINTAGE_STOOL);
         addDrop(ModBlocks.BRIGHT_WALL_LIGHT);
         addDrop(ModBlocks.DUPLEX_WOODEN_FENCE_TOP);
+        addDrop(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM);
+        addDrop(ModBlocks.DUPLEX_WOODEN_FENCE_BOTTOM_LIGHT);
         addDrop(ModBlocks.LOW_SANDALWOOD_MEETING_TABLE);
         addDrop(ModBlocks.SANDALWOOD_MEETING_BOARD);
         addDrop(ModBlocks.SANDALWOOD_BED);
         addDrop(ModBlocks.SIMPLE_BLACK_LOUNGE_CHAIR);
         addDrop(ModBlocks.SMALL_SANDALWOOD_NIGHTSTAND);
+        addDrop(ModBlocks.GRAY_WOOL_CARPET_LEFT);
+        addDrop(ModBlocks.PAINTING_WITH_SANDALWOOD_FRAME);
 
         addDrop(ModBlocks.DUPLEX_BRONZE_FENCE);
         addDrop(ModBlocks.LOW_TEAK_MEETING_TABLE);

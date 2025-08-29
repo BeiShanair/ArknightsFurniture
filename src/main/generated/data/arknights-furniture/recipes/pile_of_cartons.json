@@ -3,13 +3,12 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "arknights-furniture:cardboard"
+      "item": "arknights-furniture:warehouse/carton"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    " # ",
+    "# #"
   ],
   "result": {
     "item": "arknights-furniture:warehouse/pile_of_cartons"

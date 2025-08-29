@@ -5,7 +5,19 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:planks"
+            "tag": "minecraft:slabs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
           }
         ]
       },
@@ -21,6 +33,7 @@
   "requirements": [
     [
       "has_item",
+      "has_stick",
       "has_the_recipe"
     ]
   ],

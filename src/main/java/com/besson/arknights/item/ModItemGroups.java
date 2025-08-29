@@ -130,7 +130,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAYISH_WALL_TBL);
                         entries.add(ModBlocks.SMALL_CEILING_LIGHT);
 
-                        entries.add(ModBlocks.ORANGE_WALL_LAMP);
+                        entries.add(ModBlocks.ORANGE_WALL_LIGHT);
                         entries.add(ModBlocks.SIMPLE_ORANGE_CLOCK);
                         entries.add(ModBlocks.ORANGE_HD_TV);
                         entries.add(ModBlocks.ORANGE_NIGHTSTAND);
@@ -138,13 +138,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMALL_NOTICEBOARD);
                         entries.add(ModBlocks.ORANGE_SQUARE_TABLE);
                         entries.add(ModBlocks.LOW_ORANGE_SOFA);
-                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1);
-                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2);
-                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3);
+                        entries.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBL);
                         entries.add(ModBlocks.ORANGE_SWIVEL_CHAIR);
                         entries.add(ModBlocks.SIMPLE_ORANGE_CABINET);
-                        entries.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT);
-                        entries.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT);
+                        entries.add(ModBlocks.SIMPLE_ORANGE_DESK_LBL);
                     }).build());
     // endregion
 

@@ -1,13 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_bricks": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:brick"
+              "minecraft:bricks"
             ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:slabs"
           }
         ]
       },
@@ -22,6 +32,7 @@
   },
   "requirements": [
     [
+      "has_bricks",
       "has_item",
       "has_the_recipe"
     ]

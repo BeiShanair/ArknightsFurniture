@@ -11,8 +11,7 @@
   },
   "pattern": [
     "AAA",
-    "ABA",
-    "AAA"
+    "ABA"
   ],
   "result": {
     "item": "arknights-furniture:sideline/orange_square_table"

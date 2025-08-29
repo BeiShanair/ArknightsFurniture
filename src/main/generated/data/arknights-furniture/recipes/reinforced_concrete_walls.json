@@ -4,12 +4,14 @@
   "key": {
     "#": {
       "item": "minecraft:black_concrete"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "A#",
+    "##"
   ],
   "result": {
     "item": "arknights-furniture:warehouse/reinforced_concrete_walls"

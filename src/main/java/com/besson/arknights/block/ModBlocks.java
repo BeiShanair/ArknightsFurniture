@@ -99,7 +99,7 @@ public class ModBlocks {
     public static final Block SIMPLE_BLACK_DESK_RTL = registerBlockWithOutBlockItems("sideline/simple_black_desk_rtl", new BlackSimpleDeskMiddle(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block SIMPLE_BLACK_DESK_RTR = registerBlockWithOutBlockItems("sideline/simple_black_desk_rtr", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
 
-    public static final Block ORANGE_WALL_LAMP = registerBlock("sideline/orange_wall_lamp", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
+    public static final Block ORANGE_WALL_LIGHT = registerBlock("sideline/orange_wall_light", new WallLight(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_ORANGE_CLOCK = registerBlock("sideline/simple_orange_clock", new SimpleClock(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block ORANGE_HD_TV = registerBlock("sideline/orange_hd_tv", new HDTV(AbstractBlock.Settings.create().strength(0.2f, 0.1f)));
     public static final Block ORANGE_NIGHTSTAND = registerBlock("sideline/orange_nightstand", new Nightstand(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f), () -> ModBlockEntities.NIGHTSTAND));
@@ -107,13 +107,26 @@ public class ModBlocks {
     public static final Block SMALL_NOTICEBOARD = registerBlock("sideline/small_noticeboard", new SmallCallboard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block ORANGE_SQUARE_TABLE = registerBlock("sideline/orange_square_table", new SquareTable(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block LOW_ORANGE_SOFA = registerBlock("sideline/low_orange_sofa", new LowSofa(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block ORANGE_CHECKERBOARD_BOOKCASE1 = registerBlock("sideline/orange_checkerboard_bookcase1", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
-    public static final Block ORANGE_CHECKERBOARD_BOOKCASE2 = registerBlock("sideline/orange_checkerboard_bookcase2", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
-    public static final Block ORANGE_CHECKERBOARD_BOOKCASE3 = registerBlock("sideline/orange_checkerboard_bookcase3", new CheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_BBL = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_bbl", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_BBR = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_bbr", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_BTL = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_btl", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_BTR = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_btr", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_MBL = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_mbl", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_MBR = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_mbr", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_MTL = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_mtl", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_MTR = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_mtr", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_TL = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_tl", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
+    public static final Block ORANGE_CHECKERBOARD_BOOKCASE_TR = registerBlockWithOutBlockItems("sideline/orange_checkerboard_bookcase_tr", new OrangeCheckerboardBookcase(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.CHECKERBOARD_BOOKCASE));
     public static final Block ORANGE_SWIVEL_CHAIR = registerBlock("sideline/orange_swivel_chair", new OfficeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
-    public static final Block SIMPLE_ORANGE_CABINET = registerBlock("sideline/simple_orange_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f), () -> ModBlockEntities.SIMPLE_CABINET));
-    public static final Block SIMPLE_ORANGE_DESK_LEFT = registerBlock("sideline/simple_orange_desk_left", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
-    public static final Block SIMPLE_ORANGE_DESK_RIGHT = registerBlock("sideline/simple_orange_desk_right", new BlackSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.3f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_CABINET = registerBlock("sideline/simple_orange_cabinet", new SimpleCabinet(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SIMPLE_CABINET));
+    public static final Block SIMPLE_ORANGE_DESK_LBL = registerBlockWithOutBlockItems("sideline/simple_orange_desk_lbl", new OrangeSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_LBR = registerBlockWithOutBlockItems("sideline/simple_orange_desk_lbr", new BlackSimpleDeskMiddle(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_LTL = registerBlockWithOutBlockItems("sideline/simple_orange_desk_ltl", new OrangeSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_LTR = registerBlockWithOutBlockItems("sideline/simple_orange_desk_ltr", new BlackSimpleDeskMiddle(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_RBL = registerBlockWithOutBlockItems("sideline/simple_orange_desk_rbl", new BlackSimpleDeskMiddle(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_RBR = registerBlockWithOutBlockItems("sideline/simple_orange_desk_rbr", new OrangeSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_RTL = registerBlockWithOutBlockItems("sideline/simple_orange_desk_rtl", new BlackSimpleDeskMiddle(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
+    public static final Block SIMPLE_ORANGE_DESK_RTR = registerBlockWithOutBlockItems("sideline/simple_orange_desk_rtr", new OrangeSimpleDesk(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     // endregion
 
     // region FANTASTIC
@@ -138,8 +151,8 @@ public class ModBlocks {
     public static final Block METALLIC_WALLPAPER_RB = registerBlockWithOutBlockItems("fantastic/metallic_wallpaper_rb", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block METALLIC_WALLPAPER_RT = registerBlockWithOutBlockItems("fantastic/metallic_wallpaper_rt", new MetallicWallpaper2(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block UNKNOWN_SPECIMENS = registerBlock("fantastic/unknown_specimens", new UnknownSpecimens(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
-    public static final Block WIDE_GRAY_CARPET_LEFT = registerBlock("fantastic/wide_gray_carpet_left", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block WIDE_GRAY_CARPET_RIGHT = registerBlock("fantastic/wide_gray_carpet_right", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WIDE_GRAY_CARPET_LEFT = registerBlockWithOutBlockItems("fantastic/wide_gray_carpet_left", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block WIDE_GRAY_CARPET_RIGHT = registerBlockWithOutBlockItems("fantastic/wide_gray_carpet_right", new WideGrayCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block UNKNOWN_BONES = registerBlock("fantastic/unknown_bones", new UnknownBones(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     // endregion
 
@@ -215,8 +228,8 @@ public class ModBlocks {
     public static final Block SANDALWOOD_MEETING_BOARD = registerBlock("ldg/sandalwood_meeting_board", new SandalwoodMeetingBoard(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     public static final Block SIMPLE_BLACK_LOUNGE_CHAIR = registerBlock("ldg/simple_black_lounge_chair", new SimpleBlackLoungeChair(AbstractBlock.Settings.create().nonOpaque().strength(0.2f, 0.2f)));
     public static final Block SMALL_SANDALWOOD_NIGHTSTAND = registerBlock("ldg/small_sandalwood_nightstand", new SmallSandalwoodNightstand(AbstractBlock.Settings.create().strength(0.2f, 0.2f).nonOpaque(), () -> ModBlockEntities.SMALL_SANDALWOOD_NIGHTSTAND));
-    public static final Block GRAY_WOOL_CARPET_LEFT = registerBlock("ldg/gray_wool_carpet_left", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
-    public static final Block GRAY_WOOL_CARPET_RIGHT = registerBlock("ldg/gray_wool_carpet_right", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GRAY_WOOL_CARPET_LEFT = registerBlockWithOutBlockItems("ldg/gray_wool_carpet_left", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
+    public static final Block GRAY_WOOL_CARPET_RIGHT = registerBlockWithOutBlockItems("ldg/gray_wool_carpet_right", new GrayWoolCarpet(AbstractBlock.Settings.create().strength(0.2f, 0.2f)));
     public static final Block PAINTING_WITH_SANDALWOOD_FRAME = registerBlock("ldg/painting_with_sandalwood_frame", new PaintingWithSandalwoodFrame(AbstractBlock.Settings.create().strength(0.1f, 0.1f)));
     // endregion
 

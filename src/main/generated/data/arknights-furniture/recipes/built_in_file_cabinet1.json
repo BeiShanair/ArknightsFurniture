@@ -6,12 +6,12 @@
       "tag": "minecraft:planks"
     },
     "A": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:paper"
     }
   },
   "pattern": [
     "###",
-    "A A",
+    "AAA",
     "###"
   ],
   "result": {

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "arknights-furniture:warehouse/large_shelf_empty"
+    },
+    {
+      "item": "arknights-furniture:warehouse/carton"
+    }
+  ],
+  "result": {
+    "item": "arknights-furniture:warehouse/large_shelf1"
+  }
+}

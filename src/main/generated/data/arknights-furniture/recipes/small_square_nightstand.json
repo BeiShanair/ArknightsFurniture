@@ -4,11 +4,15 @@
   "key": {
     "#": {
       "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:flower_pot"
     }
   },
   "pattern": [
-    "## ",
-    "## "
+    " A ",
+    "###",
+    "###"
   ],
   "result": {
     "item": "arknights-furniture:fantastic/small_square_nightstand"

@@ -7,7 +7,8 @@
     }
   },
   "pattern": [
-    "###"
+    "# #",
+    " # "
   ],
   "result": {
     "item": "arknights-furniture:warehouse/post_it_note"

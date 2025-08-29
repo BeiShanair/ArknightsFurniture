@@ -10,7 +10,8 @@
     }
   },
   "pattern": [
-    "A##"
+    "#",
+    "A"
   ],
   "result": {
     "item": "arknights-furniture:warehouse/cargo_trolley"

@@ -3,10 +3,10 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "tag": "minecraft:wool"
     },
     "A": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [

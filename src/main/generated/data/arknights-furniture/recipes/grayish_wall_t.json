@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "pattern": [
+    " ##",
+    " ##"
+  ],
+  "result": {
+    "item": "arknights-furniture:sideline/grayish_wall_tbl"
+  },
+  "show_notification": true
+}

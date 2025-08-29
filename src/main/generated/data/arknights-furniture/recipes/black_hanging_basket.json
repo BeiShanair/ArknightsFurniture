@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "A": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    " A ",
+    "###"
+  ],
+  "result": {
+    "item": "arknights-furniture:lifecycle/black_hanging_basket"
+  },
+  "show_notification": true
+}

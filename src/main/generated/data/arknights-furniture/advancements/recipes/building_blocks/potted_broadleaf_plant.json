@@ -6,6 +6,18 @@
         "items": [
           {
             "items": [
+              "minecraft:flower_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oak_leaves": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
               "minecraft:oak_leaves"
             ]
           }
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_oak_leaves",
       "has_item",
       "has_the_recipe"
     ]

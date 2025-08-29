@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "pattern": [
+    "#A",
+    "##"
+  ],
+  "result": {
+    "item": "arknights-furniture:fantastic/metallic_wallpaper_bottom"
+  },
+  "show_notification": true
+}

@@ -5,6 +5,16 @@
       "conditions": {
         "items": [
           {
+            "tag": "minecraft:planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_paper": {
+      "conditions": {
+        "items": [
+          {
             "items": [
               "minecraft:paper"
             ]
@@ -22,6 +32,7 @@
   },
   "requirements": [
     [
+      "has_paper",
       "has_item",
       "has_the_recipe"
     ]

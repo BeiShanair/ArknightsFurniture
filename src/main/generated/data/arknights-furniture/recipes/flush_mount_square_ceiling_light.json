@@ -10,7 +10,8 @@
     }
   },
   "pattern": [
-    "#A "
+    "#A",
+    "#A"
   ],
   "result": {
     "item": "arknights-furniture:fantastic/flush_mount_square_ceiling_light"

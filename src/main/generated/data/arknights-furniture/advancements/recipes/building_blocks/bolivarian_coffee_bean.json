@@ -1,13 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_cocoa_beans": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:cocoa_beans"
             ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
           }
         ]
       },
@@ -22,6 +32,7 @@
   },
   "requirements": [
     [
+      "has_cocoa_beans",
       "has_item",
       "has_the_recipe"
     ]

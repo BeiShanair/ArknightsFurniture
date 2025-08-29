@@ -253,7 +253,7 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GRAY_FIBER_CARPET, "Gray Fiber Carpet");
         translationBuilder.add(ModBlocks.SMALL_CEILING_LIGHT, "Small Ceiling Light");
 
-        translationBuilder.add(ModBlocks.ORANGE_WALL_LAMP, "Orange Wall Lamp");
+        translationBuilder.add(ModBlocks.ORANGE_WALL_LIGHT, "Orange Wall Light");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CLOCK, "Simple Orange Clock");
         translationBuilder.add(ModBlocks.ORANGE_HD_TV, "Orange HD TV");
         translationBuilder.add(ModBlocks.ORANGE_NIGHTSTAND, "Orange Nightstand");
@@ -261,13 +261,10 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SMALL_NOTICEBOARD, "Small Noticeboard");
         translationBuilder.add(ModBlocks.ORANGE_SQUARE_TABLE, "Orange Square Table");
         translationBuilder.add(ModBlocks.LOW_ORANGE_SOFA, "Low Orange Sofa");
-        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE1, "Orange Checkerboard Bookcase 1");
-        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE2, "Orange Checkerboard Bookcase 2");
-        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE3, "Orange Checkerboard Bookcase 3");
+        translationBuilder.add(ModBlocks.ORANGE_CHECKERBOARD_BOOKCASE_BBL, "Orange Checkerboard Bookcase");
         translationBuilder.add(ModBlocks.ORANGE_SWIVEL_CHAIR, "Orange Swivel Chair");
         translationBuilder.add(ModBlocks.SIMPLE_ORANGE_CABINET, "Simple Orange Cabinet");
-        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LEFT, "Simple Orange Desk Left");
-        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_RIGHT, "Simple Orange Desk Right");
+        translationBuilder.add(ModBlocks.SIMPLE_ORANGE_DESK_LBL, "Simple Orange Desk");
         // endregion
 
         // region Fantastic
